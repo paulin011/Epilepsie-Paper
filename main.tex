@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{article}
+
+% Pakete
+
+\usepackage[main=ngerman, provide=*]{babel} % Deutsche Spracheinstellungen
+\usepackage[T1]{fontenc}    % T1 Schriftkodierung#
+\usepackage[utf8]{inputenc} % UTF-8 Eingabekodierung
+\usepackage{lmodern}       % Latin Modern Schriftart
+\usepackage{csquotes}     % Anführungszeichen
+\usepackage{graphicx}  % Grafiken einbinden
+\usepackage{amsmath}     % Erweiterte mathematische Symbole
+\usepackage{amssymb}     % Weitere mathematische Symbole
+\usepackage{xcolor}      % Für Farben
+\usepackage{geometry}    % Seitenränder anpassen
+\usepackage[colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=blue,pdfborder={0 0 0}]{hyperref}   % Subtle hyperlinks
+
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm,
+}
+
+\usepackage[
+  backend=biber,
+  style=apa,
+  citestyle=apa,
+  sorting=nyt,
+  maxcitenames=2,
+  maxbibnames=99,
+  doi=true,
+  url=true,
+  eprint=false
+]{biblatex}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+
+% Make DOIs and URLs clickable
+\DeclareFieldFormat{doi}{%
+  \mkbibacro{DOI}\addcolon\space
+  \ifhyperref
+    {\href{https://doi.org/#1}{\nolinkurl{#1}}}
+    {\nolinkurl{#1}}}
+
+\DeclareFieldFormat{url}{\mkbibacro{URL}\addcolon\space\url{#1}}
+
+% Make citations clickable (link to bibliography)
+\ExecuteBibliographyOptions{hyperref=true}
+
+% Ensure backref and hyperref work together
+\ExecuteBibliographyOptions{backref=true}
+
+\addbibresource{Epilepsie.bib}
+
+\title{Platzhalter titel}
+\author{Paulin Saher}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Einleitung}
+hier ist die Einleitung
+
+\subsection{subsektion einleitung}
+subsektion von der einleitung hihi
+\section{Theoretischer Hintergrund}
+
+Theoretisher hintergrund hier
+
+\section{Methodik}
+
+hier die Methodik
+
+\section{Fazit}
+
+Text zum Fazit. \cite{goodingsDeterminantsContinuousSmartwatch2025}
+
+\printbibliography
+
+
+
+\end{document}

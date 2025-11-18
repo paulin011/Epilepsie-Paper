@@ -1,0 +1,225 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{goodingsDeterminantsContinuousSmartwatch2025}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=167d85924e644f98b8f74eec1957a345}{%
+           family={Goodings},
+           familyi={G\bibinitperiod},
+           given={Anthony\bibnamedelima James},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0014a36a9b8c1baf0cc983c38a24f386}{%
+           family={Fadahunsi},
+           familyi={F\bibinitperiod},
+           given={Kayode\bibnamedelima Philip},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea4ee99ddf6bf70a1cdb3a2425beaa4b}{%
+           family={Tarn},
+           familyi={T\bibinitperiod},
+           given={Derjung\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a820377ec15593b0490863831c8f7041}{%
+           family={Lutomski},
+           familyi={L\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3ddbf19f5ae1fe10d08993b623e1cd7}{%
+           family={Chhor},
+           familyi={C\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a445e0afea93fb32f65823279aeeb900}{%
+           family={Shiely},
+           familyi={S\bibinitperiod},
+           given={Frances},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481fed9fddd828cced06f29017375b5f}{%
+           family={Henn},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08eeae1879d27f928214975478b56a30}{%
+           family={O'Donoghue},
+           familyi={O\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JMIR Publications Inc., Toronto, Canada}%
+      }
+      \strng{namehash}{5def44c65e31c135a0d7ec0b456d2976}
+      \strng{fullhash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{fullhashraw}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{bibnamehash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{authorbibnamehash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{authornamehash}{5def44c65e31c135a0d7ec0b456d2976}
+      \strng{authorfullhash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{authorfullhashraw}{5e0f144b154ececbbdb2ec262df1d849}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Smartwatches are widely adopted globally for tracking health metrics, offering potential for enhancing individual healthcare and public health efforts. Continuous use of the devices and users’ willingness to share the data collected are critical to realizing their full benefits. Objective: To identify key factors that determine continuous smartwatch use and users’ comfort levels in sharing health data with healthcare providers and public health authorities. Methods: A cross-sectional online survey of current and past smartwatch users (age {$>$}18 years) was conducted to assess determinants of continuous use based on the Expectation-Confirmation Model (ECM) and user comfort levels with different data-sharing methods. Structural Equation Modeling (SEM) was used to evaluate relationships between habit formation, satisfaction, perceived enjoyment, and perceived usefulness with continuous use. Wilcoxon Signed-Rank tests were used to analyse user comfort in sharing data, comparing non-internet versus internet-based sharing methods and fully versus partially anonymized data. Results: : 273 responses were analyzed, with participants aged 18-65 years (mean = 35.6, SD = 11.7). The result indicates that continuous use of smart watches is explained by habit (β = 0.35; P {$<$} .001) and satisfaction (β = 0.38; P {$<$} .001), which is in turn explained by perceived usefulness (β = 0.38; P {$<$} .001), perceived enjoyment (β = 0.32; P {$<$} .001), confirmation (β = 0.24, P {$<$} .001), and perceived usability (β = 0.10; P =.03). Smartwatch users preferred non-internet-based sharing options (Z = -5.793, p {$<$} .001) when sharing data with their physician. Similarly, users were more comfortable sharing fully anonymized data with public health authorities than partially anonymized data (Z = -3.592, p {$<$} .001). Conclusions: Habit formation and satisfaction emerged as pivotal drivers of continuous intention to use smartwatches, emphasizing the need for features that foster integration into daily routine and a rewarding user experience. Preferences for non-internet-based data sharing with physicians highlights privacy concerns which must be addressed to build user’s trust. By aligning device features and data-sharing protocols with user preferences, manufacturers, healthcare providers, and policymakers can enhance user engagement and maximize the potential of smartwatches to support individual health management and public health initiatives.}
+      \field{day}{18}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shorttitle}{Determinants of {{Continuous Smartwatch Use}} and {{Data-Sharing Preferences With Physicians}}, {{Public Health Authorities}}, and {{Private Companies}}}
+      \field{title}{Determinants of {{Continuous Smartwatch Use}} and {{Data-Sharing Preferences With Physicians}}, {{Public Health Authorities}}, and {{Private Companies}}: {{Cross-Sectional Survey}} of {{Smartwatch Users}}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e67414}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/67414
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/KHL9D2RR/e67414.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jmir.org/2025/1/e67414
+      \endverb
+      \verb{url}
+      \verb https://www.jmir.org/2025/1/e67414
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{goodingsDeterminantsContinuousSmartwatch2025}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=167d85924e644f98b8f74eec1957a345}{%
+           family={Goodings},
+           familyi={G\bibinitperiod},
+           given={Anthony\bibnamedelima James},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0014a36a9b8c1baf0cc983c38a24f386}{%
+           family={Fadahunsi},
+           familyi={F\bibinitperiod},
+           given={Kayode\bibnamedelima Philip},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea4ee99ddf6bf70a1cdb3a2425beaa4b}{%
+           family={Tarn},
+           familyi={T\bibinitperiod},
+           given={Derjung\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a820377ec15593b0490863831c8f7041}{%
+           family={Lutomski},
+           familyi={L\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3ddbf19f5ae1fe10d08993b623e1cd7}{%
+           family={Chhor},
+           familyi={C\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a445e0afea93fb32f65823279aeeb900}{%
+           family={Shiely},
+           familyi={S\bibinitperiod},
+           given={Frances},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481fed9fddd828cced06f29017375b5f}{%
+           family={Henn},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08eeae1879d27f928214975478b56a30}{%
+           family={O'Donoghue},
+           familyi={O\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JMIR Publications Inc., Toronto, Canada}%
+      }
+      \strng{namehash}{5def44c65e31c135a0d7ec0b456d2976}
+      \strng{fullhash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{fullhashraw}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{bibnamehash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{authorbibnamehash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{authornamehash}{5def44c65e31c135a0d7ec0b456d2976}
+      \strng{authorfullhash}{5e0f144b154ececbbdb2ec262df1d849}
+      \strng{authorfullhashraw}{5e0f144b154ececbbdb2ec262df1d849}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Smartwatches are widely adopted globally for tracking health metrics, offering potential for enhancing individual healthcare and public health efforts. Continuous use of the devices and users’ willingness to share the data collected are critical to realizing their full benefits. Objective: To identify key factors that determine continuous smartwatch use and users’ comfort levels in sharing health data with healthcare providers and public health authorities. Methods: A cross-sectional online survey of current and past smartwatch users (age {$>$}18 years) was conducted to assess determinants of continuous use based on the Expectation-Confirmation Model (ECM) and user comfort levels with different data-sharing methods. Structural Equation Modeling (SEM) was used to evaluate relationships between habit formation, satisfaction, perceived enjoyment, and perceived usefulness with continuous use. Wilcoxon Signed-Rank tests were used to analyse user comfort in sharing data, comparing non-internet versus internet-based sharing methods and fully versus partially anonymized data. Results: : 273 responses were analyzed, with participants aged 18-65 years (mean = 35.6, SD = 11.7). The result indicates that continuous use of smart watches is explained by habit (β = 0.35; P {$<$} .001) and satisfaction (β = 0.38; P {$<$} .001), which is in turn explained by perceived usefulness (β = 0.38; P {$<$} .001), perceived enjoyment (β = 0.32; P {$<$} .001), confirmation (β = 0.24, P {$<$} .001), and perceived usability (β = 0.10; P =.03). Smartwatch users preferred non-internet-based sharing options (Z = -5.793, p {$<$} .001) when sharing data with their physician. Similarly, users were more comfortable sharing fully anonymized data with public health authorities than partially anonymized data (Z = -3.592, p {$<$} .001). Conclusions: Habit formation and satisfaction emerged as pivotal drivers of continuous intention to use smartwatches, emphasizing the need for features that foster integration into daily routine and a rewarding user experience. Preferences for non-internet-based data sharing with physicians highlights privacy concerns which must be addressed to build user’s trust. By aligning device features and data-sharing protocols with user preferences, manufacturers, healthcare providers, and policymakers can enhance user engagement and maximize the potential of smartwatches to support individual health management and public health initiatives.}
+      \field{day}{18}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shorttitle}{Determinants of {{Continuous Smartwatch Use}} and {{Data-Sharing Preferences With Physicians}}, {{Public Health Authorities}}, and {{Private Companies}}}
+      \field{title}{Determinants of {{Continuous Smartwatch Use}} and {{Data-Sharing Preferences With Physicians}}, {{Public Health Authorities}}, and {{Private Companies}}: {{Cross-Sectional Survey}} of {{Smartwatch Users}}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e67414}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/67414
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/KHL9D2RR/e67414.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jmir.org/2025/1/e67414
+      \endverb
+      \verb{url}
+      \verb https://www.jmir.org/2025/1/e67414
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
