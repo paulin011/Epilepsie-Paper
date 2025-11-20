@@ -16,8 +16,8 @@ class Config:
         if base:
             self.base = Path(base)
         else:
-            # project root is two levels up from src/config.py
-            self.base = Path(__file__).resolve().parents[1]
+            # project root is three levels up from src/config.py (workspace root)
+            self.base = Path(__file__).resolve().parents[2]
 
         self.source_folder = str(self.base / PAPERS_FOLDER)
         self.target_folder = str(self.base / PAPERS_MD_FOLDER)

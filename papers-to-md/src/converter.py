@@ -1,21 +1,37 @@
+from pathlib import Path
+from typing import Union
+from pdfminer.high_level import extract_text
+
+
 class PDFConverter:
-    def __init__(self, input_folder, output_folder):
-        self.input_folder = input_folder
-        self.output_folder = output_folder
+    def __init__(self, input_folder: Union[str, Path], output_folder: Union[str, Path]):
+        self.input_folder = Path(input_folder)
+        self.output_folder = Path(output_folder)
+        self.output_folder.mkdir(parents=True, exist_ok=True)
 
-    def convert_pdf_to_markdown(self, pdf_file):
-        # Logic to read PDF content and convert it to Markdown format
-        pass
+    def convert_pdf_to_markdown(self, pdf_file: Union[str, Path]) -> str:
+        """Extract text from a PDF and return a simple Markdown string."""
+        path = Path(pdf_file)
+        text = extract_text(str(path)) or ""
+        # Basic markdown: title from filename + body text
+        md = f"# {path.stem}\n\n" + text.strip() + "\n"
+        return md
 
-    def save_markdown(self, markdown_content, output_file):
-        # Logic to save the Markdown content to a file
-        pass
+    def save_markdown(self, markdown_content: str, output_file: Union[str, Path]) -> None:
+        outp = Path(output_file)
+        outp.parent.mkdir(parents=True, exist_ok=True)
+        outp.write_text(markdown_content, encoding="utf-8")
 
-    def process_pdf(self, pdf_file):
-        markdown_content = self.convert_pdf_to_markdown(pdf_file)
-        output_file = self.get_output_file_name(pdf_file)
-        self.save_markdown(markdown_content, output_file)
+    def get_output_file_name(self, pdf_file: Union[str, Path]) -> Path:
+        p = Path(pdf_file)
+        return self.output_folder / (p.stem + ".md")
 
-    def get_output_file_name(self, pdf_file):
-        # Logic to generate the output Markdown file name based on the PDF file name
-        pass
+    def process_pdf(self, pdf_file: Union[str, Path]) -> Path:
+        """Convert given PDF file and write markdown to the output folder. Returns output path."""
+        p = Path(pdf_file)
+        if not p.exists():
+            raise FileNotFoundError(f"PDF not found: {p}")
+        markdown = self.convert_pdf_to_markdown(p)
+        out_file = self.get_output_file_name(p)
+        self.save_markdown(markdown, out_file)
+        return out_file
