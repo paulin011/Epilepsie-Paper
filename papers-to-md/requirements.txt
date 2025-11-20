@@ -1,0 +1,4 @@
+pdfminer.six>=20211012
+watchdog>=2.2.1
+PyPDF2>=3.0.1
+Markdown>=3.4.4
