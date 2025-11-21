@@ -1,18 +1,31 @@
 from pathlib import Path
 from typing import Union
+import logging
+import os
+import contextlib
 
 # ensure name exists for static analysis
 extract_text = None
+PdfReader = None  # ensure PdfReader is defined even if pdfminer is available
 try:
     from pdfminer.high_level import extract_text as _pdfminer_extract_text  # type: ignore
     extract_text = _pdfminer_extract_text
     _HAS_PDFMINER = True
+    # Reduce pdfminer verbosity (font/color parsing warnings) which are non-fatal
+    logging.getLogger("pdfminer").setLevel(logging.ERROR)
+    logging.getLogger("pdfminer.pdfinterp").setLevel(logging.ERROR)
+    logging.getLogger("pdfminer.layout").setLevel(logging.ERROR)
+    logging.getLogger("pdfminer.high_level").setLevel(logging.ERROR)
 except Exception:
     _HAS_PDFMINER = False
     try:
         from PyPDF2 import PdfReader  # type: ignore
     except Exception:
-        PdfReader = None  # type: ignore
+        try:
+            # newer projects often depend on `pypdf` (module name `pypdf`) instead
+            from pypdf import PdfReader  # type: ignore
+        except Exception:
+            PdfReader = None  # type: ignore
 
 
 class PDFConverter:
@@ -44,7 +57,11 @@ class PDFConverter:
         path = Path(pdf_file)
         if _HAS_PDFMINER and extract_text is not None:
             try:
-                text = extract_text(str(path)) or ""
+                # pdfminer prints many non-fatal parsing warnings to stderr. Redirect stderr
+                # to suppress those messages for cleaner output.
+                with open(os.devnull, 'w') as devnull:
+                    with contextlib.redirect_stderr(devnull):
+                        text = extract_text(str(path)) or ""
             except Exception:
                 # fallback to PyPDF2 if pdfminer fails at runtime
                 text = self._extract_text_with_pypdf2(path)
