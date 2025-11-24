@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  24 NOV 2025 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  24 NOV 2025 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,7 +762,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-Overfull \hbox (10.6402pt too wide) in paragraph at lines 24--25
+Overfull \hbox (10.6402pt too wide) in paragraph at lines 26--27
 []\T1/lmr/m/n/12 Against this back-ground, the plan-ned se-mi-nar pa-per sys-te-ma-ti-cal-ly in-ves-ti-ga-tes machine-
  []
 
@@ -771,29 +771,29 @@ Overfull \hbox (10.6402pt too wide) in paragraph at lines 24--25
 [2]
 
 [3]
-Overfull \hbox (16.80666pt too wide) in paragraph at lines 78--79
+Overfull \hbox (16.80666pt too wide) in paragraph at lines 80--81
 []\T1/lmr/m/n/12 Wearable and mul-ti-mo-dal da-ta-sets (e.g. Em-pa-ti-ca, patient-specific arm-band/patch
  []
 
 
-LaTeX Warning: Citation 'abuAlrobUnlockingNewFrontiers2025' on page 4 undefined on input line 97.
+LaTeX Warning: Citation 'abuAlrobUnlockingNewFrontiers2025' on page 4 undefined on input line 99.
 
 
-Overfull \hbox (93.29843pt too wide) in paragraph at lines 97--98
+Overfull \hbox (93.29843pt too wide) in paragraph at lines 99--100
 []\T1/lmr/m/n/12 Implications for cli-ni-cal prac-ti-ce and fu-ture re-se-arch ([]) 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 105.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 107.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 [4]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 111.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 113.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (15.78247pt too wide) in paragraph at lines 132--133
+Overfull \hbox (15.78247pt too wide) in paragraph at lines 134--135
 \T1/lmr/m/n/12 using the al-rea-dy col-lec-ted or-ga-ni-sa-tio-nal no-tes and in-ter-me-dia-te re-sults (see \T1/lmtt/m/n/12 Organization/\T1/lmr/m/n/12 )
  []
 
@@ -827,18 +827,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21392 strings out of 475118
- 380018 string characters out of 5764901
- 1332611 words of memory out of 5000000
- 44038 multiletter control sequences out of 15000+600000
+ 21393 strings out of 475118
+ 380030 string characters out of 5764901
+ 1332612 words of memory out of 5000000
+ 44039 multiletter control sequences out of 15000+600000
  612980 words of font info for 80 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  75i,6n,81p,3069b,7177s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (8 pages, 199118 bytes).
+Output written on main.pdf (8 pages, 199281 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
+ 400 PDF objects out of 1000 (max. 8388607)
+ 368 compressed objects within 4 object streams
  100 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
