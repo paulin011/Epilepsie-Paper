@@ -9,3 +9,6 @@ ieee xplore(all queries) pubmend(some) and Scopus for more specific papers and r
 - "wearable" AND ("seizure" OR "epilepsy") AND (ECG OR PPG OR EDA OR accelerometer) NOT EEG
 - "pre-ictal" OR "preictal" AND (ECG OR HRV OR heart rate) NOT EEG
 - "pseudo-prospective" OR "prospective" AND (seizure prediction OR seizure detection) AND (ECG OR wearable)
+
+
+91 Papers found

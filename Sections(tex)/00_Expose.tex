@@ -1,0 +1,133 @@
+% Exposé for the seminar paper
+% Included in main.tex
+
+\section*{Exposé: Machine Learning for Prediction and Detection of Epileptic Seizures Using ECG and Other Non-Invasive Sensor Data}
+
+\subsection*{1. Background and Motivation}
+
+\subsubsection*{1.1 Clinical and societal relevance of epilepsy}
+Epilepsy is one of the most common chronic diseases of the central nervous system, affecting approximately 7.6 per 1,000 people (\(\approx 0.76\%\) lifetime prevalence), with prevalence and incidence varying by region and study methodology \parencite{beghiEpidemiologyEpilepsy2019}. Despite the availability of anti-seizure medications, about 30\% of patients remain drug resistant \parencite{kwanEarlyIdentificationRefractory2000,chenNewEraPersonalised2020}. Unpredictable seizures lead to injuries, restrictions in daily and professional life, fear of the next event and reduced quality of life \parencite{beghiAddressingBurdenEpilepsy2016,mahlerRiskInjuriesAccidents2018}.
+
+\subsubsection*{1.2 Limitations of EEG-centric approaches}
+The current gold standard for diagnosis and seizure monitoring is the electroencephalogram (EEG). However, EEG-based approaches are often resource-intensive, tied to clinical environments, sometimes invasive, and therefore difficult to deploy in everyday life \parencite{wongEEGDatasetsSeizure2023}. In addition, long-term recordings with high user comfort and minimal intrusion remain challenging.
+
+\subsubsection*{1.3 Autonomic and cardiovascular changes in seizures}
+A large body of work shows that epileptic seizures are accompanied by characteristic autonomic changes, particularly in the cardiovascular system. These manifest in the electrocardiogram (ECG), heart rate (HR) and heart rate variability (HRV) \parencite{zijlmansHeartRateChanges2002,thijsAutonomicManifestationsEpilepsy2021}. For example, Zijlmans et al. (2002) report an ictal heart-rate increase of >=10 beats/min in about 73\% of seizures (seen in 93\% of patients) and ECG abnormalities in roughly 26\% of seizures; in approximately 23\% of seizures (49\% of patients) the heart-rate change preceded both the electrographic and the clinical onset \parencite{zijlmansHeartRateChanges2002}.
+
+Resting ECG studies such as Drake et al. (1993) observed higher resting ventricular rates and modest prolongation of the QT interval in some patient groups (for example, complex partial seizures), but concluded that resting ECG has low diagnostic yield for seizure prediction \parencite{drakeElectrocardiographyEpilepsyPatients1993}.
+
+Ictal heart rate increases, arrhythmias and altered HRV patterns can occur peri-ictally and are discussed as potential predictive markers; several studies report that heart-rate or other autonomic changes may precede clinical or electrographic onset in a subset of seizures \parencite{lambertsIncreasedPrevalenceECG2015,neiEKGAbnormalitiesPartial2000,amengual-gualPatternsEpilepticSeizure2019,masonHeartRateVariability2024}.
+
+\subsubsection*{1.4 Wearables and non-invasive sensor modalities}
+In parallel, wearable sensor technology has become widely available (smartwatches, armbands, chest straps, patches). These devices can continuously capture ECG or PPG-based HR/HRV, accelerometry, electrodermal activity (EDA) and respiration in daily life \parencite{bonatoWearableSensorsSystems2010,beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023,wuNovelSeizureDetection2024}. This opens the possibility of seizure detection and prediction based on non-invasive, ambulatory biosignals \parencite{alshehriComprehensiveSurveyInternet2021}.
+
+Against this background, the planned seminar paper systematically investigates machine-learning (ML) approaches for seizure detection and prediction that do \emph{not} primarily rely on EEG, but on ECG and other non-invasive sensor data (e.g. PPG, accelerometer, EDA, respiration).
+
+\subsection*{2. Objectives and Research Questions}
+
+\subsubsection*{2.1 Overall objective}
+The overall objective of the seminar paper is to structure and critically review the state of the art in ML-based methods for seizure prediction and detection using cardiac and other peripheral biosignals, and to identify research gaps for future work. The focus is on human studies from roughly the last ten years that use ECG/HR/HRV or multimodal wearable data.
+
+\subsubsection*{2.2 Specific research questions}
+The following research questions guide the work:
+
+\begin{enumerate}
+  \item \textbf{Signals and modalities:} Which non-invasive biosignals (ECG, HRV, PPG, accelerometer, EDA, respiration, etc.) are used for seizure detection and prediction, and in which combinations (unimodal vs. multimodal)? \parencite{beniczkyBiomarkersSeizureSeverity2020,mironAutonomicBiosignalsSeizure2025,sethFeasibilityCardiacbasedSeizure2023}
+  \item \textbf{Features and models:} Which feature families (time, frequency and non-linear HRV measures, Lorenz features, multifractal descriptors, etc.) and which ML/DL models (e.g. classical classifiers, CNN/LSTM, ensembles) are employed, and how interpretable are these models? \parencite{fujiwaraEpilepticSeizurePrediction2016,abtahiIdentificationRelevantECG2025,ghaderiAdvancesMachineLearning2025}
+  \item \textbf{Datasets and evaluation:} How are datasets, study designs and validation protocols set up (e.g. patient-specific vs. cross-patient, pseudo-prospective evaluation, definition of pre-ictal windows) and which metrics are reported (e.g. sensitivity, FPR/h, AUC, time-in-warning)? \parencite{andradePerformanceSeizurePrediction2024,ghaderiAdvancesMachineLearning2025}
+  \item \textbf{Practical deployment:} Which technical and practical challenges arise for real-world deployment on wearables and edge devices (e.g. energy and memory constraints, latency, robustness, data quality, user acceptance)? \parencite{hashashEnergyAwareDistributedEdge2021,najafiVersaSensExtendableMultimodal2024,donatiGuestEditorialUltralowPower2025,sivathambooPreferencesUserExperiences2022}
+  \item \textbf{Research gaps:} Where are the main research gaps and what are the implications for future academic work, especially on ECG-based warning systems and multimodal wearable solutions? \parencite{hixsonDigitalToolsEpilepsy2020,abualrobUnlockingNewFrontiers2025}
+\end{enumerate}
+
+\subsection*{3. Theoretical and Methodological Background}
+
+\subsubsection*{3.1 Epilepsy and autonomic dysfunction}
+Epileptic seizures frequently go along with characteristic changes in heart rate and rhythm, such as tachycardia, arrhythmias and altered HRV levels \parencite{drakeElectrocardiographyEpilepsyPatients1993,lambertsIncreasedPrevalenceECG2015,neiEKGAbnormalitiesPartial2000}. Several works suggest that HR and HRV changes can precede clinical seizure onset and thus could serve as predictive markers \parencite{zijlmansHeartRateChanges2002,amengual-gualPatternsEpilepticSeizure2019,masonHeartRateVariability2024}.
+
+\subsubsection*{3.2 Non-invasive sensor systems and wearables}
+In addition to 1- or multi-lead ECG, recent studies increasingly use wearable devices with PPG, EDA, accelerometers and respiratory channels \parencite{beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023,wuNovelSeizureDetection2024}. Multimodal armband or patch systems enable continuous monitoring in everyday life, but require energy-efficient and robust algorithms, as well as reliable data transmission and security \parencite{bonatoWearableSensorsSystems2010,forooghifarResourceAwareDistributedEpilepsy2019}.
+
+\subsubsection*{3.3 Machine learning for detection and prediction}
+Early ECG/HRV-based approaches mainly rely on statistical HRV features and classical machine-learning models \parencite{fujiwaraEpilepticSeizurePrediction2016,lealViabilityECGFeatures2017,paveiEarlySeizureDetection2017}. More recent work increasingly employs deep learning and explainable ML, for example to identify the most relevant ECG features using SHAP \parencite{abtahiIdentificationRelevantECG2025} or to systematically compare model classes \parencite{ghaderiAdvancesMachineLearning2025,hamlinAssessingFeasibilityDetecting2021}. In parallel, there are targeted reviews on HRV-based prediction \parencite{masonHeartRateVariability2024,sethFeasibilityCardiacbasedSeizure2023} and on multimodal non-EEG biosignals \parencite{mironAutonomicBiosignalsSeizure2025,pordoyEnhancedNonEEGMultimodal2025}.
+
+\subsection*{4. Planned Structure of the Seminar Paper}
+
+The seminar paper is planned as a structured literature review, aligned with the search and review strategy drafted in the project documents. A preliminary outline is:
+
+\begin{enumerate}
+  \item \textbf{Introduction}
+    \begin{enumerate}
+      \item Motivation: burden of disease, limitations of EEG-based approaches \parencite{beghiAddressingBurdenEpilepsy2016,wongEEGDatasetsSeizure2023}
+      \item Aim and scope (ECG/HRV and other non-EEG sensors only)
+      \item Research questions
+    \end{enumerate}
+  \item \textbf{Background}
+    \begin{enumerate}
+      \item Epilepsy, seizure types and autonomic manifestations \parencite{thijsAutonomicManifestationsEpilepsy2021}
+      \item Physiology of ECG, HRV and other peripheral biosignals
+      \item Wearable technologies and edge computing in healthcare \parencite{bonatoWearableSensorsSystems2010,alshehriComprehensiveSurveyInternet2021,donatiGuestEditorialUltralowPower2025}
+    \end{enumerate}
+  \item \textbf{Problem Formulation and Evaluation Criteria}
+    \begin{enumerate}
+      \item Definition of detection vs. prediction, pre-ictal windows, SPH/SOP
+      \item Clinically meaningful metrics (sensitivity, FPR/h, time-in-warning, PPV) \parencite{andradePerformanceSeizurePrediction2024}
+    \end{enumerate}
+  \item \textbf{Datasets and Study Designs}
+    \begin{enumerate}
+      \item Clinical ECG/HRV datasets (e.g. EPILEPSIAE, Siena, proprietary long-term recordings) \parencite{fujiwaraEpilepticSeizurePrediction2016,lealViabilityECGFeatures2017,ghaderiAdvancesMachineLearning2025}
+      \item Wearable and multimodal datasets (e.g. Empatica, patient-specific armband/patch systems) \parencite{beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023,wuNovelSeizureDetection2024}
+      \item Validation protocols (patient-specific vs. cross-patient, prospective, pseudo-prospective) \parencite{andradePerformanceSeizurePrediction2024}
+    \end{enumerate}
+  \item \textbf{Feature Engineering and Modelling}
+    \begin{enumerate}
+      \item HRV, Lorenz and multifractal features \parencite{fujiwaraEpilepticSeizurePrediction2016,abtahiIdentificationRelevantECG2025}
+      \item Classical ML models (e.g. SVM, Random Forest, ensembles) \parencite{dongTwoLayerEnsembleMethod2022}
+      \item Deep learning and explainable ML approaches \parencite{abtahiIdentificationRelevantECG2025,ghaderiAdvancesMachineLearning2025}
+    \end{enumerate}
+  \item \textbf{Results and Comparison of Studies}
+    \begin{enumerate}
+      \item Performance summary by task type (detection vs. prediction)
+      \item Influence of sensor setup, features and models
+      \item Transferability to everyday wearables
+    \end{enumerate}
+  \item \textbf{Discussion}
+    \begin{enumerate}
+      \item Methodological limitations (small sample sizes, data leakage, unrealistic evaluation protocols) \parencite{andradePerformanceSeizurePrediction2024,kalousiosECGbasedEpilepticSeizure2024}
+      \item Technical and regulatory challenges \parencite{hashashEnergyAwareDistributedEdge2021,hixsonDigitalToolsEpilepsy2020}
+      \item Implications for clinical practice and future research \parencite{abuAlrobUnlockingNewFrontiers2025}
+    \end{enumerate}
+  \item \textbf{Conclusion and Outlook}
+\end{enumerate}
+
+\subsection*{5. Literature Search Methodology}
+
+\subsubsection*{5.1 Databases and search strategy}
+The literature search will follow a pre-defined search and screening scheme (see project documents in \texttt{Organization/}). The main databases are IEEE Xplore, PubMed, Scopus and Google Scholar. Search terms combine the dimensions \enquote{seizure prediction/detection}, \enquote{ECG/HRV/heart rate}, \enquote{wearable}, \enquote{PPG/EDA/accelerometer} and explicitly exclude EEG-only studies (see project documents in \texttt{Organization/}).
+
+\subsubsection*{5.2 Inclusion and exclusion criteria}
+Inclusion criteria include, among others:
+
+\begin{itemize}
+  \item Peer-reviewed original research articles or systematic reviews (approx. 2015--2025)
+  \item Human participants with epilepsy
+  \item Use of ECG, HR/HRV or other non-invasive peripheral biosignals for seizure detection or prediction
+  \item Reporting of quantitative performance metrics (e.g. sensitivity, specificity, FPR/h, AUC)
+\end{itemize}
+
+Excluded are EEG-only studies, animal experiments and purely conceptual papers without empirical evaluation.
+
+\subsubsection*{5.3 Data extraction and synthesis}
+Data extraction will be based on a predefined table (see \texttt{extraction-template.csv}) with fields for dataset, sensors, preprocessing, features/models, validation protocol and metrics (see project documents in \texttt{Organization/}). The extracted information will be synthesised narratively and, where appropriate, presented in comparative tables.
+
+\subsection*{6. Expected Contribution of the Seminar Paper}
+
+The seminar paper will provide a consolidated overview of ML-based approaches to seizure detection and prediction using non-invasive cardiovascular and other peripheral sensor signals. In contrast to EEG-focused reviews, the work explicitly concentrates on ECG/HRV and wearable biosignals and links methodological aspects (feature engineering, model choice, evaluation design) with practical questions regarding deployment on wearables and edge devices.
+
+More specifically, the paper aims to highlight
+\begin{itemize}
+  \item the maturity of current methods for everyday, real-world application scenarios,
+  \item key methodological pitfalls (e.g. data leakage, unrealistic warning horizons, lack of prospective evaluation),
+  \item and open research questions for future Bachelor, Master and seminar projects on ECG-based warning systems and multimodal wearable approaches
+\end{itemize}
+using the already collected organisational notes and intermediate results (see \texttt{Organization/}) we will highlight key methodological pitfalls and open research questions \parencite{ghaderiAdvancesMachineLearning2025,mironAutonomicBiosignalsSeizure2025}.
+
