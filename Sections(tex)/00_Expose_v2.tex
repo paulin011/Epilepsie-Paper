@@ -1,0 +1,190 @@
+% Exposé for the seminar paper — Version 2 (reorganized)
+% Included in main.tex (use this file as needed)
+
+\section*{Exposé: Machine Learning for Prediction and Detection of Epileptic Seizures Using ECG and Other Non-Invasive Sensor Data}
+
+\subsection*{1. Introduction and Motivation}
+
+\subsubsection*{1.1 Clinical and societal relevance of epilepsy}
+Epilepsy is one of the most common chronic diseases of the central nervous system,
+affecting approximately 7.6 per 1,000 people \parencite{beghiEpidemiologyEpilepsy2019}.
+
+Despite the availability of anti-seizure medications, about 30\% of patients remain drug resistant; even patients without drug resistance suffer from side effects
+\parencite{kwanEarlyIdentificationRefractory2000,chenNewEraPersonalised2020}.
+
+Unpredictable seizures lead to injuries, restrictions in daily and professional life,
+fear of the next event and reduced quality of life as well as a heightened risk of accidents
+\parencite{beghiAddressingBurdenEpilepsy2016,mahlerRiskInjuriesAccidents2018}.
+
+\subsubsection*{1.2 Limitations of EEG-centric approaches}
+The current gold standard for diagnosis and seizure monitoring is the electroencephalogram (EEG).
+However, EEG-based approaches are often resource-intensive and tied to clinical environments.
+They can be intrusive and are therefore difficult to deploy in everyday life \parencite{wongEEGDatasetsSeizure2023}.
+Long-term recordings with high user comfort and minimal intrusion remain challenging.
+
+\subsubsection*{1.3 Wearables and non-invasive sensor modalities}
+Wearable sensor technology (smartwatches, armbands, chest straps, patches) can continuously capture ECG or PPG-based HR/HRV,
+accelerometry and respiration in daily life \parencite{bonatoWearableSensorsSystems2010,beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023,wuNovelSeizureDetection2024}.
+
+Commercially available wearables have demonstrated clear success for detecting convulsive/tonic–clonic seizures in several studies,
+with some devices reporting sensitivities often above 85–90\% in controlled or selected cohorts.
+Multimodal systems (motion + autonomic sensors, or EMG + motion) tend to improve detection and reduce false alarms compared with unimodal approaches
+\parencite{shumCommerciallyAvailableSeizure2021}.
+
+Important limitations remain: only a minority of devices have peer‑reviewed, prospective natural‑environment evaluations or regulatory approval; most are optimized for major motor seizures and \emph{perform poorly for non‑convulsive events};
+ambulatory use increases false alarms and depends on correct placement, smartphone connectivity and user compliance; cost, comfort and caregiver availability constrain real‑world utility \parencite{shumCommerciallyAvailableSeizure2021}.
+
+This motivates investigation of seizure detection and prediction based on non-invasive, ambulatory biosignals particularly for non-convulsive seizures \parencite{alshehriComprehensiveSurveyInternet2021}.
+
+Against this background, the planned seminar paper systematically investigates machine-learning (ML) approaches for seizure detection for \emph{non-convulsive seizures} and prediction that do \emph{not} primarily rely on EEG, but on ECG and other non-invasive sensor data (e.g. PPG, accelerometer, respiration).
+
+\subsection*{2. Theoretical and Methodological Background}
+
+\subsubsection*{2.1 Epilepsy, seizure types and autonomic manifestations}
+Epileptic seizures are classified by onset as focal (starting in a localized brain region) or generalized
+(involving both hemispheres from onset). Primary generalized epilepsies commonly present with generalized tonic‑clonic seizures (GTCS),
+while focal seizures can remain local or propagate to produce focal‑to‑bilateral tonic‑clonic seizures (FBTCS/SGTCS). 
+GTCS/FBTCS are associated with higher risk of injury and pronounced autonomic/cardiovascular disturbances,
+which motivates monitoring peripheral cardiac signals alongside EEG 
+\parencite{fisherILAEOfficialReport2017,thijsAutonomicManifestationsEpilepsy2021,beniczkyBiomarkersSeizureSeverity2020}.
+
+Seizures commonly produce autonomic responses—most notably changes in heart rate, rhythm and HRV—that are visible in ECG/HR signals and can,
+in some cases, precede clinical or electrographic onset \parencite{zijlmansHeartRateChanges2002,thijsAutonomicManifestationsEpilepsy2021}.
+Peri‑ictal tachycardia, arrhythmias and altered HRV are therefore relevant for monitoring and risk stratification,
+but resting ECG alone shows limited value for reliable seizure forecasting \parencite{drakeElectrocardiographyEpilepsyPatients1993,neiEKGAbnormalitiesPartial2000}.
+
+\subsubsection*{2.2 Non-invasive sensor systems and wearables}
+In addition to single or multi-lead ECG, recent studies increasingly use wearable devices with PPG, accelerometers and respiratory channels
+\parencite{beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023,wuNovelSeizureDetection2024}.
+
+Multimodal armband or patch systems enable continuous monitoring in everyday life, but require energy-efficient and robust algorithms, as well as reliable data transmission and security \parencite{bonatoWearableSensorsSystems2010,forooghifarResourceAwareDistributedEpilepsy2019}.
+
+\subsubsection*{2.3 Machine learning for detection and prediction}
+Early ECG/HRV-based approaches mainly rely on statistical HRV features and classical machine-learning models \parencite{fujiwaraEpilepticSeizurePrediction2016,lealViabilityECGFeatures2017,paveiEarlySeizureDetection2017}.
+
+More recent work increasingly employs deep learning and explainable ML. For example, some studies identify the most relevant ECG features using SHAP \parencite{abtahiIdentificationRelevantECG2025}.
+Other works compare model classes or provide feasibility evidence and sensor- and feature-level separability analyses in small inpatient samples \parencite{ghaderiAdvancesMachineLearning2025,hamlinAssessingFeasibilityDetecting2021}.
+
+Targeted reviews exist on HRV-based prediction and on multimodal non-EEG biosignals \parencite{masonHeartRateVariability2024,sethFeasibilityCardiacbasedSeizure2023,mironAutonomicBiosignalsSeizure2025,pordoyEnhancedNonEEGMultimodal2025}.
+
+\subsubsection*{2.4 Datasets, study designs and evaluation}
+Clinical ECG/HRV datasets (e.g. EPILEPSIAE, Siena, proprietary long-term recordings) and wearable/multimodal datasets (e.g. Empatica, patient-specific armband/patch systems) form the empirical basis for model training and evaluation \parencite{fujiwaraEpilepticSeizurePrediction2016,beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023}.
+
+Validation protocols vary (patient-specific vs. cross-patient, prospective, pseudo-prospective) and substantially affect reported performance; commonly used metrics include sensitivity, false‑alarm rate per hour (FPR/h), AUC and time‑in‑warning \parencite{andradePerformanceSeizurePrediction2024}.
+
+Methodological pitfalls to watch for include small sample sizes, data leakage, unrealistic warning horizons and lack of prospective evaluation \parencite{andradePerformanceSeizurePrediction2024,kalousiosECGbasedEpilepticSeizure2024}.
+
+\subsection*{3. Objectives and Research Questions}
+
+\subsubsection*{3.1 Overall objective}
+The overall objective of the seminar paper is to analyse the current state of the art in machine-learning (ML) approaches for detecting and predicting epileptic seizures through non-intrusive biosignals.
+This includes datasets, sensor types as well as machine learning models and evaluation protocols. The work will identify research gaps and potential directions for future projects.
+
+The focus is on human studies from roughly the last ten years that use ECG/HR/HRV or multimodal wearable data.
+
+\subsubsection*{3.2 Specific research questions}
+The following research questions guide the work:
+
+\begin{enumerate}
+  \item \textbf{Signals and modalities:} Which non-invasive biosignals (ECG, HRV, PPG, accelerometer, respiration, etc.) are used for seizure detection and prediction? \parencite{beniczkyBiomarkersSeizureSeverity2020,mironAutonomicBiosignalsSeizure2025,sethFeasibilityCardiacbasedSeizure2023}
+
+  \item \textbf{Features and models:} Which feature families (time, frequency and non-linear HRV measures, Lorenz features, multifractal descriptors, etc.) and which ML/DL models (e.g. classical classifiers, CNN/LSTM, ensembles) are employed, and how interpretable are these models? \parencite{fujiwaraEpilepticSeizurePrediction2016,abtahiIdentificationRelevantECG2025,ghaderiAdvancesMachineLearning2025}
+
+  \item \textbf{Datasets and evaluation:} Which datasets are used for (ML) model training and evaluation and which ones have the potential for real-world application? \parencite{andradePerformanceSeizurePrediction2024,ghaderiAdvancesMachineLearning2025}
+
+  \item \textbf{Practical deployment:} Which technical and practical challenges arise for real-world deployment on wearables (e.g. energy, performance and memory constraints, robustness, user acceptance)? \parencite{hashashEnergyAwareDistributedEdge2021,najafiVersaSensExtendableMultimodal2024,donatiGuestEditorialUltralowPower2025,sivathambooPreferencesUserExperiences2022}
+
+  \item \textbf{Research gaps:} Where are the main research gaps and what are the implications for future academic work, especially on ECG-based warning systems and multimodal wearable solutions? \parencite{hixsonDigitalToolsEpilepsy2020,abualrobUnlockingNewFrontiers2025}
+\end{enumerate}
+
+\subsection*{4. Planned Structure of the Seminar Paper}
+
+The seminar paper is planned as a structured literature review, aligned with the search and review strategy drafted in the project documents. A preliminary outline is:
+
+\begin{enumerate}
+  \item \textbf{Introduction}
+    \begin{enumerate}
+      \item Motivation: burden of disease, limitations of EEG-based approaches \parencite{beghiAddressingBurdenEpilepsy2016,wongEEGDatasetsSeizure2023}
+      \item Aim and scope (ECG/HRV and other non-EEG sensors only)
+      \item Research questions
+    \end{enumerate}
+  \item \textbf{Background}
+    \begin{enumerate}
+      \item Epilepsy, seizure types and autonomic nervous system (ANS) manifestations \parencite{thijsAutonomicManifestationsEpilepsy2021}
+      \item Physiology of ECG, HRV and other peripheral biosignals in relation to seizures
+      \item Wearable technologies in healthcare \parencite{bonatoWearableSensorsSystems2010,alshehriComprehensiveSurveyInternet2021,donatiGuestEditorialUltralowPower2025}
+    \end{enumerate}
+  \item \textbf{Problem Formulation and Evaluation Criteria}
+    \begin{enumerate}
+      \item Definition of detection vs. prediction, pre-ictal windows
+      \item Clinically meaningful metrics (sensitivity, FPR/h, time-in-warning, PPV) \parencite{andradePerformanceSeizurePrediction2024}
+    \end{enumerate}
+  \item \textbf{Datasets and Study Designs}
+    \begin{enumerate}
+      \item Clinical ECG/HRV datasets (e.g. EPILEPSIAE, Siena, proprietary long-term recordings) \parencite{fujiwaraEpilepticSeizurePrediction2016,lealViabilityECGFeatures2017,ghaderiAdvancesMachineLearning2025}
+      \item Wearable and multimodal datasets (e.g. Empatica, patient-specific armband/patch systems) \parencite{beniczkyBiomarkersSeizureSeverity2020,villanuevaMultimodalMinimallyInvasive2023,wuNovelSeizureDetection2024}
+      \item Validation protocols (patient-specific vs. cross-patient, prospective, pseudo-prospective) \parencite{andradePerformanceSeizurePrediction2024}
+    \end{enumerate}
+  \item \textbf{Feature Engineering and Modelling}
+    \begin{enumerate}
+      \item HRV, Lorenz and multifractal features \parencite{fujiwaraEpilepticSeizurePrediction2016,abtahiIdentificationRelevantECG2025}
+      \item Classical ML models (e.g. SVM, Random Forest, ensembles) \parencite{dongTwoLayerEnsembleMethod2022}
+      \item Deep learning and explainable ML approaches \parencite{abtahiIdentificationRelevantECG2025,ghaderiAdvancesMachineLearning2025}
+    \end{enumerate}
+  \item \textbf{Results and Comparison of Studies}
+    \begin{enumerate}
+      \item Performance summary by task type (detection vs. prediction)
+      \item Influence of sensor setup, features and models
+      \item Usability and accuracy of everyday wearables
+    \end{enumerate}
+  \item \textbf{Discussion}
+    \begin{enumerate}
+      \item Methodological limitations (small sample sizes, data leakage, unrealistic evaluation protocols) \parencite{andradePerformanceSeizurePrediction2024,kalousiosECGbasedEpilepticSeizure2024}
+      \item Technical and regulatory challenges \parencite{hashashEnergyAwareDistributedEdge2021,hixsonDigitalToolsEpilepsy2020}
+      \item Implications for clinical practice and future research \parencite{abuAlrobUnlockingNewFrontiers2025}
+    \end{enumerate}
+  \item \textbf{Conclusion and Outlook}
+\end{enumerate}
+
+\subsection*{5. Literature Search Methodology}
+
+\subsubsection*{5.1 Databases and search strategy}
+
+The main databases searched are IEEE Xplore, PubMed, Scopus and Google Scholar.
+
+Search terms combine the dimensions \enquote{seizure prediction/detection}, \enquote{ECG/HRV/heart rate},
+\enquote{wearable}, \enquote{PPG/EDA/accelerometer} and explicitly exclude EEG-only studies.
+
+\subsubsection*{5.2 Inclusion and exclusion criteria}
+Inclusion criteria include, among others:
+
+\begin{itemize}
+  \item Peer-reviewed original research articles or systematic reviews (approx. 2015--2025)
+  \item Use of ECG, HR/HRV or other non-invasive peripheral biosignals for seizure detection or prediction
+  \item Reporting of quantitative performance metrics (e.g. sensitivity, specificity, FPR/h, AUC)
+\end{itemize}
+
+Excluded are EEG-only studies and purely conceptual papers without empirical evaluation.
+
+\subsubsection*{5.3 Data extraction and synthesis}
+Data extraction will be based on a predefined table with fields for dataset,
+sensors, preprocessing, features/models, validation protocol and metrics.
+
+The extracted information will be synthesised narratively and, where appropriate, presented in comparative tables and graphs.
+
+\subsection*{6. Expected Contribution of the Seminar Paper}
+
+The seminar paper will provide a consolidated overview of ML-based approaches to seizure detection
+and prediction using non-invasive cardiovascular and other peripheral sensor signals.
+
+In contrast to EEG-focused reviews, the work explicitly concentrates on ECG/HRV and wearable biosignals
+and links methodological aspects (feature engineering, model choice, evaluation design)
+with practical questions regarding deployment on wearables and edge devices.
+
+More specifically, the paper aims to highlight
+\begin{itemize}
+  \item the maturity of current methods for everyday, real-world application scenarios,
+  \item key methodological pitfalls (e.g. data leakage, unrealistic warning horizons, lack of prospective evaluation),
+  \item and open research questions for future Bachelor, Master and seminar projects on ECG-based warning systems
+  and multimodal wearable approaches
+\end{itemize}

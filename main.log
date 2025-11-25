@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  24 NOV 2025 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  25 NOV 2025 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -714,6 +714,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                fisherILAEOfficialReport2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 59.
 Package biblatex Info: Reference segment=0 on input line 59.
@@ -750,64 +757,69 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (./Sections(tex)/00_Expose.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
-
+ (./Sections(tex)/00_Expose_v2.tex
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-Overfull \hbox (10.6402pt too wide) in paragraph at lines 26--27
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+Overfull \hbox (10.6402pt too wide) in paragraph at lines 39--40
 []\T1/lmr/m/n/12 Against this back-ground, the plan-ned se-mi-nar pa-per sys-te-ma-ti-cal-ly in-ves-ti-ga-tes machine-
  []
 
 
+LaTeX Warning: Citation 'fisherILAEOfficialReport2017' on page 2 undefined on input line 49.
+
+
 
 [2]
+Overfull \hbox (29.30739pt too wide) in paragraph at lines 73--74
+[]\T1/lmr/m/n/12 Validation pro-to-cols va-ry (patient-specific vs. cross-patient, pro-spec-ti-ve, pseudo-prospective)
+ []
+
+
 
 [3]
-Overfull \hbox (16.80666pt too wide) in paragraph at lines 80--81
+Overfull \hbox (16.80666pt too wide) in paragraph at lines 125--126
 []\T1/lmr/m/n/12 Wearable and mul-ti-mo-dal da-ta-sets (e.g. Em-pa-ti-ca, patient-specific arm-band/patch
  []
 
 
-LaTeX Warning: Citation 'abuAlrobUnlockingNewFrontiers2025' on page 4 undefined on input line 99.
+
+[4]
+
+LaTeX Warning: Citation 'abuAlrobUnlockingNewFrontiers2025' on page 5 undefined on input line 144.
 
 
-Overfull \hbox (93.29843pt too wide) in paragraph at lines 99--100
+Overfull \hbox (93.29843pt too wide) in paragraph at lines 144--145
 []\T1/lmr/m/n/12 Implications for cli-ni-cal prac-ti-ce and fu-ture re-se-arch ([]) 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 107.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 
-[4]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 113.
- (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (15.78247pt too wide) in paragraph at lines 134--135
-\T1/lmr/m/n/12 using the al-rea-dy col-lec-ted or-ga-ni-sa-tio-nal no-tes and in-ter-me-dia-te re-sults (see \T1/lmtt/m/n/12 Organization/\T1/lmr/m/n/12 )
+Overfull \hbox (5.91496pt too wide) in paragraph at lines 155--157
+[]\T1/lmr/m/n/12 Search terms com-bi-ne the di-men-si-ons ^^R  sei-zu-re pre-dic-ti-on/detection^^P, ^^R  ECG/HRV/heart
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 162.
+(/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+[5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}])
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 70.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 70.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 70.
+
 
 [6]
-Overfull \hbox (20.61243pt too wide) in paragraph at lines 70--70
+Overfull \hbox (20.61243pt too wide) in paragraph at lines 71--71
 \T1/lmr/m/it/12 ti-on: A Re-view of ECG-Based Ap-proa-ches\T1/lmr/m/n/12 . 2025040942. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 20944 / preprints202504 .
  []
 
 
-Overfull \hbox (11.4513pt too wide) in paragraph at lines 70--70
+Overfull \hbox (11.4513pt too wide) in paragraph at lines 71--71
 \T1/lmr/m/n/12 dents in epi-le-psy. \T1/lmr/m/it/12 Neu-ro-lo-gy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 90\T1/lmr/m/n/12 (9), e779^^Ue789. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 1212 / WNL . 0000000000005035$[][]
  []
 
@@ -815,7 +827,9 @@ Overfull \hbox (11.4513pt too wide) in paragraph at lines 70--70
 
 [7]
 
-[8] (./main.aux)
+[8]
+
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -827,18 +841,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21393 strings out of 475118
- 380030 string characters out of 5764901
- 1332612 words of memory out of 5000000
- 44039 multiletter control sequences out of 15000+600000
- 612980 words of font info for 80 fonts, out of 8000000 for 9000
+ 21334 strings out of 475118
+ 378804 string characters out of 5764901
+ 1331521 words of memory out of 5000000
+ 43987 multiletter control sequences out of 15000+600000
+ 612662 words of font info for 79 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  75i,6n,81p,3069b,7177s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (8 pages, 199281 bytes).
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on main.pdf (9 pages, 169545 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
  100 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

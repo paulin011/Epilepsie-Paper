@@ -200,67 +200,6 @@
       \endverb
       \keyw{artificial intelligence,cloud computing,edge computing,Electroencephalography,Feature extraction,Intelligent sensors,Internet of Medical Things (IoMT),Internet of Things,Internet of Things (IoT),Medical diagnostic imaging,Medical services,medical signals,smart health care,Smart healthcare}
     \endentry
-    \entry{amengual-gualPatternsEpilepticSeizure2019}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ac1e7ea9f0852aa46e85501d549e8043}{%
-           family={Amengual-Gual},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Marta},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c7960309c5ecf3af8be4aff3eb4445d}{%
-           family={Sánchez\bibnamedelima Fernández},
-           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={Iván},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
-           family={Loddenkemper},
-           familyi={L\bibinitperiod},
-           given={Tobias},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6b202a7112a47af737b231b192ea7bfd}
-      \strng{fullhash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{fullhashraw}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{bibnamehash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{authorbibnamehash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{authornamehash}{6b202a7112a47af737b231b192ea7bfd}
-      \strng{authorfullhash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{authorfullhashraw}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{BACKGROUND: The occurrence of epileptic seizures in seemingly random patterns takes a great toll on persons with epilepsy and their families. Seizure prediction may markedly improve epilepsy management and, therefore, the quality of life of persons with epilepsy. METHODS: Literature review. RESULTS: Seizures tend to occur following complex non-random patterns. Circadian oscillators may contribute to the rhythmic patterns of seizure occurrence. Complex mathematical models based on chaos theory try to explain and even predict seizure occurrence. There are several patterns of epileptic seizure occurrence based on seizure location, seizure semiology, and hormonal factors, among others. These patterns are most frequently described for large populations. Inter-individual variability and complex interactions between the rhythmic generators continue to make it more difficult to predict seizures in any individual person. The increasing use of large databases and machine learning techniques may help better define patterns of seizure occurrence in individual patients. Improvements in seizure detection -such as wearable seizure detectors- and in seizure prediction -such as machine learning techniques and artificial as well as neuronal networks- promise to provide further progress in the field of epilepsy and are being applied to closed-loop systems for the treatment of epilepsy. CONCLUSIONS: Seizures tend to occur following complex and patient-specific patterns despite their apparently random occurrence. A better understanding of these patterns and current technological advances may allow the implementation of closed-loop detection, prediction, and treatment systems in routine clinical practice.}
-      \field{day}{15}
-      \field{eprinttype}{pubmed}
-      \field{issn}{1872-6240}
-      \field{journaltitle}{Brain Research}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{shortjournal}{Brain Res}
-      \field{title}{Patterns of Epileptic Seizure Occurrence}
-      \field{volume}{1703}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{3\bibrangedash 12}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.brainres.2018.02.032
-      \endverb
-      \verb{eprint}
-      \verb 29481793
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/MG5UTPWJ/Amengual-Gual et al. - 2019 - Patterns of epileptic seizure occurrence.pdf
-      \endverb
-      \keyw{Closed-loop system,Differential antiepileptic dosing,Epilepsy,Humans,Machine learning,Quality of Life,Seizure,Seizures}
-    \endentry
     \entry{andradePerformanceSeizurePrediction2024}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fca1c58470ba8116795357d58c4aabea}{%
@@ -1509,103 +1448,6 @@
       \verb http://www.nejm.org/doi/abs/10.1056/NEJM200002033420503
       \endverb
     \endentry
-    \entry{lambertsIncreasedPrevalenceECG2015}{article}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=768f32acfca2056c3e3bb479977000bc}{%
-           family={Lamberts},
-           familyi={L\bibinitperiod},
-           given={R.\bibnamedelimi J.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6b236df3c404bda9ddb9a7d0e2b3e0c2}{%
-           family={Blom},
-           familyi={B\bibinitperiod},
-           given={M.\bibnamedelimi T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e3cb566bb51773a91ad1aa87826eaf0c}{%
-           family={Novy},
-           familyi={N\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ef90256ddebbb50aa3a7ce3d81b3065f}{%
-           family={Belluzzo},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0f64333e875e383d0378891bfaf91dfe}{%
-           family={Seldenrijk},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=06b33f7fff4d1353b4345cdff95ea55b}{%
-           family={Penninx},
-           familyi={P\bibinitperiod},
-           given={B.\bibnamedelimi W.},
-           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2a4aa0cdcb19057d594f69ec3364fbf7}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4adba382db89027a6666cbc2a7457f2}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={H.\bibnamedelimi L.},
-           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7fc5d994281fb0382e8196494b22c3eb}{%
-           family={Thijs},
-           familyi={T\bibinitperiod},
-           given={R.\bibnamedelimi D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {BMJ Publishing Group Ltd}%
-      }
-      \strng{namehash}{52ade791ea48e4c1c63e4391e36a623e}
-      \strng{fullhash}{405cff1801042c5cb399355224fd8049}
-      \strng{fullhashraw}{405cff1801042c5cb399355224fd8049}
-      \strng{bibnamehash}{405cff1801042c5cb399355224fd8049}
-      \strng{authorbibnamehash}{405cff1801042c5cb399355224fd8049}
-      \strng{authornamehash}{52ade791ea48e4c1c63e4391e36a623e}
-      \strng{authorfullhash}{405cff1801042c5cb399355224fd8049}
-      \strng{authorfullhashraw}{405cff1801042c5cb399355224fd8049}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Neurology, Neurosurgery \& Psychiatry}
-      \field{number}{3}
-      \field{title}{Increased Prevalence of {{ECG}} Markers for Sudden Cardiac Arrest in Refractory Epilepsy}
-      \field{urlday}{19}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{86}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{309\bibrangedash 313}
-      \range{pages}{5}
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/ILGU8D6N/Lamberts et al. - 2015 - Increased prevalence of ECG markers for sudden cardiac arrest in refractory epilepsy.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://jnnp.bmj.com/content/86/3/309.short
-      \endverb
-      \verb{url}
-      \verb https://jnnp.bmj.com/content/86/3/309.short
-      \endverb
-    \endentry
     \entry{lealViabilityECGFeatures2017}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=27a3cb9ae65027496248a4f22d7cef9e}{%
@@ -2381,6 +2223,67 @@
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
       \endverb
+    \endentry
+    \entry{shumCommerciallyAvailableSeizure2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45821696eb88eadb6015dc60e7966346}{%
+           family={Shum},
+           familyi={S\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaf93b4205c6a7edb65dd7d37d050fc4}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \strng{bibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorbibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authornamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Importance Epilepsy can be associated with significant morbidity and mortality. Seizure detection devices could be invaluable tools for both people with epilepsy, their caregivers, and clinicians as they could alert caretakers about seizures, reduce the risk of sudden unexpected death in epilepsy, and provide objective and more reliable seizure tracking to guide treatment decisions or monitor outcomes in clinical trials. Objective To synthesize the characteristics of commercial seizure detection tools/devices currently available. Methods We performed a systematic search utilizing a diverse set of resources to identify commercially available seizure detection products for consumer use. Performance data was obtained through a systematic review on commercially available products. Observations We identified 23 products marketed for seizure detection/alerting. Devices utilize a variety of mechanisms to detect seizures, including movement detectors, autonomic change detectors, electroencephalogram (EEG) based detectors, and other mechanisms (audio). The optimal device for a person with epilepsy depends on a variety of factors including the main purpose of the device, their age, seizure type and personal preferences. Only 8 devices have published peer-reviewed performance data and the majority for tonic-clonic seizures. An informed conversation between the clinician and the patient can help guide if a seizure detection device is appropriate. Conclusions and relevance Seizure detection devices have a potential to reduce morbidity and mortality for certain people with epilepsy. Clinicians should be familiar with the characteristics of commercially available devices to best counsel their patients on whether a seizure detection device may be beneficial and what the optimal devices may be.}
+      \field{day}{15}
+      \field{issn}{0022-510X}
+      \field{journaltitle}{Journal of the Neurological Sciences}
+      \field{month}{9}
+      \field{shortjournal}{Journal of the Neurological Sciences}
+      \field{shorttitle}{Commercially Available Seizure Detection Devices}
+      \field{title}{Commercially Available Seizure Detection Devices: {{A}} Systematic Review}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{428}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{117611}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jns.2021.117611
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/UQVP38KQ/Shum and Friedman - 2021 - Commercially available seizure detection devices A systematic review.pdf;/home/paulin/Zotero/storage/DSIXD2PW/S0022510X21003051.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \keyw{Epilepsy,Seizure detection device}
     \endentry
     \entry{sivathambooPreferencesUserExperiences2022}{article}{}{}
       \name{author}{13}{}{%
@@ -3126,67 +3029,6 @@
       \endverb
       \keyw{artificial intelligence,cloud computing,edge computing,Electroencephalography,Feature extraction,Intelligent sensors,Internet of Medical Things (IoMT),Internet of Things,Internet of Things (IoT),Medical diagnostic imaging,Medical services,medical signals,smart health care,Smart healthcare}
     \endentry
-    \entry{amengual-gualPatternsEpilepticSeizure2019}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ac1e7ea9f0852aa46e85501d549e8043}{%
-           family={Amengual-Gual},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Marta},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c7960309c5ecf3af8be4aff3eb4445d}{%
-           family={Sánchez\bibnamedelima Fernández},
-           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={Iván},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
-           family={Loddenkemper},
-           familyi={L\bibinitperiod},
-           given={Tobias},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6b202a7112a47af737b231b192ea7bfd}
-      \strng{fullhash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{fullhashraw}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{bibnamehash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{authorbibnamehash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{authornamehash}{6b202a7112a47af737b231b192ea7bfd}
-      \strng{authorfullhash}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \strng{authorfullhashraw}{89ff8a4d52ef7879bb7a64dfb9a57acd}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{BACKGROUND: The occurrence of epileptic seizures in seemingly random patterns takes a great toll on persons with epilepsy and their families. Seizure prediction may markedly improve epilepsy management and, therefore, the quality of life of persons with epilepsy. METHODS: Literature review. RESULTS: Seizures tend to occur following complex non-random patterns. Circadian oscillators may contribute to the rhythmic patterns of seizure occurrence. Complex mathematical models based on chaos theory try to explain and even predict seizure occurrence. There are several patterns of epileptic seizure occurrence based on seizure location, seizure semiology, and hormonal factors, among others. These patterns are most frequently described for large populations. Inter-individual variability and complex interactions between the rhythmic generators continue to make it more difficult to predict seizures in any individual person. The increasing use of large databases and machine learning techniques may help better define patterns of seizure occurrence in individual patients. Improvements in seizure detection -such as wearable seizure detectors- and in seizure prediction -such as machine learning techniques and artificial as well as neuronal networks- promise to provide further progress in the field of epilepsy and are being applied to closed-loop systems for the treatment of epilepsy. CONCLUSIONS: Seizures tend to occur following complex and patient-specific patterns despite their apparently random occurrence. A better understanding of these patterns and current technological advances may allow the implementation of closed-loop detection, prediction, and treatment systems in routine clinical practice.}
-      \field{day}{15}
-      \field{eprinttype}{pubmed}
-      \field{issn}{1872-6240}
-      \field{journaltitle}{Brain Research}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{shortjournal}{Brain Res}
-      \field{title}{Patterns of Epileptic Seizure Occurrence}
-      \field{volume}{1703}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{3\bibrangedash 12}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.brainres.2018.02.032
-      \endverb
-      \verb{eprint}
-      \verb 29481793
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/MG5UTPWJ/Amengual-Gual et al. - 2019 - Patterns of epileptic seizure occurrence.pdf
-      \endverb
-      \keyw{Closed-loop system,Differential antiepileptic dosing,Epilepsy,Humans,Machine learning,Quality of Life,Seizure,Seizures}
-    \endentry
     \entry{andradePerformanceSeizurePrediction2024}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fca1c58470ba8116795357d58c4aabea}{%
@@ -4435,103 +4277,6 @@
       \verb http://www.nejm.org/doi/abs/10.1056/NEJM200002033420503
       \endverb
     \endentry
-    \entry{lambertsIncreasedPrevalenceECG2015}{article}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=768f32acfca2056c3e3bb479977000bc}{%
-           family={Lamberts},
-           familyi={L\bibinitperiod},
-           given={R.\bibnamedelimi J.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6b236df3c404bda9ddb9a7d0e2b3e0c2}{%
-           family={Blom},
-           familyi={B\bibinitperiod},
-           given={M.\bibnamedelimi T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e3cb566bb51773a91ad1aa87826eaf0c}{%
-           family={Novy},
-           familyi={N\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ef90256ddebbb50aa3a7ce3d81b3065f}{%
-           family={Belluzzo},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0f64333e875e383d0378891bfaf91dfe}{%
-           family={Seldenrijk},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=06b33f7fff4d1353b4345cdff95ea55b}{%
-           family={Penninx},
-           familyi={P\bibinitperiod},
-           given={B.\bibnamedelimi W.},
-           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2a4aa0cdcb19057d594f69ec3364fbf7}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4adba382db89027a6666cbc2a7457f2}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={H.\bibnamedelimi L.},
-           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7fc5d994281fb0382e8196494b22c3eb}{%
-           family={Thijs},
-           familyi={T\bibinitperiod},
-           given={R.\bibnamedelimi D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {BMJ Publishing Group Ltd}%
-      }
-      \strng{namehash}{52ade791ea48e4c1c63e4391e36a623e}
-      \strng{fullhash}{405cff1801042c5cb399355224fd8049}
-      \strng{fullhashraw}{405cff1801042c5cb399355224fd8049}
-      \strng{bibnamehash}{405cff1801042c5cb399355224fd8049}
-      \strng{authorbibnamehash}{405cff1801042c5cb399355224fd8049}
-      \strng{authornamehash}{52ade791ea48e4c1c63e4391e36a623e}
-      \strng{authorfullhash}{405cff1801042c5cb399355224fd8049}
-      \strng{authorfullhashraw}{405cff1801042c5cb399355224fd8049}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Neurology, Neurosurgery \& Psychiatry}
-      \field{number}{3}
-      \field{title}{Increased Prevalence of {{ECG}} Markers for Sudden Cardiac Arrest in Refractory Epilepsy}
-      \field{urlday}{19}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{86}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{309\bibrangedash 313}
-      \range{pages}{5}
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/ILGU8D6N/Lamberts et al. - 2015 - Increased prevalence of ECG markers for sudden cardiac arrest in refractory epilepsy.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://jnnp.bmj.com/content/86/3/309.short
-      \endverb
-      \verb{url}
-      \verb https://jnnp.bmj.com/content/86/3/309.short
-      \endverb
-    \endentry
     \entry{lealViabilityECGFeatures2017}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=27a3cb9ae65027496248a4f22d7cef9e}{%
@@ -5308,6 +5053,67 @@
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
       \endverb
     \endentry
+    \entry{shumCommerciallyAvailableSeizure2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45821696eb88eadb6015dc60e7966346}{%
+           family={Shum},
+           familyi={S\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaf93b4205c6a7edb65dd7d37d050fc4}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \strng{bibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorbibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authornamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Importance Epilepsy can be associated with significant morbidity and mortality. Seizure detection devices could be invaluable tools for both people with epilepsy, their caregivers, and clinicians as they could alert caretakers about seizures, reduce the risk of sudden unexpected death in epilepsy, and provide objective and more reliable seizure tracking to guide treatment decisions or monitor outcomes in clinical trials. Objective To synthesize the characteristics of commercial seizure detection tools/devices currently available. Methods We performed a systematic search utilizing a diverse set of resources to identify commercially available seizure detection products for consumer use. Performance data was obtained through a systematic review on commercially available products. Observations We identified 23 products marketed for seizure detection/alerting. Devices utilize a variety of mechanisms to detect seizures, including movement detectors, autonomic change detectors, electroencephalogram (EEG) based detectors, and other mechanisms (audio). The optimal device for a person with epilepsy depends on a variety of factors including the main purpose of the device, their age, seizure type and personal preferences. Only 8 devices have published peer-reviewed performance data and the majority for tonic-clonic seizures. An informed conversation between the clinician and the patient can help guide if a seizure detection device is appropriate. Conclusions and relevance Seizure detection devices have a potential to reduce morbidity and mortality for certain people with epilepsy. Clinicians should be familiar with the characteristics of commercially available devices to best counsel their patients on whether a seizure detection device may be beneficial and what the optimal devices may be.}
+      \field{day}{15}
+      \field{issn}{0022-510X}
+      \field{journaltitle}{Journal of the Neurological Sciences}
+      \field{month}{9}
+      \field{shortjournal}{Journal of the Neurological Sciences}
+      \field{shorttitle}{Commercially Available Seizure Detection Devices}
+      \field{title}{Commercially Available Seizure Detection Devices: {{A}} Systematic Review}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{428}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{117611}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jns.2021.117611
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/UQVP38KQ/Shum and Friedman - 2021 - Commercially available seizure detection devices A systematic review.pdf;/home/paulin/Zotero/storage/DSIXD2PW/S0022510X21003051.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \keyw{Epilepsy,Seizure detection device}
+    \endentry
     \entry{sivathambooPreferencesUserExperiences2022}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8ffa98d6d806cf8885ab92ba2fdf0dc1}{%
@@ -5871,6 +5677,7 @@
     \endentry
   \enddatalist
   \missing{abuAlrobUnlockingNewFrontiers2025}
+  \missing{fisherILAEOfficialReport2017}
 \endrefsection
 \endinput
 
