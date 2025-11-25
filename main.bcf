@@ -3076,13 +3076,14 @@
     <bcf:citekey order="3" intorder="1">beghiAddressingBurdenEpilepsy2016</bcf:citekey>
     <bcf:citekey order="3" intorder="2">mahlerRiskInjuriesAccidents2018</bcf:citekey>
     <bcf:citekey order="4" intorder="1">wongEEGDatasetsSeizure2023</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">villanuevaMultimodalMinimallyInvasive2023</bcf:citekey>
     <bcf:citekey order="5" intorder="1">bonatoWearableSensorsSystems2010</bcf:citekey>
     <bcf:citekey order="5" intorder="2">beniczkyBiomarkersSeizureSeverity2020</bcf:citekey>
     <bcf:citekey order="5" intorder="3">villanuevaMultimodalMinimallyInvasive2023</bcf:citekey>
     <bcf:citekey order="5" intorder="4">wuNovelSeizureDetection2024</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">shumCommerciallyAvailableSeizure2021</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">shumCommerciallyAvailableSeizure2021</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">alshehriComprehensiveSurveyInternet2021</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">pohWearableSeizureDetection2020</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">alshehriComprehensiveSurveyInternet2021</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">keranenDistributionSeizureTypes1988</bcf:citekey>
     <bcf:citekey order="9" intorder="1">fisherILAEOfficialReport2017</bcf:citekey>
     <bcf:citekey order="9" intorder="2">thijsAutonomicManifestationsEpilepsy2021</bcf:citekey>
     <bcf:citekey order="9" intorder="3">beniczkyBiomarkersSeizureSeverity2020</bcf:citekey>
@@ -3128,27 +3129,24 @@
     <bcf:citekey order="26" intorder="1">beghiAddressingBurdenEpilepsy2016</bcf:citekey>
     <bcf:citekey order="26" intorder="2">wongEEGDatasetsSeizure2023</bcf:citekey>
     <bcf:citekey order="27" intorder="1">thijsAutonomicManifestationsEpilepsy2021</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">bonatoWearableSensorsSystems2010</bcf:citekey>
-    <bcf:citekey order="28" intorder="2">alshehriComprehensiveSurveyInternet2021</bcf:citekey>
-    <bcf:citekey order="28" intorder="3">donatiGuestEditorialUltralowPower2025</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">fujiwaraEpilepticSeizurePrediction2016</bcf:citekey>
-    <bcf:citekey order="30" intorder="2">lealViabilityECGFeatures2017</bcf:citekey>
-    <bcf:citekey order="30" intorder="3">ghaderiAdvancesMachineLearning2025</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">beniczkyBiomarkersSeizureSeverity2020</bcf:citekey>
-    <bcf:citekey order="31" intorder="2">villanuevaMultimodalMinimallyInvasive2023</bcf:citekey>
-    <bcf:citekey order="31" intorder="3">wuNovelSeizureDetection2024</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">fujiwaraEpilepticSeizurePrediction2016</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">abtahiIdentificationRelevantECG2025</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">dongTwoLayerEnsembleMethod2022</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">abtahiIdentificationRelevantECG2025</bcf:citekey>
-    <bcf:citekey order="35" intorder="2">ghaderiAdvancesMachineLearning2025</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="36" intorder="2">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">hashashEnergyAwareDistributedEdge2021</bcf:citekey>
-    <bcf:citekey order="37" intorder="2">hixsonDigitalToolsEpilepsy2020</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">abuAlrobUnlockingNewFrontiers2025</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">fujiwaraEpilepticSeizurePrediction2016</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">lealViabilityECGFeatures2017</bcf:citekey>
+    <bcf:citekey order="29" intorder="3">ghaderiAdvancesMachineLearning2025</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">beniczkyBiomarkersSeizureSeverity2020</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">villanuevaMultimodalMinimallyInvasive2023</bcf:citekey>
+    <bcf:citekey order="30" intorder="3">wuNovelSeizureDetection2024</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">fujiwaraEpilepticSeizurePrediction2016</bcf:citekey>
+    <bcf:citekey order="32" intorder="2">abtahiIdentificationRelevantECG2025</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">dongTwoLayerEnsembleMethod2022</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">abtahiIdentificationRelevantECG2025</bcf:citekey>
+    <bcf:citekey order="34" intorder="2">ghaderiAdvancesMachineLearning2025</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
+    <bcf:citekey order="35" intorder="2">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">hashashEnergyAwareDistributedEdge2021</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">hixsonDigitalToolsEpilepsy2020</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">abuAlrobUnlockingNewFrontiers2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
