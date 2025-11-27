@@ -1138,6 +1138,76 @@
       \endverb
       \keyw{Epilepsy,Seizure detection device}
     \endentry
+    \entry{wolfHearttoWearAssessingAccuracy2024a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3f8ef554a68bcb7be9fb372fadfe629b}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bd54fcb5a17c16f2cc5865e89f1c569}{%
+           family={Seidel},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=696b74914bb7b353953a49ab450ef450}{%
+           family={Ockenga},
+           familyi={O\bibinitperiod},
+           given={Tim\bibnamedelima Alvaro},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7e6faee085bf3bfb6221126834e63b}{%
+           family={Schoder},
+           familyi={S\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a84b1f24278fbb86217a2dd3c5749503}
+      \strng{fullhash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{fullhashraw}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{bibnamehash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{authorbibnamehash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{authornamehash}{a84b1f24278fbb86217a2dd3c5749503}
+      \strng{authorfullhash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{authorfullhashraw}{19212871a7b39e35034a7566dbb0fffd}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The growing popularity of wearable devices has enabled individuals to monitor their health and offers potential benefits for remote patient monitoring. However, the reliability of diagnoses provided by these non-approved medical devices remains uncertain. This study addresses the problem of assessing the measurement accuracy of heart rate recordings from wearable devices in both controlled and uncontrolled environments. Previous research has focused on evaluating accuracy in controlled settings, neglecting the impact of external factors on device performance. We conducted a comparative study with ten healthy individuals, recording heart rates during indoor cycling and outdoor activities. Participants wore two out of three tested smartwatches (Apple Watch Ultra, Garmin Enduro 2, Polar Pacer Pro) alongside a Polar H10 chest strap as a reference device. Our findings provide evidence that the Apple Watch Ultra and the Garmin Enduro 2 are particularly resistant to external factors that can occur during regular cycling activities.}
+      \field{eprinttype}{hdl}
+      \field{eventtitle}{Hawaii {{International Conference}} on {{System Sciences}}}
+      \field{langid}{english}
+      \field{shorttitle}{Heart-to-{{Wear}}}
+      \field{title}{Heart-to-{{Wear}}: {{Assessing}} the {{Accuracy}} of {{Heart Rate Sensor Measurements}} of {{Wearable Devices}} in {{Uncontrolled Environments}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.24251/HICSS.2024.385
+      \endverb
+      \verb{eprint}
+      \verb 10125/106768
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/VJUGUCN6/Wolf et al. - 2024 - Heart-to-Wear Assessing the Accuracy of Heart Rate Sensor Measurements of Wearable Devices in Uncon.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10125/106768
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10125/106768
+      \endverb
+    \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a68488c88b246cfcc861fec5e452bfef}{%
@@ -2341,6 +2411,76 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
       \endverb
       \keyw{Epilepsy,Seizure detection device}
+    \endentry
+    \entry{wolfHearttoWearAssessingAccuracy2024a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3f8ef554a68bcb7be9fb372fadfe629b}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bd54fcb5a17c16f2cc5865e89f1c569}{%
+           family={Seidel},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=696b74914bb7b353953a49ab450ef450}{%
+           family={Ockenga},
+           familyi={O\bibinitperiod},
+           given={Tim\bibnamedelima Alvaro},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7e6faee085bf3bfb6221126834e63b}{%
+           family={Schoder},
+           familyi={S\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a84b1f24278fbb86217a2dd3c5749503}
+      \strng{fullhash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{fullhashraw}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{bibnamehash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{authorbibnamehash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{authornamehash}{a84b1f24278fbb86217a2dd3c5749503}
+      \strng{authorfullhash}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{authorfullhashraw}{19212871a7b39e35034a7566dbb0fffd}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The growing popularity of wearable devices has enabled individuals to monitor their health and offers potential benefits for remote patient monitoring. However, the reliability of diagnoses provided by these non-approved medical devices remains uncertain. This study addresses the problem of assessing the measurement accuracy of heart rate recordings from wearable devices in both controlled and uncontrolled environments. Previous research has focused on evaluating accuracy in controlled settings, neglecting the impact of external factors on device performance. We conducted a comparative study with ten healthy individuals, recording heart rates during indoor cycling and outdoor activities. Participants wore two out of three tested smartwatches (Apple Watch Ultra, Garmin Enduro 2, Polar Pacer Pro) alongside a Polar H10 chest strap as a reference device. Our findings provide evidence that the Apple Watch Ultra and the Garmin Enduro 2 are particularly resistant to external factors that can occur during regular cycling activities.}
+      \field{eprinttype}{hdl}
+      \field{eventtitle}{Hawaii {{International Conference}} on {{System Sciences}}}
+      \field{langid}{english}
+      \field{shorttitle}{Heart-to-{{Wear}}}
+      \field{title}{Heart-to-{{Wear}}: {{Assessing}} the {{Accuracy}} of {{Heart Rate Sensor Measurements}} of {{Wearable Devices}} in {{Uncontrolled Environments}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.24251/HICSS.2024.385
+      \endverb
+      \verb{eprint}
+      \verb 10125/106768
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/VJUGUCN6/Wolf et al. - 2024 - Heart-to-Wear Assessing the Accuracy of Heart Rate Sensor Measurements of Wearable Devices in Uncon.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10125/106768
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10125/106768
+      \endverb
     \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
