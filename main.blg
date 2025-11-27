@@ -1,24 +1,19 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[55] biber:342> INFO - === Di Nov 25, 2025, 11:42:00
-[67] Biber.pm:421> INFO - Reading 'main.bcf'
-[141] Biber.pm:1002> INFO - Found 39 citekeys in bib section 0
-[160] Biber.pm:4487> INFO - Processing section 0
-[167] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
-[172] bibtex.pm:1713> INFO - LaTeX decoding ...
-[279] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
-[680] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[680] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[681] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[681] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[769] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[769] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[769] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[769] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[818] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[864] bbl.pm:779> INFO - Output to main.bbl
-[864] Biber.pm:132> WARN - Possible typo (case mismatch) between citation and datasource keys: 'abuAlrobUnlockingNewFrontiers2025' and 'abualrobUnlockingNewFrontiers2025' in file 'Epilepsie.bib'
-[865] Biber.pm:132> WARN - I didn't find a database entry for 'pohWearableSeizureDetection2020' (section 0)
-[865] Biber.pm:132> WARN - I didn't find a database entry for 'fisherILAEOfficialReport2017' (section 0)
-[865] Biber.pm:132> WARN - I didn't find a database entry for 'abuAlrobUnlockingNewFrontiers2025' (section 0)
-[865] Biber.pm:134> INFO - WARNINGS: 4
+[55] biber:342> INFO - === Do Nov 27, 2025, 14:36:03
+[66] Biber.pm:421> INFO - Reading 'main.bcf'
+[132] Biber.pm:1002> INFO - Found 13 citekeys in bib section 0
+[149] Biber.pm:4487> INFO - Processing section 0
+[155] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
+[161] bibtex.pm:1713> INFO - LaTeX decoding ...
+[270] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
+[479] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[479] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[479] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[479] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[522] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[523] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[523] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[523] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[553] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[575] bbl.pm:779> INFO - Output to main.bbl

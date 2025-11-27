@@ -1,0 +1,98 @@
+\section{Introduction}
+Epilepsy is one of the most common chronic diseases of the central nervous system,
+affecting around 7.6 per 1,000 people \parencite{beghiEpidemiologyEpilepsy2019}.
+Despite this, epilepsy remains poorly understood, resulting in 30\% of patients being drug resistant
+and patients responding to the drugs report severe side effects and subsequent impacts on quality of life.
+\parencite{kwanEarlyIdentificationRefractory2000,chenNewEraPersonalised2020}.
+The prediction and detection of epileptic seizures can be helpful by enabling timely
+drug administration, the anticipation and inhibition of seizure-related accidents as well as prompt first aid responses.
+
+When treatment fails patients are at risk for sudden death of epilepsy (SUDEP), 
+as well as physical injuries related to muscle spasms and falls during seizures.
+\parencite{hesdorfferCombinedAnalysisRisk2011}.
+
+This highlights the need for reliable and acessible seizure detection and prediction methods.
+In clinical settings reliable detection and prediction has alerady been achived using EEG, however there
+is a lack of solutions for ambulatory monitoring since EEG requires bulky and obtrusive equipment \parencite{chenNewEraPersonalised2020}.
+
+The rapid introduction of wearable technology specifically regarding health monitoring,
+paired with improvements in the machine learning sector has opened up the possibility of
+dependable, accessible and affordable seizure detection and prediction in ambulatory settings.
+
+This literature review aims to consolidate the current state of research regarding seizure detection and prediction
+using wearable technology and machine learning methods to identify the most promising methods and modalities
+, give a concise overview and and highlight future directions for research in this area.
+
+\section{Technical Background}
+
+\subsection{Epileptic Seizures}
+Epileptic seizures are classified by their onset as focal (starting in a specific area of the brain)
+or generalized (affecting both hemispheres from the onset).
+\begin{enumerate}
+    \item \textbf{Focal Seizures}: Seizures are further split up into focal aware and focal impaired awareness seizures,
+    depending on whether the patient is aware during the seizure or not. and by onset features (motor vs non‑motor).
+    Focal seizures may evolve to bilateral tonic–clonic seizures.
+    \item \textbf{Generalized Seizures}: Generalized seizures begin in both cerebral hemispheres and include motor
+     (e.g. tonic–clonic, myoclonic, atonic) and non‑motor (absence) types.
+\end{enumerate}
+\parencite{fisherInstructionManualILAE2017}.
+\textbf{Note:} Tonic-clonic seizures describe a type of seizure starting with a brief tonic phase of sustained muscle contraction followed
+by a clonic phase of followed by a clonic phase of rhythmic jerking; they commonly cause loss of consciousness and carry increased risk of injury and SUDEP \parencite{hesdorfferCombinedAnalysisRisk2011}.
+
+
+
+\subsection{Wearable Technology}
+
+Wearable technology refers to electronic devices 
+(armbands, watches, chest straps) that are worn on the body,
+often equipped with sensors to monitor heart rate, acceleration, 
+respiration, skin conductance and blood pressure.
+Detection performance of wearables for generalized tonic-clonic seizures(GTCS) is already quite high, 
+due to the fact that these seizures produce large stereotyped motor patterns as well as heart-rate and EDA changes.
+Several of these devices have regulatory clearances for GTCS detection 
+\parencite{sethFeasibilityCardiacbasedSeizure2023,mironAutonomicBiosignalsSeizure2025}.
+
+However focal seizures often lack large body movements and less pronounced heart-rate and EDA,
+emphasizing the need for improved wearable seizure detection methods.
+
+\subsection{Machine Learning}
+
+Machine learning on wearable biosignals (ECG/HRV, EDA, ACC, PPG) typically frames seizure detection
+and prediction as standard classification. Classical models (e.g., SVM, RF, kNN) on HRV/EDA/ACC features 
+achieve solid detection and some prediction, but often in retrospective designs 
+\parencite{sethFeasibilityCardiacbasedSeizure2023,masonHeartRateVariability2024}. 
+
+Deep architectures (1D-CNN, LSTM) and multimodal fusion remain the most promising improving robustness and phase classification, 
+especially when combining ECG/EDA/ACC with attention/fusion layers 
+\parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025}. 
+
+ECG-focused studies add interpretable features and out-of-distribution evaluation but emphasize non-stationarity, 
+class imbalance, and scarce prospective validation as key limitations 
+\parencite{abtahiIdentificationRelevantECG2025,kalousiosECGbasedEpilepticSeizure2024}.
+
+\subsection{Patient-Specific Fine-Tuning}
+Inter-patient variability in autonomic responses and preictal dynamics is substantial; 
+the most informative features often differ by patient, which degrades population-trained models. 
+Patient-specific fine-tuning typically improves sensitivity and lowers false alarms in ambulatory, alarm-based settings 
+\parencite{andradePerformanceSeizurePrediction2024}. 
+
+\subsection{Datasets and Synthetic Data}
+Public datasets for seizure detection/prediction are largely EEG‑centric with auxiliary ECG 
+(TUH, EPILEPSIAE, RPAH, CHB‑MIT), while truly wearable multimodal corpora are scarce; 
+one of the few open non‑EEG sources is the Open Seizure Database (ACC+HR) 
+\parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025}. 
+Cross‑dataset and pseudo‑prospective evaluation across TUH→RPAH/EPILEPSIAE and across EPILEPSIAE/CHB‑MIT/AES/Epilepsy 
+Ecosystem exposes domain shift and favors alarm‑based over sample‑based metrics 
+\parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}. Given rare events, imbalance, and noisy labels, studies use augmentation (time‑warping, jitter, scaling) and synthetic data to balance preictal/ictal segments, with patient‑preserving splits and external validation to avoid device/site overfitting \parencite{kalousiosECGbasedEpilepticSeizure2024,sethFeasibilityCardiacbasedSeizure2023}.
+
+\section{Methodology}
+\begin{enumerate}
+    \item \textbf{Scope:} human studies in journals (2015--2025) on non-EEG wearable/autonomic biosignals (ECG/HRV, PPG, EDA, ACC) for seizure detection or prediction.
+    \item \textbf{Search:} Google Scholar (scoping), IEEE Xplore (all queries), PubMed and Scopus (targeted); predefined query strings; results deduplicated.
+    \item \textbf{Screening:} title/abstract screen, then full-text eligibility; backward/forward citation chasing on key papers.
+    \item \textbf{Extraction:} modality; dataset/type (wearable vs clinical); dataset name/availability; task (detection vs prediction); evaluation design (retrospective/pseudo-prospective/prospective); metrics (sensitivity, FAR/h, AUC); personalization; cohort size/class balance.
+    \item \textbf{Quality flags:} sample- vs alarm-based evaluation; patient-preserving splits; cross-dataset/external validation.
+    \item \textbf{Synthesis:} narrative grouping by modality and task with emphasis on ambulatory feasibility and edge constraints.
+\end{enumerate}
+
+\section{Overview of literature Review}
