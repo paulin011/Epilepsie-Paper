@@ -1077,6 +1077,67 @@
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
       \endverb
     \endentry
+    \entry{shumCommerciallyAvailableSeizure2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45821696eb88eadb6015dc60e7966346}{%
+           family={Shum},
+           familyi={S\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaf93b4205c6a7edb65dd7d37d050fc4}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \strng{bibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorbibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authornamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Importance Epilepsy can be associated with significant morbidity and mortality. Seizure detection devices could be invaluable tools for both people with epilepsy, their caregivers, and clinicians as they could alert caretakers about seizures, reduce the risk of sudden unexpected death in epilepsy, and provide objective and more reliable seizure tracking to guide treatment decisions or monitor outcomes in clinical trials. Objective To synthesize the characteristics of commercial seizure detection tools/devices currently available. Methods We performed a systematic search utilizing a diverse set of resources to identify commercially available seizure detection products for consumer use. Performance data was obtained through a systematic review on commercially available products. Observations We identified 23 products marketed for seizure detection/alerting. Devices utilize a variety of mechanisms to detect seizures, including movement detectors, autonomic change detectors, electroencephalogram (EEG) based detectors, and other mechanisms (audio). The optimal device for a person with epilepsy depends on a variety of factors including the main purpose of the device, their age, seizure type and personal preferences. Only 8 devices have published peer-reviewed performance data and the majority for tonic-clonic seizures. An informed conversation between the clinician and the patient can help guide if a seizure detection device is appropriate. Conclusions and relevance Seizure detection devices have a potential to reduce morbidity and mortality for certain people with epilepsy. Clinicians should be familiar with the characteristics of commercially available devices to best counsel their patients on whether a seizure detection device may be beneficial and what the optimal devices may be.}
+      \field{day}{15}
+      \field{issn}{0022-510X}
+      \field{journaltitle}{Journal of the Neurological Sciences}
+      \field{month}{9}
+      \field{shortjournal}{Journal of the Neurological Sciences}
+      \field{shorttitle}{Commercially Available Seizure Detection Devices}
+      \field{title}{Commercially Available Seizure Detection Devices: {{A}} Systematic Review}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{428}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{117611}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jns.2021.117611
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/UQVP38KQ/Shum and Friedman - 2021 - Commercially available seizure detection devices A systematic review.pdf;/home/paulin/Zotero/storage/DSIXD2PW/S0022510X21003051.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \keyw{Epilepsy,Seizure detection device}
+    \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a68488c88b246cfcc861fec5e452bfef}{%
@@ -2219,6 +2280,67 @@
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
       \endverb
+    \endentry
+    \entry{shumCommerciallyAvailableSeizure2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45821696eb88eadb6015dc60e7966346}{%
+           family={Shum},
+           familyi={S\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaf93b4205c6a7edb65dd7d37d050fc4}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{fullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \strng{bibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorbibnamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authornamehash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhash}{a143d361ec17c5a134d743fc89051115}
+      \strng{authorfullhashraw}{a143d361ec17c5a134d743fc89051115}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Importance Epilepsy can be associated with significant morbidity and mortality. Seizure detection devices could be invaluable tools for both people with epilepsy, their caregivers, and clinicians as they could alert caretakers about seizures, reduce the risk of sudden unexpected death in epilepsy, and provide objective and more reliable seizure tracking to guide treatment decisions or monitor outcomes in clinical trials. Objective To synthesize the characteristics of commercial seizure detection tools/devices currently available. Methods We performed a systematic search utilizing a diverse set of resources to identify commercially available seizure detection products for consumer use. Performance data was obtained through a systematic review on commercially available products. Observations We identified 23 products marketed for seizure detection/alerting. Devices utilize a variety of mechanisms to detect seizures, including movement detectors, autonomic change detectors, electroencephalogram (EEG) based detectors, and other mechanisms (audio). The optimal device for a person with epilepsy depends on a variety of factors including the main purpose of the device, their age, seizure type and personal preferences. Only 8 devices have published peer-reviewed performance data and the majority for tonic-clonic seizures. An informed conversation between the clinician and the patient can help guide if a seizure detection device is appropriate. Conclusions and relevance Seizure detection devices have a potential to reduce morbidity and mortality for certain people with epilepsy. Clinicians should be familiar with the characteristics of commercially available devices to best counsel their patients on whether a seizure detection device may be beneficial and what the optimal devices may be.}
+      \field{day}{15}
+      \field{issn}{0022-510X}
+      \field{journaltitle}{Journal of the Neurological Sciences}
+      \field{month}{9}
+      \field{shortjournal}{Journal of the Neurological Sciences}
+      \field{shorttitle}{Commercially Available Seizure Detection Devices}
+      \field{title}{Commercially Available Seizure Detection Devices: {{A}} Systematic Review}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{428}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{117611}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jns.2021.117611
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/UQVP38KQ/Shum and Friedman - 2021 - Commercially available seizure detection devices A systematic review.pdf;/home/paulin/Zotero/storage/DSIXD2PW/S0022510X21003051.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
+      \endverb
+      \keyw{Epilepsy,Seizure detection device}
     \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
