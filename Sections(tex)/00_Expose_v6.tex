@@ -1,0 +1,281 @@
+\title{Literature Review: Deep Learning for Seizure Detection and Prediction
+from Non-EEG Wearable Signals (2015--2025)}
+\author{Paulin Saher}
+\date{\today}
+\maketitle
+
+\section{Introduction}
+\subsection{Problem Statement and Motivation}
+Artificial intelligence (AI), particularly deep learning for time-series
+data, has enabled substantial advances in medical signal analysis,
+supporting earlier detection and continuous monitoring. Epilepsy affects
+roughly 7.6 per 1000 people and about 30\% of patients are drug
+resistant, motivating demand for timely, low-burden monitoring and early
+intervention \parencite{beghiEpidemiologyEpilepsy2019,kwanEarlyIdentificationRefractory2000,chenNewEraPersonalised2020}.
+While EEG remains the reference standard in controlled clinical settings,
+its obtrusiveness limits pervasive ambulatory use. Wearable sensing of
+autonomic and movement signals (ECG/HRV, PPG, EDA, ACC) offers the
+potential for continuous monitoring outside the clinic.
+
+Healthcare constraints sharpen modeling objectives: (i) achieving high
+sensitivity while controlling false alarms per hour (FAR/h) to avoid
+alarm fatigue; (ii) balancing performance against interpretability and
+safety requirements for regulated contexts; (iii) ensuring robustness to
+domain shift across patients, devices, sites, and activities; and (iv)
+addressing data scarcity in prospective, multimodal, patient-preserving
+designs. The seminar theme ("Trends in DL / Time Series
+Transformers") is operationalized here via a focused medical use case:
+comparing traditional feature-based models and emerging deep temporal
+architectures (1D-CNN, LSTM, TCN, attention/transformers) for seizure
+detection and preictal prediction from non-EEG wearable biosignals.
+
+The key question is which modeling and evaluation choices deliver
+clinically viable, low FAR/h, high-sensitivity performance under
+pseudo-/prospective, ambulatory conditions.
+
+\subsection{Aim and Research Questions}
+This literature review synthesizes machine and deep learning approaches
+for seizure detection and preictal prediction using non-EEG
+wearable/autonomic biosignals (ECG/HRV, PPG, EDA, ACC) reported between
+2015 and 2025, to identify design and evaluation strategies associated
+with clinically meaningful ambulatory performance.
+
+\paragraph{Primary Research Question}
+Among non-EEG wearable biosignals (ECG/HRV, PPG, EDA, ACC) from
+2015--2025, which modeling and evaluation choices yield low alarm-based
+FAR/h with high sensitivity and acceptable latency in ambulatory
+seizure detection and preictal prediction under pseudo-/prospective
+designs?
+
+\paragraph{Sub-questions}
+\begin{enumerate}
+  \item What ranges of sensitivity, FAR/h, latency (and secondary
+    metrics: AUC, F1) are reported across retrospective,
+    pseudo-prospective, and prospective designs, and how do alarm-based
+    results differ from sample-based metrics?
+  \item How do traditional feature-based models compare to deep
+    temporal architectures (1D-CNN, TCN, LSTM) and emerging
+    attention/transformer variants regarding alarm-based performance and
+    computational/latency considerations?
+  \item How do temporal parameter choices (window length, stride,
+    context length, preictal horizon) correlate with alarm-based
+    performance and latency trade-offs in real-time use?
+  \item What evidence exists for robustness to domain shift
+    (patient/device/site/activity), including cross-dataset/external
+    validation, and how do these factors affect alarm-based metrics?
+  \item Which dataset gaps (class imbalance, limited prospective
+    wearable data) are reported, and what is the measured impact of
+    augmentation or synthetic data on alarm-based outcomes without
+    introducing bias?
+  \item How do personalization strategies (calibration, threshold
+    adaptation, patient-specific fine-tuning) shift operating points
+    (sensitivity vs FAR/h) under edge constraints?
+  \item What alarm logic and thresholding designs (e.g., multi-window
+    confirmation, refractory periods) are used to minimize FAR/h while
+    preserving sensitivity and acceptable latency?
+\end{enumerate}
+
+\paragraph{Contribution}
+The review will synthesize model design levers (representation, temporal
+modeling, fusion, personalization, alarm logic) and evaluation
+practices, clarifying how they influence alarm-based performance and
+robustness, and deriving practical recommendations for achieving
+clinically meaningful low FAR/h with high sensitivity in ambulatory
+deployment.
+
+\subsection{Methodology Overview and Structure}
+The approach follows structured IS/medical literature guidance (concept
+matrix inspired by \cite{websterAnalyzingPastDetermine2002}) and PRISMA
+principles for transparent selection.
+
+\paragraph{Scope}
+Peer-reviewed human studies (journal articles, 2015--2025) using
+non-EEG wearable/autonomic signals (ECG/HRV, PPG, EDA, ACC) for
+seizure detection or preictal prediction.
+
+\paragraph{Databases and Search Strategy}
+Multi-stage search: (1) Scoping via Google Scholar to identify
+terminology and candidate papers; (2) Formal queries in IEEE Xplore,
+PubMed, and Scopus using controlled keyword strings ("epilepsy" AND
+("seizure detection" OR "prediction") AND ("ECG" OR "HRV" OR
+"PPG" OR "photoplethysmography" OR "EDA" OR "electrodermal" OR
+"accelerometer" OR "wearable") AND ("deep learning" OR "machine
+learning")) with deduplication; (3) Backward and forward citation
+chasing on key seed papers.
+
+\paragraph{Inclusion Criteria}
+Human subject data; wearable or clinical acquisition of autonomic/
+movement signals used singly or in multimodal fusion; seizure detection
+or preictal prediction tasks; reported performance metrics (at least
+sensitivity and a false-alarm measure) or sufficient methodological
+detail for extraction.
+
+\paragraph{Exclusion Criteria}
+EEG-only or invasive studies; purely algorithmic or simulation-only work
+without human data; animal-only studies; absence of seizure-related
+task; no evaluable performance metrics; non-English/German language if
+translation unavailable.
+
+\paragraph{Evaluation Focus}
+Primary: alarm-based sensitivity, FAR/h, latency. Secondary: AUC,
+F1-score, specificity, PPV where available. Preictal horizons (e.g.,
+5--60 min before onset) will be recorded when prediction tasks are
+reported.
+
+\paragraph{Screening Procedure}
+Title/abstract screening followed by full-text eligibility assessment.
+Reasons for exclusion documented. Counts summarized in a PRISMA-style
+flow diagram (to be completed post-screening).
+
+\paragraph{Data Extraction Dimensions}
+A standardized template will capture: setting (clinical vs
+ambulatory); modality (ECG/HRV, PPG, EDA, ACC); task (detection vs
+prediction); model class (feature-based, 1D-CNN, LSTM, TCN,
+transformer/attention); fusion strategy (early/feature,
+intermediate/representation, late/decision); temporal parameters
+(window length, stride, context length, preictal horizon); labeling
+policy (ictal onset definition, preictal definition); alarm logic
+(smoothing, multi-window confirmation, refractory period); personal-
+ization (calibration, threshold adaptation, patient-specific
+fine-tuning); study phase (retrospective, pseudo-prospective,
+prospective); evaluation granularity (sample- vs alarm-based); metrics
+(sensitivity, FAR/h, latency, AUC, F1, specificity, PPV); dataset
+identity and availability; cohort size and class balance; interpreta-
+bility/safety considerations; domain shift tests (cross-patient,
+device/site/activity); external/cross-dataset validation; augmentation/
+synthetic data usage; computational considerations (model size,
+on-device feasibility, energy/latency notes).
+
+\paragraph{Quality and Bias Flags}
+Patient-preserving splits (e.g., LOSO); explicit external/cross-dataset
+validation; alarm-based metric reporting; handling of class imbalance;
+transparency of preictal horizon labels; prospective or pseudo-pros-
+pective evaluation; model calibration/personalization procedure clarity.
+
+\paragraph{Synthesis}
+Narrative synthesis grouped by modality and task, integrating quantita-
+tive ranges of alarm-based metrics and mapping them to modeling choices.
+Comparative tables (concept matrix) will highlight patterns (e.g.,
+transformer use vs improvement, fusion benefits under motion/noise,
+personalization impact on FAR/h). Gaps (e.g., lack of prospective
+multi-modality datasets) and future opportunities (compact attention
+architectures, domain adaptation, uncertainty estimation) will be
+identified.
+
+\paragraph{Robustness and Generalization}
+Special attention to domain shift: patient-level variability, device
+placement differences (dominant wrist motion degrading wrist PPG/HR
+accuracy), site/activity context, and cross-dataset transfers (e.g.,
+TUH to RPAH/EPILEPSIAE) \parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}.
+Artifact and augmentation strategies (time-warping, jitter, scaling)
+and out-of-distribution (OOD) detection adoption will be cataloged
+\parencite{kalousiosECGbasedEpilepticSeizure2024,sethFeasibilityCardiacbasedSeizure2023}.
+
+\paragraph{Healthcare-Specific Considerations}
+Sensitivity vs FAR/h trade-off (alarm fatigue), interpretability
+(clinician trust, safety mechanisms), latency constraints (early
+intervention vs false positives), and regulatory suitability
+(documented reasoning, fail-safes) are cross-cutting evaluation lenses.
+
+\section{Technical Background (Clinical and Sensing Context)}
+\subsection{Epileptic Seizures (Brief Overview)}
+Seizures are classified by onset as focal (aware vs impaired awareness;
+motor vs non-motor, possibly evolving to bilateral tonic--clonic) and
+generalized (motor: tonic--clonic, myoclonic, atonic; non-motor:
+absence) \parencite{fisherInstructionManualILAE2017}. Tonic--clonic
+seizures commonly involve loss of consciousness and elevated
+injury/SUDEP risk \parencite{hesdorfferCombinedAnalysisRisk2011}.
+
+\subsection{Autonomic Markers and Wearable Sensing}
+Sympathetic activation around seizures manifests as ictal tachycardia;
+preictal heart-rate rise with reduced HRV (lower RMSSD/HF, elevated
+LF/HF); increased EDA (tonic skin conductance level and phasic
+responses); and limited ACC changes useful for artifact/context. PPG
+yields pulse-rate variability analogous to HRV from ECG
+\parencite{mironAutonomicBiosignalsSeizure2025,masonHeartRateVariability2024}.
+Wearable heart-rate sensing aligns closely with chest-strap ECG under
+motion (e.g., reported high concordance for consumer vs chest-strap
+devices), though dominant-wrist motion degrades accuracy; chest-strap
+ECG provides robust RR intervals during exercise
+\parencite{wolfHearttoWearAssessingAccuracy2024a}.
+
+\section{Modeling Landscape and Design Dimensions}
+Classical pipelines (handcrafted HRV, EDA, ACC features with SVM, RF,
+kNN) remain competitive in retrospective data
+\parencite{sethFeasibilityCardiacbasedSeizure2023,masonHeartRateVariability2024}.
+Deep temporal models (1D-CNN, LSTM, TCN) often improve phase
+discrimination; attention and transformer variants are being explored
+\parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025,abtahiIdentificationRelevantECG2025,kalousiosECGbasedEpilepticSeizure2024}.
+Fusion across ECG, EDA, ACC, and PPG at feature, representation, or
+decision level aims to exploit complementary autonomic and motion cues
+under noise/non-stationarity \parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025}.
+Personalization (patient-specific fine-tuning, threshold calibration)
+can shift operating points toward lower FAR/h without substantial
+sensitivity loss \parencite{andradePerformanceSeizurePrediction2024}.
+Robustness evaluation via cross-dataset transfer emphasizes alarm-
+over sample-based metrics \parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}.
+Artifact handling, augmentation (time-warping, jitter, scaling), and
+OOD detection support generalization
+\parencite{kalousiosECGbasedEpilepticSeizure2024,sethFeasibilityCardiacbasedSeizure2023}.
+Deployment constraints (latency, energy, memory) motivate compact
+sequence models and event-driven alarm logic with clear, explainable
+rationales.
+
+\section*{Provisional Table of Contents (\~15 Pages Text)}
+\begin{enumerate}
+  \item Introduction (Problem \& Motivation) -- 1.0 p
+  \item Aim and Research Questions -- 0.5 p
+  \item Methodology (search, selection, extraction, concept matrix,
+    PRISMA overview) -- 1.0 p
+  \item Technical Background (seizure taxonomy; autonomic markers;
+    sensing accuracy) -- 1.0 p
+  \item Modeling Landscape (features vs DL; CNN/LSTM/TCN;
+    attention/transformers; fusion; personalization; robustness; alarm
+    logic; deployment) -- 5--6 p
+  \item Results (concept matrix; comparative ranges; modality/model
+    comparison; temporal \& personalization effects) -- 3--4 p
+  \item Discussion (trade-offs: sensitivity vs FAR/h; robustness;
+    interpretability; deployment feasibility) -- 1.5--2 p
+  \item Limitations and Future Work -- 0.5--1 p
+  \item Conclusion -- 0.5 p
+\end{enumerate}
+
+\section*{Planned Output and Next Steps}
+Next steps: finalize search strings; execute database queries; dedupli-
+cate; complete PRISMA counts; populate extraction template; build
+concept matrix; perform narrative synthesis and comparative analysis;
+draft results and discussion sections.
+
+\section*{Notation and Terminology Consistency}
+Alarm-based metrics refer to event-level evaluation (alarms per hour,
+latency, sensitivity). Sample-based metrics refer to per-window/predic-
+tion classification accuracy. FAR/h = false alarms per hour. Patient-
+preserving splits avoid leakage of subject-specific patterns.
+
+\section*{Expected Contributions}
+1) Consolidated mapping of modeling choices to alarm-based performance
+for non-EEG wearable seizure tasks. 2) Identification of effective
+personalization and fusion strategies under ambulatory constraints. 3)
+Clarification of evaluation practices (retrospective vs pseudo-/prospec-
+tive) and robustness gaps. 4) Recommendations for future architec-
+tures (efficient attention, domain adaptation) and dataset needs
+(prospective multimodal wearable corpora).
+
+\section*{Limitations (Anticipated)}
+Potential variability in metric definitions (e.g., differing preictal
+horizons, alarm confirmation logic) may hinder strict quantitative
+aggregation; reliance on published summaries may limit access to raw
+performance distributions; scarcity of prospective transformer-based
+wearable studies may constrain conclusions about attention benefits.
+
+\section*{Ethical and Safety Considerations}
+High sensitivity is critical for patient safety, but minimizing FAR/h
+reduces burden and anxiety; interpretability and transparent alarm
+rationale support clinician trust; personalization must avoid overfit-
+ting that could degrade generalization in unseen contexts.
+
+\section*{Conclusion (Preview)}
+The review will integrate technical modeling trends in time-series deep
+learning with clinical seizure monitoring needs, aiming to distill
+design principles for low-burden, robust, and interpretable wearable
+seizure detection and prediction systems.
