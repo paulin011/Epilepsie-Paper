@@ -1,0 +1,149 @@
+\section{Introduction}
+
+\subsection{Problem Statement and Motivation}
+% [REVISION: Adjusted to Supervisor's 'Funnel' structure: AI -> Epilepsy -> Context]
+
+% 1. Broad Context: AI in Medicine
+Artificial intelligence (AI) has made substantial advances in medical
+signal analysis over the last decade, enabling new possibilities for
+continuous monitoring and early diagnostics. Deep learning, in
+particular, has shifted the paradigm from manual feature engineering to
+automated representation learning, showing high efficacy in
+interpreting complex physiological time-series data. These technological
+strides offer a pathway to support clinical decision-making and
+automate patient monitoring in real-time environments.
+
+% 2. Specific Application: Epilepsy
+A critical application domain for these technologies is epilepsy, a
+neurological disorder affecting roughly 7.6 per 1,000 people globally
+\parencite{beghiEpidemiologyEpilepsy2019}. With approximately 30\%
+of patients being drug-resistant, there is an urgent demand for timely,
+low-burden monitoring systems that can facilitate early
+intervention \parencite{kwanEarlyIdentificationRefractory2000}. While
+Electroencephalography (EEG) remains the gold standard for seizure
+detection in controlled clinical settings, its hardware is too
+obtrusive for long-term pervasive use in daily life.
+
+% 3. The Gap/Challenge: Clinic vs. Ambulatory & EEG vs. Non-EEG
+This creates a divergence between clinical feasibility and ambulatory
+needs. Wearable devices measuring non-EEG autonomic biosignals—such as
+heart rate (ECG/PPG), electrodermal activity (EDA), and
+accelerometry (ACC)—have emerged as a patient-friendly alternative.
+However, applying deep learning to these signals introduces distinct
+challenges regarding reliability. The central problem is
+differentiating between the high-precision requirements of clinical
+diagnostics and the high-sensitivity, low-false-alarm requirements
+necessary for ambulatory safety.
+
+\subsection{Research Aim and Questions}
+The aim of this literature review is to analyze machine and deep
+learning models for seizure detection and prediction using non-EEG
+wearable biosignals. Specifically, it seeks to identify which modeling
+strategies perform optimally in ambulatory scenarios compared to
+controlled clinical environments.
+
+\subsubsection{Primary Research Question}
+In non-EEG wearable seizure detection and prediction
+(ECG/HRV, PPG, EDA, ACC), which modeling and evaluation choices
+reported in 2015--2025 are associated with clinically viable
+performance (low false-alarm rates and high sensitivity) in ambulatory
+settings?
+
+\subsubsection{Sub-questions}
+\begin{enumerate}
+  \item What ranges of sensitivity, FAR/h, and latency are reported under
+    retrospective, pseudo-prospective, and prospective designs?
+  \item How do traditional feature-based models compare to deep temporal
+    architectures (1D-CNN, LSTM, TCN, Transformers) regarding
+    computational load and latency?
+  \item What evidence exists regarding robustness to domain shift
+    (patient/device variability) and how do studies address the
+    "Black Box" interpretability vs. performance trade-off?
+\end{enumerate}
+
+\subsection{Methodological Approach and Structure}
+This review follows structured literature review guidance according to
+\cite{websterAnalyzingPastDetermine2002} and adheres to PRISMA principles
+for transparent reporting.
+
+The search strategy targets the period 2015--2025 using a multi-stage
+approach:
+\begin{enumerate}
+  \item \textbf{Database Search:} Structured queries in IEEE Xplore,
+    PubMed, and Scopus to identify peer-reviewed studies on wearable
+    seizure detection.
+  \item \textbf{Screening:} A two-phase screening (title/abstract and
+    full-text) to exclude EEG-only studies and purely simulation-based
+    papers.
+  \item \textbf{Analysis:} Extracted literature will be synthesized
+    using a concept matrix to categorize studies by model
+    architecture, study phase (clinical vs. ambulatory), and
+    evaluation metrics.
+\end{enumerate}
+
+\section{Theoretical Background and Clinical Concepts}
+
+% [REVISION: Added this section to address Supervisor's point on "Healthcare specifics"]
+\subsection{Clinical Deployment Requirements}
+Deploying AI in healthcare requires balancing competing performance
+metrics. In epilepsy monitoring, \textbf{sensitivity} (detecting all
+seizures to ensure safety) must be weighed against \textbf{precision}
+(minimizing false alarms). In a clinical ward, high sensitivity is
+prioritized as medical staff can verify alarms. In ambulatory (home)
+settings, however, a high False Alarm Rate (FAR) causes "alarm
+fatigue," rendering the device useless for the patient.
+
+Furthermore, the "Black Box" nature of deep learning poses safety
+challenges. Unlike traditional decision trees, deep neural networks
+often lack transparency. For clinical acceptance, systems generally
+require explainability to support, rather than replace, physician
+judgment.
+
+\subsection{Epileptic Seizures and Physiology}
+Epileptic seizures are classified by onset as focal or generalized
+\parencite{fisherInstructionManualILAE2017}. While EEG captures the
+electrical brain onset, the autonomic nervous system provides surrogate
+markers. Sympathetic activation manifests as ictal tachycardia,
+reduced Heart Rate Variability (HRV), and increased Electrodermal
+Activity (EDA), which serve as the inputs for the models reviewed in
+this work.
+
+\section{Modeling Landscape and Design Dimensions}
+(This section remains as previously drafted, focusing on CNN/LSTM/TCN,
+Fusion, and Personalization...)
+
+\newpage
+\section*{Provisional Table of Contents}
+\textit{Target Length: Approx. 15 Pages of Text}
+
+\begin{enumerate}
+  \item **Introduction** (approx. 2.5 pages)
+    \begin{itemize}
+      \item 1.1 Problem Statement and Motivation (AI advances $\rightarrow$ Epilepsy context)
+      \item 1.2 Aim and Research Questions
+      \item 1.3 Methodological Approach (Webster \& Watson / PRISMA)
+    \end{itemize}
+    
+  \item **Theoretical Background and Clinical Concepts** (approx. 2.5 pages)
+    \begin{itemize}
+      \item 2.1 Epilepsy and Autonomic Biosignals (EEG vs. Non-EEG)
+      \item 2.2 Clinical Performance Requirements (Sensitivity vs. Precision, FAR/h)
+      \item 2.3 Safety, Interpretability, and the "Black Box" Problem
+      \item 2.4 Study Phases: Retrospective vs. Prospective
+    \end{itemize}
+    
+  \item **Modeling Landscape** (approx. 6 pages)
+    \begin{itemize}
+      \item 3.1 Feature Engineering vs. Deep Learning (CNN/LSTM/TCN/Transformers)
+      \item 3.2 Sensor Modalities and Fusion Strategies
+      \item 3.3 Personalization and Domain Shift
+    \end{itemize}
+    
+  \item **Results and Discussion** (approx. 3 pages)
+    \begin{itemize}
+      \item 4.1 Comparative Performance (Clinical vs. Ambulatory)
+      \item 4.2 Trade-offs: Complexity vs. Latency
+    \end{itemize}
+    
+  \item **Conclusion and Future Work** (approx. 1 page)
+\end{enumerate}

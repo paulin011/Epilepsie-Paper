@@ -85,23 +85,25 @@ principles). The methodological approach uses a multi‑stage search and
 transparent extraction/synthesis procedures as outlined below.
 
 \begin{enumerate}
-  \item \textbf{Search strategy (multi‑stage, 2015--2025):}
+  \item \textbf{Search strategy (Multi-stage, 2015--2025):}
     \begin{itemize}
-      \item Scoping: Google Scholar for broad coverage and identifying
-        candidate papers.
-      \item Formal queries: IEEE Xplore, PubMed, and Scopus using
-        controlled keyword strings and deduplication.
-      \item Citation chasing: backward and forward citation tracking on
-        key papers to ensure completeness.
+      \item \textit{Scoping:} Google Scholar for broad coverage and
+        identifying candidate papers.
+      \item \textit{Formal queries:} IEEE Xplore, PubMed, and Scopus
+        using controlled keyword strings and deduplication.
+      \item \textit{Citation chasing:} Backward and forward citation
+        tracking on key papers to ensure completeness.
     \end{itemize}
   \item \textbf{Inclusion / Exclusion criteria:}
     \begin{itemize}
-      \item Inclusion: studies using wearable/non‑EEG autonomic
+      \item \textit{Inclusion:} Studies using wearable/non-EEG autonomic
         signals for seizure detection or preictal prediction.
-      \item Exclusion: EEG‑only studies, invasive recordings, or papers
-        limited to purely algorithmic simulations without human data.
+      \item \textit{Exclusion:} EEG-only studies, invasive recordings,
+        or papers limited to purely algorithmic simulations without
+        human data.
     \end{itemize}
 \end{enumerate}
+
 
 Extracted dimensions populate a concept matrix with the following
 fields:
@@ -121,12 +123,62 @@ fields:
   \item Inference requirements (latency, computational load, hardware).
 \end{enumerate}
 
-\noindent\textbf{Quality flags:} 
+\noindent\textbf{Prioritization Criteria:} 
 Studies including splits preserving patient specific data, FAR/h reporting 
-and external or cross validation will be prefered. A PRISMA-style flow diagram
+and external or cross validation will be prioritized in the synthesis. A PRISMA-style flow diagram
 will summarize and visualize screening and inclusion.
 
+\section{Provisional Table of Contents}
+\textit{Target Length: Approx. 15 Pages of Text}
+
+\begin{enumerate}
+  \item **Introduction** (approx. 2.5 pages)
+    \begin{itemize}
+      \item 1.1 Problem Statement and Motivation (AI advances $\rightarrow$ Epilepsy context)
+      \item 1.2 Aim and Research Questions
+      \item 1.3 Methodological Approach (Webster \& Watson / PRISMA)
+    \end{itemize}
+    
+  \item **Theoretical Background and Clinical Concepts** (approx. 2.5 pages)
+    \begin{itemize}
+      \item 2.1 Epilepsy and Autonomic Biosignals (EEG vs. Non-EEG)
+      \item 2.2 Clinical Performance Requirements (Sensitivity vs. Precision, FAR/h)
+      \item 2.3 Safety, Interpretability, and the "Black Box" Problem
+      \item 2.4 Study Phases: Retrospective vs. Prospective
+    \end{itemize}
+    
+  \item **Modeling Landscape** (approx. 6 pages)
+    \begin{itemize}
+      \item 3.1 Feature Engineering vs. Deep Learning (CNN/LSTM/TCN/Transformers)
+      \item 3.2 Sensor Modalities and Fusion Strategies
+      \item 3.3 Personalization and Domain Shift
+    \end{itemize}
+    
+  \item **Results and Discussion** (approx. 3 pages)
+    \begin{itemize}
+      \item 4.1 Comparative Performance (Clinical vs. Ambulatory)
+      \item 4.2 Trade-offs: Complexity vs. Latency
+    \end{itemize}
+    
+  \item **Conclusion and Future Work** (approx. 1 page)
+\end{enumerate}
+
 \section{Theoretical Background and Concepts}
+
+\subsection{Clinical Deployment Requirements}
+Deploying AI in healthcare requires balancing competing performance
+metrics. In epilepsy monitoring, sensitivity (detecting all
+seizures to ensure safety) must be weighed against precision
+(minimizing false alarms). In a clinical ward, high sensitivity is
+prioritized as medical staff can verify alarms. In ambulatory (home)
+settings, however, a high False Alarm Rate (FAR) causes "alarm
+fatigue," rendering the device useless for the patient.
+
+Furthermore, the "Black Box" nature of deep learning poses safety
+challenges. Unlike traditional decision trees, deep neural networks
+often lack transparency. For clinical acceptance, systems generally
+require explainability to support, rather than replace, physician
+judgment and ensure regulatory compliance.
 
 \subsection{Epileptic seizures}
 
@@ -188,21 +240,3 @@ Deployment constraints bring attention to latency and energy. Compact
 sequence models and event\-driven processing reduce burden, and clear
 alarm rationales support safe clinical use.
 
-\section*{Provisional Table of Contents (\~15 Pages Text)}
-\begin{enumerate}
-  \item Introduction (Problem \& Motivation) -- 1.0 p
-  \item Aim and Research Questions -- 0.5 p
-  \item Methodology (search, selection, extraction, concept matrix,
-    PRISMA overview) -- 1.0 p
-  \item Technical Background (seizure taxonomy; autonomic markers;
-    sensing accuracy) -- 1.0 p
-  \item Modeling Landscape (features vs DL; CNN/LSTM/TCN;
-    attention/transformers; fusion; personalization; robustness; alarm
-    logic; deployment) -- 5--6 p
-  \item Results (concept matrix; comparative ranges; modality/model
-    comparison; temporal \& personalization effects) -- 3--4 p
-  \item Discussion (trade-offs: sensitivity vs FAR/h; robustness;
-    interpretability; deployment feasibility) -- 1.5--2 p
-  \item Limitations and Future Work -- 0.5--1 p
-  \item Conclusion -- 0.5 p
-\end{enumerate}
