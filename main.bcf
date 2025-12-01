@@ -166,7 +166,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>ngerman</bcf:value>
+      <bcf:value>english</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
@@ -3075,9 +3075,7 @@
     <bcf:citekey order="2" intorder="2">chenNewEraPersonalised2020</bcf:citekey>
     <bcf:citekey order="3" intorder="1">hesdorfferCombinedAnalysisRisk2011</bcf:citekey>
     <bcf:citekey order="4" intorder="1">chenNewEraPersonalised2020</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">shumCommerciallyAvailableSeizure2021</bcf:citekey>
-    <bcf:citekey order="5" intorder="2">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
-    <bcf:citekey order="5" intorder="3">mironAutonomicBiosignalsSeizure2025</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">websterAnalyzingPastDetermine2002</bcf:citekey>
     <bcf:citekey order="6" intorder="1">fisherInstructionManualILAE2017</bcf:citekey>
     <bcf:citekey order="7" intorder="1">hesdorfferCombinedAnalysisRisk2011</bcf:citekey>
     <bcf:citekey order="8" intorder="1">mironAutonomicBiosignalsSeizure2025</bcf:citekey>

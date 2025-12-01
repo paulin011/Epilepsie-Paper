@@ -2,16 +2,16 @@
 
 % Pakete
 
-\usepackage[main=ngerman, provide=*]{babel} % Deutsche Spracheinstellungen
-\usepackage[T1]{fontenc}    % T1 Schriftkodierung#
-\usepackage[utf8]{inputenc} % UTF-8 Eingabekodierung
-\usepackage{lmodern}       % Latin Modern Schriftart
-\usepackage{csquotes}     % Anführungszeichen
-\usepackage{graphicx}  % Grafiken einbinden
-\usepackage{amsmath}     % Erweiterte mathematische Symbole
-\usepackage{amssymb}     % Weitere mathematische Symbole
-\usepackage{xcolor}      % Für Farben
-\usepackage{geometry}    % Seitenränder anpassen
+\usepackage[main=english, provide=*]{babel} % English language settings
+\usepackage[T1]{fontenc}    % T1 font encoding#
+\usepackage[utf8]{inputenc} % UTF-8 input encoding
+\usepackage{lmodern}       % Latin Modern font
+\usepackage{csquotes}     % Quotation marks
+\usepackage{graphicx}  % Include graphics
+\usepackage{amsmath}     % Enhanced mathematical symbols
+\usepackage{amssymb}     % More mathematical symbols
+\usepackage{xcolor}      % For colors
+\usepackage{geometry}    % Adjust margins
 \usepackage[colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=blue,pdfborder={0 0 0}]{hyperref}   % Subtle hyperlinks
 
 \geometry{
@@ -33,7 +33,7 @@
   url=true,
   eprint=false
 ]{biblatex}
-\DeclareLanguageMapping{ngerman}{ngerman-apa}
+\DeclareLanguageMapping{english}{english-apa}
 
 % Make DOIs and URLs clickable
 \DeclareFieldFormat{doi}{%
@@ -52,7 +52,7 @@
 
 \addbibresource{Epilepsie.bib}
 
-\title{Exposé: Machine Learning for Prediction and Detection of Epileptic Seizures Using ECG and Other Non-Invasive Sensor Data}
+\title{Literature Review on Machine Learning for Seizure Detection and Prediction Using Non-EEG Wearable Biosignals}
 \author{Paulin Saher\\Universität zu Köln}
 \date{\today}
 
@@ -63,7 +63,8 @@
 \tableofcontents
 
 % Exposé der Seminararbeit
-\input{Sections(tex)/00_Expose_v3.tex}
+% Use correct path and extension (remove duplicate .tex and avoid parentheses in folder name)
+\input{Sections(tex)/00_Expose_v4.tex}
 
 
 
