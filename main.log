@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  1 DEC 2025 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  1 DEC 2025 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,49 +749,103 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (./Sections(tex)/00_Expose_v4.tex
+ (./Sections(tex)/00_Expose_v5.tex
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 32.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 28.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+Overfull \hbox (21.44643pt too wide) in paragraph at lines 30--32
+[]\T1/lmr/m/n/12 Robustness and gen-er-al-iza-tion: han-dling mo-tion ar-ti-facts, phys-i-o-log-i-cal non[]stationarity,
+ []
+
+
+Overfull \hbox (11.58752pt too wide) in paragraph at lines 37--40
+[]\T1/lmr/m/n/12 Data lim-i-ta-tions: scarce prospec-tive, patient[]preserving, mul-ti-modal wear-able datasets
+ []
+
+
+Overfull \hbox (8.08328pt too wide) in paragraph at lines 61--65
+\T1/lmr/m/n/12 Alarm[]based sen-si-tiv-ity, false alarms per hour (FAR/h), and la-tency bet-ter re-flect real[]world
+ []
+
+
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (33.33336pt too wide) in paragraph at lines 84--88
+[]\T1/lmr/m/n/12 Across stud-ies, how do tra-di-tional feature[]based mod-els com-pare to 1D[]CNN/TCN/LSTM,
+ []
 
-LaTeX Warning: Citation 'websterAnalyzingPastDetermine2002' on page 3 undefined on input line 80.
+
+Overfull \hbox (13.83734pt too wide) in paragraph at lines 90--93
+[]\T1/lmr/m/n/12 What ev-i-dence is avail-able on ro-bust-ness to do-main shift (pa-tient/device/site/activity),
+ []
+
+
+LaTeX Warning: Citation 'websterAnalyzingPastDetermine2002' on page 3 undefined on input line 107.
 
 
 
 [3]
+Overfull \hbox (4.25267pt too wide) in paragraph at lines 123--125
+[]\T1/lmr/m/n/12 Inclusion: hu-man stud-ies us-ing wearable/non[]EEG au-to-nomic sig-nals for seizure
+ []
+
+
+Overfull \hbox (59.02257pt too wide) in paragraph at lines 169--173
+\T1/lmr/m/n/12 Feature[], decision[], and representation[]level fu-sion can ex-ploit com-ple-men-tary ECG/EDA/ACC/PPG
+ []
+
+
 
 [4]
-Overfull \hbox (25.43079pt too wide) in paragraph at lines 200--203
-\T1/lmr/m/n/12 ing, im-prov-ing ro-bust-ness and phase clas-si-fi-ca-tion, es-pe-cially when com-bin-ing ECG/EDA/ACC
+Overfull \hbox (16.7557pt too wide) in paragraph at lines 175--180
+\T1/lmr/m/n/12 Inter[]patient vari-abil-ity de-grades pop-u-la-tion mod-els; patient[]specific fine[]tuning and post[]hoc
+ []
+
+
+Overfull \hbox (23.6091pt too wide) in paragraph at lines 190--194
+\T1/lmr/m/n/12 On[]device in-fer-ence re-quires la-tency/energy aware-ness; com-pact ar-chi-tec-tures and event[]driven
+ []
+
+
+Overfull \hbox (2.36304pt too wide) in paragraph at lines 195--195
+[]\T1/lmr/bx/n/17.28 Technical back-ground (clin-i-cal and sens-ing con-text) 
  []
 
 
 
 [5]
-Overfull \hbox (10.77254pt too wide) in paragraph at lines 232--233
+Overfull \hbox (10.77254pt too wide) in paragraph at lines 227--232
 \T1/lmr/m/n/12 vs pre-dic-tion), eval-u-a-tion de-sign (retrospective/pseudo[]prospective/prospective), met-
  []
 
 
-Overfull \hbox (73.54564pt too wide) in paragraph at lines 233--234
-[]\T1/lmr/bx/n/12 Quality flags: \T1/lmr/m/n/12 sample[]vs alarm[]based eval-u-a-tion; patient[]preserving splits; cross[]dataset/external
+Overfull \hbox (76.15671pt too wide) in paragraph at lines 232--234
+[]\T1/lmr/bx/n/12 Quality flags: \T1/lmr/m/n/12 sample[] vs alarm[]based eval-u-a-tion; patient[]preserving splits; cross[]dataset/external
  []
 
 
-Overfull \hbox (22.53809pt too wide) in paragraph at lines 250--251
-[]\T1/lmr/bx/n/12 Tasks: \T1/lmr/m/n/12 seizure de-tec-tion vs pre-dic-tion; win-dow-ing and la-bel-ing con-ven-tions; alarm[]based
+Overfull \hbox (39.0975pt too wide) in paragraph at lines 240--244
+[]\T1/lmr/m/n/12 Which wear-able biosig-nals (ECG/HRV, EDA, ACC, PPG) and model classes (feature[]based,
  []
 
 
+Overfull \hbox (75.59134pt too wide) in paragraph at lines 244--247
+[]\T1/lmr/m/n/12 What per-for-mance gains arise from patient[]specific adap-ta-tion, and how can calibration/fine[]tuning
+ []
 
-[6])
+
+Overfull \hbox (7.90646pt too wide) in paragraph at lines 252--254
+[]\T1/lmr/m/n/12 What dataset gaps ex-ist for non[]EEG wear-ables, and how can aug-men-ta-tion/synthetic
+ []
+
+)
+
+[6]
 
 [7]
 
@@ -801,24 +855,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8E4E08B2D1311B25CE239E2B8FE31B45;3541.
+(rerunfilecheck)             Checksum: 3299ACC83D07575330275A58F967437C;4231.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21042 strings out of 475118
- 366818 string characters out of 5764901
- 1321372 words of memory out of 5000000
- 43723 multiletter control sequences out of 15000+600000
+ 21048 strings out of 475118
+ 366868 string characters out of 5764901
+ 1322377 words of memory out of 5000000
+ 43724 multiletter control sequences out of 15000+600000
  612662 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,81p,3069b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (8 pages, 163811 bytes).
+Output written on main.pdf (8 pages, 162346 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
