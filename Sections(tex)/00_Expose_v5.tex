@@ -4,7 +4,7 @@
 
 Artificial intelligence (AI) and, in particular, deep learning have enabled substantial advances in
 medical signal analysis, supporting early detection, and continuous monitoring.
-The focus of this Literature review is on time‑series deep learning models (CNN/LSTM/TCN)
+The focus of this Literature review is on time‑series deep learning models (1D-CNN/LSTM/TCN)
 applied to wearable seizure detection/prediction using
 non‑EEG wearable/autonomic biosignals (ECG/HRV, PPG, EDA, ACC). A key focus will be on
 how the inclusion of time series data into the context of the model,
@@ -33,7 +33,7 @@ detection and preictal prediction from non-EEG wearable biosignals.
 
 The key question is which modeling and evaluation choices deliver
 clinically viable, low FAR/h, high-sensitivity performance under
-pseudo-/prospective, ambulatory conditions.
+pseudo-prospective and prospective, ambulatory conditions.
 
 Cross‑dataset transfer is essential to assess robustness and domain
 shift \parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}.
@@ -128,7 +128,7 @@ Studies including splits preserving patient specific data, FAR/h reporting
 and external or cross validation will be prioritized in the synthesis. A PRISMA-style flow diagram
 will summarize and visualize screening and inclusion.
 
-\section{Provisional Table of Contents}
+\subsection{Provisional Table of Contents}
 \textit{Target Length: Approx. 15 Pages of Text}
 
 \begin{enumerate}
@@ -136,7 +136,7 @@ will summarize and visualize screening and inclusion.
     \begin{itemize}
       \item 1.1 Problem Statement and Motivation (AI advances $\rightarrow$ Epilepsy context)
       \item 1.2 Aim and Research Questions
-      \item 1.3 Methodological Approach (Webster \& Watson / PRISMA)
+      \item 1.3 Methodological Approach and Structure (Webster \& Watson / PRISMA)
     \end{itemize}
     
   \item **Theoretical Background and Clinical Concepts** (approx. 2.5 pages)
@@ -149,7 +149,7 @@ will summarize and visualize screening and inclusion.
     
   \item **Modeling Landscape** (approx. 6 pages)
     \begin{itemize}
-      \item 3.1 Feature Engineering vs. Deep Learning (CNN/LSTM/TCN/Transformers)
+      \item 3.1 Feature Engineering vs. Deep Learning (1D-CNN/LSTM/TCN/Transformers)
       \item 3.2 Sensor Modalities and Fusion Strategies
       \item 3.3 Personalization and Domain Shift
     \end{itemize}
@@ -163,7 +163,7 @@ will summarize and visualize screening and inclusion.
   \item **Conclusion and Future Work** (approx. 1 page)
 \end{enumerate}
 
-\section{Theoretical Background and Concepts}
+\section{Theoretical Background and Clinical Concepts}
 
 \subsection{Clinical Deployment Requirements}
 Deploying AI in healthcare requires balancing competing performance
@@ -180,7 +180,7 @@ often lack transparency. For clinical acceptance, systems generally
 require explainability to support, rather than replace, physician
 judgment and ensure regulatory compliance.
 
-\subsection{Epileptic seizures}
+\subsection{Seizure classification and clinical implications}
 
 Epileptic seizures are classified by their onset as focal (starting in a specific area of the brain)
 or generalized (affecting both hemispheres from the onset).
@@ -203,40 +203,60 @@ useful for artifacts/context.
 PPG yields pulse‑rate variability analogous to HRV from ECG
 \parencite{mironAutonomicBiosignalsSeizure2025,masonHeartRateVariability2024}. 
 Wearable heart‑rate sensing aligns closely with chest‑strap ECG under motion (e.g., Apple Watch
-Ultra/Polar H10 concordance \textasciitilde0.998), though dominant‑wrist
+Ultra/Polar H10 concordance $\sim$0.998), though dominant‑wrist
 motion degrades accuracy. Chest‑strap ECG provides robust RR intervals
 during exercise \parencite{wolfHearttoWearAssessingAccuracy2024a}.
 
+\subsection{Study Phases: Retrospective vs. Pseudo-Prospective vs. Prospective}
+Retrospective studies use pre-recorded, data allowing researchers full look-ahead. 
+Pseudo-prospective designs simulate real-time performance by processing data sequentially without future knowledge, 
+offering a more realistic performance measure. Finally, prospective studies collect and 
+process data in true real-time, representing the highest standard for clinical validity and 
+the scenario in which alarm-based metrics (FAR/h) are most critical.
 
-\section{Modeling landscape and design dimensions}
+\section{Modeling Landscape and Design Dimensions}
 
 Detection and preictal prediction from ECG/HRV, PPG, EDA, and ACC are
-framed by windowing, labeling, and alarm logic, with alarm‑based
+framed by windowing, labeling, and alarm logic, with alarm-based
 sensitivity, FAR/h, and latency as the outcomes used in the research
-questions. Classical pipelines with HRV, EDA, and ACC features and SVM,
-RF, or kNN remain competitive in retrospective settings
-\parencite{sethFeasibilityCardiacbasedSeizure2023,masonHeartRateVariability2024}.
-Deep temporal models such as 1D‑CNN, LSTM, and TCN often improve phase
-discrimination, and attention variants are being explored on these
-signals \parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025,abtahiIdentificationRelevantECG2025,kalousiosECGbasedEpilepticSeizure2024}.
-This links to the question of how feature\-based models compare to deep
-models and whether attention adds value under ambulatory, alarm\-based
-evaluation. Fusion across ECG, EDA, ACC, and PPG at feature, decision, or
-representation level seeks complementary cues and is relevant to
-maintaining performance under noise and non\-stationarity
-\parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025}.
-Patient\-specific fine\-tuning and post\-hoc calibration shift the
-operating point toward lower FAR/h and higher sensitivity in ambulatory
-use \parencite{andradePerformanceSeizurePrediction2024}. Thresholding and
-periodic recalibration are commonly used to handle drift. Robustness
-requires explicit checks of domain shift across patient, device, site,
-and activity. Cross\-dataset evaluation, for example TUH to RPAH or
-EPILEPSIAE, exposes this shift and favors alarm\- over sample\-based
-metrics \parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}.
-Artifact handling, augmentation through time\-warping, jitter, or
-scaling, and OOD detection support generalization
-\parencite{kalousiosECGbasedEpilepticSeizure2024,sethFeasibilityCardiacbasedSeizure2023}.
-Deployment constraints bring attention to latency and energy. Compact
-sequence models and event\-driven processing reduce burden, and clear
-alarm rationales support safe clinical use.
+questions.
 
+\subsection{Architectural Evolution}
+Classical pipelines utilizing HRV, EDA, and ACC features combined with
+SVM, RF, or kNN remain competitive in retrospective settings
+\parencite{sethFeasibilityCardiacbasedSeizure2023,masonHeartRateVariability2024}.
+However, deep temporal models such as 1D-CNN, LSTM, and TCN often
+improve phase discrimination. Recently, attention variants and
+Transformers are being explored on these signals
+\parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025,
+abtahiIdentificationRelevantECG2025,kalousiosECGbasedEpilepticSeizure2024}.
+A key inquiry of this review is determining how feature-based models
+compare to deep models and whether attention mechanisms add distinct
+value under ambulatory, alarm-based evaluation.
+
+\subsection{Fusion and Personalization}
+Fusion across ECG, EDA, ACC, and PPG at the feature, decision, or
+representation level seeks complementary cues and is relevant to
+maintaining performance under noise and non-stationarity
+\parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025}.
+Additionally, patient-specific fine-tuning and post-hoc calibration
+shift the operating point toward lower FAR/h and higher sensitivity in
+ambulatory use \parencite{andradePerformanceSeizurePrediction2024}.
+Thresholding and periodic recalibration are commonly used to handle
+drift.
+
+\subsection{Robustness and Generalization}
+Robustness requires explicit checks of domain shift across patient,
+device, site, and activity. Cross-dataset evaluation (e.g., training
+on TUH and testing on RPAH or EPILEPSIAE) exposes this shift and favors
+alarm-based over sample-based metrics
+\parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}.
+Artifact handling, augmentation through time-warping, jitter, or
+scaling, and Out-of-Distribution (OOD) detection support
+generalization \parencite{kalousiosECGbasedEpilepticSeizure2024,
+sethFeasibilityCardiacbasedSeizure2023}.
+
+\subsection{Deployment Constraints}
+Finally, deployment constraints bring attention to latency and energy
+consumption. Compact sequence models and event-driven processing
+reduce burden, while clear alarm rationales support safe clinical use.
