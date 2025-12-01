@@ -4,13 +4,12 @@
 
 Artificial intelligence (AI) and, in particular, deep learning have enabled substantial advances in
 medical signal analysis, supporting early detection, and continuous monitoring.
-
-The focus of this Literature review is on time‑series deep learning (CNN/LSTM/TCN/attention/transformers) 
+The focus of this Literature review is on time‑series deep learning models (CNN/LSTM/TCN)
 applied to wearable seizure detection/prediction using
 non‑EEG wearable/autonomic biosignals (ECG/HRV, PPG, EDA, ACC). A key focus will be on
 how the inclusion of time series data into the context of the model,
 novel deep learning architectures, training strategies, and personalized fine tuning can improve performance
-(sensitivity, false alarms per hour (FAR/h), latency) in clinical and ambulatory contexts.
+(sensitivity, AUC, f1-score, false alarms per hour (FAR/h), latency) in clinical and ambulatory contexts.
 
 Epilepsy affects roughly 7.6 per 1,000 people and about 30\% of
 patients are drug resistant, motivating demand for timely, low‑burden
@@ -20,13 +19,14 @@ While EEG remains the reference in controlled settings, EEG hardware
 is obtrusive for pervasive use. Wearables offer the possibility of
 continuous monitoring in ambulatory settings \parencite{chenNewEraPersonalised2020}. 
 
-Healthcare constraints sharpen modeling objectives: (i) achieving high
-sensitivity while controlling false alarms per hour (FAR/h) to avoid
-alarm fatigue; (ii) balancing performance against interpretability and
-safety requirements for regulated contexts; (iii) ensuring robustness to
-domain shift across patients, devices, sites, and activities; and (iv)
-addressing data scarcity in prospective, multimodal, patient-preserving
-designs. The generalized topic of time-series deep-learning models is operationalized here via a focused medical use case:
+Healthcare constraints sharpen modeling objectives. 
+Models must achieve high sensitivity while controlling false alarms per hour (FAR/h) to avoid alarm fatigue. 
+They must also balance predictive performance with interpretability and safety requirements demanded in regulated clinical contexts. 
+Robustness to domain shift across patients, devices, sites, and activities is required, 
+and evaluations should address data scarcity by prioritizing prospective, multimodal, patient-preserving study designs.
+
+The generalized topic of time-series deep-learning models 
+is operationalized here via a focused medical use case:
 comparing traditional feature-based models and emerging deep temporal
 architectures (1D-CNN, LSTM, TCN, attention/transformers) for seizure
 detection and preictal prediction from non-EEG wearable biosignals.
@@ -112,27 +112,59 @@ fields:
   \item Model class and fusion strategy.
   \item Study phase: retrospective, pseudo‑prospective, prospective.
   \item Evaluation granularity: sample‑ vs alarm‑based.
+  \item Windowing specifics (window length, stride, overlap).
   \item Metrics: sensitivity, FAR/h, AUC, f1-score, latency.
   \item Personalization.
   \item Interpretability and safety considerations.
   \item Data characteristics and dataset identity.
+  \item Missing data handling (imputation, exclusion) and synthetic data use.
+  \item Inference requirements (latency, computational load, hardware).
 \end{enumerate}
 
-\noindent\textbf{Quality flags:} patient‑preserving splits; external/
-cross‑dataset validation; and FAR/h reporting. A PRISMA‑style flow
-diagram will summarize screening and inclusion. Synthesis is narrative,
-grouped by modality and task, with emphasis on model design levers and
-deployment feasibility.
+\noindent\textbf{Quality flags:} 
+Studies including splits preserving patient specific data, FAR/h reporting 
+and external or cross validation will be prefered. A PRISMA-style flow diagram
+will summarize and visualize screening and inclusion.
+
+\section{Theoretical Background and Concepts}
+
+\subsection{Epileptic seizures}
+
+Epileptic seizures are classified by their onset as focal (starting in a specific area of the brain)
+or generalized (affecting both hemispheres from the onset).
+
+Focal seizures are further split up into focal aware and focal impaired awareness seizures,
+depending on whether the patient is aware during the seizure or not, and by onset features (motor vs non‑motor).
+Focal seizures may evolve to bilateral tonic–clonic seizures.
+
+Generalized seizures begin in both cerebral hemispheres and include motor
+(e.g. tonic–clonic, myoclonic, atonic) and non‑motor (absence) types
+\parencite{fisherInstructionManualILAE2017}. 
+Tonic–clonic seizures commonly cause loss of consciousness and carry increased
+injury/SUDEP risk \parencite{hesdorfferCombinedAnalysisRisk2011}.
+
+\subsection{Autonomic markers and wearable sensing}
+Sympathetic activation around seizures manifests as ictal tachycardia,
+preictal HR rise with reduced HRV (lower RMSSD/HF, higher LF/HF),
+increased EDA (tonic SCL, phasic SCRs), and limited ACC changes
+useful for artifacts/context. 
+PPG yields pulse‑rate variability analogous to HRV from ECG
+\parencite{mironAutonomicBiosignalsSeizure2025,masonHeartRateVariability2024}. 
+Wearable heart‑rate sensing aligns closely with chest‑strap ECG under motion (e.g., Apple Watch
+Ultra/Polar H10 concordance \textasciitilde0.998), though dominant‑wrist
+motion degrades accuracy. Chest‑strap ECG provides robust RR intervals
+during exercise \parencite{wolfHearttoWearAssessingAccuracy2024a}.
+
 
 \section{Modeling landscape and design dimensions}
 
 Detection and preictal prediction from ECG/HRV, PPG, EDA, and ACC are
-framed by windowing, labeling, and alarm logic, with alarm\-based
+framed by windowing, labeling, and alarm logic, with alarm‑based
 sensitivity, FAR/h, and latency as the outcomes used in the research
 questions. Classical pipelines with HRV, EDA, and ACC features and SVM,
 RF, or kNN remain competitive in retrospective settings
 \parencite{sethFeasibilityCardiacbasedSeizure2023,masonHeartRateVariability2024}.
-Deep temporal models such as 1D\-CNN, LSTM, and TCN often improve phase
+Deep temporal models such as 1D‑CNN, LSTM, and TCN often improve phase
 discrimination, and attention variants are being explored on these
 signals \parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025,abtahiIdentificationRelevantECG2025,kalousiosECGbasedEpilepticSeizure2024}.
 This links to the question of how feature\-based models compare to deep
@@ -155,49 +187,6 @@ scaling, and OOD detection support generalization
 Deployment constraints bring attention to latency and energy. Compact
 sequence models and event\-driven processing reduce burden, and clear
 alarm rationales support safe clinical use.
-
-\section{Technical background (clinical and sensing context)}
-
-\subsection{Epileptic seizures}
-Seizures are classified by onset as focal (aware vs impaired
-awareness; motor vs non‑motor, may evolve to bilateral tonic–clonic)
-and generalized (motor: tonic–clonic, myoclonic, atonic; non‑motor:
-absence) \parencite{fisherInstructionManualILAE2017}. Tonic–clonic
-seizures commonly cause loss of consciousness and carry increased
-injury/SUDEP risk \parencite{hesdorfferCombinedAnalysisRisk2011}.
-
-\subsection{Autonomic markers and wearable sensing}
-Sympathetic activation around seizures manifests as ictal tachycardia,
-preictal HR rise with reduced HRV (lower RMSSD/HF, higher LF/HF),
-increased EDA (tonic SCL, phasic SCRs), and limited ACC changes
-useful for artifacts/context. PPG yields pulse‑rate variability
-analogous to HRV from ECG \parencite{mironAutonomicBiosignalsSeizure2025,
-masonHeartRateVariability2024}. Wearable heart‑rate sensing aligns
-closely with chest‑strap ECG under motion (e.g., Apple Watch
-Ultra/Polar H10 concordance \textasciitilde0.998), though dominant‑wrist
-motion degrades accuracy; chest‑strap ECG provides robust RR intervals
-during exercise \parencite{wolfHearttoWearAssessingAccuracy2024a}.
-
-\section{Methodology}
-\begin{enumerate}
-  \item \textbf{Scope:} human studies in journals (2015--2025) on
-    non‑EEG wearable/autonomic biosignals (ECG/HRV, PPG, EDA, ACC)
-    for seizure detection or prediction.
-  \item \textbf{Search:} Google Scholar (scoping), IEEE Xplore (all
-    queries), PubMed and Scopus (targeted) using predefined query
-    strings and deduplication.
-  \item \textbf{Screening:} title/abstract screen, then full‑text
-    eligibility; backward/forward citation chasing on key papers.
-  \item \textbf{Extraction:} dataset type (wearable vs clinical), name,
-    availability, task (detection vs prediction), evaluation design
-    (retrospective/pseudo‑prospective/prospective), metrics
-    (sensitivity, FAR/h, AUC, latency), personalization, cohort size/
-    class balance.
-  \item \textbf{Quality flags:} sample‑ vs alarm‑based evaluation;
-    patient‑preserving splits; cross‑dataset/external validation.
-  \item \textbf{Synthesis:} narrative grouping by modality and task with
-    emphasis on modeling design levers and ambulatory feasibility.
-\end{enumerate}
 
 \section*{Provisional Table of Contents (\~15 Pages Text)}
 \begin{enumerate}
