@@ -80,7 +80,7 @@ ambulatory deployment.
 
 \subsection{Methodological Approach and Structure}
 The review follows structured IS/medical literature guidance (concept
-matrix inspired by \cite{websterAnalyzingPastDetermine2002} and PRISMA
+matrix inspired by \parencite{websterAnalyzingPastDetermine2002} and PRISMA
 principles). The methodological approach uses a multi‑stage search and
 transparent extraction/synthesis procedures as outlined below.
 
@@ -222,7 +222,7 @@ often lack transparency. For clinical acceptance, systems generally
 require explainability to support, rather than replace, physician
 judgment and ensure regulatory compliance.
 
-\subsection{Seizure classification and clinical implications}
+\subsection{Seizure Classification and Clinical Implications}
 
 Epileptic seizures are classified by their onset as focal (starting in a specific area of the brain)
 or generalized (affecting both hemispheres from the onset).
@@ -237,7 +237,7 @@ Generalized seizures begin in both cerebral hemispheres and include motor
 Tonic–clonic seizures commonly cause loss of consciousness and carry increased
 injury/SUDEP risk \parencite{hesdorfferCombinedAnalysisRisk2011}.
 
-\subsection{Autonomic markers and wearable sensing}
+\subsection{Autonomic Markers and Wearable Sensing}
 Sympathetic activation around seizures manifests as ictal tachycardia,
 preictal HR rise with reduced HRV (lower RMSSD/HF, higher LF/HF),
 increased EDA (tonic SCL, phasic SCRs), and limited ACC changes
@@ -250,7 +250,7 @@ motion degrades accuracy. Chest‑strap ECG provides robust RR intervals
 during exercise \parencite{wolfHearttoWearAssessingAccuracy2024a}.
 
 \subsection{Study Phases: Retrospective vs. Pseudo-Prospective vs. Prospective}
-Retrospective studies use pre-recorded, data allowing researchers full look-ahead. 
+Retrospective studies use pre-recorded data allowing researchers full look-ahead. 
 Pseudo-prospective designs simulate real-time performance by processing data sequentially without future knowledge, 
 offering a more realistic performance measure. Finally, prospective studies collect and 
 process data in true real-time, representing the highest standard for clinical validity and 
@@ -263,7 +263,7 @@ framed by windowing, labeling, and alarm logic, with alarm-based
 sensitivity, FAR/h, and latency as the outcomes used in the research
 questions.
 
-\subsection{Architectural Evolution}
+\subsection{Architectural Evolution: Feature Engineering vs. Deep Learning}
 Classical pipelines utilizing HRV, EDA, and ACC features combined with
 SVM, RF, or kNN remain competitive in retrospective settings
 \parencite{sethFeasibilityCardiacbasedSeizure2023,masonHeartRateVariability2024}.
@@ -276,12 +276,14 @@ A key inquiry of this review is determining how feature-based models
 compare to deep models and whether attention mechanisms add distinct
 value under ambulatory, alarm-based evaluation.
 
-\subsection{Fusion and Personalization}
+\subsection{Sensor Modalities and Fusion Strategies}
 Fusion across ECG, EDA, ACC, and PPG at the feature, decision, or
 representation level seeks complementary cues and is relevant to
 maintaining performance under noise and non-stationarity
 \parencite{yangMultimodalAISystem2022,pordoyEnhancedNonEEGMultimodal2025}.
-Additionally, patient-specific fine-tuning and post-hoc calibration
+
+\subsection{Personalization and Domain Shift}
+Patient-specific fine-tuning and post-hoc calibration
 shift the operating point toward lower FAR/h and higher sensitivity in
 ambulatory use \parencite{andradePerformanceSeizurePrediction2024}.
 Thresholding and periodic recalibration are commonly used to handle
@@ -298,7 +300,7 @@ scaling, and Out-of-Distribution (OOD) detection support
 generalization \parencite{kalousiosECGbasedEpilepticSeizure2024,
 sethFeasibilityCardiacbasedSeizure2023}.
 
-\subsection{Deployment Constraints}
+\subsection{Deployment Constraints: Latency, Energy, and Interpretability}
 Finally, deployment constraints bring attention to latency and energy
 consumption. Compact sequence models and event-driven processing
 reduce burden, while clear alarm rationales support safe clinical use.
