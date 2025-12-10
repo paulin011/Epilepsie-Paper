@@ -1,0 +1,48 @@
+\section{Theoretical Background and Clinical Concepts}
+
+\subsection{Clinical Deployment Requirements}
+In epilepsy monitoring, sensitivity (detecting all
+seizures to ensure safety) must be weighed against precision
+(minimizing false alarms). In a clinical ward, high sensitivity is
+prioritized as medical staff can verify alarms. In ambulatory (home)
+settings, however, a high FAR/h causes "alarm
+fatigue," rendering the device useless for the patient.
+
+Finally, the "Black Box" nature of deep learning poses safety
+challenges. Unlike decision trees or logistic regression, deep neural networks
+often lack transparency. For clinical acceptance, systems generally
+require explainability to support physician judgment and meet regulatory requirements.
+
+\subsection{Seizure Classification and Clinical Implications}
+
+Epileptic seizures are classified by their onset as focal (starting in a specific area of the brain)
+or generalized (affecting both hemispheres from the onset).
+
+Focal seizures are further subdivided into focal aware and focal impaired awareness seizures,
+depending on whether the patient is aware during the seizure or not, and by onset features (motor vs non‑motor).
+Focal seizures may evolve to bilateral tonic–clonic seizures.
+
+Generalized seizures begin in both cerebral hemispheres and include motor
+(e.g. tonic–clonic, myoclonic, atonic) and non‑motor (absence) types
+\parencite{fisherInstructionManualILAE2017}. 
+Tonic–clonic seizures commonly cause loss of consciousness and carry increased
+injury and SUDEP (Sudden Unexpected Death in Epilepsy) risk \parencite{hesdorfferCombinedAnalysisRisk2011}.
+
+\subsection{Autonomic Markers and Wearable Sensing}
+Sympathetic activation around seizures manifests as ictal tachycardia,
+preictal HR rise with reduced HRV (lower RMSSD/HF, higher LF/HF),
+increased EDA (tonic SCL, phasic SCRs), and limited ACC changes
+useful for artifacts/context. 
+PPG yields pulse‑rate variability analogous to HRV from ECG
+\parencite{mironAutonomicBiosignalsSeizure2025,masonHeartRateVariability2024}. 
+Wearable heart‑rate sensing aligns closely with chest‑strap ECG under motion (e.g., Apple Watch
+Ultra/Polar H10 concordance $\sim$0.998), though dominant‑wrist
+motion degrades accuracy. Chest‑strap ECG provides robust RR intervals
+during exercise \parencite{wolfHearttoWearAssessingAccuracy2024a}.
+
+\subsection{Study Phases: Retrospective vs. Pseudo-Prospective vs. Prospective}
+Retrospective studies use pre-recorded data, giving the model access to the full dataset including future samples. 
+Pseudo-prospective designs simulate real-time performance by processing data sequentially without future knowledge, 
+providing a more realistic performance estimate. Prospective studies collect and 
+process data in true real-time, representing the highest standard for clinical validity and 
+the scenario in which alarm-based metrics (FAR/h) matter most.

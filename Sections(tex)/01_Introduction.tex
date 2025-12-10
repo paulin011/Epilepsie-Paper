@@ -1,0 +1,81 @@
+\section{Introduction}
+
+\subsection{Problem Statement and Motivation}
+
+Artificial intelligence (AI) and deep learning have made significant improvements regarding
+fast and reliable decision making on a large set of information.
+This ability is esppeccialy helpful when trying to detect specific patterns
+The focus of this literature review is on time‑series deep learning models (1D-CNN/LSTM/TCN)
+applied to wearable seizure detection/prediction using
+non‑EEG wearable/autonomic biosignals: Electrocardiography (ECG), Heart Rate Variability (HRV), 
+Photoplethysmography (PPG), Electrodermal Activity (EDA), and Accelerometry (ACC).
+Extended temporal context, novel deep learning architectures, training strategies, 
+and personalized fine-tuning can improve performance metrics
+(sensitivity, AUC, f1-score, false alarms per hour (FAR/h), latency) in clinical and ambulatory contexts.
+
+Epilepsy affects roughly 7.6 per 1,000 people and about 30\% of
+patients are drug-resistant, creating demand for timely, low‑burden
+monitoring and early intervention \parencite{beghiEpidemiologyEpilepsy2019,
+kwanEarlyIdentificationRefractory2000,chenNewEraPersonalised2020}.
+While EEG remains the reference in controlled settings, 
+it is bulky, uncomfortable, and requires complex setup, and therefore not suitable for ambulatory monitoring.
+Wearables offer the possibility of
+continuous monitoring in ambulatory settings \parencite{chenNewEraPersonalised2020}.
+
+Healthcare constraints directly affect modeling objectives. 
+Models must achieve high sensitivity while controlling false alarms per hour (FAR/h) to avoid alarm fatigue. 
+They must also balance predictive performance with interpretability and safety requirements demanded in regulated clinical contexts. 
+Robustness to domain shift across patients, devices, sites, and activities is required, 
+and evaluations should address data scarcity by prioritizing prospective, multimodal, patient-preserving study designs.
+
+This review covers time-series deep learning approaches to a focused medical use case,
+comparing traditional feature-based models and emerging deep temporal
+architectures (1D-CNN, LSTM, TCN, attention/transformers) for seizure
+detection and preictal prediction from non-EEG wearable biosignals.
+
+The key question is which modeling and evaluation choices deliver
+clinically viable, low FAR/h, high-sensitivity performance under
+pseudo-prospective and prospective, ambulatory conditions.
+
+Cross‑dataset transfer is essential to assess robustness and domain
+shift \parencite{yangMultimodalAISystem2022,andradePerformanceSeizurePrediction2024}.
+
+\subsection{Research Aim and Questions}
+This literature review focuses on machine/deep learning models for seizure detection and prediction
+using non-EEG wearable/autonomic biosignals, and aims to identify the optimal strategies to achieve clinically
+meaningful performance in ambulatory contexts.
+
+\vspace{0.5em}
+
+\subsubsection{Primary Research Question}
+In non‑EEG wearable seizure detection and prediction
+(ECG/HRV, PPG, EDA, ACC), which modeling and evaluation choices
+reported in 2015--2025 are associated with low alarm‑based false‑alarm
+rates and high sensitivity with acceptable latency in ambulatory
+settings?
+
+\subsubsection{Sub‑questions}
+\begin{enumerate}
+  \item What ranges of sensitivity, FAR/h, and latency are reported
+    under retrospective, pseudo‑prospective, and prospective designs,
+    and how do alarm‑based results differ from sample‑based metrics?
+  \item Across studies, how do traditional feature‑based models compare
+    to 1D‑CNN/TCN/LSTM, and what evidence exists for attention/
+    transformer variants on these signals, including any reported
+    computational/latency considerations?
+  \item How do temporal choices (window length, stride, context length)
+    correlate with reported alarm‑based performance in real‑time use?
+  \item What evidence is available on robustness to domain shift
+    (patient/device/site/activity), including cross‑dataset/external
+    validation and how do these affect alarm‑based metrics?
+  \item What dataset gaps and class imbalance issues are reported, and
+    what is the measured impact of augmentation or synthetic data on
+    alarm‑based outcomes?
+\end{enumerate}
+
+\vspace{0.5em}
+\noindent\textit{Contribution.} 
+The goal is to synthesize model designs for wearable seizure detection/prediction, 
+analyze how evaluation choices affect reported performance and derive practical
+recommendations to achieve low FAR/h while keeping high sensitivity in
+ambulatory deployment.
