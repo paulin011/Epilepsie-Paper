@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  10 DEC 2025 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  15 DEC 2025 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,47 +741,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (./Sections(tex)/01_Introduction.tex
+ (./Sections(tex)/01_introduction3.tex
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-Overfull \hbox (4.14774pt too wide) in paragraph at lines 16--24
-\T1/lmr/m/n/12 resistant, cre-at-ing de-mand for timely, low[]burden mon-i-tor-ing and early in-ter-ven-tion ([][]Beghi,
- []
-
-
-Overfull \hbox (33.33336pt too wide) in paragraph at lines 62--66
-[]\T1/lmr/m/n/12 Across stud-ies, how do tra-di-tional feature[]based mod-els com-pare to 1D[]CNN/TCN/LSTM,
- []
-
-
-
-[2]
-Overfull \hbox (13.83734pt too wide) in paragraph at lines 68--71
-[]\T1/lmr/m/n/12 What ev-i-dence is avail-able on ro-bust-ness to do-main shift (pa-tient/device/site/activity),
- []
-
-) (./Sections(tex)/02_Methods.tex
-Overfull \hbox (24.48412pt too wide) in paragraph at lines 77--1
-\T1/lmr/m/it/12 Contribution. \T1/lmr/m/n/12 The goal is to syn-the-size model de-signs for wear-able seizure de-tec-tion/prediction,
- []
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]) (./Sections(tex)/02_Methods.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11.
-(/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+ (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+[2{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 Overfull \hbox (0.7735pt too wide) in paragraph at lines 47--51
 \T1/lmr/bx/n/12 Prioritization Cri-te-ria: \T1/lmr/m/n/12 Stud-ies in-clud-ing splits pre-serv-ing patient-specific data, FAR/h
  []
 
 
 
-[4]) (./Sections(tex)/03_Background.tex
+[3]) (./Sections(tex)/03_Background.tex
 
-[5]
+[4]
 Overfull \hbox (29.02232pt too wide) in paragraph at lines 25--30
 []\T1/lmr/m/n/12 Generalized seizures be-gin in both cere-bral hemi-spheres and in-clude mo-tor (e.g. tonic^^Uclonic,
  []
@@ -793,7 +772,7 @@ Overfull \hbox (15.27206pt too wide) in paragraph at lines 8--8
 
 
 
-[6{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 Overfull \hbox (1.56148pt too wide) in paragraph at lines 35--44
 \T1/lmr/m/n/12 ter, or scal-ing, and Out-of-Distribution (OOD) de-tec-tion sup-port gen-er-al-iza-tion ([][]Kalousios
  []
@@ -805,34 +784,34 @@ Overfull \hbox (8.54063pt too wide) in paragraph at lines 45--45
 
 )
 
+[6]
+
 [7]
 
-[8]
-
-[9] (./main.aux)
+[8] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 61E2E818701CE7B10C2637FA6682D553;4515.
+(rerunfilecheck)             Checksum: BC3CEE490C6A8E50AE8C0C5988328173;3983.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21059 strings out of 475118
- 367717 string characters out of 5764901
- 1323440 words of memory out of 5000000
- 43736 multiletter control sequences out of 15000+600000
+ 21046 strings out of 475118
+ 367496 string characters out of 5764901
+ 1323311 words of memory out of 5000000
+ 43732 multiletter control sequences out of 15000+600000
  612662 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,81p,3069b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (9 pages, 171249 bytes).
+Output written on main.pdf (8 pages, 166333 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

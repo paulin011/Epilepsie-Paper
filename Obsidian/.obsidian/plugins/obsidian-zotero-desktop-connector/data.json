@@ -13,6 +13,14 @@
   ],
   "exportFormats": [
     {
+      "name": "ImportStolen",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "stolenTemplate.md",
+      "cslStyle": "norsk-apa-manual"
+    },
+    {
       "name": "Import sorted by col",
       "outputPathTemplate": "{{citekey}}.md",
       "imageOutputPathTemplate": "{{citekey}}/",

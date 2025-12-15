@@ -151,154 +151,6 @@
       \endverb
       \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
     \endentry
-    \entry{beghiEpidemiologyEpilepsy2019}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=33988d45e91eaee38793b6e3fa52cd03}{%
-           family={Beghi},
-           familyi={B\bibinitperiod},
-           given={Ettore},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{fullhash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{fullhashraw}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{bibnamehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authorbibnamehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authornamehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authorfullhash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authorfullhashraw}{33988d45e91eaee38793b6e3fa52cd03}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Epilepsy is a chronic disease of the brain characterized by an enduring (i.e., persisting) predisposition to generate seizures, unprovoked by any immediate central nervous system insult, and by the neurobiologic, cognitive, psychological, and social consequences of seizure recurrences. Epilepsy affects both sexes and all ages with worldwide distribution. The prevalence and the incidence of epilepsy are slightly higher in men compared to women and tend to peak in the elderly, reflecting the higher frequency of stroke, neurodegenerative diseases, and tumors in this age-group. Focal seizures are more common than generalized seizures both in children and in adults. The etiology of epilepsy varies according to the sociodemographic characteristics of the affected populations and the extent of the diagnostic workup, but a documented cause is still lacking in about 50\% of cases from high-income countries (HIC). The overall prognosis of epilepsy is favorable in the majority of patients when measured by seizure freedom. Reports from low/middle-income countries (LMIC; where patients with epilepsy are largely untreated) give prevalence and remission rates that overlap those of HICs. As the incidence of epilepsy appears higher in most LMICs, the overlapping prevalence can be explained by misdiagnosis, acute symptomatic seizures and premature mortality. Studies have consistently shown that about one-half of cases tend to achieve prolonged seizure remission. However, more recent reports on the long-term prognosis of epilepsy have identified differing prognostic patterns, including early and late remission, a relapsing-remitting course, and even a worsening course (characterized by remission followed by relapse and unremitting seizures). Epilepsy per se carries a low mortality risk, but significant differences in mortality rates are expected when comparing incidence and prevalence studies, children and adults, and persons with idiopathic and symptomatic seizures. Sudden unexplained death is most frequent in people with generalized tonic-clonic seizures, nocturnal seizures, and drug refractory epilepsy.}
-      \field{day}{18}
-      \field{issn}{0251-5350}
-      \field{journaltitle}{Neuroepidemiology}
-      \field{month}{12}
-      \field{number}{2}
-      \field{shortjournal}{Neuroepidemiology}
-      \field{title}{The {{Epidemiology}} of {{Epilepsy}}}
-      \field{urlday}{18}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{54}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{185\bibrangedash 191}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1159/000503831
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/8G4UPN7C/Beghi - 2019 - The Epidemiology of Epilepsy.pdf;/home/paulin/Zotero/storage/CZAVNQCP/000503831.html
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1159/000503831
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1159/000503831
-      \endverb
-    \endentry
-    \entry{chenNewEraPersonalised2020}{article}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=a0bbb12cc2fc5322876f5f283f7c0119}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Zhibin},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2a95b8da98080004d2c65b6d8239a02f}{%
-           family={Rollo},
-           familyi={R\bibinitperiod},
-           given={Ben},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a5b0841dfac621eba7cb3ed348bba98}{%
-           family={Antonic-Baker},
-           familyi={A\bibinithyphendelim B\bibinitperiod},
-           given={Ana},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d316d0889c3424bb3e373d494821bfaf}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={Alison},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=096cc771da5bdfab214e79497caab737}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Yuanlin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=de158de10f6562f82209d9d39e56dd3b}{%
-           family={O’Brien},
-           familyi={O\bibinitperiod},
-           given={Terence\bibnamedelima J.},
-           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dbfc282073c3c0a824d475bb3e3dfca4}{%
-           family={Ge},
-           familyi={G\bibinitperiod},
-           given={Zongyuan},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c516694a48f9d44630214dd75cc4658b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xuefeng},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
-           family={Kwan},
-           familyi={K\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {British Medical Journal Publishing Group}%
-      }
-      \strng{namehash}{05d4bc95d973db3e776b55dd9a4025f6}
-      \strng{fullhash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{fullhashraw}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{bibnamehash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{authorbibnamehash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{authornamehash}{05d4bc95d973db3e776b55dd9a4025f6}
-      \strng{authorfullhash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{authorfullhashraw}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{bmj}
-      \field{title}{New Era of Personalised Epilepsy Management}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{371}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/XMJFACML/Chen et al. - 2020 - New era of personalised epilepsy management.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.bmj.com/content/371/bmj.m3658.long
-      \endverb
-      \verb{url}
-      \verb https://www.bmj.com/content/371/bmj.m3658.long
-      \endverb
-    \endentry
     \entry{fisherInstructionManualILAE2017}{article}{}{}
       \name{author}{18}{}{%
         {{un=0,uniquepart=base,hash=bf0da4cc0257c6d4772c0a57ba754c6d}{%
@@ -565,6 +417,100 @@
       \endverb
       \keyw{Case–control study,Epilepsy,SUDEP}
     \endentry
+    \entry{husseinFocalNonFocalEpilepsy2018}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=6c4040f79f53a8513acf34a9b880cbb2}{%
+           family={Hussein},
+           familyi={H\bibinitperiod},
+           given={Ahmed\bibnamedelima Faeq},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a660e1d64316e07a4ca62145e5170292}{%
+           family={Arunkumar},
+           familyi={A\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8313f676fb88e47d5bc58965bd6fcf4e}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Chandima},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca8d56c18c8b37a51c82db25403edfa6}{%
+           family={Alzubaidi},
+           familyi={A\bibinitperiod},
+           given={Abbas\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d28a063be2e0279b81de84dd678435}{%
+           family={Habash},
+           familyi={H\bibinitperiod},
+           given={Qais\bibnamedelima Ahmed},
+           giveni={Q\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6143e038ea29464b36452ec3de4f46a}{%
+           family={Santamaria-Granados},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a4ced8146f58ba74fd1030fa8062f54}{%
+           family={Mendoza-Moreno},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Juan\bibnamedelima Francisco},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a7d2dffe8cb51c48a89efe029d13250}{%
+           family={Ramirez-Gonzalez},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc4b98f95e679a9953e92c183972dbb2}
+      \strng{fullhash}{8703d070cd017464ffb0658010695fee}
+      \strng{fullhashraw}{8703d070cd017464ffb0658010695fee}
+      \strng{bibnamehash}{8703d070cd017464ffb0658010695fee}
+      \strng{authorbibnamehash}{8703d070cd017464ffb0658010695fee}
+      \strng{authornamehash}{fc4b98f95e679a9953e92c183972dbb2}
+      \strng{authorfullhash}{8703d070cd017464ffb0658010695fee}
+      \strng{authorfullhashraw}{8703d070cd017464ffb0658010695fee}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The focal and non-focal epilepsy is seen to be a chronic neurological brain disorder, which has affected \textbackslash approx 60 million people in the world. Hence, an early detection of the focal epileptic seizures can be carried out using the EEG signals, which act as a helpful tool for early diagnosis of epilepsy. Several EEG-based approaches have been proposed and developed to understand the underlying characteristics of the epileptic seizures. Despite the fact that the early results were positive, the proposed techniques cannot generate reproducible results and lack a statistical validation, which has led to doubts regarding the presence of the pre-ictal state. Various methodical and algorithmic studies have indicated that the transition to an ictal state is not a random process, and the build-up can lead to epileptic seizures. This study reviews many recently-proposed algorithms for detecting the focal epileptic seizures. Generally, the techniques developed for detecting the epileptic seizures were based on tensors, entropy, empirical mode decomposition, wavelet transform and dynamic analysis. The existing algorithms were compared and the need for implementing a practical and reliable new algorithm is highlighted. The research regarding the epileptic seizure detection research is more focused on the development of precise and non-invasive techniques for rapid and reliable diagnosis. Finally, the researchers noted that all the methods that were developed for epileptic seizure detection lacks standardization, which hinders the homogeneous comparison of the detector performance.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{shorttitle}{Focal and {{Non-Focal Epilepsy Localization}}}
+      \field{title}{Focal and {{Non-Focal Epilepsy Localization}}: {{A Review}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{49306\bibrangedash 49324}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2867078
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/T7YE5YMH/Hussein et al. - 2018 - Focal and Non-Focal Epilepsy Localization A Review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8445554/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8445554/
+      \endverb
+      \keyw{EEG signal analysis,Electroencephalography,Epilepsy,Feature extraction,Focal epilepsy,Heuristic algorithms,machine learning algorithms,Machine learning algorithms,Medical diagnostic imaging,non-focal epilepsy,nonlinear features,time and frequency domain features}
+    \endentry
     \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=1c624f185db136434c5a4f0da3c3a18a}{%
@@ -664,66 +610,6 @@
       \endverb
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
-      \endverb
-    \endentry
-    \entry{kwanEarlyIdentificationRefractory2000}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
-           family={Kwan},
-           familyi={K\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=112be47b7baaddb02f1a2741bad22c3a}{%
-           family={Brodie},
-           familyi={B\bibinitperiod},
-           given={Martin\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{fullhash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{fullhashraw}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{bibnamehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authorbibnamehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authornamehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authorfullhash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authorfullhashraw}{a81b74836480aadb09e7270e3fcc17ac}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{3}
-      \field{issn}{0028-4793, 1533-4406}
-      \field{journaltitle}{New England Journal of Medicine}
-      \field{langid}{english}
-      \field{month}{2}
-      \field{number}{5}
-      \field{shortjournal}{N Engl J Med}
-      \field{title}{Early {{Identification}} of {{Refractory Epilepsy}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{342}
-      \field{year}{2000}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{314\bibrangedash 319}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1056/NEJM200002033420503
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/96B9H6ID/Kwan and Brodie - 2000 - Early Identification of Refractory Epilepsy.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nejm.org/doi/abs/10.1056/NEJM200002033420503
-      \endverb
-      \verb{url}
-      \verb http://www.nejm.org/doi/abs/10.1056/NEJM200002033420503
       \endverb
     \endentry
     \entry{masonHeartRateVariability2024}{article}{}{}
@@ -1075,6 +961,85 @@
       \endverb
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
+      \endverb
+    \endentry
+    \entry{sveinssonClinicalRiskFactors2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8c5232d5794487cff77d32889315e3b0}{%
+           family={Sveinsson},
+           familyi={S\bibinitperiod},
+           given={Olafur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=874dc15e6600730b57e385077c64dd78}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94bafed79650b7795f5e74d808b1f0d0}{%
+           family={Mattsson},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ea7994b32486e2ab55d6eb3e08e1c65}{%
+           family={Carlsson},
+           familyi={C\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d041258b9e0eb0a582cc7ca701efad6d}{%
+           family={Tomson},
+           familyi={T\bibinitperiod},
+           given={Torbjörn},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wolters Kluwer}%
+      }
+      \strng{namehash}{826af3e71effdf94280a554f64f7db1c}
+      \strng{fullhash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{fullhashraw}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{bibnamehash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{authorbibnamehash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{authornamehash}{826af3e71effdf94280a554f64f7db1c}
+      \strng{authorfullhash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{authorfullhashraw}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective We conducted a nationwide case-control study in Sweden to test the hypothesis that specific clinical characteristics are associated with increased risk of sudden unexpected death in epilepsy (SUDEP). Methods The study included 255 SUDEP cases (definite and probable) and 1,148 matched controls. Clinical information was obtained from medical records and the National Patient Register. The association between SUDEP and potential risk factors was assessed by odds ratios (ORs) and 95\% confidence intervals (CIs) and interaction assessed by attributable proportion due to interaction (AP). Results Experiencing generalized tonic-clonic seizures (GTCS) during the preceding year was associated with a 27-fold increased risk (OR 26.81, 95\% CI 14.86–48.38), whereas no excess risk was seen in those with exclusively non-GTCS seizures (OR 1.15, 95\% CI 0.54–48.38). The presence of nocturnal GTCS during the last year of observation was associated with a 15-fold risk (OR 15.31, 95\% CI 9.57–24.47). Living alone was associated with a 5-fold increased risk of SUDEP (OR 5.01, 95\% CI 2.93–8.57) and interaction analysis showed that the combination of not sharing a bedroom and having GTCS conferred an OR of 67.10 (95\% CI 29.66–151.88), with AP estimated at 0.69 (CI 0.53–0.85). Among comorbid diseases, a previous diagnosis of substance abuse or alcohol dependence was associated with excess risk of SUDEP. Conclusions Individuals with GTCS who sleep alone have a dramatically increased SUDEP risk. Our results indicate that 69\% of SUDEP cases in patients who have GTCS and live alone could be prevented if the patients were not unattended at night or were free from GTCS.}
+      \field{day}{28}
+      \field{journaltitle}{Neurology}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Clinical Risk Factors in {{SUDEP}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{94}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e419\bibrangedash e429}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1212/WNL.0000000000008741
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/5774FZCV/Sveinsson et al. - 2020 - Clinical risk factors in SUDEP.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
+      \endverb
+      \verb{url}
+      \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
       \endverb
     \endentry
     \entry{websterAnalyzingPrepareFuture2002}{article}{}{}
@@ -1422,154 +1387,6 @@
       \endverb
       \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
     \endentry
-    \entry{beghiEpidemiologyEpilepsy2019}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=33988d45e91eaee38793b6e3fa52cd03}{%
-           family={Beghi},
-           familyi={B\bibinitperiod},
-           given={Ettore},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{fullhash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{fullhashraw}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{bibnamehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authorbibnamehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authornamehash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authorfullhash}{33988d45e91eaee38793b6e3fa52cd03}
-      \strng{authorfullhashraw}{33988d45e91eaee38793b6e3fa52cd03}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Epilepsy is a chronic disease of the brain characterized by an enduring (i.e., persisting) predisposition to generate seizures, unprovoked by any immediate central nervous system insult, and by the neurobiologic, cognitive, psychological, and social consequences of seizure recurrences. Epilepsy affects both sexes and all ages with worldwide distribution. The prevalence and the incidence of epilepsy are slightly higher in men compared to women and tend to peak in the elderly, reflecting the higher frequency of stroke, neurodegenerative diseases, and tumors in this age-group. Focal seizures are more common than generalized seizures both in children and in adults. The etiology of epilepsy varies according to the sociodemographic characteristics of the affected populations and the extent of the diagnostic workup, but a documented cause is still lacking in about 50\% of cases from high-income countries (HIC). The overall prognosis of epilepsy is favorable in the majority of patients when measured by seizure freedom. Reports from low/middle-income countries (LMIC; where patients with epilepsy are largely untreated) give prevalence and remission rates that overlap those of HICs. As the incidence of epilepsy appears higher in most LMICs, the overlapping prevalence can be explained by misdiagnosis, acute symptomatic seizures and premature mortality. Studies have consistently shown that about one-half of cases tend to achieve prolonged seizure remission. However, more recent reports on the long-term prognosis of epilepsy have identified differing prognostic patterns, including early and late remission, a relapsing-remitting course, and even a worsening course (characterized by remission followed by relapse and unremitting seizures). Epilepsy per se carries a low mortality risk, but significant differences in mortality rates are expected when comparing incidence and prevalence studies, children and adults, and persons with idiopathic and symptomatic seizures. Sudden unexplained death is most frequent in people with generalized tonic-clonic seizures, nocturnal seizures, and drug refractory epilepsy.}
-      \field{day}{18}
-      \field{issn}{0251-5350}
-      \field{journaltitle}{Neuroepidemiology}
-      \field{month}{12}
-      \field{number}{2}
-      \field{shortjournal}{Neuroepidemiology}
-      \field{title}{The {{Epidemiology}} of {{Epilepsy}}}
-      \field{urlday}{18}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{54}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{185\bibrangedash 191}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1159/000503831
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/8G4UPN7C/Beghi - 2019 - The Epidemiology of Epilepsy.pdf;/home/paulin/Zotero/storage/CZAVNQCP/000503831.html
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1159/000503831
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1159/000503831
-      \endverb
-    \endentry
-    \entry{chenNewEraPersonalised2020}{article}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=a0bbb12cc2fc5322876f5f283f7c0119}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Zhibin},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2a95b8da98080004d2c65b6d8239a02f}{%
-           family={Rollo},
-           familyi={R\bibinitperiod},
-           given={Ben},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a5b0841dfac621eba7cb3ed348bba98}{%
-           family={Antonic-Baker},
-           familyi={A\bibinithyphendelim B\bibinitperiod},
-           given={Ana},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d316d0889c3424bb3e373d494821bfaf}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={Alison},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=096cc771da5bdfab214e79497caab737}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Yuanlin},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=de158de10f6562f82209d9d39e56dd3b}{%
-           family={O’Brien},
-           familyi={O\bibinitperiod},
-           given={Terence\bibnamedelima J.},
-           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dbfc282073c3c0a824d475bb3e3dfca4}{%
-           family={Ge},
-           familyi={G\bibinitperiod},
-           given={Zongyuan},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c516694a48f9d44630214dd75cc4658b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xuefeng},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
-           family={Kwan},
-           familyi={K\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {British Medical Journal Publishing Group}%
-      }
-      \strng{namehash}{05d4bc95d973db3e776b55dd9a4025f6}
-      \strng{fullhash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{fullhashraw}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{bibnamehash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{authorbibnamehash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{authornamehash}{05d4bc95d973db3e776b55dd9a4025f6}
-      \strng{authorfullhash}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \strng{authorfullhashraw}{576b4794d3bd9c7ca3b2475ce6494d28}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{bmj}
-      \field{title}{New Era of Personalised Epilepsy Management}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{371}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/XMJFACML/Chen et al. - 2020 - New era of personalised epilepsy management.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.bmj.com/content/371/bmj.m3658.long
-      \endverb
-      \verb{url}
-      \verb https://www.bmj.com/content/371/bmj.m3658.long
-      \endverb
-    \endentry
     \entry{fisherInstructionManualILAE2017}{article}{}{}
       \name{author}{18}{}{%
         {{un=0,uniquepart=base,hash=bf0da4cc0257c6d4772c0a57ba754c6d}{%
@@ -1836,6 +1653,100 @@
       \endverb
       \keyw{Case–control study,Epilepsy,SUDEP}
     \endentry
+    \entry{husseinFocalNonFocalEpilepsy2018}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=6c4040f79f53a8513acf34a9b880cbb2}{%
+           family={Hussein},
+           familyi={H\bibinitperiod},
+           given={Ahmed\bibnamedelima Faeq},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a660e1d64316e07a4ca62145e5170292}{%
+           family={Arunkumar},
+           familyi={A\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8313f676fb88e47d5bc58965bd6fcf4e}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Chandima},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca8d56c18c8b37a51c82db25403edfa6}{%
+           family={Alzubaidi},
+           familyi={A\bibinitperiod},
+           given={Abbas\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d28a063be2e0279b81de84dd678435}{%
+           family={Habash},
+           familyi={H\bibinitperiod},
+           given={Qais\bibnamedelima Ahmed},
+           giveni={Q\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6143e038ea29464b36452ec3de4f46a}{%
+           family={Santamaria-Granados},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a4ced8146f58ba74fd1030fa8062f54}{%
+           family={Mendoza-Moreno},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Juan\bibnamedelima Francisco},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a7d2dffe8cb51c48a89efe029d13250}{%
+           family={Ramirez-Gonzalez},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc4b98f95e679a9953e92c183972dbb2}
+      \strng{fullhash}{8703d070cd017464ffb0658010695fee}
+      \strng{fullhashraw}{8703d070cd017464ffb0658010695fee}
+      \strng{bibnamehash}{8703d070cd017464ffb0658010695fee}
+      \strng{authorbibnamehash}{8703d070cd017464ffb0658010695fee}
+      \strng{authornamehash}{fc4b98f95e679a9953e92c183972dbb2}
+      \strng{authorfullhash}{8703d070cd017464ffb0658010695fee}
+      \strng{authorfullhashraw}{8703d070cd017464ffb0658010695fee}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The focal and non-focal epilepsy is seen to be a chronic neurological brain disorder, which has affected \textbackslash approx 60 million people in the world. Hence, an early detection of the focal epileptic seizures can be carried out using the EEG signals, which act as a helpful tool for early diagnosis of epilepsy. Several EEG-based approaches have been proposed and developed to understand the underlying characteristics of the epileptic seizures. Despite the fact that the early results were positive, the proposed techniques cannot generate reproducible results and lack a statistical validation, which has led to doubts regarding the presence of the pre-ictal state. Various methodical and algorithmic studies have indicated that the transition to an ictal state is not a random process, and the build-up can lead to epileptic seizures. This study reviews many recently-proposed algorithms for detecting the focal epileptic seizures. Generally, the techniques developed for detecting the epileptic seizures were based on tensors, entropy, empirical mode decomposition, wavelet transform and dynamic analysis. The existing algorithms were compared and the need for implementing a practical and reliable new algorithm is highlighted. The research regarding the epileptic seizure detection research is more focused on the development of precise and non-invasive techniques for rapid and reliable diagnosis. Finally, the researchers noted that all the methods that were developed for epileptic seizure detection lacks standardization, which hinders the homogeneous comparison of the detector performance.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{shorttitle}{Focal and {{Non-Focal Epilepsy Localization}}}
+      \field{title}{Focal and {{Non-Focal Epilepsy Localization}}: {{A Review}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{49306\bibrangedash 49324}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2867078
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/T7YE5YMH/Hussein et al. - 2018 - Focal and Non-Focal Epilepsy Localization A Review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8445554/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8445554/
+      \endverb
+      \keyw{EEG signal analysis,Electroencephalography,Epilepsy,Feature extraction,Focal epilepsy,Heuristic algorithms,machine learning algorithms,Machine learning algorithms,Medical diagnostic imaging,non-focal epilepsy,nonlinear features,time and frequency domain features}
+    \endentry
     \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=1c624f185db136434c5a4f0da3c3a18a}{%
@@ -1935,66 +1846,6 @@
       \endverb
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
-      \endverb
-    \endentry
-    \entry{kwanEarlyIdentificationRefractory2000}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
-           family={Kwan},
-           familyi={K\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=112be47b7baaddb02f1a2741bad22c3a}{%
-           family={Brodie},
-           familyi={B\bibinitperiod},
-           given={Martin\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{fullhash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{fullhashraw}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{bibnamehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authorbibnamehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authornamehash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authorfullhash}{a81b74836480aadb09e7270e3fcc17ac}
-      \strng{authorfullhashraw}{a81b74836480aadb09e7270e3fcc17ac}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{3}
-      \field{issn}{0028-4793, 1533-4406}
-      \field{journaltitle}{New England Journal of Medicine}
-      \field{langid}{english}
-      \field{month}{2}
-      \field{number}{5}
-      \field{shortjournal}{N Engl J Med}
-      \field{title}{Early {{Identification}} of {{Refractory Epilepsy}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{342}
-      \field{year}{2000}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{314\bibrangedash 319}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1056/NEJM200002033420503
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/96B9H6ID/Kwan and Brodie - 2000 - Early Identification of Refractory Epilepsy.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nejm.org/doi/abs/10.1056/NEJM200002033420503
-      \endverb
-      \verb{url}
-      \verb http://www.nejm.org/doi/abs/10.1056/NEJM200002033420503
       \endverb
     \endentry
     \entry{masonHeartRateVariability2024}{article}{}{}
@@ -2346,6 +2197,85 @@
       \endverb
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
+      \endverb
+    \endentry
+    \entry{sveinssonClinicalRiskFactors2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8c5232d5794487cff77d32889315e3b0}{%
+           family={Sveinsson},
+           familyi={S\bibinitperiod},
+           given={Olafur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=874dc15e6600730b57e385077c64dd78}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94bafed79650b7795f5e74d808b1f0d0}{%
+           family={Mattsson},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ea7994b32486e2ab55d6eb3e08e1c65}{%
+           family={Carlsson},
+           familyi={C\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d041258b9e0eb0a582cc7ca701efad6d}{%
+           family={Tomson},
+           familyi={T\bibinitperiod},
+           given={Torbjörn},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wolters Kluwer}%
+      }
+      \strng{namehash}{826af3e71effdf94280a554f64f7db1c}
+      \strng{fullhash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{fullhashraw}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{bibnamehash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{authorbibnamehash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{authornamehash}{826af3e71effdf94280a554f64f7db1c}
+      \strng{authorfullhash}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \strng{authorfullhashraw}{3ea0f35f1b1f5c95f3688c7ffda967cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective We conducted a nationwide case-control study in Sweden to test the hypothesis that specific clinical characteristics are associated with increased risk of sudden unexpected death in epilepsy (SUDEP). Methods The study included 255 SUDEP cases (definite and probable) and 1,148 matched controls. Clinical information was obtained from medical records and the National Patient Register. The association between SUDEP and potential risk factors was assessed by odds ratios (ORs) and 95\% confidence intervals (CIs) and interaction assessed by attributable proportion due to interaction (AP). Results Experiencing generalized tonic-clonic seizures (GTCS) during the preceding year was associated with a 27-fold increased risk (OR 26.81, 95\% CI 14.86–48.38), whereas no excess risk was seen in those with exclusively non-GTCS seizures (OR 1.15, 95\% CI 0.54–48.38). The presence of nocturnal GTCS during the last year of observation was associated with a 15-fold risk (OR 15.31, 95\% CI 9.57–24.47). Living alone was associated with a 5-fold increased risk of SUDEP (OR 5.01, 95\% CI 2.93–8.57) and interaction analysis showed that the combination of not sharing a bedroom and having GTCS conferred an OR of 67.10 (95\% CI 29.66–151.88), with AP estimated at 0.69 (CI 0.53–0.85). Among comorbid diseases, a previous diagnosis of substance abuse or alcohol dependence was associated with excess risk of SUDEP. Conclusions Individuals with GTCS who sleep alone have a dramatically increased SUDEP risk. Our results indicate that 69\% of SUDEP cases in patients who have GTCS and live alone could be prevented if the patients were not unattended at night or were free from GTCS.}
+      \field{day}{28}
+      \field{journaltitle}{Neurology}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Clinical Risk Factors in {{SUDEP}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{94}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e419\bibrangedash e429}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1212/WNL.0000000000008741
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/5774FZCV/Sveinsson et al. - 2020 - Clinical risk factors in SUDEP.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
+      \endverb
+      \verb{url}
+      \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
       \endverb
     \endentry
     \entry{websterAnalyzingPrepareFuture2002}{article}{}{}
