@@ -1,7 +1,6 @@
 ---
 title: "{{title}}"
-{% if date %}year: {{date | format("YYYY")}}{% endif %}
-author_links: {% for author in authors %}[["{{author.firstName}} {{author.lastName}}"]]{% if not loop.last %}, {% endif %}{% endfor %}
+authors: {{authors}}{{directors}}
 zotero_citekey: {{citekey}}
 aliases: ["{{citekey}}"]
 tags: 

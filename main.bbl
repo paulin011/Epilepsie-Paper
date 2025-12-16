@@ -151,272 +151,6 @@
       \endverb
       \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
     \endentry
-    \entry{fisherInstructionManualILAE2017}{article}{}{}
-      \name{author}{18}{}{%
-        {{un=0,uniquepart=base,hash=bf0da4cc0257c6d4772c0a57ba754c6d}{%
-           family={Fisher},
-           familyi={F\bibinitperiod},
-           given={Robert\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ab4615820a291f171d87604fd705435}{%
-           family={Cross},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi Helen},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=293f4b4c9a39c6d6686d3e13f4872477}{%
-           family={D'Souza},
-           familyi={D\bibinitperiod},
-           given={Carol},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b6b0d07596a2cd25b3a15b72d8e1d43c}{%
-           family={French},
-           familyi={F\bibinitperiod},
-           given={Jacqueline\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=92a8f3183ddf63581e94dd01e0c02613}{%
-           family={Haut},
-           familyi={H\bibinitperiod},
-           given={Sheryl\bibnamedelima R.},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=272d950b563c4abf060a000b3abe1f02}{%
-           family={Higurashi},
-           familyi={H\bibinitperiod},
-           given={Norimichi},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a1617e67c6fa6c472274b78471877e58}{%
-           family={Hirsch},
-           familyi={H\bibinitperiod},
-           given={Edouard},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f80b9ede85fb4f9fffe68a1057fc795a}{%
-           family={Jansen},
-           familyi={J\bibinitperiod},
-           given={Floor\bibnamedelima E.},
-           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0086e45696ad262ca8f467cacdd23a8}{%
-           family={Lagae},
-           familyi={L\bibinitperiod},
-           given={Lieven},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1588e969d964da6dfe02c2707b917230}{%
-           family={Moshé},
-           familyi={M\bibinitperiod},
-           given={Solomon\bibnamedelima L.},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3dc3a83348e87e01d630f6507fb0e683}{%
-           family={Peltola},
-           familyi={P\bibinitperiod},
-           given={Jukka},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=18f8cdad9d2e8b96ea931a912e9af5f5}{%
-           family={Roulet\bibnamedelima Perez},
-           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={Eliane},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c47efe9ed4b76f92e9f5a4065d83f37b}{%
-           family={Scheffer},
-           familyi={S\bibinitperiod},
-           given={Ingrid\bibnamedelima E.},
-           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb99fa2093e5bdcb0e765eb809c06e2d}{%
-           family={Schulze-Bonhage},
-           familyi={S\bibinithyphendelim B\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3be03b92f2376e0c2bc72bb3aa67bdae}{%
-           family={Somerville},
-           familyi={S\bibinitperiod},
-           given={Ernest},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ec350918378efd5636101ee9a7fe84f6}{%
-           family={Sperling},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5078925fcdb8846660b6ce2a77e9cc9b}{%
-           family={Yacubian},
-           familyi={Y\bibinitperiod},
-           given={Elza\bibnamedelima Márcia},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4340df0c3ffc79f1525e3a2f52fdeabd}{%
-           family={Zuberi},
-           familyi={Z\bibinitperiod},
-           given={Sameer\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{be962535b38d5966c75dff61f39ed160}
-      \strng{fullhash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{fullhashraw}{d51245ffdd67f04b5c445c719a844435}
-      \strng{bibnamehash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{authorbibnamehash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{authornamehash}{be962535b38d5966c75dff61f39ed160}
-      \strng{authorfullhash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{authorfullhashraw}{d51245ffdd67f04b5c445c719a844435}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This companion paper to the introduction of the International League Against Epilepsy (ILAE) 2017 classification of seizure types provides guidance on how to employ the classification. Illustration of the classification is enacted by tables, a glossary of relevant terms, mapping of old to new terms, suggested abbreviations, and examples. Basic and extended versions of the classification are available, depending on the desired degree of detail. Key signs and symptoms of seizures (semiology) are used as a basis for categories of seizures that are focal or generalized from onset or with unknown onset. Any focal seizure can further be optionally characterized by whether awareness is retained or impaired. Impaired awareness during any segment of the seizure renders it a focal impaired awareness seizure. Focal seizures are further optionally characterized by motor onset signs and symptoms: atonic, automatisms, clonic, epileptic spasms, or hyperkinetic, myoclonic, or tonic activity. Nonmotor-onset seizures can manifest as autonomic, behavior arrest, cognitive, emotional, or sensory dysfunction. The earliest prominent manifestation defines the seizure type, which might then progress to other signs and symptoms. Focal seizures can become bilateral tonic–clonic. Generalized seizures engage bilateral networks from onset. Generalized motor seizure characteristics comprise atonic, clonic, epileptic spasms, myoclonic, myoclonic–atonic, myoclonic–tonic–clonic, tonic, or tonic–clonic. Nonmotor (absence) seizures are typical or atypical, or seizures that present prominent myoclonic activity or eyelid myoclonia. Seizures of unknown onset may have features that can still be classified as motor, nonmotor, tonic–clonic, epileptic spasms, or behavior arrest. This “users’ manual” for the ILAE 2017 seizure classification will assist the adoption of the new system.}
-      \field{issn}{1528-1167}
-      \field{journaltitle}{Epilepsia}
-      \field{langid}{english}
-      \field{number}{4}
-      \field{title}{Instruction Manual for the {{ILAE}} 2017 Operational Classification of Seizure Types}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{58}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{531\bibrangedash 542}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1111/epi.13671
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/93I4UUEA/Fisher et al. - 2017 - Instruction manual for the ILAE 2017 operational classification of seizure types.pdf;/home/paulin/Zotero/storage/TYLY83HY/epi.html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.13671
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.13671
-      \endverb
-      \keyw{Classification,Epilepsy (taxonomy),Focal,Generalized,Seizures}
-    \endentry
-    \entry{hesdorfferCombinedAnalysisRisk2011}{article}{}{}
-      \name{author}{11}{}{%
-        {{un=0,uniquepart=base,hash=182047989cfe4aaa6b9d4e72058bd62f}{%
-           family={Hesdorffer},
-           familyi={H\bibinitperiod},
-           given={Dale\bibnamedelima C.},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a4cf927277bfc7be88477039779fe53c}{%
-           family={Tomson},
-           familyi={T\bibinitperiod},
-           given={Torbjorn},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1390aa62834888aa33af0abd6811105c}{%
-           family={Benn},
-           familyi={B\bibinitperiod},
-           given={Emma},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e0fe7f6d3a1ff3f9e780e31a34a37219}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={Josemir\bibnamedelima W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cfdded902b7b4f57796c704693af5417}{%
-           family={Nilsson},
-           familyi={N\bibinitperiod},
-           given={Lena},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5fde0ec2ac01fbf92fbaba0c81ac4829}{%
-           family={Langan},
-           familyi={L\bibinitperiod},
-           given={Yvonne},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4a8684dd4f565556a25378d00077c1bd}{%
-           family={Walczak},
-           familyi={W\bibinitperiod},
-           given={Thaddeus\bibnamedelima S.},
-           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33988d45e91eaee38793b6e3fa52cd03}{%
-           family={Beghi},
-           familyi={B\bibinitperiod},
-           given={Ettore},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=112be47b7baaddb02f1a2741bad22c3a}{%
-           family={Brodie},
-           familyi={B\bibinitperiod},
-           given={Martin\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=24f0b5171d58cf7447ebdd08bde32112}{%
-           family={Hauser},
-           familyi={H\bibinitperiod},
-           given={Allen},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a0f948d7d4ce4fb0202f05dc0fe0e0b5}{%
-           family={{for the ILAE Commission on Epidemiology; Subcommission on Mortality}},
-           familyi={f\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9cff81be3e62166eba5e3d31bfee57c}
-      \strng{fullhash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{fullhashraw}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{bibnamehash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{authorbibnamehash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{authornamehash}{e9cff81be3e62166eba5e3d31bfee57c}
-      \strng{authorfullhash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{authorfullhashraw}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{00139580}
-      \field{journaltitle}{Epilepsia}
-      \field{langid}{english}
-      \field{month}{6}
-      \field{number}{6}
-      \field{shorttitle}{Combined Analysis of Risk Factors for {{SUDEP}}}
-      \field{title}{Combined Analysis of Risk Factors for {{SUDEP}}: {{Combined SUDEP Analysis}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{52}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1150\bibrangedash 1159}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1111/j.1528-1167.2010.02952.x
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/34XVWEZW/Hesdorffer et al. - 2011 - Combined analysis of risk factors for SUDEP.pdf;/home/paulin/Zotero/storage/6T4UIEEN/j.1528-1167.2010.02952.html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1528-1167.2010.02952.x
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1528-1167.2010.02952.x
-      \endverb
-      \keyw{Case–control study,Epilepsy,SUDEP}
-    \endentry
     \entry{husseinFocalNonFocalEpilepsy2018}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=6c4040f79f53a8513acf34a9b880cbb2}{%
@@ -510,6 +244,83 @@
       \verb https://ieeexplore.ieee.org/document/8445554/
       \endverb
       \keyw{EEG signal analysis,Electroencephalography,Epilepsy,Feature extraction,Focal epilepsy,Heuristic algorithms,machine learning algorithms,Machine learning algorithms,Medical diagnostic imaging,non-focal epilepsy,nonlinear features,time and frequency domain features}
+    \endentry
+    \entry{jainCompressedSensingBased2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bf9eb23be97ccb434e55a136592f0a1f}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Swayambhoo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd98c2112d84524f8910b547d5496d43}{%
+           family={Oswal},
+           familyi={O\bibinitperiod},
+           given={Urvashi},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76d27e1c1a1847c9fc1245d8a276ef21}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Kevin\bibnamedelima Shuai},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74feaaba334346a88932ec500356f785}{%
+           family={Eriksson},
+           familyi={E\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa524d77d6fdd235ea761cdef02861b6}{%
+           family={Haupt},
+           familyi={H\bibinitperiod},
+           given={Jarvis},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{127e5d8ecaefb702b0361dbb5f3c221b}
+      \strng{fullhash}{f5b438f8434637104f778243f89017b6}
+      \strng{fullhashraw}{f5b438f8434637104f778243f89017b6}
+      \strng{bibnamehash}{f5b438f8434637104f778243f89017b6}
+      \strng{authorbibnamehash}{f5b438f8434637104f778243f89017b6}
+      \strng{authornamehash}{127e5d8ecaefb702b0361dbb5f3c221b}
+      \strng{authorfullhash}{f5b438f8434637104f778243f89017b6}
+      \strng{authorfullhashraw}{f5b438f8434637104f778243f89017b6}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The measurement and analysis of electrodermal activity (EDA) offers applications in diverse areas ranging from market research to seizure detection and to human stress analysis. Unfortunately, the analysis of EDA signals is made difficult by the superposition of numerous components that can obscure the signal information related to a user's response to a stimulus. We show how simple preprocessing followed by a novel compressed sensing based decomposition can mitigate the effects of the undesired noise components and help reveal the underlying physiological signal. The proposed framework allows for decomposition of EDA signals with provable bounds on the recovery of user responses. We test our procedure on both synthetic and real-world EDA signals from wearable sensors and demonstrate that our approach allows for more accurate recovery of user responses as compared with the existing techniques.}
+      \field{issn}{1558-2531}
+      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{A {{Compressed Sensing Based Decomposition}} of {{Electrodermal Activity Signals}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{64}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2142\bibrangedash 2151}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TBME.2016.2632523
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/XVA4WTH6/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7755834/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7755834/
+      \endverb
+      \keyw{Biomedical measurement,Compressed sensing,Deconvolution,electrodermal activity (EDA),galvanic skin response,Motion measurement,Physiology,Skin,sparse deconvolution,Thyristors,wearables}
     \endentry
     \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
       \name{author}{8}{}{%
@@ -612,6 +423,85 @@
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
       \endverb
     \endentry
+    \entry{lealViabilityECGFeatures2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=27a3cb9ae65027496248a4f22d7cef9e}{%
+           family={Leal},
+           familyi={L\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=e83c1c918012b59fcf0389548bd85154}{%
+           family={Graça\bibnamedelima Ruano},
+           familyi={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=24b0af8bfc211301bddc77fbe4bcae29}{%
+           family={Henriques},
+           familyi={H\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=c7b46aba890a057a459cf92912898488}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=16fc7634174f7764a9e5a90e39131a81}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={César},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38c9f280f879992c8d6b24c3dc745a28}
+      \strng{fullhash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{fullhashraw}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{bibnamehash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{authorbibnamehash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{authornamehash}{38c9f280f879992c8d6b24c3dc745a28}
+      \strng{authorfullhash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{authorfullhashraw}{8e5044803d15f3abdaaab64c60dcfcde}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Besides the evident brain state alterations present in electroencephalogram (EEG), epileptic seizures are also associated with changes in the cardiovascular status. In particular, heart rate (HR) has become an important autonomic biomarker in seizure prediction. Based on that, a preliminary study is here proposed in order to inspect the behaviour of electrocardiogram (ECG) derived features in the period preceding epileptic seizures. The study took place using data from 1275 seizures collected from a set of 167 patients available in EPILEPSIAE database. The analysis was conducted considering three different variables: seizure type, seizure hour onset and vigilance state. The results did not reveal a clear effect of any of the three variables, assessed individually, in entire seizure set. Nevertheless, some evidence has been found that, for some seizures, it was possible to detected a consistent pattern of increase/decrease in feature magnitude before the onset. These patterns were revealed using the mean of RR intervals and the mean of the number of beats per minute.}
+      \field{eventtitle}{2017 {{IEEE}} 3rd {{International Forum}} on {{Research}} and {{Technologies}} for {{Society}} and {{Industry}} ({{RTSI}})}
+      \field{journaltitle}{2017 {{IEEE}} 3rd {{International Forum}} on {{Research}} and {{Technologies}} for {{Society}} and {{Industry}} ({{RTSI}})}
+      \field{month}{9}
+      \field{title}{On the Viability of {{ECG}} Features for Seizure Anticipation on Long-Term Data}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/RTSI.2017.8065951
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/N5Q6K7S3/Leal et al. - 2017 - On the viability of ECG features for seizure anticipation on long-term data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8065951
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8065951
+      \endverb
+      \keyw{anticipation,Correlation,Databases,electrocardiogram,Electrocardiography,Electroencephalography,epilepsy,Epilepsy,Heart rate variability,seizure}
+    \endentry
     \entry{masonHeartRateVariability2024}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=1ca2d0835fa3d1560bdee281fd1c0943}{%
@@ -699,78 +589,103 @@
       \endverb
       \keyw{epilepsy,heart rate variability,seizure detection,seizure prediction}
     \endentry
-    \entry{mironAutonomicBiosignalsSeizure2025}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=b88a57dba1567ef2cb96fdda42e80b33}{%
-           family={Miron},
-           familyi={M\bibinitperiod},
-           given={Gadi},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7ca7a6d7fd251942b3df0bb9c3bbb98}{%
-           family={Halimeh},
-           familyi={H\bibinitperiod},
-           given={Mustafa},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
-           family={Jeppesen},
-           familyi={J\bibinitperiod},
-           given={Jesper},
+    \entry{paveiEarlySeizureDetection2017}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=0689744d108b07d02eae6cf759e958f0}{%
+           family={Pavei},
+           familyi={P\bibinitperiod},
+           given={Jonatas},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
-           family={Loddenkemper},
-           familyi={L\bibinitperiod},
-           given={Tobias},
-           giveni={T\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a65107585676e00f1e4ef22d5f83e61b}{%
+           family={Heinzen},
+           familyi={H\bibinitperiod},
+           given={Renan\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=df239c61839e6fef43a637493df5ba99}{%
-           family={Meisel},
+        {{un=0,uniquepart=base,hash=ee00667d400b647e5d1466113e485c93}{%
+           family={Novakova},
+           familyi={N\bibinitperiod},
+           given={Barbora},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e88b3212ae3a46e8e2c90c415a3a146}{%
+           family={Walz},
+           familyi={W\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0ab5eec7495bdc4b5ea7f4fe509aa0c}{%
+           family={Serra},
+           familyi={S\bibinitperiod},
+           given={Andrey\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d09335b888af8026c1e54b9b841caf9}{%
+           family={Reuber},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d34298429b5f08a6ac9efc362bd6458}{%
+           family={Ponnusamy},
+           familyi={P\bibinitperiod},
+           given={Athi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6fa93ecd769dfc9793c74f784f8b992}{%
+           family={Marques},
            familyi={M\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod},
+           given={Jefferson\bibnamedelimb L.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9010d1ad2ec39da52c849e86123651d3}
-      \strng{fullhash}{b92627e668f777d2c5c6422948188540}
-      \strng{fullhashraw}{b92627e668f777d2c5c6422948188540}
-      \strng{bibnamehash}{b92627e668f777d2c5c6422948188540}
-      \strng{authorbibnamehash}{b92627e668f777d2c5c6422948188540}
-      \strng{authornamehash}{9010d1ad2ec39da52c849e86123651d3}
-      \strng{authorfullhash}{b92627e668f777d2c5c6422948188540}
-      \strng{authorfullhashraw}{b92627e668f777d2c5c6422948188540}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{e68d0b5df6227769f75e211fd71b6d3b}
+      \strng{fullhash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{fullhashraw}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{bibnamehash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{authorbibnamehash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{authornamehash}{e68d0b5df6227769f75e211fd71b6d3b}
+      \strng{authorfullhash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{authorfullhashraw}{2658a7ea2ae3cd76437e25b09bd007de}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Wearable devices have attracted significant attention in epilepsy research in recent years for their potential to enhance patient care through improved seizure monitoring and forecasting. This narrative review presents a detailed overview of the current clinical state of the art while addressing how devices that assess autonomic nervous system (ANS) function reflect seizures and central nervous system (CNS) state changes. This includes a description of the interactions between the CNS and the ANS, including physiological and epilepsy-related changes affecting their dynamics. We first discuss technical aspects of measuring autonomic biosignals and considerations for using ANS sensors in clinical practice. We then review recent seizure detection and seizure forecasting studies, highlighting their performance and capability for seizure detection and forecasting using devices measuring ANS biomarkers. Finally, we address the field's challenges and provide an outlook for future developments.}
-      \field{eprinttype}{pubmed}
-      \field{issn}{1528-1167}
-      \field{issue}{Suppl 3}
-      \field{journaltitle}{Epilepsia}
+      \field{abstract}{Epilepsy is a neurological disorder that causes changes in the autonomic nervous system. Heart rate variability (HRV) reflects the regulation of cardiac activity and autonomic nervous system tone. The early detection of epileptic seizures could foster the use of new treatment approaches. This study presents a new methodology for the prediction of epileptic seizures using HRV signals. Eigendecomposition of HRV parameter covariance matrices was used to create an input for a support vector machine (SVM)-based classifier. We analyzed clinical data from 12 patients (9 female; 3 male; age 34.5 ± 7.5 years), involving 34 seizures and a total of 55.2 h of interictal electrocardiogram (ECG) recordings. Data from 123.6 h of ECG recordings from healthy subjects were used to test false positive rate per hour (FP/h) in a completely independent data set. Our methodological approach allowed the detection of impending seizures from 5 min to just before the onset of a clinical/electrical seizure with a sensitivity of 94.1\%. The FP rate was 0.49 h−1 in the recordings from patients with epilepsy and 0.19 h−1 in the recordings from healthy subjects. Our results suggest that it is feasible to use the dynamics of HRV parameters for the early detection and, potentially, the prediction of epileptic seizures.}
+      \field{day}{5}
+      \field{issn}{1664-042X}
+      \field{journaltitle}{Frontiers in Physiology}
       \field{langid}{english}
-      \field{month}{9}
-      \field{shortjournal}{Epilepsia}
-      \field{title}{Autonomic Biosignals, Seizure Detection, and Forecasting}
-      \field{volume}{66 Suppl 3}
-      \field{year}{2025}
+      \field{month}{10}
+      \field{shortjournal}{Front. Physiol.}
+      \field{title}{Early {{Seizure Detection Based}} on {{Cardiac Autonomic Regulation Dynamics}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2017}
       \field{dateera}{ce}
-      \field{pages}{25\bibrangedash 38}
-      \range{pages}{14}
+      \field{urldateera}{ce}
       \verb{doi}
-      \verb 10.1111/epi.18034
-      \endverb
-      \verb{eprint}
-      \verb 38837428
+      \verb 10.3389/fphys.2017.00765
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/WMVGAM9E/Miron et al. - 2025 - Autonomic biosignals, seizure detection, and forecasting.pdf
+      \verb /home/paulin/Zotero/storage/J6BXGYF5/Pavei et al. - 2017 - Early Seizure Detection Based on Cardiac Autonomic Regulation Dynamics.pdf
       \endverb
-      \keyw{autonomic nervous system,Autonomic Nervous System,epilepsy,Epilepsy,Forecasting,Humans,seizure detection,seizure forecasting,Seizures,Wearable Electronic Devices,wearables}
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00765/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00765/full
+      \endverb
+      \keyw{electrocardiogram,Epilepsy,Epileptic seizure prediction,Heart rate variability,Support Vector Machines}
     \endentry
     \entry{pordoyEnhancedNonEEGMultimodal2025}{article}{}{}
       \name{author}{6}{}{%
@@ -1042,6 +957,84 @@
       \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
       \endverb
     \endentry
+    \entry{wangACEAutomatedOptimization2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc399f85ccdd18f7c16d2cd99a42d132}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuxuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bda20b9e46ee85247877a0732d6b3a6}{%
+           family={Orlandic},
+           familyi={O\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dff791296cb2bdae9dd7ddc6551fedd6}{%
+           family={Machetti},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9a2721a044e1591054b8a918cb5e79a}{%
+           family={Ansaloni},
+           familyi={A\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c724e73ec61ecb6de11c11c87dba095e}{%
+           family={Atienza},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ae5ec34feb1912ba5cfe0bfae34fd53}
+      \strng{fullhash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{fullhashraw}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{bibnamehash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{authorbibnamehash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{authornamehash}{8ae5ec34feb1912ba5cfe0bfae34fd53}
+      \strng{authorfullhash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{authorfullhashraw}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Wearable devices for health monitoring are essential for tracking individuals’ health status and facilitating early detection of diseases. However, processing biomedical signals online for real-time monitoring is challenging due to limited computational resources on edge devices. To address this challenge, we propose an application-agnostic methodology called ACE (Automated optimization towards classification on the Edge). ACE converts a health monitoring algorithm with feature extraction and classification into an iterative detection process, incorporating algorithms of varying complexities and minimizing re-computation of shared data. First, ACE decomposes a monolithic model, employing a single feature set and classifier, into multiple algorithms with different computational complexities. Then, our automatic analysis tool integrates buffering logic into these algorithms to prevent re-computation of shared computational-intensive data. The optimized algorithm is then converted into a low-level language in C for deployment. During runtime, the system initiates monitoring with the lowest complexity algorithm and iteratively involves algorithms with higher complexity without recomputing the existing data. The iteration process continues until a pre-defined confidence threshold is met. We demonstrate the effectiveness of ACE on two biomedical applications: seizure detection and emotional state classification. ACE achieves at least 28.9\% and 18.9\% runtime savings without any accuracy loss on a Cortex-A9 edge platform for the two benchmarks, respectively. We discuss and demonstrate how ACE can be used by designers of such biomedical algorithms to automatically optimize and deploy their applications on the edge.}
+      \field{issn}{1940-9990}
+      \field{journaltitle}{IEEE Transactions on Biomedical Circuits and Systems}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{{{ACE}}}
+      \field{title}{{{ACE}}: {{Automated Optimization Towards Iterative Classification}} in {{Edge Health Monitors}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{82\bibrangedash 92}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TBCAS.2024.3468160
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/4V7JSURR/Wang et al. - 2025 - ACE Automated Optimization Towards Iterative Classification in Edge Health Monitors.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10693645/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10693645/
+      \endverb
+      \keyw{Circuits and systems,Classification algorithms,Costs,edge computing,embedded deployment,Feature extraction,Health monitoring,Image edge detection,iterative classification,Monitoring,Runtime,runtime optimization}
+    \endentry
     \entry{websterAnalyzingPrepareFuture2002}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6ed791f1b25c2edc28d090a99d5856ba}{%
@@ -1100,75 +1093,94 @@
       \verb https://www.jstor.org/stable/4132319
       \endverb
     \endentry
-    \entry{wolfHearttoWearAssessingAccuracy2024a}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=3f8ef554a68bcb7be9fb372fadfe629b}{%
-           family={Wolf},
+    \entry{wuNovelSeizureDetection2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=f1697c54256030cca71b9f83003cb1a0}{%
+           family={Wu},
            familyi={W\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0bd54fcb5a17c16f2cc5865e89f1c569}{%
-           family={Seidel},
-           familyi={S\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=696b74914bb7b353953a49ab450ef450}{%
-           family={Ockenga},
-           familyi={O\bibinitperiod},
-           given={Tim\bibnamedelima Alvaro},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd7e6faee085bf3bfb6221126834e63b}{%
-           family={Schoder},
-           familyi={S\bibinitperiod},
-           given={Detlef},
+           given={Duanpo},
            giveni={D\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=75e580384c88fdd5ca619b9b30390adb}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d14053bda83d5ca8444adff0f17aa6}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Pierre-Paul},
+           giveni={P\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9334c8291f3d97d0888ce2c59e0b6cc9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Danping},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce0362c5846a7cae040cd4ac963ab99f}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a02292cdfab8e69985634d627219ee0}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Jiuwen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bace80f2e893c99180394239249b256}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Tiejia},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{a84b1f24278fbb86217a2dd3c5749503}
-      \strng{fullhash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{fullhashraw}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{bibnamehash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{authorbibnamehash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{authornamehash}{a84b1f24278fbb86217a2dd3c5749503}
-      \strng{authorfullhash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{authorfullhashraw}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{namehash}{8ddeffc2b6fc85401744aa2ac8452989}
+      \strng{fullhash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{fullhashraw}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{bibnamehash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{authorbibnamehash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{authornamehash}{8ddeffc2b6fc85401744aa2ac8452989}
+      \strng{authorfullhash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{authorfullhashraw}{7e0c7cc75e62a1bde98526e49e670dd4}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The growing popularity of wearable devices has enabled individuals to monitor their health and offers potential benefits for remote patient monitoring. However, the reliability of diagnoses provided by these non-approved medical devices remains uncertain. This study addresses the problem of assessing the measurement accuracy of heart rate recordings from wearable devices in both controlled and uncontrolled environments. Previous research has focused on evaluating accuracy in controlled settings, neglecting the impact of external factors on device performance. We conducted a comparative study with ten healthy individuals, recording heart rates during indoor cycling and outdoor activities. Participants wore two out of three tested smartwatches (Apple Watch Ultra, Garmin Enduro 2, Polar Pacer Pro) alongside a Polar H10 chest strap as a reference device. Our findings provide evidence that the Apple Watch Ultra and the Garmin Enduro 2 are particularly resistant to external factors that can occur during regular cycling activities.}
-      \field{eprinttype}{hdl}
-      \field{eventtitle}{Hawaii {{International Conference}} on {{System Sciences}}}
-      \field{langid}{english}
-      \field{shorttitle}{Heart-to-{{Wear}}}
-      \field{title}{Heart-to-{{Wear}}: {{Assessing}} the {{Accuracy}} of {{Heart Rate Sensor Measurements}} of {{Wearable Devices}} in {{Uncontrolled Environments}}}
-      \field{urlday}{18}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Seizure detection is traditionally done using video/electroencephalography monitoring, but for out-of-hospital patients, this method is costly. In recent years, portable device to detect seizures gains attention. In this article, multimodal signals collected by portable devices are studied, and a seizure detection algorithm is proposed based on adaptive multibit local differential ternary pattern (MLDTP). This algorithm is used for detecting seizure period and interseizure period. Traditional local binary pattern has certain limitations in describing 1-D time-series signals. It can only describe two types of structures in signals: 1) rising structure and 2) falling structure, making the signal patterns overly monotonous and not conducive to classification tasks. To address this issue, this article introduces two additional structures, slowly rising structure and slowly falling structure, into the signal description using the MLDTP method. This method constructs multibit neighboring relationships of the signals and adaptively selects the optimal MLDTP parameters for different modalities using the Archimedes optimization algorithm (AOA). Additionally, this article extensively discusses a multimodal signal fusion strategy, mapping features of different modal signals to the same feature space through the MLDTP algorithm to achieve information complementarity. Long-term recorded data from 18 patients were collected using the wearable device Biovital P1, with 13 cases from the Children’s Hospital affiliated with Children’s Hospital, Zhejiang University School of Medicine, and five cases from the fourth Affiliated Hospital of Anhui Medical University. The data set underwent fivefold cross-validation, resulting in average accuracy, precision, sensitivity, and F1 score of 96.81\%, 98.55\%, 95.24\%, and 96.87\%, respectively.}
+      \field{issn}{2327-4662}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{month}{8}
+      \field{number}{16}
+      \field{title}{A {{Novel Seizure Detection Method Based}} on the {{Feature Fusion}} of {{Multimodal Physiological Signals}}}
+      \field{urlday}{21}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
+      \field{volume}{11}
       \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{27545\bibrangedash 27556}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.24251/HICSS.2024.385
-      \endverb
-      \verb{eprint}
-      \verb 10125/106768
+      \verb 10.1109/JIOT.2024.3398418
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/VJUGUCN6/Wolf et al. - 2024 - Heart-to-Wear Assessing the Accuracy of Heart Rate Sensor Measurements of Wearable Devices in Uncon.pdf
+      \verb /home/paulin/Zotero/storage/TMKHWHWI/Wu et al. - 2024 - A Novel Seizure Detection Method Based on the Feature Fusion of Multimodal Physiological Signals.pdf
       \endverb
       \verb{urlraw}
-      \verb http://hdl.handle.net/10125/106768
+      \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
       \verb{url}
-      \verb http://hdl.handle.net/10125/106768
+      \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
+      \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
     \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
@@ -1387,272 +1399,6 @@
       \endverb
       \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
     \endentry
-    \entry{fisherInstructionManualILAE2017}{article}{}{}
-      \name{author}{18}{}{%
-        {{un=0,uniquepart=base,hash=bf0da4cc0257c6d4772c0a57ba754c6d}{%
-           family={Fisher},
-           familyi={F\bibinitperiod},
-           given={Robert\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ab4615820a291f171d87604fd705435}{%
-           family={Cross},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi Helen},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=293f4b4c9a39c6d6686d3e13f4872477}{%
-           family={D'Souza},
-           familyi={D\bibinitperiod},
-           given={Carol},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b6b0d07596a2cd25b3a15b72d8e1d43c}{%
-           family={French},
-           familyi={F\bibinitperiod},
-           given={Jacqueline\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=92a8f3183ddf63581e94dd01e0c02613}{%
-           family={Haut},
-           familyi={H\bibinitperiod},
-           given={Sheryl\bibnamedelima R.},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=272d950b563c4abf060a000b3abe1f02}{%
-           family={Higurashi},
-           familyi={H\bibinitperiod},
-           given={Norimichi},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a1617e67c6fa6c472274b78471877e58}{%
-           family={Hirsch},
-           familyi={H\bibinitperiod},
-           given={Edouard},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f80b9ede85fb4f9fffe68a1057fc795a}{%
-           family={Jansen},
-           familyi={J\bibinitperiod},
-           given={Floor\bibnamedelima E.},
-           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0086e45696ad262ca8f467cacdd23a8}{%
-           family={Lagae},
-           familyi={L\bibinitperiod},
-           given={Lieven},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1588e969d964da6dfe02c2707b917230}{%
-           family={Moshé},
-           familyi={M\bibinitperiod},
-           given={Solomon\bibnamedelima L.},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3dc3a83348e87e01d630f6507fb0e683}{%
-           family={Peltola},
-           familyi={P\bibinitperiod},
-           given={Jukka},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=18f8cdad9d2e8b96ea931a912e9af5f5}{%
-           family={Roulet\bibnamedelima Perez},
-           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={Eliane},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c47efe9ed4b76f92e9f5a4065d83f37b}{%
-           family={Scheffer},
-           familyi={S\bibinitperiod},
-           given={Ingrid\bibnamedelima E.},
-           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb99fa2093e5bdcb0e765eb809c06e2d}{%
-           family={Schulze-Bonhage},
-           familyi={S\bibinithyphendelim B\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3be03b92f2376e0c2bc72bb3aa67bdae}{%
-           family={Somerville},
-           familyi={S\bibinitperiod},
-           given={Ernest},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ec350918378efd5636101ee9a7fe84f6}{%
-           family={Sperling},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5078925fcdb8846660b6ce2a77e9cc9b}{%
-           family={Yacubian},
-           familyi={Y\bibinitperiod},
-           given={Elza\bibnamedelima Márcia},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4340df0c3ffc79f1525e3a2f52fdeabd}{%
-           family={Zuberi},
-           familyi={Z\bibinitperiod},
-           given={Sameer\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{be962535b38d5966c75dff61f39ed160}
-      \strng{fullhash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{fullhashraw}{d51245ffdd67f04b5c445c719a844435}
-      \strng{bibnamehash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{authorbibnamehash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{authornamehash}{be962535b38d5966c75dff61f39ed160}
-      \strng{authorfullhash}{d51245ffdd67f04b5c445c719a844435}
-      \strng{authorfullhashraw}{d51245ffdd67f04b5c445c719a844435}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This companion paper to the introduction of the International League Against Epilepsy (ILAE) 2017 classification of seizure types provides guidance on how to employ the classification. Illustration of the classification is enacted by tables, a glossary of relevant terms, mapping of old to new terms, suggested abbreviations, and examples. Basic and extended versions of the classification are available, depending on the desired degree of detail. Key signs and symptoms of seizures (semiology) are used as a basis for categories of seizures that are focal or generalized from onset or with unknown onset. Any focal seizure can further be optionally characterized by whether awareness is retained or impaired. Impaired awareness during any segment of the seizure renders it a focal impaired awareness seizure. Focal seizures are further optionally characterized by motor onset signs and symptoms: atonic, automatisms, clonic, epileptic spasms, or hyperkinetic, myoclonic, or tonic activity. Nonmotor-onset seizures can manifest as autonomic, behavior arrest, cognitive, emotional, or sensory dysfunction. The earliest prominent manifestation defines the seizure type, which might then progress to other signs and symptoms. Focal seizures can become bilateral tonic–clonic. Generalized seizures engage bilateral networks from onset. Generalized motor seizure characteristics comprise atonic, clonic, epileptic spasms, myoclonic, myoclonic–atonic, myoclonic–tonic–clonic, tonic, or tonic–clonic. Nonmotor (absence) seizures are typical or atypical, or seizures that present prominent myoclonic activity or eyelid myoclonia. Seizures of unknown onset may have features that can still be classified as motor, nonmotor, tonic–clonic, epileptic spasms, or behavior arrest. This “users’ manual” for the ILAE 2017 seizure classification will assist the adoption of the new system.}
-      \field{issn}{1528-1167}
-      \field{journaltitle}{Epilepsia}
-      \field{langid}{english}
-      \field{number}{4}
-      \field{title}{Instruction Manual for the {{ILAE}} 2017 Operational Classification of Seizure Types}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{58}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{531\bibrangedash 542}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1111/epi.13671
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/93I4UUEA/Fisher et al. - 2017 - Instruction manual for the ILAE 2017 operational classification of seizure types.pdf;/home/paulin/Zotero/storage/TYLY83HY/epi.html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.13671
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.13671
-      \endverb
-      \keyw{Classification,Epilepsy (taxonomy),Focal,Generalized,Seizures}
-    \endentry
-    \entry{hesdorfferCombinedAnalysisRisk2011}{article}{}{}
-      \name{author}{11}{}{%
-        {{un=0,uniquepart=base,hash=182047989cfe4aaa6b9d4e72058bd62f}{%
-           family={Hesdorffer},
-           familyi={H\bibinitperiod},
-           given={Dale\bibnamedelima C.},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a4cf927277bfc7be88477039779fe53c}{%
-           family={Tomson},
-           familyi={T\bibinitperiod},
-           given={Torbjorn},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1390aa62834888aa33af0abd6811105c}{%
-           family={Benn},
-           familyi={B\bibinitperiod},
-           given={Emma},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e0fe7f6d3a1ff3f9e780e31a34a37219}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={Josemir\bibnamedelima W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cfdded902b7b4f57796c704693af5417}{%
-           family={Nilsson},
-           familyi={N\bibinitperiod},
-           given={Lena},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5fde0ec2ac01fbf92fbaba0c81ac4829}{%
-           family={Langan},
-           familyi={L\bibinitperiod},
-           given={Yvonne},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4a8684dd4f565556a25378d00077c1bd}{%
-           family={Walczak},
-           familyi={W\bibinitperiod},
-           given={Thaddeus\bibnamedelima S.},
-           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33988d45e91eaee38793b6e3fa52cd03}{%
-           family={Beghi},
-           familyi={B\bibinitperiod},
-           given={Ettore},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=112be47b7baaddb02f1a2741bad22c3a}{%
-           family={Brodie},
-           familyi={B\bibinitperiod},
-           given={Martin\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=24f0b5171d58cf7447ebdd08bde32112}{%
-           family={Hauser},
-           familyi={H\bibinitperiod},
-           given={Allen},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a0f948d7d4ce4fb0202f05dc0fe0e0b5}{%
-           family={{for the ILAE Commission on Epidemiology; Subcommission on Mortality}},
-           familyi={f\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9cff81be3e62166eba5e3d31bfee57c}
-      \strng{fullhash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{fullhashraw}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{bibnamehash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{authorbibnamehash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{authornamehash}{e9cff81be3e62166eba5e3d31bfee57c}
-      \strng{authorfullhash}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \strng{authorfullhashraw}{ead0e97afdfedbb8da5f769cdc96b95c}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{00139580}
-      \field{journaltitle}{Epilepsia}
-      \field{langid}{english}
-      \field{month}{6}
-      \field{number}{6}
-      \field{shorttitle}{Combined Analysis of Risk Factors for {{SUDEP}}}
-      \field{title}{Combined Analysis of Risk Factors for {{SUDEP}}: {{Combined SUDEP Analysis}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{52}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1150\bibrangedash 1159}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1111/j.1528-1167.2010.02952.x
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/34XVWEZW/Hesdorffer et al. - 2011 - Combined analysis of risk factors for SUDEP.pdf;/home/paulin/Zotero/storage/6T4UIEEN/j.1528-1167.2010.02952.html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1528-1167.2010.02952.x
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1528-1167.2010.02952.x
-      \endverb
-      \keyw{Case–control study,Epilepsy,SUDEP}
-    \endentry
     \entry{husseinFocalNonFocalEpilepsy2018}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=6c4040f79f53a8513acf34a9b880cbb2}{%
@@ -1746,6 +1492,83 @@
       \verb https://ieeexplore.ieee.org/document/8445554/
       \endverb
       \keyw{EEG signal analysis,Electroencephalography,Epilepsy,Feature extraction,Focal epilepsy,Heuristic algorithms,machine learning algorithms,Machine learning algorithms,Medical diagnostic imaging,non-focal epilepsy,nonlinear features,time and frequency domain features}
+    \endentry
+    \entry{jainCompressedSensingBased2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bf9eb23be97ccb434e55a136592f0a1f}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Swayambhoo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd98c2112d84524f8910b547d5496d43}{%
+           family={Oswal},
+           familyi={O\bibinitperiod},
+           given={Urvashi},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76d27e1c1a1847c9fc1245d8a276ef21}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Kevin\bibnamedelima Shuai},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74feaaba334346a88932ec500356f785}{%
+           family={Eriksson},
+           familyi={E\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa524d77d6fdd235ea761cdef02861b6}{%
+           family={Haupt},
+           familyi={H\bibinitperiod},
+           given={Jarvis},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{127e5d8ecaefb702b0361dbb5f3c221b}
+      \strng{fullhash}{f5b438f8434637104f778243f89017b6}
+      \strng{fullhashraw}{f5b438f8434637104f778243f89017b6}
+      \strng{bibnamehash}{f5b438f8434637104f778243f89017b6}
+      \strng{authorbibnamehash}{f5b438f8434637104f778243f89017b6}
+      \strng{authornamehash}{127e5d8ecaefb702b0361dbb5f3c221b}
+      \strng{authorfullhash}{f5b438f8434637104f778243f89017b6}
+      \strng{authorfullhashraw}{f5b438f8434637104f778243f89017b6}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The measurement and analysis of electrodermal activity (EDA) offers applications in diverse areas ranging from market research to seizure detection and to human stress analysis. Unfortunately, the analysis of EDA signals is made difficult by the superposition of numerous components that can obscure the signal information related to a user's response to a stimulus. We show how simple preprocessing followed by a novel compressed sensing based decomposition can mitigate the effects of the undesired noise components and help reveal the underlying physiological signal. The proposed framework allows for decomposition of EDA signals with provable bounds on the recovery of user responses. We test our procedure on both synthetic and real-world EDA signals from wearable sensors and demonstrate that our approach allows for more accurate recovery of user responses as compared with the existing techniques.}
+      \field{issn}{1558-2531}
+      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{A {{Compressed Sensing Based Decomposition}} of {{Electrodermal Activity Signals}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{64}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2142\bibrangedash 2151}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TBME.2016.2632523
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/XVA4WTH6/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7755834/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7755834/
+      \endverb
+      \keyw{Biomedical measurement,Compressed sensing,Deconvolution,electrodermal activity (EDA),galvanic skin response,Motion measurement,Physiology,Skin,sparse deconvolution,Thyristors,wearables}
     \endentry
     \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
       \name{author}{8}{}{%
@@ -1848,6 +1671,85 @@
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
       \endverb
     \endentry
+    \entry{lealViabilityECGFeatures2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=27a3cb9ae65027496248a4f22d7cef9e}{%
+           family={Leal},
+           familyi={L\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=e83c1c918012b59fcf0389548bd85154}{%
+           family={Graça\bibnamedelima Ruano},
+           familyi={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=24b0af8bfc211301bddc77fbe4bcae29}{%
+           family={Henriques},
+           familyi={H\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=c7b46aba890a057a459cf92912898488}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=16fc7634174f7764a9e5a90e39131a81}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={César},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38c9f280f879992c8d6b24c3dc745a28}
+      \strng{fullhash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{fullhashraw}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{bibnamehash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{authorbibnamehash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{authornamehash}{38c9f280f879992c8d6b24c3dc745a28}
+      \strng{authorfullhash}{8e5044803d15f3abdaaab64c60dcfcde}
+      \strng{authorfullhashraw}{8e5044803d15f3abdaaab64c60dcfcde}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Besides the evident brain state alterations present in electroencephalogram (EEG), epileptic seizures are also associated with changes in the cardiovascular status. In particular, heart rate (HR) has become an important autonomic biomarker in seizure prediction. Based on that, a preliminary study is here proposed in order to inspect the behaviour of electrocardiogram (ECG) derived features in the period preceding epileptic seizures. The study took place using data from 1275 seizures collected from a set of 167 patients available in EPILEPSIAE database. The analysis was conducted considering three different variables: seizure type, seizure hour onset and vigilance state. The results did not reveal a clear effect of any of the three variables, assessed individually, in entire seizure set. Nevertheless, some evidence has been found that, for some seizures, it was possible to detected a consistent pattern of increase/decrease in feature magnitude before the onset. These patterns were revealed using the mean of RR intervals and the mean of the number of beats per minute.}
+      \field{eventtitle}{2017 {{IEEE}} 3rd {{International Forum}} on {{Research}} and {{Technologies}} for {{Society}} and {{Industry}} ({{RTSI}})}
+      \field{journaltitle}{2017 {{IEEE}} 3rd {{International Forum}} on {{Research}} and {{Technologies}} for {{Society}} and {{Industry}} ({{RTSI}})}
+      \field{month}{9}
+      \field{title}{On the Viability of {{ECG}} Features for Seizure Anticipation on Long-Term Data}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/RTSI.2017.8065951
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/N5Q6K7S3/Leal et al. - 2017 - On the viability of ECG features for seizure anticipation on long-term data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8065951
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8065951
+      \endverb
+      \keyw{anticipation,Correlation,Databases,electrocardiogram,Electrocardiography,Electroencephalography,epilepsy,Epilepsy,Heart rate variability,seizure}
+    \endentry
     \entry{masonHeartRateVariability2024}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=1ca2d0835fa3d1560bdee281fd1c0943}{%
@@ -1935,78 +1837,103 @@
       \endverb
       \keyw{epilepsy,heart rate variability,seizure detection,seizure prediction}
     \endentry
-    \entry{mironAutonomicBiosignalsSeizure2025}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=b88a57dba1567ef2cb96fdda42e80b33}{%
-           family={Miron},
-           familyi={M\bibinitperiod},
-           given={Gadi},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7ca7a6d7fd251942b3df0bb9c3bbb98}{%
-           family={Halimeh},
-           familyi={H\bibinitperiod},
-           given={Mustafa},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
-           family={Jeppesen},
-           familyi={J\bibinitperiod},
-           given={Jesper},
+    \entry{paveiEarlySeizureDetection2017}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=0689744d108b07d02eae6cf759e958f0}{%
+           family={Pavei},
+           familyi={P\bibinitperiod},
+           given={Jonatas},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
-           family={Loddenkemper},
-           familyi={L\bibinitperiod},
-           given={Tobias},
-           giveni={T\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a65107585676e00f1e4ef22d5f83e61b}{%
+           family={Heinzen},
+           familyi={H\bibinitperiod},
+           given={Renan\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=df239c61839e6fef43a637493df5ba99}{%
-           family={Meisel},
+        {{un=0,uniquepart=base,hash=ee00667d400b647e5d1466113e485c93}{%
+           family={Novakova},
+           familyi={N\bibinitperiod},
+           given={Barbora},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e88b3212ae3a46e8e2c90c415a3a146}{%
+           family={Walz},
+           familyi={W\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0ab5eec7495bdc4b5ea7f4fe509aa0c}{%
+           family={Serra},
+           familyi={S\bibinitperiod},
+           given={Andrey\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d09335b888af8026c1e54b9b841caf9}{%
+           family={Reuber},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d34298429b5f08a6ac9efc362bd6458}{%
+           family={Ponnusamy},
+           familyi={P\bibinitperiod},
+           given={Athi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6fa93ecd769dfc9793c74f784f8b992}{%
+           family={Marques},
            familyi={M\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod},
+           given={Jefferson\bibnamedelimb L.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9010d1ad2ec39da52c849e86123651d3}
-      \strng{fullhash}{b92627e668f777d2c5c6422948188540}
-      \strng{fullhashraw}{b92627e668f777d2c5c6422948188540}
-      \strng{bibnamehash}{b92627e668f777d2c5c6422948188540}
-      \strng{authorbibnamehash}{b92627e668f777d2c5c6422948188540}
-      \strng{authornamehash}{9010d1ad2ec39da52c849e86123651d3}
-      \strng{authorfullhash}{b92627e668f777d2c5c6422948188540}
-      \strng{authorfullhashraw}{b92627e668f777d2c5c6422948188540}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{e68d0b5df6227769f75e211fd71b6d3b}
+      \strng{fullhash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{fullhashraw}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{bibnamehash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{authorbibnamehash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{authornamehash}{e68d0b5df6227769f75e211fd71b6d3b}
+      \strng{authorfullhash}{2658a7ea2ae3cd76437e25b09bd007de}
+      \strng{authorfullhashraw}{2658a7ea2ae3cd76437e25b09bd007de}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Wearable devices have attracted significant attention in epilepsy research in recent years for their potential to enhance patient care through improved seizure monitoring and forecasting. This narrative review presents a detailed overview of the current clinical state of the art while addressing how devices that assess autonomic nervous system (ANS) function reflect seizures and central nervous system (CNS) state changes. This includes a description of the interactions between the CNS and the ANS, including physiological and epilepsy-related changes affecting their dynamics. We first discuss technical aspects of measuring autonomic biosignals and considerations for using ANS sensors in clinical practice. We then review recent seizure detection and seizure forecasting studies, highlighting their performance and capability for seizure detection and forecasting using devices measuring ANS biomarkers. Finally, we address the field's challenges and provide an outlook for future developments.}
-      \field{eprinttype}{pubmed}
-      \field{issn}{1528-1167}
-      \field{issue}{Suppl 3}
-      \field{journaltitle}{Epilepsia}
+      \field{abstract}{Epilepsy is a neurological disorder that causes changes in the autonomic nervous system. Heart rate variability (HRV) reflects the regulation of cardiac activity and autonomic nervous system tone. The early detection of epileptic seizures could foster the use of new treatment approaches. This study presents a new methodology for the prediction of epileptic seizures using HRV signals. Eigendecomposition of HRV parameter covariance matrices was used to create an input for a support vector machine (SVM)-based classifier. We analyzed clinical data from 12 patients (9 female; 3 male; age 34.5 ± 7.5 years), involving 34 seizures and a total of 55.2 h of interictal electrocardiogram (ECG) recordings. Data from 123.6 h of ECG recordings from healthy subjects were used to test false positive rate per hour (FP/h) in a completely independent data set. Our methodological approach allowed the detection of impending seizures from 5 min to just before the onset of a clinical/electrical seizure with a sensitivity of 94.1\%. The FP rate was 0.49 h−1 in the recordings from patients with epilepsy and 0.19 h−1 in the recordings from healthy subjects. Our results suggest that it is feasible to use the dynamics of HRV parameters for the early detection and, potentially, the prediction of epileptic seizures.}
+      \field{day}{5}
+      \field{issn}{1664-042X}
+      \field{journaltitle}{Frontiers in Physiology}
       \field{langid}{english}
-      \field{month}{9}
-      \field{shortjournal}{Epilepsia}
-      \field{title}{Autonomic Biosignals, Seizure Detection, and Forecasting}
-      \field{volume}{66 Suppl 3}
-      \field{year}{2025}
+      \field{month}{10}
+      \field{shortjournal}{Front. Physiol.}
+      \field{title}{Early {{Seizure Detection Based}} on {{Cardiac Autonomic Regulation Dynamics}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2017}
       \field{dateera}{ce}
-      \field{pages}{25\bibrangedash 38}
-      \range{pages}{14}
+      \field{urldateera}{ce}
       \verb{doi}
-      \verb 10.1111/epi.18034
-      \endverb
-      \verb{eprint}
-      \verb 38837428
+      \verb 10.3389/fphys.2017.00765
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/WMVGAM9E/Miron et al. - 2025 - Autonomic biosignals, seizure detection, and forecasting.pdf
+      \verb /home/paulin/Zotero/storage/J6BXGYF5/Pavei et al. - 2017 - Early Seizure Detection Based on Cardiac Autonomic Regulation Dynamics.pdf
       \endverb
-      \keyw{autonomic nervous system,Autonomic Nervous System,epilepsy,Epilepsy,Forecasting,Humans,seizure detection,seizure forecasting,Seizures,Wearable Electronic Devices,wearables}
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00765/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00765/full
+      \endverb
+      \keyw{electrocardiogram,Epilepsy,Epileptic seizure prediction,Heart rate variability,Support Vector Machines}
     \endentry
     \entry{pordoyEnhancedNonEEGMultimodal2025}{article}{}{}
       \name{author}{6}{}{%
@@ -2278,6 +2205,84 @@
       \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
       \endverb
     \endentry
+    \entry{wangACEAutomatedOptimization2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc399f85ccdd18f7c16d2cd99a42d132}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuxuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bda20b9e46ee85247877a0732d6b3a6}{%
+           family={Orlandic},
+           familyi={O\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dff791296cb2bdae9dd7ddc6551fedd6}{%
+           family={Machetti},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9a2721a044e1591054b8a918cb5e79a}{%
+           family={Ansaloni},
+           familyi={A\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c724e73ec61ecb6de11c11c87dba095e}{%
+           family={Atienza},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ae5ec34feb1912ba5cfe0bfae34fd53}
+      \strng{fullhash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{fullhashraw}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{bibnamehash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{authorbibnamehash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{authornamehash}{8ae5ec34feb1912ba5cfe0bfae34fd53}
+      \strng{authorfullhash}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \strng{authorfullhashraw}{585db1ab84fc9d2617f1b92d8c9bf928}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Wearable devices for health monitoring are essential for tracking individuals’ health status and facilitating early detection of diseases. However, processing biomedical signals online for real-time monitoring is challenging due to limited computational resources on edge devices. To address this challenge, we propose an application-agnostic methodology called ACE (Automated optimization towards classification on the Edge). ACE converts a health monitoring algorithm with feature extraction and classification into an iterative detection process, incorporating algorithms of varying complexities and minimizing re-computation of shared data. First, ACE decomposes a monolithic model, employing a single feature set and classifier, into multiple algorithms with different computational complexities. Then, our automatic analysis tool integrates buffering logic into these algorithms to prevent re-computation of shared computational-intensive data. The optimized algorithm is then converted into a low-level language in C for deployment. During runtime, the system initiates monitoring with the lowest complexity algorithm and iteratively involves algorithms with higher complexity without recomputing the existing data. The iteration process continues until a pre-defined confidence threshold is met. We demonstrate the effectiveness of ACE on two biomedical applications: seizure detection and emotional state classification. ACE achieves at least 28.9\% and 18.9\% runtime savings without any accuracy loss on a Cortex-A9 edge platform for the two benchmarks, respectively. We discuss and demonstrate how ACE can be used by designers of such biomedical algorithms to automatically optimize and deploy their applications on the edge.}
+      \field{issn}{1940-9990}
+      \field{journaltitle}{IEEE Transactions on Biomedical Circuits and Systems}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{{{ACE}}}
+      \field{title}{{{ACE}}: {{Automated Optimization Towards Iterative Classification}} in {{Edge Health Monitors}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{82\bibrangedash 92}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TBCAS.2024.3468160
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/4V7JSURR/Wang et al. - 2025 - ACE Automated Optimization Towards Iterative Classification in Edge Health Monitors.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10693645/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10693645/
+      \endverb
+      \keyw{Circuits and systems,Classification algorithms,Costs,edge computing,embedded deployment,Feature extraction,Health monitoring,Image edge detection,iterative classification,Monitoring,Runtime,runtime optimization}
+    \endentry
     \entry{websterAnalyzingPrepareFuture2002}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6ed791f1b25c2edc28d090a99d5856ba}{%
@@ -2336,75 +2341,94 @@
       \verb https://www.jstor.org/stable/4132319
       \endverb
     \endentry
-    \entry{wolfHearttoWearAssessingAccuracy2024a}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=3f8ef554a68bcb7be9fb372fadfe629b}{%
-           family={Wolf},
+    \entry{wuNovelSeizureDetection2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=f1697c54256030cca71b9f83003cb1a0}{%
+           family={Wu},
            familyi={W\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0bd54fcb5a17c16f2cc5865e89f1c569}{%
-           family={Seidel},
-           familyi={S\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=696b74914bb7b353953a49ab450ef450}{%
-           family={Ockenga},
-           familyi={O\bibinitperiod},
-           given={Tim\bibnamedelima Alvaro},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd7e6faee085bf3bfb6221126834e63b}{%
-           family={Schoder},
-           familyi={S\bibinitperiod},
-           given={Detlef},
+           given={Duanpo},
            giveni={D\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=75e580384c88fdd5ca619b9b30390adb}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d14053bda83d5ca8444adff0f17aa6}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Pierre-Paul},
+           giveni={P\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9334c8291f3d97d0888ce2c59e0b6cc9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Danping},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce0362c5846a7cae040cd4ac963ab99f}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a02292cdfab8e69985634d627219ee0}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Jiuwen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bace80f2e893c99180394239249b256}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Tiejia},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{a84b1f24278fbb86217a2dd3c5749503}
-      \strng{fullhash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{fullhashraw}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{bibnamehash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{authorbibnamehash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{authornamehash}{a84b1f24278fbb86217a2dd3c5749503}
-      \strng{authorfullhash}{19212871a7b39e35034a7566dbb0fffd}
-      \strng{authorfullhashraw}{19212871a7b39e35034a7566dbb0fffd}
+      \strng{namehash}{8ddeffc2b6fc85401744aa2ac8452989}
+      \strng{fullhash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{fullhashraw}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{bibnamehash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{authorbibnamehash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{authornamehash}{8ddeffc2b6fc85401744aa2ac8452989}
+      \strng{authorfullhash}{7e0c7cc75e62a1bde98526e49e670dd4}
+      \strng{authorfullhashraw}{7e0c7cc75e62a1bde98526e49e670dd4}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The growing popularity of wearable devices has enabled individuals to monitor their health and offers potential benefits for remote patient monitoring. However, the reliability of diagnoses provided by these non-approved medical devices remains uncertain. This study addresses the problem of assessing the measurement accuracy of heart rate recordings from wearable devices in both controlled and uncontrolled environments. Previous research has focused on evaluating accuracy in controlled settings, neglecting the impact of external factors on device performance. We conducted a comparative study with ten healthy individuals, recording heart rates during indoor cycling and outdoor activities. Participants wore two out of three tested smartwatches (Apple Watch Ultra, Garmin Enduro 2, Polar Pacer Pro) alongside a Polar H10 chest strap as a reference device. Our findings provide evidence that the Apple Watch Ultra and the Garmin Enduro 2 are particularly resistant to external factors that can occur during regular cycling activities.}
-      \field{eprinttype}{hdl}
-      \field{eventtitle}{Hawaii {{International Conference}} on {{System Sciences}}}
-      \field{langid}{english}
-      \field{shorttitle}{Heart-to-{{Wear}}}
-      \field{title}{Heart-to-{{Wear}}: {{Assessing}} the {{Accuracy}} of {{Heart Rate Sensor Measurements}} of {{Wearable Devices}} in {{Uncontrolled Environments}}}
-      \field{urlday}{18}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Seizure detection is traditionally done using video/electroencephalography monitoring, but for out-of-hospital patients, this method is costly. In recent years, portable device to detect seizures gains attention. In this article, multimodal signals collected by portable devices are studied, and a seizure detection algorithm is proposed based on adaptive multibit local differential ternary pattern (MLDTP). This algorithm is used for detecting seizure period and interseizure period. Traditional local binary pattern has certain limitations in describing 1-D time-series signals. It can only describe two types of structures in signals: 1) rising structure and 2) falling structure, making the signal patterns overly monotonous and not conducive to classification tasks. To address this issue, this article introduces two additional structures, slowly rising structure and slowly falling structure, into the signal description using the MLDTP method. This method constructs multibit neighboring relationships of the signals and adaptively selects the optimal MLDTP parameters for different modalities using the Archimedes optimization algorithm (AOA). Additionally, this article extensively discusses a multimodal signal fusion strategy, mapping features of different modal signals to the same feature space through the MLDTP algorithm to achieve information complementarity. Long-term recorded data from 18 patients were collected using the wearable device Biovital P1, with 13 cases from the Children’s Hospital affiliated with Children’s Hospital, Zhejiang University School of Medicine, and five cases from the fourth Affiliated Hospital of Anhui Medical University. The data set underwent fivefold cross-validation, resulting in average accuracy, precision, sensitivity, and F1 score of 96.81\%, 98.55\%, 95.24\%, and 96.87\%, respectively.}
+      \field{issn}{2327-4662}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{month}{8}
+      \field{number}{16}
+      \field{title}{A {{Novel Seizure Detection Method Based}} on the {{Feature Fusion}} of {{Multimodal Physiological Signals}}}
+      \field{urlday}{21}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
+      \field{volume}{11}
       \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{27545\bibrangedash 27556}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.24251/HICSS.2024.385
-      \endverb
-      \verb{eprint}
-      \verb 10125/106768
+      \verb 10.1109/JIOT.2024.3398418
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/VJUGUCN6/Wolf et al. - 2024 - Heart-to-Wear Assessing the Accuracy of Heart Rate Sensor Measurements of Wearable Devices in Uncon.pdf
+      \verb /home/paulin/Zotero/storage/TMKHWHWI/Wu et al. - 2024 - A Novel Seizure Detection Method Based on the Feature Fusion of Multimodal Physiological Signals.pdf
       \endverb
       \verb{urlraw}
-      \verb http://hdl.handle.net/10125/106768
+      \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
       \verb{url}
-      \verb http://hdl.handle.net/10125/106768
+      \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
+      \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
     \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%

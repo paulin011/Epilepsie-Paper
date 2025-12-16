@@ -1,0 +1,62 @@
+\section{Theoretical Foundations for Ambulatory Seizure Monitoring}
+
+\subsection{The Ambulatory Monitoring Paradigm: Requirements and Challenges}
+
+The translation of seizure detection from the controlled clinical environment to
+an ambulatory setting redifines approaches and performance requirements.
+In clinical environments maximum seinsitivity is prioritized over FAR,
+when engineering for ambulatory use a balance of both metrics is needed.
+Failing to detect a seizure (low sensitivity) poses a safety risk, While
+excessive false alarms (high FAR) leads to desensitizing and "alarm fatigue"
+and the device being ignored or not used at all.
+While more complex models can find more intricate patterns they also introduce
+the "black-box" problem wherein the model lacks Transparency.
+Therefore the design should incorporate explanations for decisions to 
+ensure users trust and regulatory compliance.
+
+\subsection{Physiological Biosignals for Wearable Sensing}
+
+Wearable devices circumvent the impracticality of EEG 
+by capturing peripheral biosignals that serve as proxies 
+for central nervous system activity during seizures.
+These proxies will inherently relay incomplete and 
+noisy signals so a combination of multiple sensors
+is required. The acceleration/attitude sensor excels at detecting 
+muscle convulsions but is noisy in daily use, as it captures all movement. 
+The electrodermal activity (EDA) sensor detects autonomic arousal by 
+measuring the skin conductance associated with sweat gland activity.
+
+\subsection{Seizure Manifestations and Corresponding Biosignals}
+
+Wearable biosignals serve as essential proxies for cerebral activity during seizures,
+with different seizure types producing distinct patterns across these peripheral signals. 
+This proxy relationship forms the detection logic for ambulatory monitoring: 
+specific seizure semiology dictates which combination of physiological signals 
+presents the most reliable signature for algorithmic identification.
+The motor component of seizures, particularly the convulsive movements
+of generalized tonic‑clonic (GTC) events, is captured by accelerometry (ACC). 
+ACC data records characteristic movement patterns and posture changes, 
+with specific preprocessing techniques extracting attitude-angle signatures that 
+distinguish convulsive activity from daily motion 
+\parencite{wangACEAutomatedOptimization2025,wuNovelSeizureDetection2024}.
+Autonomic manifestations, which occur across most seizure types, 
+are reflected in multiple complementary biosignals. 
+Electrodermal activity (EDA) directly measures sympathetic nervous system output through 
+skin conductance, with phasic skin conductance responses (SCRs) 
+indicating sympathetic arousal during peri‑ictal states 
+\parencite{jainCompressedSensingBased2017}. 
+Cardiac activity provides perhaps the most studied autonomic proxy: 
+the electrocardiogram (ECG) captures direct cardiac data where ictal tachycardia 
+and other morphological changes are well‑documented seizure markers 
+\parencite{lealViabilityECGFeatures2017}. Heart rate variability (HRV), 
+derived from ECG or photoplethysmography (PPG), 
+quantifies autonomic balance through time‑domain, frequency‑domain, 
+and non‑linear measures, reflecting central autonomic network modulation during seizures 
+\parencite{masonHeartRateVariability2024,paveiEarlySeizureDetection2017}. 
+PPG offers a practical wearable alternative for capturing pulse‑rate and pulse‑rate variability, 
+though with greater susceptibility to motion artifact than ECG 
+\parencite{sethFeasibilityCardiacbasedSeizure2023}.
+
+This mapping between seizure phenotype and its corresponding proxy signatures establishes 
+the physiological basis upon which detection algorithms operate, 
+guiding both sensor selection and multimodal fusion strategies for ambulatory monitoring systems.

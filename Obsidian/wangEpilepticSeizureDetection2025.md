@@ -1,16 +1,17 @@
 ---
 title: "Epileptic Seizure Detection Based on Attitude Angle Signal of Wearable Device"
-year: 2025
 authors: Jiabing Wang, Dinghan Hu, Xiaoping Lai, Tao Jiang, Tiejia Jiang, Feng Gao, Pierre-Paul Vidal, Jiuwen Cao
+zotero_citekey: wangEpilepticSeizureDetection2025
+aliases: ["wangEpilepticSeizureDetection2025"]
 tags: 
   - zotero 
 ---
 
 
 
-- zotero: [zotero://select/library/items/GXZQKX57](zotero://select/library/items/GXZQKX57)
+- [Open in Zotero](zotero://select/library/items/GXZQKX57)
 - url: https://ieeexplore.ieee.org/document/10857465/
-- pdf: [Full Text PDF](file:///home/paulin/Zotero/storage/5ZC5TRLU/Wang%20et%20al.%20-%202025%20-%20Epileptic%20Seizure%20Detection%20Based%20on%20Attitude%20Angle%20Signal%20of%20Wearable%20Device.pdf)
+- [Open PDF]([Full Text PDF](file:///home/paulin/Zotero/storage/5ZC5TRLU/Wang%20et%20al.%20-%202025%20-%20Epileptic%20Seizure%20Detection%20Based%20on%20Attitude%20Angle%20Signal%20of%20Wearable%20Device.pdf))
 # Abstract
 Wearable wristband device-based epilepsy detection has the merits of noninvasiveness, portability, low costs, and good environmental adaptability. However, attention has been paid to exploring the attitude angle signals collected by wearable devices for epilepsy detection. In this article, a systematic analysis of whether the wearable device-based attitude angle signals, particularly the PITCH and ROLL angles, can be applied to epilepsy seizure detection, is studied. The relationship among attitude angle signals, acceleration, and angular velocity signals at the feature level is analyzed, and the detection effectiveness of combining different attitude angle features for classifier training and testing is presented and discussed. The long-term recorded data were collected by wearable devices from 28 epileptic patients, of which 11 were from the Fourth Affiliated Hospital of Anhui Medical University and 17 from the Department of Neurology, Children’s Hospital, Zhejiang University School of Medicine. Each recording includes the measurement of three-axis acceleration (ACC), three-axis gyroscope (GYR), ROLL, PITCH, surface electromyography (SEMG), and electrodermal activity (EDA), with at least one seizure recorded for each subject. Experimental results show that ROLL and PITCH angles can be utilized for epilepsy detection, with better performance than using ACC and GYR. Moreover, the attitude angle feature training by a long short-term memory (LSTM) network can achieve the highest accuracy and efficiency.
 
@@ -157,4 +158,4 @@ Wearable wristband device-based epilepsy detection has the merits of noninvasive
 %% begin notes %%
 %% end notes %%
 
-%% Import Date: 2025-12-12T12:08:28.670+01:00 %%
+%% Import Date: 2025-12-15T10:50:21.631+01:00 %%

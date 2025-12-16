@@ -1,16 +1,17 @@
 ---
 title: "Clinical risk factors in SUDEP"
-year: 2020
 authors: Olafur Sveinsson, Tomas Andersson, Peter Mattsson, Sofia Carlsson, Torbjörn Tomson
+zotero_citekey: sveinssonClinicalRiskFactors2020
+aliases: ["sveinssonClinicalRiskFactors2020"]
 tags: 
   - zotero 
 ---
 
 
 
-- zotero: [zotero://select/library/items/WZGNWKDG](zotero://select/library/items/WZGNWKDG)
+- [Open in Zotero](zotero://select/library/items/WZGNWKDG)
 - url: https://www.neurology.org/doi/10.1212/WNL.0000000000008741
-- pdf: [Full Text](file:///home/paulin/Zotero/storage/5774FZCV/Sveinsson%20et%20al.%20-%202020%20-%20Clinical%20risk%20factors%20in%20SUDEP.pdf)
+- [Open PDF]([Full Text](file:///home/paulin/Zotero/storage/5774FZCV/Sveinsson%20et%20al.%20-%202020%20-%20Clinical%20risk%20factors%20in%20SUDEP.pdf))
 # Abstract
 Objective
 We conducted a nationwide case-control study in Sweden to test the hypothesis that specific clinical characteristics are associated with increased risk of sudden unexpected death in epilepsy (SUDEP).
@@ -57,4 +58,4 @@ Individuals with GTCS who sleep alone have a dramatically increased SUDEP risk. 
 %% begin notes %%
 %% end notes %%
 
-%% Import Date: 2025-12-12T13:36:18.384+01:00 %%
+%% Import Date: 2025-12-15T10:50:05.052+01:00 %%

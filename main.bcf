@@ -3072,25 +3072,27 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">husseinFocalNonFocalEpilepsy2018</bcf:citekey>
     <bcf:citekey order="2" intorder="1">sveinssonClinicalRiskFactors2020</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">websterAnalyzingPrepareFuture2002</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">fisherInstructionManualILAE2017</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">hesdorfferCombinedAnalysisRisk2011</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">mironAutonomicBiosignalsSeizure2025</bcf:citekey>
-    <bcf:citekey order="6" intorder="2">masonHeartRateVariability2024</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">wolfHearttoWearAssessingAccuracy2024a</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">masonHeartRateVariability2024</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">pordoyEnhancedNonEEGMultimodal2025</bcf:citekey>
-    <bcf:citekey order="9" intorder="3">abtahiIdentificationRelevantECG2025</bcf:citekey>
-    <bcf:citekey order="9" intorder="4">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">wangACEAutomatedOptimization2025</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">wuNovelSeizureDetection2024</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">jainCompressedSensingBased2017</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">lealViabilityECGFeatures2017</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">masonHeartRateVariability2024</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">paveiEarlySeizureDetection2017</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">websterAnalyzingPrepareFuture2002</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">masonHeartRateVariability2024</bcf:citekey>
     <bcf:citekey order="10" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
     <bcf:citekey order="10" intorder="2">pordoyEnhancedNonEEGMultimodal2025</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
-    <bcf:citekey order="13" intorder="2">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
+    <bcf:citekey order="10" intorder="3">abtahiIdentificationRelevantECG2025</bcf:citekey>
+    <bcf:citekey order="10" intorder="4">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">pordoyEnhancedNonEEGMultimodal2025</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">andradePerformanceSeizurePrediction2024</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
