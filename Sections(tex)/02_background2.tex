@@ -10,15 +10,17 @@ when engineering for ambulatory use a balance of both metrics is needed.
 Failing to detect a seizure (low sensitivity) poses a safety risk, While
 excessive false alarms (high FAR) leads to desensitizing and "alarm fatigue"
 and the device being ignored or not used at all.
-Users reported that devices should achieve high sensitivity (≥90\%) 
-with low false alarm rates — acceptable FARs were 1-2/week for patients with ≥1
+Users reported that devices should achieve high sensitivity ($\geq$90\%) 
+with low false alarm rates — acceptable FARs were 1-2/week for patients with $\geq$1
 seizure/week and 1-2/month for patients with <1 seizure/week
 \parencite{sivathambooPreferencesUserExperiences2022}.
-While more complex models can find more intricate patterns they also introduce
-the "black-box" problem wherein the model lacks Transparency.
-Therefore the design should incorporate explanations for decisions to 
-ensure users trust and regulatory compliance.
- 
+While more complex models can find more intricate patterns, 
+they also introduce the "black-box" problem wherein the model lacks transparency 
+\cite{abualrobUnlockingNewFrontiers2025, ghaderiAdvancesMachineLearning2025}. 
+Therefore, the design should incorporate explanations for decisions to ensure 
+user trust and regulatory compliance 
+\cite{abualrobUnlockingNewFrontiers2025, mironAutonomicBiosignalsSeizure2025}.
+
 \subsection{Physiological Biosignals for Wearable Sensing}
 
 Wearable devices circumvent the impracticality of EEG 
@@ -55,9 +57,27 @@ while heart rate variability (HRV) quantifies autonomic balance dynamics
 In wearable applications, photoplethysmography (PPG) serves 
 as a practical alternative for cardiac monitoring,
 deriving pulse rate and variability though with greater motion sensitivity than ECG 
-\parencite{seizuresDetectionUsingMultimodal, sethFeasibilityCardiacBasedSeizure2023}.
+\parencite{chenSeizuresDetectionUsing2022a, sethFeasibilityCardiacbasedSeizure2023}.
 
 Consequently, detection strategies combine these biosignals according to target seizure types, 
 with multimodal fusion providing the most robust approach for ambulatory monitoring.
 
 \subsection{Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}
+The clinical validity of a seizure detection algorithm is determined by the rigor of 
+its evaluation, formalized in the ILAE's phased framework (Phases 0–4) 
+\parencite{beniczkyAutomatedSeizureDetection2021a}. 
+Retrospective studies (Phases 0-2), while foundational, 
+risk significant data leakage and optimistic bias if they use non-chronological data splits, 
+allowing future information to inform training 
+\parencite{kalousiosECGbasedEpilepticSeizure2024, wongEEGDatasetsSeizure2023}. 
+Pseudo-prospective validation addresses this by enforcing chronological order, 
+training only on past seizures to test on subsequent ones, 
+providing a more realistic performance estimate 
+\parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}. 
+The clinical gold standard is a prospective trial (Phase 3), 
+which requires a locked algorithm, a video-EEG reference standard, 
+and testing on new, unseen data from multiple centers. 
+The final step is in-field evaluation (Phase 4) in patients' homes, 
+where metrics like the false alarm rate per hour (FAR/h) become decisive for practical usability, 
+as demonstrated by long-term studies like Nightwatch 
+\parencite{mironAutonomicBiosignalsSeizure2025, shumCommerciallyAvailableSeizure2021}.

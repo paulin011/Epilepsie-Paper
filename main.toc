@@ -4,13 +4,12 @@
 \contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Physiological Biosignals for Wearable Sensing}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{3}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Methodological Approach and Structure}{3}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Provisional Table of Contents}{4}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Modeling Landscape and Design Dimensions}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Architectural Evolution: Feature Engineering vs. Deep Learning}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Sensor Modalities and Fusion Strategies}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Personalization and Domain Shift}{6}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Robustness and Generalization}{6}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Deployment Constraints: Latency, Energy, and Interpretability}{6}{subsection.3.5}%
+\contentsline {section}{\numberline {3}Methodological Approach and Structure}{3}{section.3}%
+\contentsline {section}{\numberline {4}Modeling Landscape and Design Dimensions}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Architectural Evolution: Feature Engineering vs. Deep Learning}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Sensor Modalities and Fusion Strategies}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Personalization and Domain Shift}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Robustness and Generalization}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Deployment Constraints: Latency, Energy, and Interpretability}{5}{subsection.4.5}%

@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "/home/paulin/.conda/envs/epilepsy/bin/python",
+    "python.condaPath": "/opt/miniconda3/bin/conda",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.kernels.filter": [],
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "jupyter.kernels.trusted": [
+        "/home/paulin/.local/share/jupyter/kernels/epilepsy/kernel.json",
+        "/home/paulin/.conda/envs/epilepsy/share/jupyter/kernels/python3/kernel.json"
+    ],
+    "python.pythonPath": "/home/paulin/.conda/envs/epilepsy/bin/python",
+    "jupyter.jupyterServerType": "local",
+    "jupyter.logging.level": "debug",
+    "python.logging.level": "debug"
+}

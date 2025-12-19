@@ -1,0 +1,5426 @@
+{
+  "papers": [
+    {
+      "filename": "Georgis-Yap et al. - 2024 - Supervised and Unsupervised Deep Learning Approaches for EEG Seizure Prediction.md",
+      "title": "Supervised and Unsupervised Deep Learning Approaches for EEG Seizure Prediction",
+      "authors": "Georgis-Yap et al.",
+      "year": 2024,
+      "word_count": 7929,
+      "modalities": {
+        "EEG": 41
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 3,
+        "prediction": 100,
+        "forecasting": 1
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "CHB-MIT",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "transformer",
+          "autoencoder",
+          "GAN",
+          "neural network",
+          "ResNet"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "Fourier",
+          "filtering"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Heart-to-wear.md",
+      "title": "Heart-to-wear",
+      "authors": "",
+      "year": null,
+      "word_count": 4861,
+      "modalities": {
+        "ECG": 4,
+        "PPG": 1
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "The Epidemiology of Epilepsy.md",
+      "title": "The Epidemiology of Epilepsy",
+      "authors": "",
+      "year": null,
+      "word_count": 5241,
+      "modalities": {
+        "EEG": 9
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Beghi - 2019 - The Epidemiology of Epilepsy.md",
+      "title": "The Epidemiology of Epilepsy",
+      "authors": "Beghi",
+      "year": 2019,
+      "word_count": 6134,
+      "modalities": {
+        "EEG": 9
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Lu et al. - 2024 - A practical guide for selecting continuous monitoring wearable devices for community-dwelling adults.md",
+      "title": "A practical guide for selecting continuous monitoring wearable devices for community-dwelling adults",
+      "authors": "Lu et al.",
+      "year": 2024,
+      "word_count": 5026,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Zhang et al. - 2023 - Economic evaluation and costs of remote patient monitoring for cardiovascular disease in the United.md",
+      "title": "Economic evaluation and costs of remote patient monitoring for cardiovascular disease in the United",
+      "authors": "Zhang et al.",
+      "year": 2023,
+      "word_count": 6421,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Mauldin et al. - 2021 - Ensemble Deep Learning on Wearables Using Small Datasets.md",
+      "title": "Ensemble Deep Learning on Wearables Using Small Datasets",
+      "authors": "Mauldin et al.",
+      "year": 2021,
+      "word_count": 17417,
+      "modalities": {
+        "ECG": 1,
+        "ACC": 23
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "random forest",
+          "decision tree",
+          "kNN",
+          "naive bayes",
+          "gradient boosting"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Seth et al. - 2023 - Feasibility of cardiac\u2010based seizure detection and prediction A systematic review of non\u2010invasive w.md",
+      "title": "Feasibility of cardiac\u2010based seizure detection and prediction A systematic review of non\u2010invasive w",
+      "authors": "Seth et al.",
+      "year": 2023,
+      "word_count": 21899,
+      "modalities": {
+        "ECG": 23,
+        "HRV": 29,
+        "PPG": 10,
+        "EDA": 8,
+        "ACC": 11,
+        "EEG": 7
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 44,
+        "prediction": 22,
+        "forecasting": 2
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Seizures detection using multimodal signals a scoping review.md",
+      "title": "Seizures detection using multimodal signals a scoping review",
+      "authors": "",
+      "year": null,
+      "word_count": 12025,
+      "modalities": {
+        "ECG": 24,
+        "HRV": 8,
+        "PPG": 19,
+        "EDA": 35,
+        "ACC": 24,
+        "EEG": 45
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 54,
+        "prediction": 6,
+        "forecasting": 4
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "kNN"
+        ],
+        "signal_processing": [
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "viewcontent 1.md",
+      "title": "viewcontent 1",
+      "authors": "",
+      "year": null,
+      "word_count": 5002,
+      "modalities": {
+        "ECG": 4,
+        "PPG": 1
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Asadi-Pooya and Homayoun - 2020 - Tonic-clonic seizures in idiopathic generalized epilepsies Prevalence, risk factors, and outcome.md",
+      "title": "Tonic-clonic seizures in idiopathic generalized epilepsies Prevalence, risk factors, and outcome",
+      "authors": "Asadi-Pooya and Homayoun",
+      "year": 2020,
+      "word_count": 3978,
+      "modalities": {
+        "EEG": 17
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "retrospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": false,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Nei et al. - 2004 - EEG and ECG in Sudden Unexplained Death in Epilepsy.md",
+      "title": "EEG and ECG in Sudden Unexplained Death in Epilepsy",
+      "authors": "Nei et al.",
+      "year": 2004,
+      "word_count": 6793,
+      "modalities": {
+        "ECG": 33,
+        "HRV": 2,
+        "EEG": 29
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "prediction": 3
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Zijlmans et al. - 2002 - Heart Rate Changes and ECG Abnormalities During Epileptic Seizures Prevalence and Definition of an.md",
+      "title": "Heart Rate Changes and ECG Abnormalities During Epileptic Seizures Prevalence and Definition of an",
+      "authors": "Zijlmans et al.",
+      "year": 2002,
+      "word_count": 5120,
+      "modalities": {
+        "ECG": 79,
+        "EEG": 14
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 3,
+        "prediction": 3
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "retrospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Lamberts et al. - 2015 - Increased prevalence of ECG markers for sudden cardiac arrest in refractory epilepsy.md",
+      "title": "Increased prevalence of ECG markers for sudden cardiac arrest in refractory epilepsy",
+      "authors": "Lamberts et al.",
+      "year": 2015,
+      "word_count": 5614,
+      "modalities": {
+        "ECG": 48
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Mahler et al. - 2018 - Risk for injuries and accidents in epilepsy.md",
+      "title": "Risk for injuries and accidents in epilepsy",
+      "authors": "Mahler et al.",
+      "year": 2018,
+      "word_count": 7229,
+      "modalities": {
+        "EEG": 2
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Wong et al. - 2023 - EEG datasets for seizure detection and prediction\u2014 A\u00a0review.md",
+      "title": "EEG datasets for seizure detection and prediction\u2014 A\u00a0review",
+      "authors": "Wong et al.",
+      "year": 2023,
+      "word_count": 10184,
+      "modalities": {
+        "ECG": 8,
+        "HRV": 1,
+        "EEG": 171
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 35,
+        "prediction": 45,
+        "forecasting": 1
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "EMU",
+        "Physionet",
+        "Freiburg",
+        "European Epilepsy Database",
+        "TUSZ",
+        "TUH",
+        "wearable",
+        "Siena",
+        "Temple",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "filtering"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Ghaderi - 2025 - Advances in Machine Learning for Epileptic Seizure Prediction A Review of ECG-Based Approaches.md",
+      "title": "Advances in Machine Learning for Epileptic Seizure Prediction A Review of ECG-Based Approaches",
+      "authors": "Ghaderi",
+      "year": 2025,
+      "word_count": 14144,
+      "modalities": {
+        "ECG": 80,
+        "HRV": 98,
+        "EEG": 26
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 11,
+        "prediction": 139,
+        "forecasting": 1
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "Physionet",
+        "European Epilepsy Database",
+        "Epilepsiae",
+        "wearable",
+        "Siena",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "LSTM",
+          "deep learning",
+          "transformer",
+          "autoencoder",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "decision tree",
+          "kNN"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "Fourier",
+          "spectral analysis",
+          "filtering"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Kalousios et al. - 2024 - ECG\u2010based epileptic seizure prediction Challenges of current data\u2010driven models.md",
+      "title": "ECG\u2010based epileptic seizure prediction Challenges of current data\u2010driven models",
+      "authors": "Kalousios et al.",
+      "year": 2024,
+      "word_count": 7119,
+      "modalities": {
+        "ECG": 24,
+        "HRV": 33,
+        "PPG": 1,
+        "EEG": 11
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 3,
+        "prediction": 72,
+        "forecasting": 4
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "decision tree"
+        ],
+        "signal_processing": [
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": false,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Pavei et al. - 2017 - Early Seizure Detection Based on Cardiac Autonomic Regulation Dynamics.md",
+      "title": "Early Seizure Detection Based on Cardiac Autonomic Regulation Dynamics",
+      "authors": "Pavei et al.",
+      "year": 2017,
+      "word_count": 8947,
+      "modalities": {
+        "ECG": 58,
+        "HRV": 117,
+        "EEG": 37
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 23,
+        "prediction": 41
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical",
+        "Physionet"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "FFT",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Mason et al. - 2024 - Heart Rate Variability as a Tool for Seizure Prediction A Scoping Review.md",
+      "title": "Heart Rate Variability as a Tool for Seizure Prediction A Scoping Review",
+      "authors": "Mason et al.",
+      "year": 2024,
+      "word_count": 11515,
+      "modalities": {
+        "ECG": 23,
+        "HRV": 183,
+        "PPG": 2,
+        "EDA": 1,
+        "EEG": 20
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 34,
+        "prediction": 27,
+        "forecasting": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "logistic regression"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "FFT",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Chopannavaz and Ghaderi - 2025 - An Empirical Investigation of Reconstruction-Based Models for Seizure Prediction from ECG Signals.md",
+      "title": "An Empirical Investigation of Reconstruction-Based Models for Seizure Prediction from ECG Signals",
+      "authors": "Chopannavaz and Ghaderi",
+      "year": 2025,
+      "word_count": 9153,
+      "modalities": {
+        "ECG": 75,
+        "HRV": 18,
+        "EEG": 14
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 3,
+        "prediction": 91,
+        "forecasting": 1
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical",
+        "Siena",
+        "Physionet"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "transformer",
+          "autoencoder",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "support vector"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "Fourier",
+          "filtering"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Andrade et al. - 2024 - On the performance of seizure prediction machine learning methods across different databases the sa.md",
+      "title": "On the performance of seizure prediction machine learning methods across different databases the sa",
+      "authors": "Andrade et al.",
+      "year": 2024,
+      "word_count": 6395,
+      "modalities": {
+        "EEG": 18
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 54
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "CHBMIT",
+        "Physionet",
+        "Freiburg",
+        "European Epilepsy Database",
+        "Epilepsiae",
+        "CHB-MIT",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "logistic regression"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Wolf et al. - 2024 - Heart-to-Wear Assessing the Accuracy of Heart Rate Sensor Measurements of Wearable Devices in Uncon.md",
+      "title": "Heart-to-Wear Assessing the Accuracy of Heart Rate Sensor Measurements of Wearable Devices in Uncon",
+      "authors": "Wolf et al.",
+      "year": 2024,
+      "word_count": 5020,
+      "modalities": {
+        "ECG": 4,
+        "PPG": 1
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Kwan and Brodie - 2000 - Early Identification of Refractory Epilepsy.md",
+      "title": "Early Identification of Refractory Epilepsy",
+      "authors": "Kwan and Brodie",
+      "year": 2000,
+      "word_count": 5396,
+      "modalities": {
+        "EEG": 2
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Hu et al. - 2021 - Gender and socioeconomic disparities in global burden of epilepsy an analysis of time trends from 1.md",
+      "title": "Gender and socioeconomic disparities in global burden of epilepsy an analysis of time trends from 1",
+      "authors": "Hu et al.",
+      "year": 2021,
+      "word_count": 6828,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Langan et al. - 2005 - Case-control study of SUDEP.md",
+      "title": "Case-control study of SUDEP",
+      "authors": "Langan et al.",
+      "year": 2005,
+      "word_count": 2818,
+      "modalities": {
+        "HRV": 1,
+        "EEG": 1
+      },
+      "primary_modality": "HRV",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ],
+        "signal_processing": [
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Gupta et al. - 2022 - Deep learning (CNN) and transfer learning a review.md",
+      "title": "Deep learning (CNN) and transfer learning a review",
+      "authors": "Gupta et al.",
+      "year": 2022,
+      "word_count": 4987,
+      "modalities": {
+        "EEG": 1
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network",
+          "ResNet"
+        ],
+        "signal_processing": [
+          "filtering"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Gupta et al. - 2022 - Deep Learning (CNN) and Transfer Learning A Review.md",
+      "title": "Deep Learning (CNN) and Transfer Learning A Review",
+      "authors": "Gupta et al.",
+      "year": 2022,
+      "word_count": 4987,
+      "modalities": {
+        "EEG": 1
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network",
+          "ResNet"
+        ],
+        "signal_processing": [
+          "filtering"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Hesdorffer et al. - 2011 - Combined analysis of risk factors for SUDEP.md",
+      "title": "Combined analysis of risk factors for SUDEP",
+      "authors": "Hesdorffer et al.",
+      "year": 2011,
+      "word_count": 6803,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "prospective"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Singh et al. - 2021 - Proof of Concept of a Novel Neck-Situated Wearable PPG System for Continuous Physiological Monitorin.md",
+      "title": "Proof of Concept of a Novel Neck-Situated Wearable PPG System for Continuous Physiological Monitorin",
+      "authors": "Singh et al.",
+      "year": 2021,
+      "word_count": 7090,
+      "modalities": {
+        "ECG": 3,
+        "PPG": 59,
+        "ACC": 9,
+        "EEG": 7
+      },
+      "primary_modality": "PPG",
+      "tasks": {
+        "detection": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "retrospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "kNN"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "L\u00e1zaro et al. - 2020 - Wearable Armband Device for Daily Life Electrocardiogram Monitoring.md",
+      "title": "Wearable Armband Device for Daily Life Electrocardiogram Monitoring",
+      "authors": "L\u00e1zaro et al.",
+      "year": 2020,
+      "word_count": 8027,
+      "modalities": {
+        "ECG": 128,
+        "HRV": 20,
+        "PPG": 13,
+        "ACC": 8
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 4
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Bonato - 2010 - Wearable Sensors and Systems.md",
+      "title": "Wearable Sensors and Systems",
+      "authors": "Bonato",
+      "year": 2010,
+      "word_count": 9406,
+      "modalities": {
+        "ECG": 5,
+        "PPG": 2,
+        "ACC": 6
+      },
+      "primary_modality": "ACC",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Zia et al. - 2021 - Detection of Generalized Tonic Clonic Seizures and Falls in Unconstraint Environment Using Smartphon.md",
+      "title": "Detection of Generalized Tonic Clonic Seizures and Falls in Unconstraint Environment Using Smartphon",
+      "authors": "Zia et al.",
+      "year": 2021,
+      "word_count": 6930,
+      "modalities": {
+        "ECG": 2,
+        "PPG": 2,
+        "ACC": 39,
+        "EEG": 8
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 4,
+        "prediction": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "kNN"
+        ],
+        "signal_processing": [
+          "FFT",
+          "Fourier"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Lu et al. - 2023 - An Epileptic Seizure Prediction Method Based on CBAM-3D CNN-LSTM Model.md",
+      "title": "An Epileptic Seizure Prediction Method Based on CBAM-3D CNN-LSTM Model",
+      "authors": "Lu et al.",
+      "year": 2023,
+      "word_count": 5161,
+      "modalities": {
+        "EEG": 54
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 48
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical",
+        "CHB-MIT",
+        "Physionet"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "Fourier"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Hussein et al. - 2018 - Focal and Non-Focal Epilepsy Localization A Review.md",
+      "title": "Focal and Non-Focal Epilepsy Localization A Review",
+      "authors": "Hussein et al.",
+      "year": 2018,
+      "word_count": 16293,
+      "modalities": {
+        "ECG": 4,
+        "HRV": 1,
+        "EEG": 169
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 32,
+        "prediction": 22
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical",
+        "Freiburg"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Hiemer et al. - 2014 - A smoothed stochastic earthquake rate model considering seismicity and fault moment release for Euro.md",
+      "title": "A smoothed stochastic earthquake rate model considering seismicity and fault moment release for Euro",
+      "authors": "Hiemer et al.",
+      "year": 2014,
+      "word_count": 21,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [],
+      "datasets": [],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Lu et al. - 2025 - Leveraging Channel Coherence in Long-Term iEEG Data for Seizure Prediction.md",
+      "title": "Leveraging Channel Coherence in Long-Term iEEG Data for Seizure Prediction",
+      "authors": "Lu et al.",
+      "year": 2025,
+      "word_count": 6629,
+      "modalities": {
+        "EEG": 60
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 4,
+        "prediction": 86,
+        "forecasting": 3
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "deep learning",
+          "neural network",
+          "ResNet"
+        ],
+        "signal_processing": [
+          "Fourier"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Jafleh et al. - 2024 - The Role of Wearable Devices in Chronic Disease Monitoring and Patient Care A Comprehensive Review.md",
+      "title": "The Role of Wearable Devices in Chronic Disease Monitoring and Patient Care A Comprehensive Review",
+      "authors": "Jafleh et al.",
+      "year": 2024,
+      "word_count": 19268,
+      "modalities": {
+        "ECG": 16,
+        "HRV": 1,
+        "PPG": 8,
+        "EDA": 5,
+        "ACC": 10,
+        "EEG": 12
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 7,
+        "prediction": 1,
+        "forecasting": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "deep learning",
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest"
+        ],
+        "signal_processing": [
+          "filtering"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Mason et al. - 2024 - Heart Rate Variability as a Tool for Seizure Prediction A Scoping Review 1.md",
+      "title": "Heart Rate Variability as a Tool for Seizure Prediction A Scoping Review 1",
+      "authors": "Mason et al.",
+      "year": 2024,
+      "word_count": 11516,
+      "modalities": {
+        "ECG": 23,
+        "HRV": 183,
+        "PPG": 2,
+        "EDA": 1,
+        "EEG": 20
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 34,
+        "prediction": 27,
+        "forecasting": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "logistic regression"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "FFT",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Yang et al. - 2022 - A Multimodal AI System for Out-of-Distribution Generalization of Seizure Identification.md",
+      "title": "A Multimodal AI System for Out-of-Distribution Generalization of Seizure Identification",
+      "authors": "Yang et al.",
+      "year": 2022,
+      "word_count": 9085,
+      "modalities": {
+        "ECG": 100,
+        "HRV": 8,
+        "PPG": 1,
+        "EEG": 120
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 12
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "EMU",
+        "Epilepsiae",
+        "TUH",
+        "wearable",
+        "Temple",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "signal_processing": [
+          "Fourier"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Wu et al. - 2024 - A Novel Seizure Detection Method Based on the Feature Fusion of Multimodal Physiological Signals.md",
+      "title": "A Novel Seizure Detection Method Based on the Feature Fusion of Multimodal Physiological Signals",
+      "authors": "Wu et al.",
+      "year": 2024,
+      "word_count": 8241,
+      "modalities": {
+        "EDA": 8,
+        "ACC": 13,
+        "EEG": 13
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 36
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "convolutional neural network",
+          "deep learning",
+          "autoencoder",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "random forest",
+          "decision tree"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Wang et al. - 2025 - ACE Automated Optimization Towards Iterative Classification in Edge Health Monitors.md",
+      "title": "ACE Automated Optimization Towards Iterative Classification in Edge Health Monitors",
+      "authors": "Wang et al.",
+      "year": 2025,
+      "word_count": 8938,
+      "modalities": {
+        "ECG": 11,
+        "HRV": 1,
+        "PPG": 4,
+        "EEG": 6
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 14,
+        "prediction": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "random forest",
+          "decision tree"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Wang et al. - 2025 - Epileptic Seizure Detection Based on Attitude Angle Signal of Wearable Device.md",
+      "title": "Epileptic Seizure Detection Based on Attitude Angle Signal of Wearable Device",
+      "authors": "Wang et al.",
+      "year": 2025,
+      "word_count": 7424,
+      "modalities": {
+        "ECG": 2,
+        "PPG": 3,
+        "EDA": 30,
+        "ACC": 80,
+        "EEG": 12
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 38,
+        "forecasting": 2
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "XGBoost",
+          "kNN"
+        ],
+        "signal_processing": [
+          "filtering",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Radman et al. - 2021 - Multi-Feature Fusion Approach for Epileptic Seizure Detection From EEG Signals.md",
+      "title": "Multi-Feature Fusion Approach for Epileptic Seizure Detection From EEG Signals",
+      "authors": "Radman et al.",
+      "year": 2021,
+      "word_count": 8716,
+      "modalities": {
+        "EEG": 67
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 19,
+        "prediction": 8
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "kNN"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "FFT",
+          "Fourier"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Leal et al. - 2017 - On the viability of ECG features for seizure anticipation on long-term data.md",
+      "title": "On the viability of ECG features for seizure anticipation on long-term data",
+      "authors": "Leal et al.",
+      "year": 2017,
+      "word_count": 2468,
+      "modalities": {
+        "ECG": 18,
+        "HRV": 5,
+        "EEG": 12
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 2,
+        "prediction": 6
+      },
+      "primary_task": "prediction",
+      "study_types": [],
+      "datasets": [
+        "Epilepsiae",
+        "clinical",
+        "Freiburg",
+        "European Epilepsy Database"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Kulkarni et al. - 2018 - An Energy-Efficient Programmable Manycore Accelerator for Personalized Biomedical Applications.md",
+      "title": "An Energy-Efficient Programmable Manycore Accelerator for Personalized Biomedical Applications",
+      "authors": "Kulkarni et al.",
+      "year": 2018,
+      "word_count": 12444,
+      "modalities": {
+        "ECG": 3,
+        "EDA": 2,
+        "ACC": 5,
+        "EEG": 14
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 28
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "logistic regression",
+          "kNN",
+          "naive bayes"
+        ],
+        "signal_processing": [
+          "FFT",
+          "Fourier"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Korany and Mostofi - 2022 - Nocturnal Seizure Detection Using Off-the-Shelf WiFi.md",
+      "title": "Nocturnal Seizure Detection Using Off-the-Shelf WiFi",
+      "authors": "Korany and Mostofi",
+      "year": 2022,
+      "word_count": 13697,
+      "modalities": {
+        "PPG": 1,
+        "ACC": 18,
+        "EEG": 2
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 40
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "signal_processing": [
+          "FFT",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Jafer et al. - 2020 - A Wireless Body Area Network for Remote Observation of Physiological Signals.md",
+      "title": "A Wireless Body Area Network for Remote Observation of Physiological Signals",
+      "authors": "Jafer et al.",
+      "year": 2020,
+      "word_count": 2050,
+      "modalities": {
+        "ECG": 4,
+        "ACC": 4,
+        "EEG": 1
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Gubbi et al. - 2016 - Automatic Detection and Classification of Convulsive Psychogenic Nonepileptic Seizures Using a Weara.md",
+      "title": "Automatic Detection and Classification of Convulsive Psychogenic Nonepileptic Seizures Using a Weara",
+      "authors": "Gubbi et al.",
+      "year": 2016,
+      "word_count": 10598,
+      "modalities": {
+        "ACC": 41,
+        "EEG": 10
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 13
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "FFT",
+          "Fourier",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Gopalakrishnan et al. - 2025 - VPSI 2.0 IoT-Based Hybrid Protocol With Simultaneous Equations for Real-Time Seizure Classification.md",
+      "title": "VPSI 2.0 IoT-Based Hybrid Protocol With Simultaneous Equations for Real-Time Seizure Classification",
+      "authors": "Gopalakrishnan et al.",
+      "year": 2025,
+      "word_count": 7703,
+      "modalities": {
+        "ECG": 1,
+        "PPG": 1,
+        "EDA": 1,
+        "ACC": 2,
+        "EEG": 16
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 23,
+        "prediction": 9
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "deep learning",
+          "GAN"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Fujiwara et al. - 2016 - Epileptic Seizure Prediction Based on Multivariate Statistical Process Control of Heart Rate Variabi.md",
+      "title": "Epileptic Seizure Prediction Based on Multivariate Statistical Process Control of Heart Rate Variabi",
+      "authors": "Fujiwara et al.",
+      "year": 2016,
+      "word_count": 7810,
+      "modalities": {
+        "ECG": 16,
+        "HRV": 88,
+        "EEG": 20
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 6,
+        "prediction": 93
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical",
+        "TUH"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "signal_processing": [
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Forooghifar et al. - 2019 - Resource-Aware Distributed Epilepsy Monitoring Using Self-Awareness From Edge to Cloud.md",
+      "title": "Resource-Aware Distributed Epilepsy Monitoring Using Self-Awareness From Edge to Cloud",
+      "authors": "Forooghifar et al.",
+      "year": 2019,
+      "word_count": 10737,
+      "modalities": {
+        "ECG": 15,
+        "PPG": 1,
+        "EEG": 5
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 14
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "Epilepsiae",
+        "wearable",
+        "clinical",
+        "European Epilepsy Database"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "random forest"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Elfaramawy et al. - 2019 - A Wireless Respiratory Monitoring System Using a Wearable Patch Sensor Network.md",
+      "title": "A Wireless Respiratory Monitoring System Using a Wearable Patch Sensor Network",
+      "authors": "Elfaramawy et al.",
+      "year": 2019,
+      "word_count": 5985,
+      "modalities": {
+        "PPG": 9,
+        "ACC": 9
+      },
+      "primary_modality": "PPG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Alshehri and Muhammad - 2021 - A Comprehensive Survey of the Internet of Things (IoT) and AI-Based Smart Healthcare.md",
+      "title": "A Comprehensive Survey of the Internet of Things (IoT) and AI-Based Smart Healthcare",
+      "authors": "Alshehri and Muhammad",
+      "year": 2021,
+      "word_count": 14731,
+      "modalities": {
+        "ECG": 6,
+        "PPG": 1,
+        "EDA": 1,
+        "ACC": 1,
+        "EEG": 16
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 6
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [
+        "patient_independent"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Sivathamboo et al. - 2022 - Preferences and User Experiences of Wearable Devices in Epilepsy A Systematic Review and Mixed-Meth.md",
+      "title": "Preferences and User Experiences of Wearable Devices in Epilepsy A Systematic Review and Mixed-Meth",
+      "authors": "Sivathamboo et al.",
+      "year": 2022,
+      "word_count": 8935,
+      "modalities": {
+        "PPG": 1,
+        "ACC": 4,
+        "EEG": 5
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 29,
+        "prediction": 4,
+        "forecasting": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Thom et al. - 2025 - Personalised selection of medication for newly diagnosed adult epilepsy study protocol of a first-i.md",
+      "title": "Personalised selection of medication for newly diagnosed adult epilepsy study protocol of a first-i",
+      "authors": "Thom et al.",
+      "year": 2025,
+      "word_count": 8411,
+      "modalities": {
+        "EEG": 11
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN"
+        ],
+        "signal_processing": [
+          "filtering"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Hakeem et al. - 2022 - Development and validation of a deep learning model for predicting treatment response in patients wi.md",
+      "title": "Development and validation of a deep learning model for predicting treatment response in patients wi",
+      "authors": "Hakeem et al.",
+      "year": 2022,
+      "word_count": 9525,
+      "modalities": {
+        "EEG": 7
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 2
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "transformer",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "support vector",
+          "random forest",
+          "decision tree",
+          "XGBoost",
+          "logistic regression",
+          "gradient boosting"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Abdulsadig and Rodriguez-Villegas - 2023 - Sleep Posture Monitoring Using a Single Neck- Situated Accelerometer A Proof-of-Concept.md",
+      "title": "Sleep Posture Monitoring Using a Single Neck- Situated Accelerometer A Proof-of-Concept",
+      "authors": "Abdulsadig and Rodriguez-Villegas",
+      "year": 2023,
+      "word_count": 8887,
+      "modalities": {
+        "ECG": 2,
+        "ACC": 33
+      },
+      "primary_modality": "ACC",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "LSTM",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "decision tree"
+        ],
+        "signal_processing": [
+          "filtering"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.md",
+      "title": "A Compressed Sensing Based Decomposition of Electrodermal Activity Signals",
+      "authors": "Jain et al.",
+      "year": 2017,
+      "word_count": 7667,
+      "modalities": {
+        "EDA": 103
+      },
+      "primary_modality": "EDA",
+      "tasks": {
+        "detection": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Yu and Hu - 2021 - Epilepsy SEEG Data Classification Based On Domain Adversarial Learning.md",
+      "title": "Epilepsy SEEG Data Classification Based On Domain Adversarial Learning",
+      "authors": "Yu and Hu",
+      "year": 2021,
+      "word_count": 6667,
+      "modalities": {
+        "EEG": 46
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 3,
+        "prediction": 23
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "deep learning",
+          "transformer",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_independent",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Murin et al. - 2019 - Estimating the Memory Order of Electrocorticography Recordings.md",
+      "title": "Estimating the Memory Order of Electrocorticography Recordings",
+      "authors": "Murin et al.",
+      "year": 2019,
+      "word_count": 12017,
+      "modalities": {
+        "EEG": 7
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 17
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "support vector",
+          "k-NN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Villanueva et al. - 2023 - Multimodal Minimally Invasive Wearable Technology for Epilepsy Monitoring A Feasibility Study of th.md",
+      "title": "Multimodal Minimally Invasive Wearable Technology for Epilepsy Monitoring A Feasibility Study of th",
+      "authors": "Villanueva et al.",
+      "year": 2023,
+      "word_count": 11995,
+      "modalities": {
+        "ECG": 30,
+        "HRV": 4,
+        "PPG": 43,
+        "EDA": 31,
+        "ACC": 8,
+        "EEG": 33
+      },
+      "primary_modality": "PPG",
+      "tasks": {
+        "detection": 3,
+        "prediction": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "signal_processing": [
+          "spectral analysis",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Tigaran et al. - 2009 - ECG changes in epilepsy patients.md",
+      "title": "ECG changes in epilepsy patients",
+      "authors": "Tigaran et al.",
+      "year": 2009,
+      "word_count": 2513,
+      "modalities": {
+        "ECG": 34,
+        "EEG": 9
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Thijs et al. - 2021 - Autonomic manifestations of epilepsy emerging pathways to sudden death.md",
+      "title": "Autonomic manifestations of epilepsy emerging pathways to sudden death",
+      "authors": "Thijs et al.",
+      "year": 2021,
+      "word_count": 14364,
+      "modalities": {
+        "ECG": 11,
+        "HRV": 14,
+        "PPG": 1,
+        "EDA": 1,
+        "ACC": 2,
+        "EEG": 31
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 13
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Steacy et al. - 2014 - A new hybrid Coulombstatistical model for forecasting aftershock rates.md",
+      "title": "A new hybrid Coulombstatistical model for forecasting aftershock rates",
+      "authors": "Steacy et al.",
+      "year": 2014,
+      "word_count": 4393,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Pordoy et al. - 2025 - Enhanced Non-EEG Multimodal Seizure Detection A Real-World Model for Identifying Generalised Seizur.md",
+      "title": "Enhanced Non-EEG Multimodal Seizure Detection A Real-World Model for Identifying Generalised Seizur",
+      "authors": "Pordoy et al.",
+      "year": 2025,
+      "word_count": 11719,
+      "modalities": {
+        "ECG": 1,
+        "PPG": 7,
+        "ACC": 3,
+        "EEG": 58
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 35,
+        "prediction": 60
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "random forest"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Nei et al. - 2000 - EKG Abnormalities During Partial Seizures in Refractory Epilepsy.md",
+      "title": "EKG Abnormalities During Partial Seizures in Refractory Epilepsy",
+      "authors": "Nei et al.",
+      "year": 2000,
+      "word_count": 5016,
+      "modalities": {
+        "ECG": 56,
+        "EEG": 10
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "prediction": 16
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Najafi et al. - 2024 - VersaSens An Extendable Multimodal Platform for Next-Generation Edge-AI Wearables.md",
+      "title": "VersaSens An Extendable Multimodal Platform for Next-Generation Edge-AI Wearables",
+      "authors": "Najafi et al.",
+      "year": 2024,
+      "word_count": 10831,
+      "modalities": {
+        "ECG": 19,
+        "PPG": 12,
+        "EDA": 15,
+        "ACC": 2,
+        "EEG": 14
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 12
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical",
+        "Temple",
+        "TUSZ"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "convolutional neural network",
+          "deep learning",
+          "transformer",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "gradient boosting"
+        ],
+        "signal_processing": [
+          "Fourier"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Miron et al. - 2025 - Autonomic biosignals, seizure detection, and forecasting.md",
+      "title": "Autonomic biosignals, seizure detection, and forecasting",
+      "authors": "Miron et al.",
+      "year": 2025,
+      "word_count": 13019,
+      "modalities": {
+        "ECG": 17,
+        "HRV": 25,
+        "PPG": 5,
+        "EDA": 23,
+        "ACC": 7,
+        "EEG": 23
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 19,
+        "prediction": 15,
+        "forecasting": 5
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Mikos et al. - 2019 - A Wearable, Patient-Adaptive Freezing of Gait Detection System for Biofeedback Cueing in Parkinson's.md",
+      "title": "A Wearable, Patient-Adaptive Freezing of Gait Detection System for Biofeedback Cueing in Parkinson's",
+      "authors": "Mikos et al.",
+      "year": 2019,
+      "word_count": 10836,
+      "modalities": {
+        "ECG": 1,
+        "ACC": 1
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 2
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "naive bayes"
+        ],
+        "signal_processing": [
+          "Fourier"
+        ]
+      },
+      "evaluation": [
+        "patient_independent"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Lu et al. - 2025 - UKF-Based Model Parameter Estimation to Localize the Seizure Onset Zone in ECoG.md",
+      "title": "UKF-Based Model Parameter Estimation to Localize the Seizure Onset Zone in ECoG",
+      "authors": "Lu et al.",
+      "year": 2025,
+      "word_count": 9694,
+      "modalities": {
+        "EEG": 22
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 25
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "decision tree"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Lu et al. - 2024 - An EEG Study on boldsymbolupbeta!!-!!upgamma Phase-Amplitude Coupling-Based Functional Brain.md",
+      "title": "An EEG Study on boldsymbolupbeta!!-!!upgamma Phase-Amplitude Coupling-Based Functional Brain",
+      "authors": "Lu et al.",
+      "year": 2024,
+      "word_count": 9734,
+      "modalities": {
+        "EEG": 57
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 35
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical",
+        "CHBMIT",
+        "CHB-MIT",
+        "Physionet"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ],
+        "signal_processing": [
+          "bandpass"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Lee and Verma - 2013 - A Low-Power Processor With Configurable Embedded Machine-Learning Accelerators for High-Order and Ad.md",
+      "title": "A Low-Power Processor With Configurable Embedded Machine-Learning Accelerators for High-Order and Ad",
+      "authors": "Lee and Verma",
+      "year": 2013,
+      "word_count": 7890,
+      "modalities": {
+        "ECG": 19,
+        "EEG": 19
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 12
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "clinical_trial",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical",
+        "CHB-MIT",
+        "Physionet"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "FFT",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Huang et al. - 2024 - Energy-Aware Integrated Neural Architecture Search and Partitioning for Distributed Internet of Thin.md",
+      "title": "Energy-Aware Integrated Neural Architecture Search and Partitioning for Distributed Internet of Thin",
+      "authors": "Huang et al.",
+      "year": 2024,
+      "word_count": 13438,
+      "modalities": {
+        "ECG": 6,
+        "EEG": 7
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 50
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "CHB-MIT"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "signal_processing": [
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Hemery et al. - 2014 - Prevention of generalized tonic\u2013clonic seizures in refractory focal epilepsy A meta\u2010analysis.md",
+      "title": "Prevention of generalized tonic\u2013clonic seizures in refractory focal epilepsy A meta\u2010analysis",
+      "authors": "Hemery et al.",
+      "year": 2014,
+      "word_count": 9350,
+      "modalities": {
+        "EEG": 1
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "experimental"
+      ],
+      "datasets": [
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Hashash et al. - 2021 - Energy-Aware Distributed Edge ML for mHealth Applications With Strict Latency Requirements.md",
+      "title": "Energy-Aware Distributed Edge ML for mHealth Applications With Strict Latency Requirements",
+      "authors": "Hashash et al.",
+      "year": 2021,
+      "word_count": 3604,
+      "modalities": {
+        "ECG": 2,
+        "EEG": 3
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 3,
+        "prediction": 4
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "logistic regression"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Dong et al. - 2022 - A Two-Layer Ensemble Method for Detecting Epileptic Seizures Using a Self-Annotation Bracelet With M.md",
+      "title": "A Two-Layer Ensemble Method for Detecting Epileptic Seizures Using a Self-Annotation Bracelet With M",
+      "authors": "Dong et al.",
+      "year": 2022,
+      "word_count": 10998,
+      "modalities": {
+        "ECG": 5,
+        "HRV": 1,
+        "PPG": 5,
+        "ACC": 21,
+        "EEG": 12
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 29
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "random forest",
+          "decision tree",
+          "logistic regression",
+          "kNN",
+          "naive bayes"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_independent"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Donati et al. - 2025 - Guest Editorial Ultralow-Power Technologies for Edge Computing in Human-Machine Interface Applicati.md",
+      "title": "Guest Editorial Ultralow-Power Technologies for Edge Computing in Human-Machine Interface Applicati",
+      "authors": "Donati et al.",
+      "year": 2025,
+      "word_count": 1834,
+      "modalities": {
+        "ECG": 3,
+        "EEG": 3
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 2
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review"
+      ],
+      "datasets": [
+        "wearable"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "neural network"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Chen et al. - 2020 - New era of personalised epilepsy management.md",
+      "title": "New era of personalised epilepsy management",
+      "authors": "Chen et al.",
+      "year": 2020,
+      "word_count": 5089,
+      "modalities": {
+        "EEG": 9
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 1
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "transformer",
+          "GAN",
+          "neural network"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Chen et al. - 2022 - Deterministic Learning-Based WEST Syndrome Analysis and Seizure Detection on ECG.md",
+      "title": "Deterministic Learning-Based WEST Syndrome Analysis and Seizure Detection on ECG",
+      "authors": "Chen et al.",
+      "year": 2022,
+      "word_count": 3880,
+      "modalities": {
+        "ECG": 41,
+        "HRV": 13,
+        "EEG": 7
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 14
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "LSTM",
+          "deep learning",
+          "autoencoder",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "kNN"
+        ],
+        "signal_processing": [
+          "Fourier",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Beniczky et al. - 2020 - Biomarkers of seizure severity derived from wearable devices.md",
+      "title": "Biomarkers of seizure severity derived from wearable devices",
+      "authors": "Beniczky et al.",
+      "year": 2020,
+      "word_count": 4406,
+      "modalities": {
+        "ECG": 8,
+        "HRV": 9,
+        "EDA": 9,
+        "ACC": 5,
+        "EEG": 22
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 4,
+        "prediction": 2
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Abtahi et al. - 2025 - Identification of Relevant ECG Features for Epileptic Seizure Prediction Using Interpretable Machine.md",
+      "title": "Identification of Relevant ECG Features for Epileptic Seizure Prediction Using Interpretable Machine",
+      "authors": "Abtahi et al.",
+      "year": 2025,
+      "word_count": 8751,
+      "modalities": {
+        "ECG": 64,
+        "HRV": 54,
+        "PPG": 1,
+        "EDA": 1,
+        "EEG": 25
+      },
+      "primary_modality": "ECG",
+      "tasks": {
+        "detection": 18,
+        "prediction": 91
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "Epilepsiae",
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "random forest",
+          "decision tree"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "filtering"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Statello et al. - 2021 - Heart rate variability in neonatal seizures Investigation and implications for management.md",
+      "title": "Heart rate variability in neonatal seizures Investigation and implications for management",
+      "authors": "Statello et al.",
+      "year": 2021,
+      "word_count": 7992,
+      "modalities": {
+        "ECG": 10,
+        "HRV": 112,
+        "EEG": 20
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "detection": 10,
+        "prediction": 3
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "retrospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector"
+        ],
+        "signal_processing": [
+          "FFT",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Smolyansky et al. - 2021 - Machine learning models for decision support in epilepsy management a critical review.md",
+      "title": "Machine learning models for decision support in epilepsy management a critical review",
+      "authors": "Smolyansky et al.",
+      "year": 2021,
+      "word_count": 10573,
+      "modalities": {
+        "ECG": 1,
+        "EEG": 22
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 2,
+        "prediction": 4
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "XGBoost",
+          "k-NN",
+          "gradient boosting"
+        ]
+      },
+      "evaluation": [
+        "cross_validation",
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Hixson and Braverman - 2020 - Digital tools for epilepsy Opportunities and barriers.md",
+      "title": "Digital tools for epilepsy Opportunities and barriers",
+      "authors": "Hixson and Braverman",
+      "year": 2020,
+      "word_count": 9154,
+      "modalities": {
+        "HRV": 2,
+        "EDA": 6,
+        "ACC": 9,
+        "EEG": 6
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 16,
+        "forecasting": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Drake et al. - 1993 - Electrocardiography in epilepsy patients without cardiac symptoms.md",
+      "title": "Electrocardiography in epilepsy patients without cardiac symptoms",
+      "authors": "Drake et al.",
+      "year": 1993,
+      "word_count": 1572,
+      "modalities": {
+        "ECG": 14,
+        "EEG": 3
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {},
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Camp et al. - 2022 - Supervised machine learning to predict reduced depression severity in people with epilepsy through e.md",
+      "title": "Supervised machine learning to predict reduced depression severity in people with epilepsy through e",
+      "authors": "Camp et al.",
+      "year": 2022,
+      "word_count": 5521,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "logistic regression",
+          "kNN",
+          "gradient boosting"
+        ]
+      },
+      "evaluation": [
+        "cross_validation"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": true,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Beghi - 2016 - Addressing the burden of epilepsy many unmet needs.md",
+      "title": "Addressing the burden of epilepsy many unmet needs",
+      "authors": "Beghi",
+      "year": 2016,
+      "word_count": 6979,
+      "modalities": {
+        "EEG": 3
+      },
+      "primary_modality": "EEG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective"
+      ],
+      "datasets": [
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Amengual-Gual et al. - 2019 - Patterns of epileptic seizure occurrence.md",
+      "title": "Patterns of epileptic seizure occurrence",
+      "authors": "Amengual-Gual et al.",
+      "year": 2019,
+      "word_count": 10813,
+      "modalities": {
+        "ECG": 2,
+        "EDA": 3,
+        "ACC": 1,
+        "EEG": 24
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 10,
+        "prediction": 18
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "AbuAlrob et al. - 2025 - Unlocking new frontiers in epilepsy through AI From seizure prediction to personalized medicine.md",
+      "title": "Unlocking new frontiers in epilepsy through AI From seizure prediction to personalized medicine",
+      "authors": "AbuAlrob et al.",
+      "year": 2025,
+      "word_count": 6542,
+      "modalities": {
+        "EEG": 35
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 15,
+        "prediction": 10
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "autoencoder",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "H\u00e5kansson - 2023 - Machine learning and big data for personalized epilepsy treatment.md",
+      "title": "Machine learning and big data for personalized epilepsy treatment",
+      "authors": "H\u00e5kansson",
+      "year": 2023,
+      "word_count": 29079,
+      "modalities": {
+        "EEG": 22
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 2,
+        "prediction": 2,
+        "forecasting": 2
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "support vector",
+          "kNN",
+          "gradient boosting"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Hamlin et al. - 2021 - Assessing the feasibility of detecting epileptic seizures using non-cerebral sensor data.md",
+      "title": "Assessing the feasibility of detecting epileptic seizures using non-cerebral sensor data",
+      "authors": "Hamlin et al.",
+      "year": 2021,
+      "word_count": 8342,
+      "modalities": {
+        "ECG": 17,
+        "HRV": 3,
+        "PPG": 8,
+        "EDA": 26,
+        "ACC": 38,
+        "EEG": 10
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 14
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "kNN"
+        ],
+        "signal_processing": [
+          "FFT",
+          "Fourier",
+          "filtering",
+          "bandpass"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Shum and Friedman - 2021 - Commercially available seizure detection devices A systematic review.md",
+      "title": "Commercially available seizure detection devices A systematic review",
+      "authors": "Shum and Friedman",
+      "year": 2021,
+      "word_count": 7506,
+      "modalities": {
+        "ECG": 3,
+        "HRV": 2,
+        "EDA": 1,
+        "ACC": 3,
+        "EEG": 37
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 43,
+        "prediction": 6,
+        "forecasting": 5
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Fisher et al. - 2017 - Instruction manual for the ILAE 2017 operational classification of seizure types.md",
+      "title": "Instruction manual for the ILAE 2017 operational classification of seizure types",
+      "authors": "Fisher et al.",
+      "year": 2017,
+      "word_count": 9544,
+      "modalities": {
+        "EEG": 20
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "prediction": 1
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "clinical_trial"
+      ],
+      "datasets": [
+        "clinical",
+        "Freiburg"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Watson and Webster - 2020 - Analysing the past to prepare for the future Writing a literature review a roadmap for release 2.0.md",
+      "title": "Analysing the past to prepare for the future Writing a literature review a roadmap for release 2.0",
+      "authors": "Watson and Webster",
+      "year": 2020,
+      "word_count": 6914,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "retrospective"
+      ],
+      "datasets": [
+        "EMU"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": true,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Webster and Watson - 2002 - Analyzing the past to prepare for the future Writing a literature review.md",
+      "title": "Analyzing the past to prepare for the future Writing a literature review",
+      "authors": "Webster and Watson",
+      "year": 2002,
+      "word_count": 5908,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "prospective"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Sewak et al. - 2020 - An overview of deep learning architecture of deep neural networks and autoencoders.md",
+      "title": "An overview of deep learning architecture of deep neural networks and autoencoders",
+      "authors": "Sewak et al.",
+      "year": 2020,
+      "word_count": 5271,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "clinical_trial"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "RNN",
+          "deep learning",
+          "autoencoder",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "support vector",
+          "decision tree"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Zhang et al. - 2018 - An end-to-end deep learning architecture for graph classification.md",
+      "title": "An end-to-end deep learning architecture for graph classification",
+      "authors": "Zhang et al.",
+      "year": 2018,
+      "word_count": 7180,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM"
+        ],
+        "signal_processing": [
+          "Fourier"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": false
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Mohan et al. - 2017 - Deep power Deep learning architectures for power quality disturbances classification.md",
+      "title": "Deep power Deep learning architectures for power quality disturbances classification",
+      "authors": "Mohan et al.",
+      "year": 2017,
+      "word_count": 5138,
+      "modalities": {},
+      "primary_modality": null,
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review"
+      ],
+      "datasets": [],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "autoencoder",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "decision tree",
+          "logistic regression"
+        ],
+        "signal_processing": [
+          "wavelet",
+          "Fourier"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": false,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Ahmed et al. - 2023 - Classifying cardiac arrhythmia from ECG signal using 1D CNN deep learning model.md",
+      "title": "Classifying cardiac arrhythmia from ECG signal using 1D CNN deep learning model",
+      "authors": "Ahmed et al.",
+      "year": 2023,
+      "word_count": 10538,
+      "modalities": {
+        "ECG": 81,
+        "EEG": 1
+      },
+      "primary_modality": "ECG",
+      "tasks": {},
+      "primary_task": null,
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "experimental"
+      ],
+      "datasets": [
+        "clinical",
+        "TUSZ"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "LSTM",
+          "RNN",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "traditional_ml": [
+          "SVM",
+          "support vector",
+          "random forest",
+          "decision tree",
+          "kNN"
+        ],
+        "signal_processing": [
+          "wavelet"
+        ]
+      },
+      "evaluation": [
+        "patient_specific"
+      ],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Sveinsson et al. - 2020 - Clinical risk factors in SUDEP.md",
+      "title": "Clinical risk factors in SUDEP",
+      "authors": "Sveinsson et al.",
+      "year": 2020,
+      "word_count": 6622,
+      "modalities": {
+        "EEG": 1
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "logistic regression"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": true
+    },
+    {
+      "filename": "Wagenaar et al. - 2015 - Collaborating and Sharing Data in Epilepsy Research.md",
+      "title": "Collaborating and Sharing Data in Epilepsy Research",
+      "authors": "Wagenaar et al.",
+      "year": 2015,
+      "word_count": 5710,
+      "modalities": {
+        "EEG": 33
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 1,
+        "prediction": 12
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "experimental"
+      ],
+      "datasets": [
+        "Physionet",
+        "Freiburg",
+        "European Epilepsy Database",
+        "Epilepsiae",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ],
+        "traditional_ml": [
+          "support vector"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": true,
+      "is_ecg_based": false,
+      "is_wearable": false
+    },
+    {
+      "filename": "Pordoy et al. - The Open Seizure Database Facilitating Research Into Non-EEG Seizure Detection.md",
+      "title": "Pordoy et al. - The Open Seizure Database Facilitating Research Into Non-EEG Seizure Detection",
+      "authors": "",
+      "year": null,
+      "word_count": 8332,
+      "modalities": {
+        "ECG": 2,
+        "PPG": 11,
+        "EDA": 1,
+        "ACC": 10,
+        "EEG": 47
+      },
+      "primary_modality": "EEG",
+      "tasks": {
+        "detection": 32,
+        "prediction": 3
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "European Epilepsy Database",
+        "Epilepsiae",
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "CNN",
+          "convolutional neural network",
+          "deep learning",
+          "GAN",
+          "neural network"
+        ],
+        "signal_processing": [
+          "FFT",
+          "Fourier",
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": true,
+        "accuracy": true,
+        "AUC": true,
+        "F1": true,
+        "precision": true,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    },
+    {
+      "filename": "Jeppesen et al. - 2014 - Heart rate variability analysis indicates preictal parasympathetic overdrive preceding seizure-induc.md",
+      "title": "Heart rate variability analysis indicates preictal parasympathetic overdrive preceding seizure-induc",
+      "authors": "Jeppesen et al.",
+      "year": 2014,
+      "word_count": 3088,
+      "modalities": {
+        "ECG": 9,
+        "HRV": 24,
+        "EEG": 14
+      },
+      "primary_modality": "HRV",
+      "tasks": {
+        "prediction": 12
+      },
+      "primary_task": "prediction",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective"
+      ],
+      "datasets": [
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "signal_processing": [
+          "spectral analysis"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": false,
+        "specificity": false,
+        "accuracy": false,
+        "AUC": false,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": false,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": false
+    },
+    {
+      "filename": "Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.md",
+      "title": "Automated seizure detection using wearable devices A clinical practice guideline of the Internation",
+      "authors": "Beniczky et al.",
+      "year": 2021,
+      "word_count": 10285,
+      "modalities": {
+        "ECG": 11,
+        "HRV": 1,
+        "PPG": 8,
+        "EDA": 2,
+        "ACC": 20,
+        "EEG": 13
+      },
+      "primary_modality": "ACC",
+      "tasks": {
+        "detection": 41,
+        "prediction": 1
+      },
+      "primary_task": "detection",
+      "study_types": [
+        "review",
+        "clinical_trial",
+        "retrospective",
+        "prospective",
+        "experimental"
+      ],
+      "datasets": [
+        "wearable",
+        "EMU",
+        "clinical"
+      ],
+      "ml_methods": {
+        "deep_learning": [
+          "GAN"
+        ]
+      },
+      "evaluation": [],
+      "metrics": {
+        "sensitivity": true,
+        "specificity": false,
+        "accuracy": true,
+        "AUC": true,
+        "F1": false,
+        "precision": false,
+        "FAR": true
+      },
+      "uses_deep_learning": true,
+      "uses_traditional_ml": false,
+      "is_ecg_based": true,
+      "is_wearable": true
+    }
+  ],
+  "statistics": {
+    "total_papers": 105,
+    "years": {
+      "2024": 12,
+      "2019": 6,
+      "2023": 8,
+      "2021": 14,
+      "2020": 9,
+      "2004": 1,
+      "2002": 2,
+      "2015": 2,
+      "2018": 4,
+      "2025": 13,
+      "2017": 5,
+      "2000": 2,
+      "2005": 1,
+      "2022": 9,
+      "2011": 1,
+      "2010": 1,
+      "2014": 4,
+      "2016": 3,
+      "2009": 1,
+      "2013": 1,
+      "1993": 1
+    },
+    "modalities": {
+      "EEG": 82,
+      "ECG": 59,
+      "PPG": 32,
+      "ACC": 33,
+      "HRV": 31,
+      "EDA": 23
+    },
+    "tasks": {
+      "detection": 60,
+      "prediction": 48,
+      "forecasting": 17
+    },
+    "study_types": {
+      "review": 97,
+      "experimental": 63,
+      "prospective": 49,
+      "clinical_trial": 47,
+      "retrospective": 31
+    },
+    "datasets": {
+      "CHB-MIT": 6,
+      "clinical": 85,
+      "wearable": 58,
+      "EMU": 22,
+      "Physionet": 9,
+      "Freiburg": 6,
+      "European Epilepsy Database": 7,
+      "TUSZ": 3,
+      "TUH": 3,
+      "Siena": 3,
+      "Temple": 3,
+      "Epilepsiae": 8,
+      "CHBMIT": 2
+    },
+    "ml_categories": {
+      "deep_learning": 96,
+      "traditional_ml": 57,
+      "signal_processing": 49
+    },
+    "evaluation_methods": {
+      "cross_validation": 25,
+      "patient_specific": 37,
+      "patient_independent": 4
+    },
+    "metrics_reported": {
+      "sensitivity": 74,
+      "specificity": 27,
+      "accuracy": 74,
+      "AUC": 25,
+      "precision": 51,
+      "FAR": 51,
+      "F1": 19
+    },
+    "ecg_based_papers": 61,
+    "wearable_papers": 58,
+    "deep_learning_papers": 96,
+    "traditional_ml_papers": 57
+  }
+}
