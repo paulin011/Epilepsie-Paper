@@ -7,9 +7,12 @@
 \contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{3}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Methodological Approach and Structure}{3}{section.3}%
-\contentsline {section}{\numberline {4}Modeling Landscape and Design Dimensions}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Architectural Evolution: Feature Engineering vs. Deep Learning}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Sensor Modalities and Fusion Strategies}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Personalization and Domain Shift}{5}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Robustness and Generalization}{5}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Deployment Constraints: Latency, Energy, and Interpretability}{5}{subsection.4.5}%
+\contentsline {section}{\numberline {4}PICO-Based Search Methodology}{5}{section.4}%
+\contentsline {section}{\numberline {5}Search Strategy}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Practical Filters and Reproducibility}{5}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Modeling Landscape and Design Dimensions}{6}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Architectural Evolution: Feature Engineering vs. Deep Learning}{6}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Sensor Modalities and Fusion Strategies}{6}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Personalization and Domain Shift}{6}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Robustness and Generalization}{6}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Deployment Constraints: Latency, Energy, and Interpretability}{6}{subsection.6.5}%

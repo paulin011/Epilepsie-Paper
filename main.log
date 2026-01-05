@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  16 DEC 2025 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  5 JAN 2026 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -698,7 +698,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                beniczkyAutomatedSeizureDetection2021a
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                chenSeizuresDetectionUsing2022a
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 60.
 Package biblatex Info: Reference segment=0 on input line 60.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 63.
@@ -747,25 +762,59 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]) (./Sections(tex)/02_background2.tex
 
-[2{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./Sections(tex)/03_Methods.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11.
+LaTeX Warning: Citation 'beniczkyAutomatedSeizureDetection2021a' on page 2 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'chenSeizuresDetectionUsing2022a' on page 2 undefined on input line 5.
+
+
+Overfull \hbox (0.90535pt too wide) in paragraph at lines 5--23
+[]\T1/lmr/m/n/12 , []
+ []
+
+
+
+[2{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Citation 'chenSeizuresDetectionUsing2022a' on page 3 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'beniczkyAutomatedSeizureDetection2021a' on page 3 undefined on input line 68.
+
+) (./Sections(tex)/03_Methods.tex
+Overfull \hbox (127.60089pt too wide) in paragraph at lines 66--1
+\T1/lmr/m/n/12 a-tion, for-mal-ized in the ILAE's phased frame-work (Phases 0^^U4) ([]).
+ []
+
+
+
+[3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (0.7735pt too wide) in paragraph at lines 47--51
+Overfull \hbox (0.7735pt too wide) in paragraph at lines 46--50
 \T1/lmr/bx/n/12 Prioritization Cri-te-ria: \T1/lmr/m/n/12 Stud-ies in-clud-ing splits pre-serv-ing patient-specific data, FAR/h
  []
 
-) (./Sections(tex)/04_Modeling.tex
+(./Sections(tex)/03.1_PICO_Search_Methodology.tex
+
+[4{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (1.17482pt too wide) in paragraph at lines 20--21
+[]\T1/lmr/m/it/12 Biosignal Key-words: \T1/lmr/m/n/12 `elec-tro-car-dio-gram', `ECG', `heart rate vari-abil-ity', `HRV',
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 29.
+(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))) (./Sections(tex)/04_Modeling.tex
+
+[5]
 Overfull \hbox (15.27206pt too wide) in paragraph at lines 8--8
 []\T1/lmr/bx/n/14.4 Architectural Evo-lu-tion: Fea-ture En-gi-neer-ing vs. Deep Learn-
  []
 
 
-
-[4]
 Overfull \hbox (1.56148pt too wide) in paragraph at lines 35--44
 \T1/lmr/m/n/12 ter, or scal-ing, and Out-of-Distribution (OOD) de-tec-tion sup-port gen-er-al-iza-tion ([][]Kalousios
  []
@@ -777,39 +826,41 @@ Overfull \hbox (8.54063pt too wide) in paragraph at lines 45--45
 
 )
 
-[5]
+[6]
 Overfull \hbox (20.61243pt too wide) in paragraph at lines 76--76
 \T1/lmr/m/it/12 tion: A Re-view of ECG-Based Ap-proaches\T1/lmr/m/n/12 . 2025040942. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 20944 / preprints202504 .
  []
 
 
 
-[6]
+[7]
 
-[7] (./main.aux)
+[8]
+
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6764D28280A4E6F8AF572B8B46C3ADB9;4085.
+(rerunfilecheck)             Checksum: 4697C991B382B8F3191F89BE841D7C2D;4654.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21175 strings out of 475118
- 372626 string characters out of 5764901
- 1323506 words of memory out of 5000000
- 43859 multiletter control sequences out of 15000+600000
- 612662 words of font info for 79 fonts, out of 8000000 for 9000
+ 21240 strings out of 475118
+ 373356 string characters out of 5764901
+ 1324440 words of memory out of 5000000
+ 43908 multiletter control sequences out of 15000+600000
+ 612980 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,81p,3069b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (7 pages, 171822 bytes).
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (9 pages, 188781 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

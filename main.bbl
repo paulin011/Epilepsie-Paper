@@ -80,7 +80,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/11052221/
       \endverb
-      \keyw{Brain modeling,Cardiac function,Complexity theory,Electrocardiogram (ECG),Electrocardiography,Electroencephalography,epilepsy,Epilepsy,explainable machine learning,Feature extraction,Fractals,Heart rate variability,interpretability,multifractality,Predictive models,seizure prediction,SHAP value}
+      \keyw{Brain modeling,Cardiac function,Complexity theory,Electrocardiogram (ECG),Electrocardiography,Electroencephalography,epilepsy,Epilepsy,explainable machine learning,Feature extraction,Fractals,Heart rate variability,interpretability,maybe,multifractality,Predictive models,seizure prediction,SHAP value}
     \endentry
     \entry{abualrobUnlockingNewFrontiers2025}{article}{}{}
       \name{author}{3}{}{%
@@ -211,186 +211,6 @@
       \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1417748/full
       \endverb
       \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
-    \endentry
-    \entry{beniczkyAutomatedSeizureDetection2021a}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
-           family={Beniczky},
-           familyi={B\bibinitperiod},
-           given={Sándor},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a406a58f553df56bbc9ff09ca72cdd47}{%
-           family={Wiebe},
-           familyi={W\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
-           family={Jeppesen},
-           familyi={J\bibinitperiod},
-           given={Jesper},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aa97bdb3b303e63a2367f24c3c68317e}{%
-           family={Tatum},
-           familyi={T\bibinitperiod},
-           given={William\bibnamedelima O.},
-           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ad679c425d46d6e85c9934775d5e1e9f}{%
-           family={Brazdil},
-           familyi={B\bibinitperiod},
-           given={Milan},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c78503aaa49a656724e2cb1160afaf62}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Yuping},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f7719657075f19a1aa502dadd170aee}{%
-           family={Herman},
-           familyi={H\bibinitperiod},
-           given={Susan\bibnamedelima T.},
-           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
-           family={Ryvlin},
-           familyi={R\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ea8006ec14192142570626136ac20a31}
-      \strng{fullhash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{fullhashraw}{c49208d47df8911a8d149e1f143dadac}
-      \strng{bibnamehash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{authorbibnamehash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{authornamehash}{ea8006ec14192142570626136ac20a31}
-      \strng{authorfullhash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{authorfullhashraw}{c49208d47df8911a8d149e1f143dadac}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The objective of this clinical practice guideline (CPG) is to provide recommendations for healthcare personnel working with patients with epilepsy, on the use of wearable devices for automated seizure detection in patients with epilepsy, in outpatient, ambulatory settings. The Working Group of the International League Against Epilepsy and the International Federation of Clinical Neurophysiology developed the CPG according to the methodology proposed by the ILAE Epilepsy Guidelines Working Group. We reviewed the published evidence using The Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement and evaluated the evidence and formulated the recommendations following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. We found high level of evidence for the accuracy of automated detection of generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) and recommend use of wearable automated seizure detection devices for selected patients when accurate detection of GTCS and FBTCS is recommended as a clinical adjunct. We also found moderate level of evidence for seizure types without GTCs or FBTCs. However, it was uncertain whether the detected alarms resulted in meaningful clinical outcomes for the patients. We recommend using clinically validated devices for automated detection of GTCS and FBTCS, especially in unsupervised patients, where alarms can result in rapid intervention (weak/conditional recommendation). At present, we do not recommend clinical use of the currently available devices for other seizure types (weak/conditional recommendation). Further research and development are needed to improve the performance of automated seizure detection and to document their accuracy and clinical utility.}
-      \field{day}{1}
-      \field{issn}{1388-2457}
-      \field{journaltitle}{Clinical Neurophysiology}
-      \field{month}{5}
-      \field{number}{5}
-      \field{shortjournal}{Clinical Neurophysiology}
-      \field{shorttitle}{Automated Seizure Detection Using Wearable Devices}
-      \field{title}{Automated Seizure Detection Using Wearable Devices: {{A}} Clinical Practice Guideline of the {{International League Against Epilepsy}} and the {{International Federation}} of {{Clinical Neurophysiology}}}
-      \field{urlday}{10}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{volume}{132}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1173\bibrangedash 1184}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/j.clinph.2020.12.009
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/DNWP7P4J/Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
-      \endverb
-      \keyw{Algorithms,Automated detection,Epilepsy,Seizure detection,Wearable devices}
-    \endentry
-    \entry{chenSeizuresDetectionUsing2022a}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=4f3e4fbc5e82562ed396313728e67dfc}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Fangyi},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e8433a00554a724ff629d8490eb5c2e1}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Ina},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=43224d912f93ddcaf1fbe0472f07af8f}{%
-           family={Zafar},
-           familyi={Z\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb67e97e6bbeeba5a7833d65d97c2ade}{%
-           family={Sinha},
-           familyi={S\bibinitperiod},
-           given={Saurabh\bibnamedelima R},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e44835d1cb200c0b0b6e91e300fd3615}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
-      \strng{fullhash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{fullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{bibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{authorbibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{authornamehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
-      \strng{authorfullhash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{authorfullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Introduction. Epileptic seizures are common neurological disorders in the world, impacting 65 million people globally. Around 30\% of patients with seizures suffer from refractory epilepsy, where seizures are not controlled by medications. The unpredictability of seizures makes it essential to have a continuous seizure monitoring system outside clinical settings for the purpose of minimizing patients’ injuries and providing additional pathways for evaluation and treatment follow-up. Autonomic changes related to seizure events have been extensively studied and attempts made to apply them for seizure detection and prediction tasks. This scoping review aims to depict current research activities associated with the implementation of portable, wearable devices for seizure detection or prediction and inform future direction in continuous seizure tracking in ambulatory settings. Methods. Overall methodology framework includes 5 essential stages: research questions identification, relevant studies identification, selection of studies, data charting and summarizing the findings. A systematic searching strategy guided by systematic reviews and meta-analysis (PRISMA) was implemented to identify relevant records on two databases (PubMed, IEEE). Results. A total of 30 articles were included in our final analysis. Most of the studies were conducted off-line and employed consumer-graded wearable device. ACM is the dominant modality to be used in seizure detection, and widely deployed algorithms entail Support Vector Machine, Random Forest and threshold-based approach. The sensitivity ranged from 33.2\% to 100\% for single modality with a false alarm rate (FAR) ranging from 0.096 to 14.8 d−1. Multimodality has a sensitivity ranging from 51\% to 100\% with FAR ranging from 0.12 to 17.7 d−1. Conclusion. The overall performance in seizure detection system based on non-cerebral physiological signals is promising, especially for the detection of motor seizures and seizures accompanied with intense ictal autonomic changes.}
-      \field{issn}{0967-3334}
-      \field{journaltitle}{Physiological Measurement}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{number}{7}
-      \field{shortjournal}{Physiol. Meas.}
-      \field{shorttitle}{Seizures Detection Using Multimodal Signals}
-      \field{title}{Seizures Detection Using Multimodal Signals: A Scoping Review}
-      \field{urlday}{16}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{volume}{43}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{07TR01}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1361-6579/ac7a8d
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/3ECTXIYT/Chen et al. - 2022 - Seizures detection using multimodal signals a scoping review.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088/1361-6579/ac7a8d
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1088/1361-6579/ac7a8d
-      \endverb
     \endentry
     \entry{ghaderiAdvancesMachineLearning2025}{online}{}{}
       \name{author}{1}{}{%
@@ -608,7 +428,7 @@
       \verb 10.1109/TBME.2016.2632523
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/XVA4WTH6/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf
+      \verb /home/paulin/Zotero/storage/H9KZ2L5Y/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf;/home/paulin/Zotero/storage/XVA4WTH6/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf
       \endverb
       \verb{urlraw}
       \verb https://ieeexplore.ieee.org/document/7755834/
@@ -616,7 +436,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/7755834/
       \endverb
-      \keyw{Biomedical measurement,Compressed sensing,Deconvolution,electrodermal activity (EDA),galvanic skin response,Motion measurement,Physiology,Skin,sparse deconvolution,Thyristors,wearables}
+      \keyw{Adult,Algorithms,Biomedical measurement,Compressed sensing,Data Compression,Deconvolution,electrodermal activity (EDA),Female,galvanic skin response,Galvanic Skin Response,Humans,Male,Middle Aged,Motion measurement,Pattern Recognition Automated,Physiology,Reproducibility of Results,Sensitivity and Specificity,Signal Processing Computer-Assisted,Signal-To-Noise Ratio,Skin,sparse deconvolution,Thyristors,wearables}
     \endentry
     \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
       \name{author}{8}{}{%
@@ -966,7 +786,7 @@
       \verb{file}
       \verb /home/paulin/Zotero/storage/E8769WZ8/Mason et al. - 2024 - Heart Rate Variability as a Tool for Seizure Prediction A Scoping Review.pdf
       \endverb
-      \keyw{epilepsy,heart rate variability,seizure detection,seizure prediction}
+      \keyw{epilepsy,heart rate variability,review,seizure detection,seizure prediction}
     \endentry
     \entry{mironAutonomicBiosignalsSeizure2025}{article}{}{}
       \name{author}{5}{}{%
@@ -1321,7 +1141,7 @@
       \verb 37881157
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/ZVTE65HK/Seth et al. - 2023 - Feasibility of cardiac‐based seizure detection and prediction A systematic review of non‐invasive w.pdf
+      \verb /home/paulin/Zotero/storage/9WCWMMG4/Seth et al. - 2024 - Feasibility of cardiac-based seizure detection and prediction A systematic review of non-invasive w.pdf;/home/paulin/Zotero/storage/M2UTALX2/Seth et al. - 2024 - Feasibility of cardiac-based seizure detection and prediction A systematic review of non-invasive w.pdf;/home/paulin/Zotero/storage/NSZDK8Q6/Seth et al. - 2024 - Feasibility of cardiac-based seizure detection and prediction A systematic review of non-invasive w.pdf;/home/paulin/Zotero/storage/ZVTE65HK/Seth et al. - 2023 - Feasibility of cardiac‐based seizure detection and prediction A systematic review of non‐invasive w.pdf;/home/paulin/Zotero/storage/D68N69ES/epi4.html
       \endverb
       \verb{urlraw}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
@@ -1329,6 +1149,7 @@
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
       \endverb
+      \keyw{Algorithms,cardiac,Feasibility Studies,heart rate,Heart Rate,Humans,review,seizure detection,seizure prediction,Seizures,wearable device,Wearable Electronic Devices}
     \endentry
     \entry{shumCommerciallyAvailableSeizure2021}{article}{}{}
       \name{author}{2}{}{%
@@ -1512,7 +1333,7 @@
       \verb{file}
       \verb /home/paulin/Zotero/storage/S8JTDHA5/Sivathamboo et al. - 2022 - Preferences and User Experiences of Wearable Devices in Epilepsy A Systematic Review and Mixed-Meth.pdf
       \endverb
-      \keyw{Caregivers,Death Sudden,Epilepsy,Humans,Seizures,Wearable Electronic Devices}
+      \keyw{Caregivers,Death Sudden,Epilepsy,Humans,review,Seizures,Wearable Electronic Devices}
     \endentry
     \entry{sveinssonClinicalRiskFactors2020}{article}{}{}
       \name{author}{5}{}{%
@@ -1644,6 +1465,9 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {Institute of Electrical and Electronics Engineers Inc.}%
+      }
       \strng{namehash}{1df00cf4cdee21d18db20f2143eca08b}
       \strng{fullhash}{8be57d89e4c612413c6d6d6ab12160ab}
       \strng{fullhashraw}{8be57d89e4c612413c6d6d6ab12160ab}
@@ -1659,32 +1483,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Wearable wristband device-based epilepsy detection has the merits of noninvasiveness, portability, low costs, and good environmental adaptability. However, attention has been paid to exploring the attitude angle signals collected by wearable devices for epilepsy detection. In this article, a systematic analysis of whether the wearable device-based attitude angle signals, particularly the PITCH and ROLL angles, can be applied to epilepsy seizure detection, is studied. The relationship among attitude angle signals, acceleration, and angular velocity signals at the feature level is analyzed, and the detection effectiveness of combining different attitude angle features for classifier training and testing is presented and discussed. The long-term recorded data were collected by wearable devices from 28 epileptic patients, of which 11 were from the Fourth Affiliated Hospital of Anhui Medical University and 17 from the Department of Neurology, Children’s Hospital, Zhejiang University School of Medicine. Each recording includes the measurement of three-axis acceleration (ACC), three-axis gyroscope (GYR), ROLL, PITCH, surface electromyography (SEMG), and electrodermal activity (EDA), with at least one seizure recorded for each subject. Experimental results show that ROLL and PITCH angles can be utilized for epilepsy detection, with better performance than using ACC and GYR. Moreover, the attitude angle feature training by a long short-term memory (LSTM) network can achieve the highest accuracy and efficiency.}
-      \field{issn}{1557-9662}
+      \field{abstract}{Wearable wristband device-based epilepsy detection has the merits of noninvasiveness, portability, low costs, and good environmental adaptability. However, attention has been paid to exploring the attitude angle signals collected by wearable devices for epilepsy detection. In this article, a systematic analysis of whether the wearable device-based attitude angle signals, particularly the PITCH and ROLL angles, can be applied to epilepsy seizure detection, is studied. The relationship among attitude angle signals, acceleration, and angular velocity signals at the feature level is analyzed, and the detection effectiveness of combining different attitude angle features for classifier training and testing is presented and discussed. The long-term recorded data were collected by wearable devices from 28 epileptic patients, of which 11 were from the Fourth Affiliated Hospital of Anhui Medical University and 17 from the Department of Neurology, Children's Hospital, Zhejiang University School of Medicine. Each recording includes the measurement of three-axis acceleration (ACC), three-axis gyroscope (GYR), ROLL, PITCH, surface electromyography (SEMG), and electrodermal activity (EDA), with at least one seizure recorded for each subject. Experimental results show that ROLL and PITCH angles can be utilized for epilepsy detection, with better performance than using ACC and GYR. Moreover, the attitude angle feature training by a long short-term memory (LSTM) network can achieve the highest accuracy and efficiency. © 2025 IEEE.}
+      \field{issn}{0018-9456}
       \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
       \field{title}{Epileptic {{Seizure Detection Based}} on {{Attitude Angle Signal}} of {{Wearable Device}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
       \field{volume}{74}
       \field{year}{2025}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
       \verb{doi}
       \verb 10.1109/TIM.2025.3529058
       \endverb
       \verb{file}
       \verb /home/paulin/Zotero/storage/5ZC5TRLU/Wang et al. - 2025 - Epileptic Seizure Detection Based on Attitude Angle Signal of Wearable Device.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10857465/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10857465/
-      \endverb
-      \keyw{Acceleration,Accuracy,angular velocity signal,attitude angle signal,Classification algorithms,Epilepsy,Feature extraction,Hospitals,Long short term memory,long short-term memory (LSTM),Monitoring,multimodal signal analysis,seizure detection,Training,Usability,wearable device,Wearable devices}
+      \keyw{Acceleration,Accuracy,angular velocity signal,attitude angle signal,Classification algorithms,Epilepsy,Feature extraction,Hospitals,include,Long short term memory,long short-term memory (LSTM),Monitoring,multimodal signal analysis,seizure detection,Training,Usability,wearable device,Wearable devices}
     \endentry
     \entry{websterAnalyzingPrepareFuture2002}{article}{}{}
       \name{author}{2}{}{%
@@ -1955,7 +1769,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
-      \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
+      \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,include,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
     \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
@@ -2103,7 +1917,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/11052221/
       \endverb
-      \keyw{Brain modeling,Cardiac function,Complexity theory,Electrocardiogram (ECG),Electrocardiography,Electroencephalography,epilepsy,Epilepsy,explainable machine learning,Feature extraction,Fractals,Heart rate variability,interpretability,multifractality,Predictive models,seizure prediction,SHAP value}
+      \keyw{Brain modeling,Cardiac function,Complexity theory,Electrocardiogram (ECG),Electrocardiography,Electroencephalography,epilepsy,Epilepsy,explainable machine learning,Feature extraction,Fractals,Heart rate variability,interpretability,maybe,multifractality,Predictive models,seizure prediction,SHAP value}
     \endentry
     \entry{abualrobUnlockingNewFrontiers2025}{article}{}{}
       \name{author}{3}{}{%
@@ -2234,186 +2048,6 @@
       \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1417748/full
       \endverb
       \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
-    \endentry
-    \entry{beniczkyAutomatedSeizureDetection2021a}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
-           family={Beniczky},
-           familyi={B\bibinitperiod},
-           given={Sándor},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a406a58f553df56bbc9ff09ca72cdd47}{%
-           family={Wiebe},
-           familyi={W\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
-           family={Jeppesen},
-           familyi={J\bibinitperiod},
-           given={Jesper},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aa97bdb3b303e63a2367f24c3c68317e}{%
-           family={Tatum},
-           familyi={T\bibinitperiod},
-           given={William\bibnamedelima O.},
-           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ad679c425d46d6e85c9934775d5e1e9f}{%
-           family={Brazdil},
-           familyi={B\bibinitperiod},
-           given={Milan},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c78503aaa49a656724e2cb1160afaf62}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Yuping},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f7719657075f19a1aa502dadd170aee}{%
-           family={Herman},
-           familyi={H\bibinitperiod},
-           given={Susan\bibnamedelima T.},
-           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
-           family={Ryvlin},
-           familyi={R\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ea8006ec14192142570626136ac20a31}
-      \strng{fullhash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{fullhashraw}{c49208d47df8911a8d149e1f143dadac}
-      \strng{bibnamehash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{authorbibnamehash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{authornamehash}{ea8006ec14192142570626136ac20a31}
-      \strng{authorfullhash}{c49208d47df8911a8d149e1f143dadac}
-      \strng{authorfullhashraw}{c49208d47df8911a8d149e1f143dadac}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The objective of this clinical practice guideline (CPG) is to provide recommendations for healthcare personnel working with patients with epilepsy, on the use of wearable devices for automated seizure detection in patients with epilepsy, in outpatient, ambulatory settings. The Working Group of the International League Against Epilepsy and the International Federation of Clinical Neurophysiology developed the CPG according to the methodology proposed by the ILAE Epilepsy Guidelines Working Group. We reviewed the published evidence using The Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement and evaluated the evidence and formulated the recommendations following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. We found high level of evidence for the accuracy of automated detection of generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) and recommend use of wearable automated seizure detection devices for selected patients when accurate detection of GTCS and FBTCS is recommended as a clinical adjunct. We also found moderate level of evidence for seizure types without GTCs or FBTCs. However, it was uncertain whether the detected alarms resulted in meaningful clinical outcomes for the patients. We recommend using clinically validated devices for automated detection of GTCS and FBTCS, especially in unsupervised patients, where alarms can result in rapid intervention (weak/conditional recommendation). At present, we do not recommend clinical use of the currently available devices for other seizure types (weak/conditional recommendation). Further research and development are needed to improve the performance of automated seizure detection and to document their accuracy and clinical utility.}
-      \field{day}{1}
-      \field{issn}{1388-2457}
-      \field{journaltitle}{Clinical Neurophysiology}
-      \field{month}{5}
-      \field{number}{5}
-      \field{shortjournal}{Clinical Neurophysiology}
-      \field{shorttitle}{Automated Seizure Detection Using Wearable Devices}
-      \field{title}{Automated Seizure Detection Using Wearable Devices: {{A}} Clinical Practice Guideline of the {{International League Against Epilepsy}} and the {{International Federation}} of {{Clinical Neurophysiology}}}
-      \field{urlday}{10}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{volume}{132}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1173\bibrangedash 1184}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/j.clinph.2020.12.009
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/DNWP7P4J/Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
-      \endverb
-      \keyw{Algorithms,Automated detection,Epilepsy,Seizure detection,Wearable devices}
-    \endentry
-    \entry{chenSeizuresDetectionUsing2022a}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=4f3e4fbc5e82562ed396313728e67dfc}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Fangyi},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e8433a00554a724ff629d8490eb5c2e1}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Ina},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=43224d912f93ddcaf1fbe0472f07af8f}{%
-           family={Zafar},
-           familyi={Z\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb67e97e6bbeeba5a7833d65d97c2ade}{%
-           family={Sinha},
-           familyi={S\bibinitperiod},
-           given={Saurabh\bibnamedelima R},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e44835d1cb200c0b0b6e91e300fd3615}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
-      \strng{fullhash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{fullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{bibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{authorbibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{authornamehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
-      \strng{authorfullhash}{0d76a650c75525e44e0bb763ff5e2407}
-      \strng{authorfullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Introduction. Epileptic seizures are common neurological disorders in the world, impacting 65 million people globally. Around 30\% of patients with seizures suffer from refractory epilepsy, where seizures are not controlled by medications. The unpredictability of seizures makes it essential to have a continuous seizure monitoring system outside clinical settings for the purpose of minimizing patients’ injuries and providing additional pathways for evaluation and treatment follow-up. Autonomic changes related to seizure events have been extensively studied and attempts made to apply them for seizure detection and prediction tasks. This scoping review aims to depict current research activities associated with the implementation of portable, wearable devices for seizure detection or prediction and inform future direction in continuous seizure tracking in ambulatory settings. Methods. Overall methodology framework includes 5 essential stages: research questions identification, relevant studies identification, selection of studies, data charting and summarizing the findings. A systematic searching strategy guided by systematic reviews and meta-analysis (PRISMA) was implemented to identify relevant records on two databases (PubMed, IEEE). Results. A total of 30 articles were included in our final analysis. Most of the studies were conducted off-line and employed consumer-graded wearable device. ACM is the dominant modality to be used in seizure detection, and widely deployed algorithms entail Support Vector Machine, Random Forest and threshold-based approach. The sensitivity ranged from 33.2\% to 100\% for single modality with a false alarm rate (FAR) ranging from 0.096 to 14.8 d−1. Multimodality has a sensitivity ranging from 51\% to 100\% with FAR ranging from 0.12 to 17.7 d−1. Conclusion. The overall performance in seizure detection system based on non-cerebral physiological signals is promising, especially for the detection of motor seizures and seizures accompanied with intense ictal autonomic changes.}
-      \field{issn}{0967-3334}
-      \field{journaltitle}{Physiological Measurement}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{number}{7}
-      \field{shortjournal}{Physiol. Meas.}
-      \field{shorttitle}{Seizures Detection Using Multimodal Signals}
-      \field{title}{Seizures Detection Using Multimodal Signals: A Scoping Review}
-      \field{urlday}{16}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{volume}{43}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{07TR01}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1361-6579/ac7a8d
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/3ECTXIYT/Chen et al. - 2022 - Seizures detection using multimodal signals a scoping review.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088/1361-6579/ac7a8d
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1088/1361-6579/ac7a8d
-      \endverb
     \endentry
     \entry{ghaderiAdvancesMachineLearning2025}{online}{}{}
       \name{author}{1}{}{%
@@ -2631,7 +2265,7 @@
       \verb 10.1109/TBME.2016.2632523
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/XVA4WTH6/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf
+      \verb /home/paulin/Zotero/storage/H9KZ2L5Y/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf;/home/paulin/Zotero/storage/XVA4WTH6/Jain et al. - 2017 - A Compressed Sensing Based Decomposition of Electrodermal Activity Signals.pdf
       \endverb
       \verb{urlraw}
       \verb https://ieeexplore.ieee.org/document/7755834/
@@ -2639,7 +2273,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/7755834/
       \endverb
-      \keyw{Biomedical measurement,Compressed sensing,Deconvolution,electrodermal activity (EDA),galvanic skin response,Motion measurement,Physiology,Skin,sparse deconvolution,Thyristors,wearables}
+      \keyw{Adult,Algorithms,Biomedical measurement,Compressed sensing,Data Compression,Deconvolution,electrodermal activity (EDA),Female,galvanic skin response,Galvanic Skin Response,Humans,Male,Middle Aged,Motion measurement,Pattern Recognition Automated,Physiology,Reproducibility of Results,Sensitivity and Specificity,Signal Processing Computer-Assisted,Signal-To-Noise Ratio,Skin,sparse deconvolution,Thyristors,wearables}
     \endentry
     \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
       \name{author}{8}{}{%
@@ -2989,7 +2623,7 @@
       \verb{file}
       \verb /home/paulin/Zotero/storage/E8769WZ8/Mason et al. - 2024 - Heart Rate Variability as a Tool for Seizure Prediction A Scoping Review.pdf
       \endverb
-      \keyw{epilepsy,heart rate variability,seizure detection,seizure prediction}
+      \keyw{epilepsy,heart rate variability,review,seizure detection,seizure prediction}
     \endentry
     \entry{mironAutonomicBiosignalsSeizure2025}{article}{}{}
       \name{author}{5}{}{%
@@ -3344,7 +2978,7 @@
       \verb 37881157
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/ZVTE65HK/Seth et al. - 2023 - Feasibility of cardiac‐based seizure detection and prediction A systematic review of non‐invasive w.pdf
+      \verb /home/paulin/Zotero/storage/9WCWMMG4/Seth et al. - 2024 - Feasibility of cardiac-based seizure detection and prediction A systematic review of non-invasive w.pdf;/home/paulin/Zotero/storage/M2UTALX2/Seth et al. - 2024 - Feasibility of cardiac-based seizure detection and prediction A systematic review of non-invasive w.pdf;/home/paulin/Zotero/storage/NSZDK8Q6/Seth et al. - 2024 - Feasibility of cardiac-based seizure detection and prediction A systematic review of non-invasive w.pdf;/home/paulin/Zotero/storage/ZVTE65HK/Seth et al. - 2023 - Feasibility of cardiac‐based seizure detection and prediction A systematic review of non‐invasive w.pdf;/home/paulin/Zotero/storage/D68N69ES/epi4.html
       \endverb
       \verb{urlraw}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
@@ -3352,6 +2986,7 @@
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10839362/
       \endverb
+      \keyw{Algorithms,cardiac,Feasibility Studies,heart rate,Heart Rate,Humans,review,seizure detection,seizure prediction,Seizures,wearable device,Wearable Electronic Devices}
     \endentry
     \entry{shumCommerciallyAvailableSeizure2021}{article}{}{}
       \name{author}{2}{}{%
@@ -3535,7 +3170,7 @@
       \verb{file}
       \verb /home/paulin/Zotero/storage/S8JTDHA5/Sivathamboo et al. - 2022 - Preferences and User Experiences of Wearable Devices in Epilepsy A Systematic Review and Mixed-Meth.pdf
       \endverb
-      \keyw{Caregivers,Death Sudden,Epilepsy,Humans,Seizures,Wearable Electronic Devices}
+      \keyw{Caregivers,Death Sudden,Epilepsy,Humans,review,Seizures,Wearable Electronic Devices}
     \endentry
     \entry{sveinssonClinicalRiskFactors2020}{article}{}{}
       \name{author}{5}{}{%
@@ -3667,6 +3302,9 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {Institute of Electrical and Electronics Engineers Inc.}%
+      }
       \strng{namehash}{1df00cf4cdee21d18db20f2143eca08b}
       \strng{fullhash}{8be57d89e4c612413c6d6d6ab12160ab}
       \strng{fullhashraw}{8be57d89e4c612413c6d6d6ab12160ab}
@@ -3682,32 +3320,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Wearable wristband device-based epilepsy detection has the merits of noninvasiveness, portability, low costs, and good environmental adaptability. However, attention has been paid to exploring the attitude angle signals collected by wearable devices for epilepsy detection. In this article, a systematic analysis of whether the wearable device-based attitude angle signals, particularly the PITCH and ROLL angles, can be applied to epilepsy seizure detection, is studied. The relationship among attitude angle signals, acceleration, and angular velocity signals at the feature level is analyzed, and the detection effectiveness of combining different attitude angle features for classifier training and testing is presented and discussed. The long-term recorded data were collected by wearable devices from 28 epileptic patients, of which 11 were from the Fourth Affiliated Hospital of Anhui Medical University and 17 from the Department of Neurology, Children’s Hospital, Zhejiang University School of Medicine. Each recording includes the measurement of three-axis acceleration (ACC), three-axis gyroscope (GYR), ROLL, PITCH, surface electromyography (SEMG), and electrodermal activity (EDA), with at least one seizure recorded for each subject. Experimental results show that ROLL and PITCH angles can be utilized for epilepsy detection, with better performance than using ACC and GYR. Moreover, the attitude angle feature training by a long short-term memory (LSTM) network can achieve the highest accuracy and efficiency.}
-      \field{issn}{1557-9662}
+      \field{abstract}{Wearable wristband device-based epilepsy detection has the merits of noninvasiveness, portability, low costs, and good environmental adaptability. However, attention has been paid to exploring the attitude angle signals collected by wearable devices for epilepsy detection. In this article, a systematic analysis of whether the wearable device-based attitude angle signals, particularly the PITCH and ROLL angles, can be applied to epilepsy seizure detection, is studied. The relationship among attitude angle signals, acceleration, and angular velocity signals at the feature level is analyzed, and the detection effectiveness of combining different attitude angle features for classifier training and testing is presented and discussed. The long-term recorded data were collected by wearable devices from 28 epileptic patients, of which 11 were from the Fourth Affiliated Hospital of Anhui Medical University and 17 from the Department of Neurology, Children's Hospital, Zhejiang University School of Medicine. Each recording includes the measurement of three-axis acceleration (ACC), three-axis gyroscope (GYR), ROLL, PITCH, surface electromyography (SEMG), and electrodermal activity (EDA), with at least one seizure recorded for each subject. Experimental results show that ROLL and PITCH angles can be utilized for epilepsy detection, with better performance than using ACC and GYR. Moreover, the attitude angle feature training by a long short-term memory (LSTM) network can achieve the highest accuracy and efficiency. © 2025 IEEE.}
+      \field{issn}{0018-9456}
       \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
       \field{title}{Epileptic {{Seizure Detection Based}} on {{Attitude Angle Signal}} of {{Wearable Device}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
       \field{volume}{74}
       \field{year}{2025}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
       \verb{doi}
       \verb 10.1109/TIM.2025.3529058
       \endverb
       \verb{file}
       \verb /home/paulin/Zotero/storage/5ZC5TRLU/Wang et al. - 2025 - Epileptic Seizure Detection Based on Attitude Angle Signal of Wearable Device.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10857465/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10857465/
-      \endverb
-      \keyw{Acceleration,Accuracy,angular velocity signal,attitude angle signal,Classification algorithms,Epilepsy,Feature extraction,Hospitals,Long short term memory,long short-term memory (LSTM),Monitoring,multimodal signal analysis,seizure detection,Training,Usability,wearable device,Wearable devices}
+      \keyw{Acceleration,Accuracy,angular velocity signal,attitude angle signal,Classification algorithms,Epilepsy,Feature extraction,Hospitals,include,Long short term memory,long short-term memory (LSTM),Monitoring,multimodal signal analysis,seizure detection,Training,Usability,wearable device,Wearable devices}
     \endentry
     \entry{websterAnalyzingPrepareFuture2002}{article}{}{}
       \name{author}{2}{}{%
@@ -3978,7 +3606,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
-      \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
+      \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,include,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
     \endentry
     \entry{yangMultimodalAISystem2022}{article}{}{}
       \name{author}{6}{}{%
@@ -4064,6 +3692,8 @@
       \keyw{Affective computing,Artificial intelligence,autonomous systems,Brain modeling,Deep learning,Electrocardiography,Electroencephalography,Epilepsy,expert systems,Hospitals}
     \endentry
   \enddatalist
+  \missing{beniczkyAutomatedSeizureDetection2021a}
+  \missing{chenSeizuresDetectionUsing2022a}
 \endrefsection
 \endinput
 

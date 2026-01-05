@@ -1,0 +1,10 @@
+CitationKey,DLArchitecture,BiosignalModalities,Task,Sensitivity_SEN,FAR_per_hour_or_TiW,OtherKeyMetrics
+dongDetectionNocturnal2026,CNN-LSTM with Attention,"ACM, PPG",Detection,0.762 (mean),0.165/h,"AUC: 0.793; PPV: 0.334"
+elemamAutomatedValidated2025,CNN,"Audio, HRV (via PPG)",Detection & Prediction,93% (Prediction),93% Reliability,"Latency: < 2s; Accuracy: > 92%"
+fineDetectionKeyAutomated2025,ANN,"ACM, GYR",Detection,100% (Independent),0.023/h,"Latency: 14.1s; Phase 1 Trial"
+meiselMachineLearningWristband2020,"LSTM, 1D-Conv","EDA, ACC, BVP, TEMP",Prediction (Forecasting),75.6%,47.2% TiW,"IoC: 28.5%; Prediction Horizon: 1896s"
+odeDevelopmentEpileptic2023,SA-AE (Self-Attentive Autoencoder),RRI (ECG),Prediction,74%,0.85/h,"AUC: 0.97; Precision: 0.35"
+rathoreDevelopmentMultimodalMachine2024,MLP (Multi-Layer Perceptron),"EDA, ACC",Detection & Prediction,96.5% (Recall),N/A,"Accuracy: 97.4%; F1-score: 95.6%"
+stirlingForecastingSeizure2021,"Ensemble (LSTM, RF, LR)","HR, Sleep, Steps",Prediction (Forecasting),100% success (hourly horizon),N/A,"AUC: 0.74 (hourly mean); Weekly retraining"
+vielufSeizureMonitoringCombined2025,FC-Neural Network,"EDA, ACC, TEMP",Detection & Prediction,0.82 (Det) / 0.80 (Pred),0.67 Spec (Det) / 0.66 Spec (Pred),"Weighted F1: 0.81 (Det) / 0.82 (Pred)"
+wangAttitudeAngle2025,LSTM,PITCH / ROLL (Attitude Angle),Detection,5 out of 7 seizures detected,0.35/h (8.46 per 24h),Accuracy: 83.4%

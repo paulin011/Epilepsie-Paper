@@ -1,0 +1,49 @@
+\section{PICO-Based Search Methodology}
+\label{sec:pico-search}
+
+\section{Search Strategy}
+The literature search was structured using the PICO framework 
+(Patient/Problem, Intervention, Comparison, Outcome) 
+to identify relevant studies on deep learning for non-EEG epilepsy
+detection. The following key terms were used in combination with 
+Boolean operators (AND, OR, NOT):
+
+\begin{enumerate}
+    \item \textbf{P (Patient/Problem):} Epileptic seizures in need of detection or prediction.
+    \begin{itemize}
+        \item \textit{Keywords:} `epilepsy', `seizure', `ictal', `preictal'
+        \item \textit{MeSH Terms (PubMed):} Epilepsy, Seizures
+    \end{itemize}
+
+    \item \textbf{I (Intervention):} The diagnostic method based on wearable biosignals and deep learning.
+    \begin{itemize}
+        \item \textit{Biosignal Keywords:} `electrocardiogram', `ECG', `heart rate variability', `HRV', `photoplethysmography', `PPG', `electrodermal activity', `EDA', `accelerometer', `ACC'
+        \item \textit{Technology Keywords:} `wearable', `wearable device'
+        \item \textit{Method Keywords:} `deep learning', `machine learning', `convolutional neural network', `CNN', `long short-term memory', `LSTM', `neural network'
+        \item \textit{MeSH Terms (PubMed):} Wearable Electronic Devices, Electrocardiography, Deep Learning
+    \end{itemize}
+
+    \item \textbf{C (Comparison):} The explicit exclusion of studies focused solely on electroencephalography (EEG) as the primary modality.
+    \begin{itemize}
+        \item \textit{Exclusion Keywords:} `EEG', `electroencephalography', `iEEG', `intracranial'
+        \item \textit{Search Logic:} The \texttt{NOT} operator was applied to this group in all database searches.
+    \end{itemize}
+
+    \item \textbf{O (Outcome):} Metrics quantifying the performance of a detection or prediction system.
+    \begin{itemize}
+        \item \textit{Keywords:} `detection', `prediction', `sensitivity', `specificity', `false alarm rate', `FAR', `area under the curve', `AUC'
+    \end{itemize}
+
+\end{enumerate}
+
+
+\subsection{Practical Filters and Reproducibility}
+Consistent with the overall review scope, searches were restricted to
+\textbf{2015--2025} and \textbf{journal articles}.
+All database searches were documented (query string, platform, and
+execution date). Results were deduplicated prior to screening.
+
+\noindent\textbf{Note on exclusions:}
+Because some non-EEG wearable studies rely on video-EEG for labeling,
+EEG-related terms were used to filter \emph{EEG-only modalities}, not to
+exclude studies that mention EEG solely as a reference standard.

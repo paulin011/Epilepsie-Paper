@@ -1,0 +1,10 @@
+CitationKey,Setting,Modality,Task,ModelClass,StudyPhase,EvalGranularity,Windowing,Personalization,InferenceHardware
+dongTwoLayerEnsemble2022,Ambulatory,ACC/GYR,Detection,TLEM(Stacking),Retrospective,Alarm,2s/1sOverlap,Mark Button,Wearable-CPU
+elemamAutomatedValidated2025,Clinical/Ambu,Audio/HRV,Detection/Prediction,CNN,Prospective,Alarm,10s,Patient-rating,Android/JS
+fineDetectionKeyAutomated2025,Clinical,ACC/GYR,Detection,ANN,Prospective,Alarm,10s/1sOverlap,N/A,PC-Offline
+meiselMachineLearningWristband2020,Clinical,Multimodal-Wrist,Prediction,LSTM/1DConv,Pseudo-Pros,Alarm,30s,Transfer-learning,DeepLearning-PC
+odeDevelopmentEpileptic2023,Clinical,ECG(RRI),Prediction,SA-AE,Retrospective,Alarm,45s,Individual-Limits,Python-Optuna
+rathoreSeizureDetection2024,Ambulatory,EDA/ACC,Detection/Prediction,MLP,Retrospective,Metric,25k-pts,N/A,Python-Library
+stirlingForecastingSeizure2021,Ambulatory,HR/Sleep/Step,Prediction,Ensemble(LSTM/RF),Pseudo-Pros,Alarm,1min,Patient-specific,Cloud-Retrain
+vielufSeizureMonitoringCombined2025,Ambulatory,EDA/ACC/Diary,Detection/Prediction,FC-NeuralNet,Retrospective,Day-based,10min-24hMean,Baseline-Freq,DeepLearning
+wangAttitudeAngle2025,Clinical,ACC/GYR/Angle,Detection,LSTM,Retrospective,Alarm,4s/2sOverlap,5-fold-CV,LSTM-Layer
