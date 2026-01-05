@@ -1,22 +1,22 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[63] biber:342> INFO - === Mo Jan  5, 2026, 14:11:54
-[77] Biber.pm:421> INFO - Reading 'main.bcf'
-[147] Biber.pm:1002> INFO - Found 24 citekeys in bib section 0
-[164] Biber.pm:4487> INFO - Processing section 0
-[172] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
-[178] bibtex.pm:1713> INFO - LaTeX decoding ...
-[311] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
-[583] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[583] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[583] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[583] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[640] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[640] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[640] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[640] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[671] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[704] bbl.pm:779> INFO - Output to main.bbl
-[705] Biber.pm:132> WARN - I didn't find a database entry for 'beniczkyAutomatedSeizureDetection2021a' (section 0)
-[705] Biber.pm:132> WARN - I didn't find a database entry for 'chenSeizuresDetectionUsing2022a' (section 0)
-[705] Biber.pm:134> INFO - WARNINGS: 2
+[53] biber:342> INFO - === Mo Jan  5, 2026, 17:58:23
+[66] Biber.pm:421> INFO - Reading 'main.bcf'
+[133] Biber.pm:1002> INFO - Found 24 citekeys in bib section 0
+[150] Biber.pm:4487> INFO - Processing section 0
+[156] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
+[162] bibtex.pm:1713> INFO - LaTeX decoding ...
+[295] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
+[572] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[573] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[573] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[573] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[631] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[631] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[631] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[631] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[662] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[695] bbl.pm:779> INFO - Output to main.bbl
+[697] Biber.pm:132> WARN - I didn't find a database entry for 'beniczkyAutomatedSeizureDetection2021a' (section 0)
+[697] Biber.pm:132> WARN - I didn't find a database entry for 'chenSeizuresDetectionUsing2022a' (section 0)
+[697] Biber.pm:134> INFO - WARNINGS: 2

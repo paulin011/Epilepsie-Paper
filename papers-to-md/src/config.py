@@ -1,7 +1,7 @@
 from pathlib import Path
 
-PAPERS_FOLDER = "Papers"
-PAPERS_MD_FOLDER = "Papers_md"
+PAPERS_FOLDER = "included_papers"
+PAPERS_MD_FOLDER = "included_papers_md"
 PDF_EXTENSION = ".pdf"
 MARKDOWN_EXTENSION = ".md"
 
