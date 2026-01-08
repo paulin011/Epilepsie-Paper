@@ -1414,6 +1414,64 @@
       \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
       \endverb
     \endentry
+    \entry{tugwellPRISMA20202021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f622bd8fdefbb83b52b0efd47c159eb1}{%
+           family={Tugwell},
+           familyi={T\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada90f1b787b0b8257e24f4dbabd521b}{%
+           family={Tovey},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{fullhash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{fullhashraw}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{bibnamehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authorbibnamehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authornamehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authorfullhash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authorfullhashraw}{8b666d99627e122c78f8433fcdb1d9f8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0895-4356}
+      \field{journaltitle}{Journal of Clinical Epidemiology}
+      \field{month}{6}
+      \field{shortjournal}{Journal of Clinical Epidemiology}
+      \field{title}{{{PRISMA}} 2020}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{134}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{A5\bibrangedash A6}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jclinepi.2021.04.008
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/6IY9PQUG/Tugwell and Tovey - 2021 - PRISMA 2020.pdf;/home/paulin/Zotero/storage/KS5LZWEB/S089543562100130X.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S089543562100130X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S089543562100130X
+      \endverb
+    \endentry
     \entry{wangEpilepticSeizureDetection2025}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=4cfd50e035e5fb05a1a071673c8b227e}{%
@@ -3249,6 +3307,64 @@
       \endverb
       \verb{url}
       \verb https://www.neurology.org/doi/10.1212/WNL.0000000000008741
+      \endverb
+    \endentry
+    \entry{tugwellPRISMA20202021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f622bd8fdefbb83b52b0efd47c159eb1}{%
+           family={Tugwell},
+           familyi={T\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada90f1b787b0b8257e24f4dbabd521b}{%
+           family={Tovey},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{fullhash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{fullhashraw}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{bibnamehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authorbibnamehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authornamehash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authorfullhash}{8b666d99627e122c78f8433fcdb1d9f8}
+      \strng{authorfullhashraw}{8b666d99627e122c78f8433fcdb1d9f8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0895-4356}
+      \field{journaltitle}{Journal of Clinical Epidemiology}
+      \field{month}{6}
+      \field{shortjournal}{Journal of Clinical Epidemiology}
+      \field{title}{{{PRISMA}} 2020}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{134}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{A5\bibrangedash A6}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jclinepi.2021.04.008
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/6IY9PQUG/Tugwell and Tovey - 2021 - PRISMA 2020.pdf;/home/paulin/Zotero/storage/KS5LZWEB/S089543562100130X.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S089543562100130X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S089543562100130X
       \endverb
     \endentry
     \entry{wangEpilepticSeizureDetection2025}{article}{}{}

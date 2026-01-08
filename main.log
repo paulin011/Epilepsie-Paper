@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  5 JAN 2026 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.17)  8 JAN 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -797,7 +797,7 @@ Overfull \hbox (0.7735pt too wide) in paragraph at lines 47--51
 \T1/lmr/bx/n/12 Prioritization Cri-te-ria: \T1/lmr/m/n/12 Stud-ies in-clud-ing splits pre-serv-ing patient-specific data, FAR/h
  []
 
-(./Sections(tex)/03.1_PICO_Search_Methodology.tex
+(./Sections(tex)/3.1_Search Strategy.tex
 
 [4{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 Overfull \hbox (1.17482pt too wide) in paragraph at lines 20--21
@@ -808,7 +808,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 29
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
-<prisma.pdf, id=170, 600.2425pt x 596.2275pt>
+<prisma.pdf, id=172, 600.2425pt x 596.2275pt>
 File: prisma.pdf Graphic file (type pdf)
 <use prisma.pdf>
 Package pdftex.def Info: prisma.pdf  used on input line 57.
@@ -851,24 +851,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4697C991B382B8F3191F89BE841D7C2D;4654.
+(rerunfilecheck)             Checksum: 816616EA0C7F803FD1A434372EC9192C;4654.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21254 strings out of 475118
- 373608 string characters out of 5764901
- 1324514 words of memory out of 5000000
- 43920 multiletter control sequences out of 15000+600000
+ 21260 strings out of 475118
+ 373859 string characters out of 5764901
+ 1324594 words of memory out of 5000000
+ 43927 multiletter control sequences out of 15000+600000
  612980 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,81p,3069b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (10 pages, 202658 bytes).
+Output written on main.pdf (10 pages, 203037 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

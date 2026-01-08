@@ -7,8 +7,8 @@
 \contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{3}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Methodological Approach and Structure}{4}{section.3}%
-\contentsline {section}{\numberline {4}PICO-Based Search Methodology}{5}{section.4}%
-\contentsline {section}{\numberline {5}Search Strategy}{5}{section.5}%
+\contentsline {section}{\numberline {4}Search Strategy}{5}{section.4}%
+\contentsline {section}{\numberline {5}PICO-Based Search Methodology}{5}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Practical Filters and Reproducibility}{5}{subsection.5.1}%
 \contentsline {section}{\numberline {6}Modeling Landscape and Design Dimensions}{7}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Architectural Evolution: Feature Engineering vs. Deep Learning}{7}{subsection.6.1}%
