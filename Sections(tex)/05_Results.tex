@@ -1,0 +1,105 @@
+
+\section{Results}
+
+\subsection{Study Selection and Characteristics}
+
+Following the PRISMA guidelines, 13 studies published between 2013 and 2026 were included in this systematic review. All studies focused on non-EEG wearable devices for epileptic seizure detection or forecasting. Table~\ref{tab:comparison} provides a comprehensive comparison of study characteristics following the Webster and Watson \cite{webster2002} framework.
+
+\subsection{Comparison of Studies}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Comparison of 13 studies on wearable seizure detection and forecasting}
+\label{tab:comparison}
+\begin{tabular}{p{2.8cm}p{1.8cm}p{1.6cm}p{1.4cm}p{1.5cm}p{1.6cm}p{1.4cm}p{1.2cm}p{1.4cm}p{1.4cm}p{1.2cm}p{1.6cm}p{2.2cm}}
+\toprule
+Study & Objective & Design & Sample & Seizure Type & Device & Location & Algorithm & Sens & Spec & FPR & Limitations & Conclusion \\
+\midrule
+\multicolumn{13}{l}{\textit{Detection Studies}} \\[4pt]
+\textbf{Reintjes 2025} & ECG-based & Retrospective & n=120 & Focal & ECG & Chest & Matrix Profile & 98.2\% & -- & 1.9 FA/h & High FAR & $>$90\% sens, \\
+& anomaly & train/test & 856 sz & & (Sensor Dot) & & TimeVQVAE & (SDW) & & (opt) & & FAR clinically \\
+& detection & & & & & & & & & & & unacceptable \\[4pt]
+\textbf{Fine 2025} & Tonic sz & Phase 1 & n=15/3 & Tonic & Wristband & Wrist & ANN & 100\% & -- & 0.16/night & Small test & Promising \\
+& detection & & train/test & motor & (6-axis) & & (594 feat) & (test) & & & set; offline & Phase 1 \\[4pt]
+\textbf{Spahr 2025} & Convulsive & Prospective & n=384 & Gen/ & Empatica & Wrist & Ensemble & 96\% & -- & $<$1/8 & EMU only & Phase 2 \\
+& sz detection & multi-center & 49 CSs & bilateral & (ACC) & & 1D CNN & (90--100) & & 1/61/night & & validated \\[4pt]
+\textbf{Dong 2026} & Nocturnal & Prospective & n=68 & TC, & NightWatch & Upper arm & Two-stage & 71.6\% & -- & 0.165/h & Imbalanced & First \\
+& severe sz & 10-fold CV & 788 nights & hypermotor & armband & & CNN-LSTM & overall & (PPV & & & long-term \\
+& & & 1846 sz & tonic$>$30s & & & & 33.4\%) & & & home study \\[4pt]
+\textbf{Wang 2025} & Attitude & Retrospective & n=28 & Motor & Biovital-P1 & Wrist & LSTM & Acc: & -- & 8.5/24h & 7 sz only & PITCH/ROLL \\
+& angle & 10-fold CV & 62 sz & & (EMP+watch) & & & 97.8\% & & & tested & $>$ACC \\[4pt]
+\textbf{Singh Rathore} & Multimodal & Retro & 1 pt & -- & EDA+ACC & -- & MLP, SVM & 96.8\% & -- & -- & Single pt & MLP best \\
+\textbf{2024} & detection & single-pt & 6 hrs & & +HR+BVP & & KNN, NB, LR & (MLP) & & & & 97.4\% acc \\[4pt]
+\textbf{Borujeny 2013} & Wireless & Retro & 3 pts & Motor & 3$times$2D & Arms, & ANN, KNN & 100\% & -- & ANN: 3 & Very small & KNN k=5: \\
+& accel & 3-patient & 20 sz & & ACC & thigh & & (KNN k=5) & & FA & & perfect \\[4pt]
+\textbf{Elemam 2025} & Q+HRV+ & Cross- & Q:198 & Gen+ & Smartphone & Finger/ & CNN, & 95.1\% & 97.1\% & -- & Small & Multi- \\
+& audio & sectional & HRV:30 & PNES & camera & thumb & rule-based & (Q) & (Q) & & samples & modal \\[4pt]
+\multicolumn{13}{l}{\textit{Forecasting Studies}} \\[4pt]
+\textbf{Nasseri 2021} & Ambulatory & Retro of & n=6 & Focal, & Empatica & Wrist & LSTM & AUC & -- & TiW & Very & First \\
+& forecasting & prospective & & FBTC & E4 & & RNN & 0.75 & & 0.9--7.2 & small; & ambulatory \\
+& & & & & & & (4 layers) & (0.50--0.92) & & h/d & needs RNS & success \\[4pt]
+\textbf{Stirling 2021} & HR cycle & Retro+ & n=11 & Focal (8) & Fitbit & Wrist & LSTM+RF+ & -- & -- & AUC & Self- & 100\% \\
+& forecaster & pseudo & 136 sz & Gen (1) & & & LR & & & 0.74 & reported & above \\
+& & & & Both (2) & & & ensemble & & & hourly & & chance \\[4pt]
+\textbf{Meisel 2020} & No pt- & Retro, & n=69 & Focal, & Empatica & Wrist/ & LSTM & 51.2\% & -- & TiW & 43.5\% & 43.5\% \\
+& specific & LOSO CV & 452 sz & Gen & E4 & Ankle & & mean & & 43.7\% & significant & better \\
+& training & & & & & & & 75.6\%* & & & & than chance \\[4pt]
+\textbf{Ode 2023} & RRI & Retro & n=66 & Focal & ECG & -- & SA-AE & 74\% & -- & 0.85/h & FPs in & SA-AE $<$ \\
+& prediction & validation & 264 inter & (TLE, & (RRI) & & & 100\% in & & & some & AE \\
+& & & 85 pre & FLE, PLE) & & & & 29/66 & & & pts & \\[4pt]
+\textbf{Vieluf 2025} & Diary+ & Retro & n=70 & Focal & Embrace & Wrist & DNN+ & Det: & Det: & -- & Daily & Diary+ \\
+& wearable & obs & 5437 days & & (Empatica) & & harmonic & 82/78/57\% & 67/66/44\% & & res & wearable \\
+& & & & & & & 24-h & Pred: & Pred: & & only & works \\[4pt]
+& & & & & & & modeling & 81/80\% & 67/66\% & & & \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item[] Abbreviations: ACC=accelerometer; ANN=artificial neural network; AUC=area under curve; CNN=convolutional neural network; CS=convulsive seizure; ECG=electrocardiogram; EDA=electrodermal activity; EMU=epilepsy monitoring unit; FA=false alarm; FPR=false positive rate; FBTC=focal to bilateral tonic-clonic; HRV=heart rate variability; LSTM=long short-term memory; LOSO=leave-one-subject-out; MLP=multilayer perceptron; NR=not reported; PPG=photoplethysmography; RRI=R-R interval; SA-AE=self-attentive autoencoder; sz=seizure(s); TLE=temporal lobe epilepsy; TiW=time in warning.
+\item[] * Significant patients only.
+\end{tablenotes}
+\end{table}
+
+\subsection{Detection Performance Summary}
+
+\subsubsection{Sensitivity Analysis}
+Detection studies reported sensitivities ranging from 71.6\% \parencite{dong2026} to 100\% \parencite{fine2025, borujeny2013}. The highest sensitivity (100\%) was achieved by \textcite{fine2025} for tonic seizure detection (Phase 1, n=3 test patients) and \textcite{borujeny2013} using KNN (k=5) on a very small sample (n=3, 20 seizures). However, these results must be interpreted with caution given the limited sample sizes.
+
+\textcite{reintjes2025} achieved 98.2\% sensitivity for ECG-based detection using Matrix Profile, but with a false alarm rate of 13.9 FA/h—far above clinically acceptable levels. \textcite{spahr2025} reported 96\% sensitivity (95\% CI: 90--100\%) for convulsive seizure detection using a single accelerometer sensor, with a favorable false alarm rate of 1/61 nights.
+
+\subsubsection{Device Types and Locations}
+Wrist-worn devices were the most common (7/13 studies), utilizing various sensor combinations:
+\begin{itemize}
+\item Accelerometer-only: \textcite{spahr2025}
+\item Multi-modal (ACC + EDA + BVP + TEMP): \textcite{meisel2020, nasseri2021}
+\item ECG/single-lead: \textcite{reintjes2025, ode2023}
+\end{itemize}
+
+\subsection{Forecasting Performance Summary}
+
+Four studies focused on seizure forecasting rather than detection. \textcite{nasseri2021} achieved the highest forecasting performance (AUC 0.75, range 0.50--0.92) using LSTM RNN with long-term (median 220 days) ambulatory monitoring. \textcite{stirling2021} reported AUC 0.74 for hourly forecasts, with 100\% of patients performing above chance.
+
+\textcite{meisel2020} demonstrated that 43.5\% of patients (30/69) achieved significantly better-than-chance forecasting without patient-specific training, with mean sensitivity of 75.6\% in this subgroup. \textcite{ode2023} achieved 74\% sensitivity using self-attentive autoencoder on R-R intervals, with 100\% sensitivity in 29/66 patients.
+
+\subsection{Key Limitations Across Studies}
+
+Several recurring limitations were identified:
+\begin{enumerate}
+\item \textbf{Small sample sizes}: 6/13 studies had n $<$ 20; only 4 studies had n $>$ 100
+\item \textbf{Controlled settings}: Most detection studies were conducted in EMU environments, limiting generalizability to real-world settings
+\item \textbf{Retrospective analysis}: 8/13 studies used retrospective designs, even when data was collected prospectively
+\item \textbf{Seizure type specificity}: Many studies focused only on convulsive or motor seizures, limiting applicability to non-motor seizure types
+\item \textbf{Offline processing}: 5/13 studies explicitly mentioned offline analysis, not real-time implementation
+\end{enumerate}
+
+\subsection{Emerging Trends (2013--2026)}
+
+Analysis of publication trends reveals:
+\begin{itemize}
+\item Shift from traditional ML (ANN, KNN in 2013) to deep learning (LSTM, CNN dominant post-2020)
+\item Increased focus on ambulatory/home monitoring (post-2020)
+\item Multi-modal sensor fusion becoming standard
+\item Tunable sensitivity algorithms emerging for clinical customization \parencite{spahr2025}
+\item Diary + wearable hybrid approaches for daily-resolution monitoring \parencite{vieluf2025}
+\end{itemize}

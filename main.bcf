@@ -3098,19 +3098,25 @@
     <bcf:citekey order="16" intorder="2">shumCommerciallyAvailableSeizure2021</bcf:citekey>
     <bcf:citekey order="17" intorder="1">websterAnalyzingPrepareFuture2002</bcf:citekey>
     <bcf:citekey order="18" intorder="1">tugwellPRISMA20202021</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
-    <bcf:citekey order="19" intorder="2">masonHeartRateVariability2024</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
-    <bcf:citekey order="20" intorder="2">pordoyEnhancedNonEEGMultimodal2025</bcf:citekey>
-    <bcf:citekey order="20" intorder="3">abtahiIdentificationRelevantECG2025</bcf:citekey>
-    <bcf:citekey order="20" intorder="4">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">pordoyEnhancedNonEEGMultimodal2025</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">yangMultimodalAISystem2022</bcf:citekey>
-    <bcf:citekey order="23" intorder="2">andradePerformanceSeizurePrediction2024</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">kalousiosECGbasedEpilepticSeizure2024</bcf:citekey>
-    <bcf:citekey order="24" intorder="2">sethFeasibilityCardiacbasedSeizure2023</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">webster2002</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">dong2026</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">fine2025</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">borujeny2013</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">fine2025</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">borujeny2013</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">reintjes2025</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">spahr2025</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">spahr2025</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">meisel2020</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">nasseri2021</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">reintjes2025</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">ode2023</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">nasseri2021</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">stirling2021</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">meisel2020</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">ode2023</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">spahr2025</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">vieluf2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

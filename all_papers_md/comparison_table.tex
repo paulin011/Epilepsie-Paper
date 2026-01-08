@@ -1,0 +1,123 @@
+% Comparison Table for Wearable Seizure Detection/Forecasting
+% Based on Webster & Watson (2002) systematic approach
+% Generated: 2026-01-08
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{footnote}
+\usepackage[flushleft]{threeparttable}
+
+\begin{document}
+
+\title{Systematic Review: Wearable Devices for Epileptic Seizure Detection and Forecasting}
+\author{}
+\date{}
+\maketitle
+
+\section*{Table 1: Comparison of Studies on Wearable Seizure Detection/Forecasting}
+
+% Using longtable for multi-page table
+\begin{longtable}{p{2.5cm}p{2cm}p{2cm}p{1.8cm}p{2cm}p{2cm}p{1.2cm}p{2.5cm}p{1.5cm}p{1.5cm}p{1.5cm}p{2cm}p{2.5cm}}
+\caption{Summary of 13 studies on wearable seizure detection and forecasting (2013-2026)} \\[4pt]
+\small
+\toprule
+& & & & & & & & \multicolumn{3}{c}{Performance Metrics} & \\
+\cmidrule(lr){9-11}
+Study & Objective & Design & Sample & Seizure Type & Device & Location & Algorithm & Sens & Spec & FPR & Key Limitations & Conclusion \\
+\midrule
+\endfirsthead
+
+\multicolumn{13}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\small
+\toprule
+& & & & & & & \multicolumn{3}{c}{Performance Metrics} & \\
+\cmidrule(lr){9-11}
+Study & Objective & Design & Sample & Seizure Type & Device & Location & Algorithm & Sens & Spec & FPR & Key Limitations & Conclusion \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{13}{r}{{Continued on next page}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+% Vieluf et al. 2025
+Vieluf et al. 2025 & Combine diary + wearable & Retrospective & n=70 & Focal & Embrace & Wrist & DNN + harmonic & Det: 82\%/78\%/57\% & Det: 67\%/66\%/44\% & NR & Daily resolution; diary bias; no cardiac & Diary + wearable differentiates conditions \\[2pt]
+& to discriminate seizure days & observational & 5437 days & & (Empatica) & & 24-h modeling & Pred: 81\%/80\% & Pred: 67\%/66\% & (uses AUC\textsubscript{PR}) & & \\[6pt]
+
+% Meisel et al. 2020
+Meisel et al. 2020 & Forecast without & Retrospective, & n=69 & Focal, & Empatica E4 & Wrist/ & LSTM + & 51.2\% mean & NR & TiW 43.7\% & Short recordings; & 43.5\% showed \\[2pt]
+& patient-specific training & LOSO CV & 452 seizures & Generalized & & Ankle & 1DConv & 75.6\%* & (reports IoC) & & pediatric only & better-than-chance \\[6pt]
+
+% Stirling et al. 2021
+Stirling et al. 2021 & Develop forecaster & Retrospective + & n=11 & Focal (8), & Fitbit & Wrist & LSTM + RF + & NR & NR & AUC 0.74 & Self-reported & 100\% above chance \\[2pt]
+& using HR cycles & pseudo-prospective & mean 136 seizures & Gen. (1), Both (2) & smartwatch & & LR ensemble & (uses AUC) & (uses AUC) & hourly & diaries & hourly \\[6pt]
+
+% Wang et al. 2025
+Wang et al. 2025 & Test attitude angle & Retrospective & n=28 & Motor & Biovital-P1 & Wrist & LSTM + Tree/ & Acc: up to & NR & 8.5--8.7/24h & Hospital setting; & PITCH/ROLL outperform \\[2pt]
+& (PITCH/ROLL) & 10-fold CV & 62 seizures & & (EMP+watch) & & SVM/LDA & 97.8\% & & & only 7 tested & ACC \\[6pt]
+
+% Reintjes et al. 2025
+Reintjes et al. 2025 & ECG-based via & Retrospective & n=120 & Focal & Single-lead & Left chest & Matrix Profile, & 98.16\% & NR & 13.9 FA/h & FAR too high; & >90\% sensitivity \\[2pt]
+& anomaly detection & train/test split & 856 seizures & (all types) & ECG (Sensor Dot) & & MADRID, & (SDW MP) & & SDW; 1.91 FA/h opt & no real-time eval & but FAR unacceptable \\[2pt]
+& & & & & & & TimeVQVAE-AD & & & & \\[6pt]
+
+% Ode et al. 2023
+Ode et al. 2023 & Predict focal seizures & Retrospective & n=66 & Focal & ECG & NR & Self-Attentive & 74\% & NR & 0.85/hour & FPs in specific & SA-AE reduces FPs \\[2pt]
+& using RRI & validation & 264 interictal + & (TLE, FLE, PLE) & (R-R intervals) & & Autoencoder & 100\% in 29/66 & (precision 0.35) & & patients; motion & vs AE \\[2pt]
+& & & 85 preictal & & & & & & & & artifacts \\[6pt]
+
+% Singh Rathore 2024
+Singh Rathore & Multimodal ML & Retrospective & 1 patient; & Not & EDA + ACC & NR & MLP, SVM, & 96.8\% & NR & NR & Single patient; & MLP best: 97.4\% \\[2pt]
+et al. 2024 & (EDA+ACC) & single-patient & 6 hours & specified & + HR + BVP & & KNN, NB, LR & (MLP) & (precision & & no validation & accuracy \\[2pt]
+& & & & & & & & & 94.8\%) & & \\[6pt]
+
+% Borujeny et al. 2013
+Borujeny & Wireless & Retrospective & 3 patients; & Motor & 3× 2D ACC & Arms, & ANN, KNN & 100\% & NR & ANN: 3 FAs & Very small; & KNN k=5: perfect \\[2pt]
+et al. 2013 & accelerometry & 3-patient & 20 seizures & & (MICAz) & thigh & & (KNN k=5) & & KNN k=5: 0 FAs & 3Hz sampling & detection \\[6pt]
+
+% Fine 2025
+Fine 2025 & Tonic seizure & Phase 1 & n=15 training; & Tonic with & Wristband & Wrist & ANN & 100\% & NR & 0.23/night; & Small test set; & Promising Phase 1; \\[2pt]
+& detection with ANN & development/ & 3 test & motor & (6-axis) & & (594 features) & (95\% CI 69--100) & & 0.023/h (test) & offline; EMU only & multicenter needed \\[2pt]
+& & validation & & manifestations & & & & & & & \\[6pt]
+
+% Spahr et al. 2025
+Spahr et al. 2025 & Tunable DL for & Prospective & n=384; & Generalized/ & Empatica E4 & Wrist & Ensemble 1D & 96\% & NR & $<$1/8 days; & EMU setting; & Phase 2 validated; \\[2pt]
+& convulsive seizure & multi-center & 49 CSs (test) & bilateral convulsive & (ACC only) & & CNN & (90--100) & & 1/61 nights & offline & smartwatch ready \\[6pt]
+
+% Elemam et al. 2025
+Elemam et al. 2025 & Automated tool: & Cross-sectional & Q: 198; & General & Smartphone & Finger/thumb; & CNN (HRV/ & 95.1\% (Q); & 97.06\% (Q); & NR & Small samples; & Multi-modal \\[2pt]
+& questionnaire, HRV, & observational & HRV: 30; & epilepsy + PNES & camera (PPG) & ambient & audio), & 93\% (HRV) & 90\% (HRV) & & PPG 15s sitting & shows promise \\[2pt]
+& audio & & Audio: 20 & & & & rule-based (Q) & & & & \\[6pt]
+
+% Nasseri et al. 2021
+Nasseri et al. 2021 & Ambulatory & Retrospective & n=6 & Focal onset, & Empatica E4 & Wrist & LSTM RNN & AUC 0.75 & NR & TiW 0.9--7.2 & Very small; & First successful \\[2pt]
+& forecasting with & analysis of & & FBTC & & (4 layers) & (0.50--0.92) & & h/d & needs RNS; & ambulatory \\[2pt]
+& RNS validation & prospective data & & & & & & & & 15-min setback & forecasting; 33-min \\[2pt]
+& & & & & & & & & & & warning \\[6pt]
+
+% Dong et al. 2026
+Dong et al. 2026 & Two-step & Prospective & n=68; & TC, major & NightWatch & Upper arm & Two-stage: & 71.6\% & NR & 0.165/hour & Imbalanced; & First long-term \\[2pt]
+& ACM+PPG for & 10-fold CV & 788 nights; & hypermotor, & armband & & threshold + & overall & (PPV 33.4\%) & & single-center; & home study; HR \\[2pt]
+& nocturnal seizures & & 1846 seizures & tonic $>$30s & & & CNN-LSTM & & & & offline & precedes movement \\
+
+\bottomrule
+\end{longtable}
+
+\begin{threeparttable}
+\small
+\item[] \textbf{Note:} ACC = Accelerometer; AUC = Area Under Curve; ANN = Artificial Neural Network; BVP = Blood Volume Pressure; CNN = Convolutional Neural Network; CS = Convulsive Seizure; ECG = Electrocardiogram; EDA = Electrodermal Activity; EMU = Epilepsy Monitoring Unit; FPR = False Positive Rate; FBTC = Focal to Bilateral Tonic-Clonic; Gen = Generalized; HRV = Heart Rate Variability; IoC = Improvement over Chance; LSTM = Long Short-Term Memory; LOSO = Leave-One-Subject-Out; MLP = Multilayer Perceptron; NR = Not Reported; PPG = Photoplethysmography; PLE = Parietal Lobe Epilepsy; PNES = Psychogenic Non-Epileptic Seizures; RRI = R-R Interval; SA-AE = Self-Attentive Autoencoder; TLE = Temporal Lobe Epilepsy; TiW = Time in Warning.
+\item[] * Significant patients only (43.5\% for Meisel 2020).
+\end{threeparttable}
+
+\end{document}
