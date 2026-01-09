@@ -22,19 +22,19 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 \textbf{Detection Studies} \\
 \addlinespace
 
-\textbf{Spahr et al. 2025} & Convulsive detection multi-center & Prospective & n=384, 49 CSs & Empatica E4 (ACC) & Wrist & Ensemble 1D CNN & 96\% & -- & $<$1/8d & EMU, offline \\
+\textbf{Spahr et al. 2025} & Convulsive multi-center DET& Prospective & n=384, 49 CSs & Empatica E4 (ACC) & Wrist & Ensemble 1D CNN & 96\% & -- & $<$1/8d & EMU, offline \\
 \addlinespace
 
-\textbf{Reintjes et al. 2025} & ECG anomaly detection & Retro & n=120, 856 szs & Single-lead ECG & Chest & Matrix Profile & 98.16\% & -- & 1.91/h & High FAR \\
+\textbf{Reintjes et al. 2025} & ECG anomaly DET & Retro & n=120, 856 szs & Single-lead ECG & Chest & Matrix Profile & 98.16\% & -- & 1.91/h & High FAR \\
 \addlinespace
 
-\textbf{Fine 2025} & Tonic detection & Phase 1 & n=15/3 & 6-axis band & Wrist & ANN (594 feat) & 100\% & -- & 0.23/n; 0.023/h & Small test \\
+\textbf{Fine 2025} & Tonic DET & Phase 1 & n=15/3 & 6-axis band & Wrist & ANN (594 feat) & 100\% & -- & 0.23/n; 0.023/h & Small test \\
 \addlinespace
 
 \textbf{Dong et al. 2026} & Nocturnal severe szs & Prospective & n=68, 1846 szs & NightWatch & Arm & CNN-LSTM & 71.6\% & -- & 0.165/h & Single-center \\
 \addlinespace
 
-\textbf{Wang et al. 2025} & Sz detection (acc: 97.8\%) & Retro & n=28, 62 szs & Biovital-P1 & Wrist & LSTM+SVM/LDA & -- & -- & 8.5/24h & Hospital only \\
+\textbf{Wang et al. 2025} & Sz DET (acc: 97.8\%) & Retro & n=28, 62 szs & Biovital-P1 & Wrist & LSTM+SVM/LDA & -- & -- & 8.5/24h & Hospital only \\
 \addlinespace
 
 \textbf{Singh Rathore 2024} & Multimodal & Single pt & 1 pt, 6 hrs & EDA+ACC+HR & -- & MLP, SVM, KNN & 96.8\% & -- & -- & Single patient \\
@@ -67,7 +67,7 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 }
 \par\medskip
 \footnotesize
-\textbf{Note:} ACC = accelerometer; ANN = artificial neural network; AE = autoencoder; CNN = convolutional neural network; CS = convulsive seizure; DNN = deep neural network; ECG = electrocardiogram; EDA = electrodermal activity; HR = heart rate; HRV = HR variability; LOSO = leave-one-subject-out; LSTM = long short-term memory; PPG = photoplethysmography; RRI = R-R interval; Sens = sensitivity; Spec = specificity; sz(s) = seizure(s); FPR = false positive rate; FA = false alarm; TiW = time in warning; -- = not reported.
+\textbf{Note:} ACC = accelerometer; DET = detection; ANN = artificial neural network; AE = autoencoder; CNN = convolutional neural network; CS = convulsive seizure; DNN = deep neural network; ECG = electrocardiogram; EDA = electrodermal activity; HR = heart rate; HRV = HR variability; LOSO = leave-one-subject-out; LSTM = long short-term memory; PPG = photoplethysmography; RRI = R-R interval; Sens = sensitivity; Spec = specificity; sz(s) = seizure(s); FPR = false positive rate; FA = false alarm; TiW = time in warning; -- = not reported.
 \end{table}
 \end{landscape}
 
