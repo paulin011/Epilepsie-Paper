@@ -1,0 +1,5 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'comparison_table.blg'
+[60] biber:342> INFO - === Do Jan  8, 2026, 17:48:50
+[83] Utils.pm:479> ERROR - Cannot find 'comparison_table.bcf'!
+[83] Biber.pm:137> INFO - ERRORS: 1

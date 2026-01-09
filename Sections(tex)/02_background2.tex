@@ -2,10 +2,10 @@
 
 \subsection{The Ambulatory Monitoring Paradigm: Requirements and Challenges}
 
-\cite{beniczkyAutomatedSeizureDetection2021a}, \cite{chenSeizuresDetectionUsing2022a}
+\cite{beniczkyAutomatedSeizureDetection2021}, \cite{chenSeizuresDetectionUsing2022}
 found that translation of seizure detection from the controlled clinical environment to
-an ambulatory setting redifines approaches and performance requirements.
-In clinical environments maximum seinsitivity is prioritized over FAR,
+an ambulatory setting redefines approaches and performance requirements.
+In clinical environments maximum sensitivity is prioritized over FAR,
 when engineering for ambulatory use a balance of both metrics is needed.
 Failing to detect a seizure (low sensitivity) poses a safety risk, While
 excessive false alarms (high FAR) leads to desensitizing and "alarm fatigue"
@@ -57,7 +57,7 @@ while heart rate variability (HRV) quantifies autonomic balance dynamics
 In wearable applications, photoplethysmography (PPG) serves 
 as a practical alternative for cardiac monitoring,
 deriving pulse rate and variability though with greater motion sensitivity than ECG 
-\parencite{chenSeizuresDetectionUsing2022a, sethFeasibilityCardiacbasedSeizure2023}.
+\parencite{chenSeizuresDetectionUsing2022, sethFeasibilityCardiacbasedSeizure2023}.
 
 Consequently, detection strategies combine these biosignals according to target seizure types, 
 with multimodal fusion providing the most robust approach for ambulatory monitoring.
@@ -65,7 +65,7 @@ with multimodal fusion providing the most robust approach for ambulatory monitor
 \subsection{Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}
 The clinical validity of a seizure detection algorithm is determined by the rigor of 
 its evaluation, formalized in the ILAE's phased framework (Phases 0–4) 
-\parencite{beniczkyAutomatedSeizureDetection2021a}. 
+\parencite{beniczkyAutomatedSeizureDetection2021}. 
 Retrospective studies (Phases 0-2), while foundational, 
 risk significant data leakage and optimistic bias if they use non-chronological data splits, 
 allowing future information to inform training 

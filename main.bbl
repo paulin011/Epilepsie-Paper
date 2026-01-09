@@ -19,69 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/apasortcite//global/global/global}
-    \entry{abtahiIdentificationRelevantECG2025}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=f99795f672702ced5d733ae9af997a42}{%
-           family={Abtahi},
-           familyi={A\bibinitperiod},
-           given={Azra},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
-           family={Ryvlin},
-           familyi={R\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=34ef1f87c8f2a0bb9db5cddf74c04aca}{%
-           family={Aminifar},
-           familyi={A\bibinitperiod},
-           given={Amir},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{eba265897797f19c0dc3d89cdb6c7ae3}
-      \strng{fullhash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{fullhashraw}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{bibnamehash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{authorbibnamehash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{authornamehash}{eba265897797f19c0dc3d89cdb6c7ae3}
-      \strng{authorfullhash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{authorfullhashraw}{786ed286c94fba070de0c8358ebdd43b}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Epileptic seizure prediction holds the potential to enhance the quality of life for individuals with epilepsy by enabling the possibility of timely administration of medication and first aid, as well as preventing subsequent accidents. In this paper, we consider the well-established Heart Rate Variability (HRV) and Lorenz features, and augment them with the electrocardiogram (ECG) multifractality features for the first time for seizure prediction. Our experimental results demonstrate that incorporating multifractality features significantly enhances epileptic seizure prediction, with a 7.5\% improvement over using only HRV features and a 6.9\% improvement over using both HRV and Lorenz features. We also investigate the significance and impact of features in a seizure prediction Machine Learning (ML) model utilizing ECG signals, aiming to shed light on the intricate relationship between cardiac function and epileptic seizures. We employ SHAP (SHapley Additive exPlanations), an interpretability framework, to interpret the prediction patterns. Based on our analysis, multifractality features are among the most important features in seizure prediction, capturing patterns that are not captured by the HRV and Lorenz features.}
-      \field{issn}{2169-3536}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{Identification of {{Relevant ECG Features}} for {{Epileptic Seizure Prediction Using Interpretable Machine Learning}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{13}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{111293\bibrangedash 111303}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2025.3583461
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/V88E48Q4/Abtahi et al. - 2025 - Identification of Relevant ECG Features for Epileptic Seizure Prediction Using Interpretable Machine.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/11052221/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/11052221/
-      \endverb
-      \keyw{Brain modeling,Cardiac function,Complexity theory,Electrocardiogram (ECG),Electrocardiography,Electroencephalography,epilepsy,Epilepsy,explainable machine learning,Feature extraction,Fractals,Heart rate variability,interpretability,maybe,multifractality,Predictive models,seizure prediction,SHAP value}
-    \endentry
     \entry{abualrobUnlockingNewFrontiers2025}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=03a17c5fae7395805c3b4d84b8ad05e6}{%
@@ -143,74 +80,433 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1525505025000666
       \endverb
     \endentry
-    \entry{andradePerformanceSeizurePrediction2024}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=fca1c58470ba8116795357d58c4aabea}{%
-           family={Andrade},
-           familyi={A\bibinitperiod},
-           given={Inês},
-           giveni={I\bibinitperiod},
+    \entry{beniczkyAutomatedSeizureDetection2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=16fc7634174f7764a9e5a90e39131a81}{%
-           family={Teixeira},
+        {{un=0,uniquepart=base,hash=a406a58f553df56bbc9ff09ca72cdd47}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
+           family={Jeppesen},
+           familyi={J\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa97bdb3b303e63a2367f24c3c68317e}{%
+           family={Tatum},
            familyi={T\bibinitperiod},
-           given={César},
-           giveni={C\bibinitperiod},
+           given={William\bibnamedelima O.},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=883a6682b4fe31e486f8d393628f0cfd}{%
-           family={Pinto},
-           familyi={P\bibinitperiod},
-           given={Mauro},
+        {{un=0,uniquepart=base,hash=ad679c425d46d6e85c9934775d5e1e9f}{%
+           family={Brazdil},
+           familyi={B\bibinitperiod},
+           given={Milan},
            giveni={M\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=c78503aaa49a656724e2cb1160afaf62}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuping},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7719657075f19a1aa502dadd170aee}{%
+           family={Herman},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Frontiers}%
-      }
-      \strng{namehash}{836cc014a5a7b407ea6ef81a4749129a}
-      \strng{fullhash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{fullhashraw}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{bibnamehash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{authorbibnamehash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{authornamehash}{836cc014a5a7b407ea6ef81a4749129a}
-      \strng{authorfullhash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{authorfullhashraw}{ed53a64da9691f88588a76841f5f47f0}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \strng{namehash}{ea8006ec14192142570626136ac20a31}
+      \strng{fullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{fullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \strng{bibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorbibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authornamehash}{ea8006ec14192142570626136ac20a31}
+      \strng{authorfullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorfullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Epilepsy affects 1\% of the global population, with approximately one-third of patients resistant to anti-seizure medications (ASMs), posing risks of physical injuries and psychological issues. Seizure prediction algorithms aim to enhance the quality of life for these individuals by providing timely alerts. This study presents a patient-specific seizure prediction algorithm applied to diverse databases (EPILEPSIAE, CHB-MIT, AES, and Epilepsy Ecosystem). The proposed algorithm undergoes a standardized framework, including data preprocessing, feature extraction, training, testing, and postprocessing. Various databases necessitate adaptations in the algorithm, considering differences in data availability and characteristics. The algorithm exhibited variable performance across databases, taking into account sensitivity, FPR/h, specificity, and AUC score.This study distinguishes between sample-based approaches, which often yield better results by disregarding the temporal aspect of seizures, and alarm-based approaches, which aim to simulate real-life conditions but produce less favorable outcomes. Statistical assessment reveals challenges in surpassing chance levels, emphasizing the rarity of seizure events. Comparative analyses with existing studies highlight the complexity of standardized assessments, given diverse methodologies and dataset variations. Rigorous methodologies aiming to simulate real-life conditions produce less favorable outcomes, emphasizing the importance of realistic assumptions and comprehensive, long-term, systematically structured datasets for future research.}
-      \field{day}{15}
-      \field{issn}{1662-453X}
-      \field{journaltitle}{Frontiers in Neuroscience}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{shortjournal}{Front. Neurosci.}
-      \field{shorttitle}{On the Performance of Seizure Prediction Machine Learning Methods across Different Databases}
-      \field{title}{On the Performance of Seizure Prediction Machine Learning Methods across Different Databases: The Sample and Alarm-Based Perspectives}
-      \field{urlday}{20}
-      \field{urlmonth}{11}
+      \field{abstract}{The objective of this clinical practice guideline (CPG) is to provide recommendations for healthcare personnel working with patients with epilepsy, on the use of wearable devices for automated seizure detection in patients with epilepsy, in outpatient, ambulatory settings. The Working Group of the International League Against Epilepsy and the International Federation of Clinical Neurophysiology developed the CPG according to the methodology proposed by the ILAE Epilepsy Guidelines Working Group. We reviewed the published evidence using The Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement and evaluated the evidence and formulated the recommendations following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. We found high level of evidence for the accuracy of automated detection of generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) and recommend use of wearable automated seizure detection devices for selected patients when accurate detection of GTCS and FBTCS is recommended as a clinical adjunct. We also found moderate level of evidence for seizure types without GTCs or FBTCs. However, it was uncertain whether the detected alarms resulted in meaningful clinical outcomes for the patients. We recommend using clinically validated devices for automated detection of GTCS and FBTCS, especially in unsupervised patients, where alarms can result in rapid intervention (weak/conditional recommendation). At present, we do not recommend clinical use of the currently available devices for other seizure types (weak/conditional recommendation). Further research and development are needed to improve the performance of automated seizure detection and to document their accuracy and clinical utility.}
+      \field{day}{1}
+      \field{issn}{1388-2457}
+      \field{journaltitle}{Clinical Neurophysiology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{Clinical Neurophysiology}
+      \field{shorttitle}{Automated Seizure Detection Using Wearable Devices}
+      \field{title}{Automated Seizure Detection Using Wearable Devices: {{A}} Clinical Practice Guideline of the {{International League Against Epilepsy}} and the {{International Federation}} of {{Clinical Neurophysiology}}}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
       \field{urlyear}{2025}
-      \field{volume}{18}
-      \field{year}{2024}
+      \field{volume}{132}
+      \field{year}{2021}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{1173\bibrangedash 1184}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.3389/fnins.2024.1417748
+      \verb 10.1016/j.clinph.2020.12.009
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/29M3CYIY/Andrade et al. - 2024 - On the performance of seizure prediction machine learning methods across different databases the sa.pdf
+      \verb /home/paulin/Zotero/storage/DNWP7P4J/Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1417748/full
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
       \endverb
       \verb{url}
-      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1417748/full
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
       \endverb
-      \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
+      \keyw{Algorithms,Automated detection,Consensus Development Conferences as Topic,Epilepsy,Humans,Neurophysiological Monitoring,Practice Guidelines as Topic,Seizure detection,Seizures,Societies Medical,Wearable devices,Wearable Electronic Devices}
+    \endentry
+    \entry{borujenyDetectionEpilepticSeizure2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e3b4941e9c122ddf2e365772f6eecbe6}{%
+           family={Borujeny},
+           familyi={B\bibinitperiod},
+           given={Golshan\bibnamedelima Taheri},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80ad9735a93a133f22b2c6d0a9ee295b}{%
+           family={Yazdi},
+           familyi={Y\bibinitperiod},
+           given={Mehran},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2488f95421183cb0dd6623a6c42570f2}{%
+           family={Keshavarz-Haddad},
+           familyi={K\bibinithyphendelim H\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2271e0e2640f3697cef7e5303c127d14}{%
+           family={Borujeny},
+           familyi={B\bibinitperiod},
+           given={Arash\bibnamedelima Rafie},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6691d52b8fbf88865d856d2bedb4aa1c}
+      \strng{fullhash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{fullhashraw}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{bibnamehash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{authorbibnamehash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{authornamehash}{6691d52b8fbf88865d856d2bedb4aa1c}
+      \strng{authorfullhash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{authorfullhashraw}{539b70658f41e6d478a0eecdfff9f51f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The monitoring of epileptic seizures is mainly done by means of electroencephalogram (EEG) monitoring. Although this method is accurate, it is not comfortable for the patient as the EEG-electrodes have to be attached to the scalp which hampers the patient's movement. This makes long-term home monitoring not feasible. In this paper, the aim is to propose a seizure detection system based on accelerometry for the detection of epileptic seizure. The used sensors are wireless, which can improve quality of life for the patients. In this system, three 2D accelerometer sensors are positioned on the right arm, left arm, and left thigh of an epileptic patient. Datasets from three patients suffering from severe epilepsy are used in this paper for the development of an automatic detection algorithm. This monitoring system is based on Wireless Sensor Networks and can determine the location of the patient when a seizure is detected and then send an alarm to hospital staff or the patient's relatives. Our wireless sensor nodes are MICAz Motes developed by Crossbow Technology. The proposed system can be used for patients living in a clinical environment or at their home, where they do only their daily routines. The analysis of the recorded data is done by an Artificial Neural Network and K Nearest-Neighbor to recognize seizure movements from normal movements. The results show that K Nearest Neighbor performs better than Artificial Neural Network for detecting these seizures. The results also show that if at least 50\% of the signal consists of seizure samples, we can detect the seizure accurately. In addition, there is no need for training the algorithm for each new patient.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2228-7477}
+      \field{journaltitle}{Journal of Medical Signals and Sensors}
+      \field{number}{2}
+      \field{shortjournal}{J Med Signals Sens}
+      \field{title}{Detection of {{Epileptic Seizure Using Wireless Sensor Networks}}}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 68}
+      \range{pages}{6}
+      \verb{eprint}
+      \verb 24098859
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/CYG9BGR6/Borujeny et al. - 2013 - Detection of Epileptic Seizure Using Wireless Sensor Networks.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3788195/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3788195/
+      \endverb
+      \keyw{final}
+    \endentry
+    \entry{chenSeizuresDetectionUsing2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4f3e4fbc5e82562ed396313728e67dfc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fangyi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8433a00554a724ff629d8490eb5c2e1}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ina},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43224d912f93ddcaf1fbe0472f07af8f}{%
+           family={Zafar},
+           familyi={Z\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb67e97e6bbeeba5a7833d65d97c2ade}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Saurabh\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44835d1cb200c0b0b6e91e300fd3615}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
+      \strng{fullhash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{fullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{bibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{authorbibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{authornamehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
+      \strng{authorfullhash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{authorfullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Introduction. Epileptic seizures are common neurological disorders in the world, impacting 65 million people globally. Around 30\% of patients with seizures suffer from refractory epilepsy, where seizures are not controlled by medications. The unpredictability of seizures makes it essential to have a continuous seizure monitoring system outside clinical settings for the purpose of minimizing patients’ injuries and providing additional pathways for evaluation and treatment follow-up. Autonomic changes related to seizure events have been extensively studied and attempts made to apply them for seizure detection and prediction tasks. This scoping review aims to depict current research activities associated with the implementation of portable, wearable devices for seizure detection or prediction and inform future direction in continuous seizure tracking in ambulatory settings. Methods. Overall methodology framework includes 5 essential stages: research questions identification, relevant studies identification, selection of studies, data charting and summarizing the findings. A systematic searching strategy guided by systematic reviews and meta-analysis (PRISMA) was implemented to identify relevant records on two databases (PubMed, IEEE). Results. A total of 30 articles were included in our final analysis. Most of the studies were conducted off-line and employed consumer-graded wearable device. ACM is the dominant modality to be used in seizure detection, and widely deployed algorithms entail Support Vector Machine, Random Forest and threshold-based approach. The sensitivity ranged from 33.2\% to 100\% for single modality with a false alarm rate (FAR) ranging from 0.096 to 14.8 d−1.}
+      \field{day}{29}
+      \field{issn}{0967-3334, 1361-6579}
+      \field{journaltitle}{Physiological Measurement}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{Physiol. Meas.}
+      \field{shorttitle}{Seizures Detection Using Multimodal Signals}
+      \field{title}{Seizures Detection Using Multimodal Signals: A Scoping Review}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{07TR01}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1361-6579/ac7a8d
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/3ECTXIYT/Chen et al. - 2022 - Seizures detection using multimodal signals a scoping review.pdf;/home/paulin/Zotero/storage/HYA4ZABJ/Chen et al. - 2022 - Seizures detection using multimodal signals a scoping review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1361-6579/ac7a8d
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1361-6579/ac7a8d
+      \endverb
+    \endentry
+    \entry{dongTwoLayerEnsembleMethod2022}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=d8e4eda3393121f6f7647394b53ba6bb}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Chunjiao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a5de49b665c68787b76e578473e4950}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Tianchun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=178bca4f77101ad26b30ccbbf26e2132}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53c442e05d5bd05bf98a269ec602a8aa}{%
+           family={Aarts},
+           familyi={A\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=921cb2ba907e15e724a466919be5e8d2}{%
+           family={Dijk},
+           familyi={D\bibinitperiod},
+           given={Johannes\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=51d2ff5c8dd3b0ba9acc0f8fc302cb45}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Chunheng},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c690fb332044d68a797ef3a26d143327}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Xiwen},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dc942e10990f1e492380148176b302e}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Wanlin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=046842e5933d7131df18c28d8bce94ff}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90fbfe2dc6273534e37644446adc706e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yunfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8aa7fdd2a485fcf68be82951c3da168}
+      \strng{fullhash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{fullhashraw}{3daddfcd9876e57523e23b497bd75025}
+      \strng{bibnamehash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{authorbibnamehash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{authornamehash}{f8aa7fdd2a485fcf68be82951c3da168}
+      \strng{authorfullhash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{authorfullhashraw}{3daddfcd9876e57523e23b497bd75025}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using monitoring devices could help avoid injuries and even death. Currently, wearable sensors such as motion sensors and other sensors are used to detect when the patient is having a seizure and alarm their caregivers. However, the development phase of these devices requires labor-intensive work on labeling the collected data, resulting in difficulties in developing wearable monitoring devices. Thus, a more automated auxiliary method of labeling seizure data and a wearable device to detect seizures for daily monitoring use are necessary. We collected data from epileptics outside the hospital with our proposed bracelet. The subjects were asked to press the mark button after they had seizures. We also presented an automatically extraction and annotation of moving segments (EAMS) algorithm to exclude nonmoving segments. Then, we used a two-layer ensemble model (TLEM) using machine learning methods to classify seizures and non-seizure moving segments, which was designed to deal with imbalanced dataset. Then, we build two individual TLEM models separately for the overall (all day and night) seizure detection case and the night seizure detection case, owing to different imbalance of these datasets. The EAMS algorithm exclude 93.9\% raw inactive data. The TLEM model achieved 76.84\% sensitivity (SEN) and 97.28\% accuracy (ACU) for the overall case and achieved 94.57\% SEN and 91.37\% ACU for the night case. These results indicate that this bracelet can capture seizures efficiently, and our proposed TLEM has higher SEN and ACU than single-layer machine learning models.}
+      \field{issn}{1557-9662}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{title}{A {{Two-Layer Ensemble Method}} for {{Detecting Epileptic Seizures Using}} a {{Self-Annotation Bracelet With Motor Sensors}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{71}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TIM.2022.3173270
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/24X8W43M/Dong et al. - 2022 - A Two-Layer Ensemble Method for Detecting Epileptic Seizures Using a Self-Annotation Bracelet With M.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9772753/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9772753/
+      \endverb
+      \keyw{Accelerometer (ACM),Brain modeling,Data models,epilepsy,final,gyroscope,Hospitals,include,machine learning,Monitoring,motor sensor,Random forests,seizure detection,Sensitivity,signal processing,Support vector machines,wearable device}
+    \endentry
+    \entry{elemamAutomatedValidatedTool2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0251ec6db53e1de6901dcf1b49b76509}{%
+           family={Elemam},
+           familyi={E\bibinitperiod},
+           given={Mahy\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c8e04bdf5fbef994dc503132146db8}{%
+           family={Elgamal},
+           familyi={E\bibinitperiod},
+           given={A.F.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e96a9894cf5fbd0ec0075d2a679b598}{%
+           family={Elmenshawi},
+           familyi={E\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2538fce16e28bd07897b9e291ac3b59}{%
+           family={Abdelkader},
+           familyi={A\bibinitperiod},
+           given={Hanan\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Scientific Publishing Group (ASPG)}%
+      }
+      \strng{namehash}{0b98e9d286a3710cb49e57418a120f59}
+      \strng{fullhash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{fullhashraw}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{bibnamehash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{authorbibnamehash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{authornamehash}{0b98e9d286a3710cb49e57418a120f59}
+      \strng{authorfullhash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{authorfullhashraw}{f775787a890fb6267a44ed56d9e6788b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper explores an innovative approach for the automatic detection of epileptic seizures from audio recordings and Heart Rate Variability (HRV) using Convolutional Neural Networks (CNNs). In medical settings, accurately labeling seizure events is critical for patient monitoring. However, manual annotation by experts is not only time-intensive but also highly repetitive. To address this challenge, we developed a structured questionnaire for patients and eyewitnesses, concentrating on observable characteristics during typical seizure events. This questionnaire was used to prospectively study 198 consecutive adult patients with either Psychogenic Non-Epileptic Seizures (PNES) or Epileptic Seizures (ES). For each question, specific signs, symptoms, and risk factors were extracted as variables. The results showed a sensitivity of 95.10\% and a specificity of 97.06\%, confirming the reliability of the questionnaire. Also, the method proposed in the study categorizes all seizure vocalizations into a singular target event class, modeling the detection task as a binary classification problem target (seizure event) vs. non-target (non-seizure event). The CNN is trained to detect seizure events in short time frames. Experimental results indicate that the method achieves over 92.5\% detection accuracy. Furthermore, the research leverages the correlation between pre-ictal epileptic states and HRV features. By addressing the noise interference commonly present during seizures, the proposed model can robustly train the CNN to identify pre-ictal states. The model's performance is promising, yielding an accuracy of over 91.5\% for both positive and negative predictions. The proposed system underwent a human evaluation by a group of physicians at Mansoura University Hospital. The results were highly satisfactory, with the doctors expressing strong approval of the system's performance. © 2025, American Scientific Publishing Group (ASPG). All rights reserved.}
+      \field{issn}{2769-786X}
+      \field{journaltitle}{Journal of Intelligent Systems and Internet of Things}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{J. Intell. Syst. Internet. Thing.}
+      \field{title}{Automated Validated Tool for Epileptic Seizure Detection Using Deep Learning}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{74\bibrangedash 90}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.54216/JISIoT.150107
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/EALEXS55/Elemam et al. - 2025 - Automated validated tool for epileptic seizure detection using deep learning.pdf
+      \endverb
+      \keyw{Convolutional neural network (CNN),Epilepsy,Epilepsy prediction,final,include,Seizure detection,Sound event detection}
     \endentry
     \entry{ghaderiAdvancesMachineLearning2025}{online}{}{}
       \name{author}{1}{}{%
@@ -788,6 +1084,89 @@
       \endverb
       \keyw{epilepsy,heart rate variability,review,seizure detection,seizure prediction}
     \endentry
+    \entry{meiselMachineLearningWristband2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=df239c61839e6fef43a637493df5ba99}{%
+           family={Meisel},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=facff6e0964d6421fd426aa6683fd748}{%
+           family={El\bibnamedelima Atrache},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Rima},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a3ac4ef8e6f42292217f29aa69e174f}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=483bdb934fcdaa513cc956b8bc2f8f31}{%
+           family={Schubach},
+           familyi={S\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef95677ead94ef5cec0ce9d6268db87d}{%
+           family={Ufongene},
+           familyi={U\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
+           family={Loddenkemper},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{782e18b79ff0bc0cfb9a6e2f3a8e7fb0}
+      \strng{fullhash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{fullhashraw}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{bibnamehash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{authorbibnamehash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{authornamehash}{782e18b79ff0bc0cfb9a6e2f3a8e7fb0}
+      \strng{authorfullhash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{authorfullhashraw}{550e2561593cd497469ad0bdb967fdf4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective Seizure forecasting may provide patients with timely warnings to adapt their daily activities and help clinicians deliver more objective, personalized treatments. Although recent work has convincingly demonstrated that seizure risk assessment is in principle possible, these early approaches relied largely on complex, often invasive setups including intracranial electrocorticography, implanted devices, and multichannel electroencephalography, and required patient-specific adaptation or learning to perform optimally, all of which limit translation to broad clinical application. To facilitate broader adaptation of seizure forecasting in clinical practice, noninvasive, easily applicable techniques that reliably assess seizure risk without much prior tuning are crucial. Wristbands that continuously record physiological parameters, including electrodermal activity, body temperature, blood volume pulse, and actigraphy, may afford monitoring of autonomous nervous system function and movement relevant for such a task, hence minimizing potential complications associated with invasive monitoring and avoiding stigma associated with bulky external monitoring devices on the head. Methods Here, we applied deep learning on multimodal wristband sensor data from 69 patients with epilepsy (total duration {$>$} 2311 hours, 452 seizures) to assess its capability to forecast seizures in a statistically significant way. Results Using a leave-one-subject-out cross-validation approach, we identified better-than-chance predictability in 43\% of the patients. Time-matched seizure surrogate data analyses indicated forecasting not to be driven simply by time of day or vigilance state. Prediction performance peaked when all sensor modalities were used, and did not differ between generalized and focal seizure types, but generally increased with the size of the training dataset, indicating potential further improvement with larger datasets in the future. Significance Collectively, these results show that statistically significant seizure risk assessments are feasible from easy-to-use, noninvasive wearable devices without the need of patient-specific training or parameter optimization.}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{number}{12}
+      \field{title}{Machine Learning from Wristband Sensor Data for Wearable, Noninvasive Seizure Forecasting}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{61}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2653\bibrangedash 2666}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/epi.16719
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/BUPIUSLA/Meisel et al. - 2020 - Machine learning from wristband sensor data for wearable, noninvasive seizure forecasting.pdf;/home/paulin/Zotero/storage/D6FYQL7C/epi.html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.16719
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.16719
+      \endverb
+      \keyw{Actigraphy,Adolescent,Body Temperature,Child,Child Preschool,final,Forecasting,Humans,include,Machine Learning,Male,Monitoring Ambulatory,precision medicine,Pulse,seizure forecasting,Seizures,wearable devices,Wearable Electronic Devices,Wrist,Young Adult}
+    \endentry
     \entry{mironAutonomicBiosignalsSeizure2025}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b88a57dba1567ef2cb96fdda42e80b33}{%
@@ -860,6 +1239,286 @@
       \verb /home/paulin/Zotero/storage/WMVGAM9E/Miron et al. - 2025 - Autonomic biosignals, seizure detection, and forecasting.pdf
       \endverb
       \keyw{autonomic nervous system,Autonomic Nervous System,epilepsy,Epilepsy,Forecasting,Humans,seizure detection,seizure forecasting,Seizures,Wearable Electronic Devices,wearables}
+    \endentry
+    \entry{nasseriAmbulatorySeizureForecasting2021}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=496087a4aa8484dd034a358e10b1a501}{%
+           family={Nasseri},
+           familyi={N\bibinitperiod},
+           given={Mona},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57d90713e99a3b9b80e4eccc22ac14cb}{%
+           family={Pal\bibnamedelima Attia},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04a95920ce88eb645353f77d5c0aa9df}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Boney},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d779c176fd6e6f8684da0bf81fcb8ff9}{%
+           family={Gregg},
+           familyi={G\bibinitperiod},
+           given={Nicholas\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e24dd7ae5452e0cbed32e1e383ec731}{%
+           family={Nurse},
+           familyi={N\bibinitperiod},
+           given={Ewan\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cea6e1df8928b5a60a5fac9dfa4f8a5}{%
+           family={Viana},
+           familyi={V\bibinitperiod},
+           given={Pedro\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=875d316614c70479330078035957b3db}{%
+           family={Worrell},
+           familyi={W\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795234a166ad83f910b6a8174a8bbcc2}{%
+           family={Dümpelmann},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60cfdb629dcdf0a025356afdfe931450}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae4882e0c85c784c311a9cc69c3b275b}{%
+           family={Freestone},
+           familyi={F\bibinitperiod},
+           given={Dean\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b96beda543d56b1cc3d5558bdb30aa2}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6dbba86e503b7ce90d430a33ae19bf8e}
+      \strng{fullhash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{fullhashraw}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{bibnamehash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{authorbibnamehash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{authornamehash}{6dbba86e503b7ce90d430a33ae19bf8e}
+      \strng{authorfullhash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{authorfullhashraw}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ability to forecast seizures minutes to hours in advance of an event has been verified using invasive EEG devices, but has not been previously demonstrated using noninvasive wearable devices over long durations in an ambulatory setting. In this study we developed a seizure forecasting system with a long short-term memory (LSTM) recurrent neural network (RNN) algorithm, using a noninvasive wrist-worn research-grade physiological sensor device, and tested the system in patients with epilepsy in the field, with concurrent invasive EEG confirmation of seizures via an implanted recording device. The system achieved forecasting performance significantly better than a random predictor for 5 of 6 patients studied, with mean AUC-ROC of 0.80 (range 0.72–0.92). These results provide the first clear evidence that direct seizure forecasts are possible using wearable devices in the ambulatory setting for many patients with epilepsy.}
+      \field{day}{9}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Sci Rep}
+      \field{title}{Ambulatory Seizure Forecasting with a Wrist-Worn Device Using Long-Short Term Memory Deep Learning}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{21935}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-021-01449-2
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/I73HUT88/Nasseri et al. - 2021 - Ambulatory seizure forecasting with a wrist-worn device using long-short term memory deep learning.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-021-01449-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-021-01449-2
+      \endverb
+      \keyw{Epilepsy,final,Learning algorithms,Neurology}
+    \endentry
+    \entry{odeDevelopmentEpilepticSeizure2023}{article}{}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=93a99409dfa54459fc44d19ebdc6ee6b}{%
+           family={Ode},
+           familyi={O\bibinitperiod},
+           given={Rikumo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a05b8a9cac78a45edcd284b03db24d1c}{%
+           family={Fujiwara},
+           familyi={F\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55ce10a77f549433d99355529cfb4357}{%
+           family={Miyajima},
+           familyi={M\bibinitperiod},
+           given={Miho},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=147729db72d32ab2bca96d11ccfafbeb}{%
+           family={Yamakawa},
+           familyi={Y\bibinitperiod},
+           given={Toshikata},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93fb3c59bbb76aa2dcc280aa9cb4dec8}{%
+           family={Kano},
+           familyi={K\bibinitperiod},
+           given={Manabu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64371c0cca424cd89d92e07a842dd007}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Kazutaka},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03ced40598c3906263a597db8b093a1}{%
+           family={Nakasato},
+           familyi={N\bibinitperiod},
+           given={Nobukazu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78726ac73ae32a67b25021cc0ff85203}{%
+           family={Sawai},
+           familyi={S\bibinitperiod},
+           given={Yasuko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eea7a38d371062e6429399a64076f0cb}{%
+           family={Hoshida},
+           familyi={H\bibinitperiod},
+           given={Toru},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6027b47bbbfe441e9ae03dc7f01ae31d}{%
+           family={Iwasaki},
+           familyi={I\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=607ff86b1b4343d4429c695f434cd5c9}{%
+           family={Murata},
+           familyi={M\bibinitperiod},
+           given={Yoshiko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34a585f49032588bceac59f7445d63e8}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Satsuki},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82f98ed99af4ba1998488878c3e4f5fb}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Yutaka},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fbe8cb719b3d178b6c3b697594a0137}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Yoko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ee97329d0647cffa83ef098772117ea}{%
+           family={Inaji},
+           familyi={I\bibinitperiod},
+           given={Motoki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a060791c7aac3aa0659c0821aca1fa6}{%
+           family={Kunii},
+           familyi={K\bibinitperiod},
+           given={Naoto},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b541e78362287a4d23a1b93d036281bf}{%
+           family={Oshino},
+           familyi={O\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=471e7031f74d59ae77cef4747ca3542d}{%
+           family={Khoo},
+           familyi={K\bibinitperiod},
+           given={Hui\bibnamedelima Ming},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eef2a17b752c9ed5360838d1f4abe27}{%
+           family={Kishima},
+           familyi={K\bibinitperiod},
+           given={Haruhiko},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18d6267f79e444fea78e186023f0a7c1}{%
+           family={Maehara},
+           familyi={M\bibinitperiod},
+           given={Taketoshi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8e2795da9bc2755a7fa8a8272ea29f42}
+      \strng{fullhash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{fullhashraw}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{bibnamehash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{authorbibnamehash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{authornamehash}{8e2795da9bc2755a7fa8a8272ea29f42}
+      \strng{authorfullhash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{authorfullhashraw}{30441648c619385e9b5e38e3a2b4b0f0}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Epilepsy is a neurological disorder that may affect the autonomic nervous system (ANS) from 15 to 20 min before seizure onset, and disturbances of ANS affect R–R intervals (RRI) on an electrocardiogram (ECG). This study aims to develop a machine learning algorithm for predicting focal epileptic seizures by monitoring R–R interval (RRI) data in real time. The developed algorithm adopts a self-attentive autoencoder (SA-AE), which is a neural network for time-series data. The results of applying the developed seizure prediction algorithm to clinical data demonstrated that it functioned well in most patients; however, false positives (FPs) occurred in specific participants. In a future work, we will investigate the causes of FPs and optimize the developing seizure prediction algorithm to further improve performance using newly added clinical data. © 2022, The Author(s).}
+      \field{issn}{1433-5298}
+      \field{journaltitle}{Artificial Life and Robotics}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{Artif. Life Rob.}
+      \field{title}{Development of an~Epileptic Seizure Prediction Algorithm Using {{R}}–{{R}} Intervals with Self-Attentive Autoencoder}
+      \field{volume}{28}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{403\bibrangedash 409}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s10015-022-00832-0
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/YKMNXLVB/Ode et al. - 2023 - Development of an epileptic seizure prediction algorithm using R–R intervals with self-attentive aut.pdf
+      \endverb
+      \keyw{Electrocardiogram,Epilepsy,final,include,Machine learning,Self-attentive autoencoder}
     \endentry
     \entry{paveiEarlySeizureDetection2017}{article}{}{}
       \name{author}{8}{}{%
@@ -959,89 +1618,93 @@
       \endverb
       \keyw{electrocardiogram,Epilepsy,Epileptic seizure prediction,Heart rate variability,Support Vector Machines}
     \endentry
-    \entry{pordoyEnhancedNonEEGMultimodal2025}{article}{}{}
+    \entry{reintjesECGBasedDetectionEpileptic2025}{article}{}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=65cd8d4331f345f48123ddd719c921b0}{%
-           family={Pordoy},
-           familyi={P\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
+        {{un=0,uniquepart=base,hash=63d1d6e866734b9a26b1714602ca4b30}{%
+           family={Reintjes},
+           familyi={R\bibinitperiod},
+           given={Conrad},
+           giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f88a014a24f604954783c16ad0524d80}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=2666fd3cdbdcd8802a9273396d43ac74}{%
+           family={Hagenbeck},
+           familyi={H\bibinitperiod},
+           given={Janosch\bibnamedelima Fabio},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=611deb689d98fdd0886db69c5752e3bd}{%
-           family={Matoorian},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=34cb8219426fce3f33104945ed84b4b0}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={M.},
+        {{un=0,uniquepart=base,hash=764ae5a35cbfc2d1ad9ee35de3945094}{%
+           family={Ballo},
+           familyi={B\bibinitperiod},
+           given={Mohamed},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9dbb02437a99f81a41ae6a6eed7ea282}{%
-           family={Dadashiserej},
-           familyi={D\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=3f363b73d361bcafb9999bfb8ae127bb}{%
+           family={Rahlmeier},
+           familyi={R\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ead2d9f24db375e2742fa5507be8a344}{%
-           family={Zolgharni},
-           familyi={Z\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+        {{un=0,uniquepart=base,hash=c110ca6331b82bae620b5d2224900083}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Simon\bibnamedelima Maximilian},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7e6faee085bf3bfb6221126834e63b}{%
+           family={Schoder},
+           familyi={S\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5b1f4389b54e20c82dfadf5e8cf85e99}
-      \strng{fullhash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{fullhashraw}{29354bef6209a08713d66c71e672ae6d}
-      \strng{bibnamehash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{authorbibnamehash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{authornamehash}{5b1f4389b54e20c82dfadf5e8cf85e99}
-      \strng{authorfullhash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{authorfullhashraw}{29354bef6209a08713d66c71e672ae6d}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{08a3d896f86ec7fa85fb4d360a070b7f}
+      \strng{fullhash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{fullhashraw}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{bibnamehash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{authorbibnamehash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{authornamehash}{08a3d896f86ec7fa85fb4d360a070b7f}
+      \strng{authorfullhash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{authorfullhashraw}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Non-electroencephalogram seizure detection holds promise for the early identification of generalised onset seizures. However, existing methods often suffer from high false alarm rates and difficulty distinguishing normal movements from seizure manifestations. To address this, we obtained exclusive access to the Open Seizure Database and selected a representative dataset of 94 events (42 generalised tonic-clonic seizures, 19 focal seizures, and 33 labelled as Other), totaling approximately 5 hours and 29 minutes. Each event contains acceleration and heart rate data, which were expertly annotated by a clinician in 5 second timesteps, with each timestep assigned a class label of Normal, Pre-Ictal, or Ictal. We introduce AMBER (Attention-guided Multi-Branching pipeline with Enhanced Residual Fusion), a multimodal seizure detection model designed for Ictal-Phase Detection. AMBER constructs multiple branches to form independent feature extraction pipelines for each sensing modality. The outputs of each branch are passed to a Residual Fusion layer, where the extracted features are combined into a fused representation and propagated through two densely connected blocks. The results of these experiments highlight the effectiveness of Ictal Phase Detection, with the model recording an accuracy and f1-score of 0.9027 and 0.9035, respectively, on unseen test data. Further experiments recorded True Positive Rate of 0.8342, 0.9485, and 0.9118 for the Normal, Pre-Ictal, and Ictal phases, respectively, with an average False Positive Rate of 0.0502. This study presents a novel Ictal Phase Detection technique that enhances seizure phase classification while showing reduced false alarms, laying the groundwork for further advancements in non-electroencephalogram-based seizure detection research.}
-      \field{issn}{2168-2208}
-      \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
-      \field{month}{5}
-      \field{number}{5}
-      \field{shorttitle}{Enhanced {{Non-EEG Multimodal Seizure Detection}}}
-      \field{title}{Enhanced {{Non-EEG Multimodal Seizure Detection}}: {{A Real-World Model}} for {{Identifying Generalised Seizures Across}} the {{Ictal State}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{29}
+      \field{abstract}{Epilepsy is a prevalent neurological disorder where reliable seizure tracking is essential for patient care. Existing documentation often relies on self-reports, which are unreliable, creating a need for objective, wearable-based solutions. Prior work has shown that Electrocardiography (ECG)-based seizure detection is feasible but limited by small datasets. This study addresses this issue by evaluating Matrix Profile, MADRID, and TimeVQVAE-AD on SeizeIT2, the largest open wearable-ECG dataset with 11,640 recording hours and 886 annotated seizures. Using standardized preprocessing and clinically motivated windows, we benchmarked sensitivity, false-alarm rate (FAR), and a Harmonic Mean Score integrating both metrics. Across methods, TimeVQVAE-AD achieved the highest sensitivity, while MADRID produced the lowest FAR, illustrating the trade-off between detecting seizures and minimizing spurious alerts. Our findings show ECG anomaly detection on SeizeIT2 can reach clinically meaningful sensitivity while highlighting the sensitivity–false alarm trade-off. By releasing reproducible benchmarks and code, this work establishes the first open baseline and enables future research on personalization and clinical applicability.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{24}
+      \field{shorttitle}{{{ECG-Based Detection}} of {{Epileptic Seizures}} in {{Real-World Wearable Settings}}}
+      \field{title}{{{ECG-Based Detection}} of {{Epileptic Seizures}} in {{Real-World Wearable Settings}}: {{Insights}} from the {{SeizeIT2 Dataset}}}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{25}
       \field{year}{2025}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{3329\bibrangedash 3342}
-      \range{pages}{14}
+      \field{pages}{7687}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1109/JBHI.2025.3532223
+      \verb 10.3390/s25247687
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/2RCEQIRS/Pordoy et al. - 2025 - Enhanced Non-EEG Multimodal Seizure Detection A Real-World Model for Identifying Generalised Seizur.pdf
+      \verb /home/paulin/Zotero/storage/AECRR8NY/Reintjes et al. - 2025 - ECG-Based Detection of Epileptic Seizures in Real-World Wearable Settings Insights from the SeizeIT.pdf
       \endverb
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10848263/
+      \verb https://www.mdpi.com/1424-8220/25/24/7687
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10848263/
+      \verb https://www.mdpi.com/1424-8220/25/24/7687
       \endverb
-      \keyw{1D CNN,acceleration,Accuracy,attention,Biomedical monitoring,Brain modeling,Electroencephalography,Epilepsy,Feature extraction,Heart rate,Monitoring,multi-branching,multimodal,Recording,residual fusion,Seizure detection,Sensors}
+      \keyw{anomaly detection,electrocardiography,epilepsy,final,machine learning,seizure detection,wearable sensors}
     \endentry
     \entry{sethFeasibilityCardiacbasedSeizure2023}{article}{}{}
       \name{author}{9}{}{%
@@ -1335,6 +1998,264 @@
       \endverb
       \keyw{Caregivers,Death Sudden,Epilepsy,Humans,review,Seizures,Wearable Electronic Devices}
     \endentry
+    \entry{spahrDeepLearningbasedDetection2025}{article}{}{}
+      \name{author}{17}{}{%
+        {{un=0,uniquepart=base,hash=cce655ca0c9c0c4a2a548a9dd2fbbcec}{%
+           family={Spahr},
+           familyi={S\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=442d3de7b23ab010f43c0e19471fd7db}{%
+           family={Bernini},
+           familyi={B\bibinitperiod},
+           given={Adriano},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2d6870b2386b22614afcfa0a22b7a3c}{%
+           family={Ducouret},
+           familyi={D\bibinitperiod},
+           given={Pauline},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=649bf8f087ca188dcc2f142fbe11324f}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b65e65335e22e13bbdd96fde1f4cd03}{%
+           family={Koren},
+           familyi={K\bibinitperiod},
+           given={Johannes\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37d2fea33a4e874326df83b0efb380a7}{%
+           family={Imbach},
+           familyi={I\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6cd65434e5f7739d0f113ad177d762b}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sàndor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=928c4899fec813da45f6b9299421d5e0}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Sidsel\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f163808415fd67f8207b721b372da7c5}{%
+           family={Rheims},
+           familyi={R\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbb6f3627c2cfce9a05159b48063ceba}{%
+           family={Fabricius},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb1d827cdccd5bfa5cdc6a5c2b202192}{%
+           family={Seeck},
+           familyi={S\bibinitperiod},
+           given={Margitta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53641931e7315d2750d71e24556422b1}{%
+           family={Steinhoff},
+           familyi={S\bibinitperiod},
+           given={Berhard\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc01f5237fcb9b49f44458b427625454}{%
+           family={Beuchat},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8cff1dd0b1ed9573f6dcd4d4a23b4a}{%
+           family={Dan},
+           familyi={D\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8954373f0fe4e2b9237606efcff64fa}{%
+           family={Atienza},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ec8a410d41da2c4907b95bc5d96c981}{%
+           family={Bardyn},
+           familyi={B\bibinitperiod},
+           given={Charles-Edouard},
+           giveni={C\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7efd34997c9bef90bd98001248fa2f2}
+      \strng{fullhash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{fullhashraw}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{bibnamehash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{authorbibnamehash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{authornamehash}{c7efd34997c9bef90bd98001248fa2f2}
+      \strng{authorfullhash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{authorfullhashraw}{33326b2919ca2d9df3636f9d58a39a3c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{OBJECTIVE: To develop and validate a wrist-worn accelerometer-based, deep-learning tunable algorithm for the automated detection of generalized or bilateral convulsive seizures (CSs) to be integrated with off-the-shelf smartwatches. METHODS: We conducted a prospective multi-center study across eight European epilepsy monitoring units, collecting data from 384 patients undergoing video electroencephalography (vEEG) monitoring with a wrist-worn three dimensional (3D)-accelerometer sensor. We developed an ensemble-based convolutional neural network architecture with tunable sensitivity through quantile-based aggregation. The model, referred to as Episave, used accelerometer amplitude as input. It was trained on data from 37 patients who had 54 CSs and evaluated on an independent dataset comprising 347 patients, including 33 who had 49 CSs. RESULTS: Cross-validation on the training set showed that optimal performance was obtained with an aggregation quantile of 60, with a 98\% sensitivity, and a false alarm rate (FAR) of 1/6\,days. Using this quantile on the independent test set, the model achieved a 96\% sensitivity (95\% confidence interval [CI]: 90\%-100\%), a FAR of {$<$}1/8\,days (95\% CI: 1/9-1/7\,days) with 1 FA/61 nights, and a median detection latency of 26\,s. One of the two missed CSs could be explained by the patient's arm, which was wearing the sensor, being trapped in the bed rail. Other quantiles provided up to 100\% sensitivity at the cost of a greater FAR (1/2\,days) or very low FAR (1/100\,days) at the cost of lower sensitivity (86\%). SIGNIFICANCE: This Phase 2 clinical validation study suggests that deep learning techniques applied to single-sensor accelerometer data can achieve high CS detection performance while enabling tunable sensitivity.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{issue}{Suppl 3}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Epilepsia}
+      \field{title}{Deep Learning-Based Detection of Generalized Convulsive Seizures Using a Wrist-Worn Accelerometer}
+      \field{volume}{66 Suppl 3}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{53\bibrangedash 63}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/epi.18406
+      \endverb
+      \verb{eprint}
+      \verb 40265999
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/MC4A59CM/Spahr et al. - 2025 - Deep learning-based detection of generalized convulsive seizures using a wrist-worn accelerometer.pdf
+      \endverb
+      \keyw{Accelerometry,Adolescent,Adult,Algorithms,Child,deep learning,Deep Learning,Electroencephalography,epilepsy,Epilepsy Generalized,Female,final,focal‐to‐bilateral tonic–clonic seizures,generalized tonic–clonic seizure,Humans,Male,Middle Aged,Neural Networks Computer,Prospective Studies,seizure detection,Seizures,Sensitivity and Specificity,wearable,Wearable Electronic Devices,Wrist,Young Adult}
+    \endentry
+    \entry{stirlingForecastingSeizureLikelihood2021}{article}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=e8072a7fa4a08aacd2516b29e77b8bb9}{%
+           family={Stirling},
+           familyi={S\bibinitperiod},
+           given={Rachel\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b07d6987a613d480fcf2b6e669cbdb2a}{%
+           family={Grayden},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6263843cd7b63998f0b48689309190}{%
+           family={D'Souza},
+           familyi={D\bibinitperiod},
+           given={Wendyl},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37ec94a67936821f4246c2a4138a460}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1237e34ff052c7f4bae77b2a8c4f2c68}{%
+           family={Nurse},
+           familyi={N\bibinitperiod},
+           given={Ewan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae4882e0c85c784c311a9cc69c3b275b}{%
+           family={Freestone},
+           familyi={F\bibinitperiod},
+           given={Dean\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05e2b3f81e8b824c60a2bb689ad6559f}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={Daniel\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b96beda543d56b1cc3d5558bdb30aa2}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57d90713e99a3b9b80e4eccc22ac14cb}{%
+           family={Pal\bibnamedelima Attia},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cea6e1df8928b5a60a5fac9dfa4f8a5}{%
+           family={Viana},
+           familyi={V\bibinitperiod},
+           given={Pedro\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60cfdb629dcdf0a025356afdfe931450}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad10a6452b58abbb6a395819b747f6e1}{%
+           family={Karoly},
+           familyi={K\bibinitperiod},
+           given={Philippa\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fff92bd1986f277096360002fca6805}
+      \strng{fullhash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{fullhashraw}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{bibnamehash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{authorbibnamehash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{authornamehash}{5fff92bd1986f277096360002fca6805}
+      \strng{authorfullhash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{authorfullhashraw}{f74fde8da83381e701c9df7d29bfe499}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The unpredictability of epileptic seizures exposes people with epilepsy to potential physical harm, restricts day-to-day activities, and impacts mental well-being. Accurate seizure forecasters would reduce the uncertainty associated with seizures but need to be feasible and accessible in the long-term. Wearable devices are perfect candidates to develop non-invasive, accessible forecasts but are yet to be investigated in long-term studies. We hypothesized that machine learning models could utilize heart rate as a biomarker for well-established cycles of seizures and epileptic activity, in addition to other wearable signals, to forecast high and low risk seizure periods. This feasibility study tracked participants' (n = 11) heart rates, sleep, and step counts using wearable smartwatches and seizure occurrence using smartphone seizure diaries for at least 6 months (mean = 14.6 months, SD = 3.8 months). Eligible participants had a diagnosis of refractory epilepsy and reported at least 20 seizures (mean = 135, SD = 123) during the recording period. An ensembled machine learning and neural network model estimated seizure risk either daily or hourly, with retraining occurring on a weekly basis as additional data was collected. Performance was evaluated retrospectively against a rate-matched random forecast using the area under the receiver operating curve. A pseudo-prospective evaluation was also conducted on a held-out dataset. Of the 11 participants, seizures were predicted above chance in all (100\%) participants using an hourly forecast and in ten (91\%) participants using a daily forecast. The average time spent in high risk (prediction time) before a seizure occurred was 37 min in the hourly forecast and 3 days in the daily forecast. Cyclic features added the most predictive value to the forecasts, particularly circadian and multiday heart rate cycles. Wearable devices can be used to produce patient-specific seizure forecasts, particularly when biomarkers of seizure and epileptic activity cycles are utilized.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1664-2295}
+      \field{journaltitle}{Frontiers in Neurology}
+      \field{langid}{english}
+      \field{shortjournal}{Front Neurol}
+      \field{title}{Forecasting {{Seizure Likelihood With Wearable Technology}}}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{704060}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fneur.2021.704060
+      \endverb
+      \verb{eprint}
+      \verb 34335457
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S4M3W23M/Stirling et al. - 2021 - Forecasting Seizure Likelihood With Wearable Technology.pdf
+      \endverb
+      \keyw{circadian rhythms,cycles (cyclical),final,include,multiday rhythms,seizure cycles,seizure forecasting,wearable sensors}
+    \endentry
     \entry{sveinssonClinicalRiskFactors2020}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=8c5232d5794487cff77d32889315e3b0}{%
@@ -1471,6 +2392,92 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S089543562100130X
       \endverb
+    \endentry
+    \entry{vielufSeizureMonitoringCombined2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=d92f8782c0ad034a9885c4312c013186}{%
+           family={Vieluf},
+           familyi={V\bibinitperiod},
+           given={Solveig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=826b3846f444ee52a7ea7cb99e55c216}{%
+           family={Tomioka},
+           familyi={T\bibinitperiod},
+           given={Sasagu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ac36eed64badd6f195e86aeecd037a7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a0fa0b2d804f0437e671025134c2a88}{%
+           family={Krishnan},
+           familyi={K\bibinitperiod},
+           given={Vaishnav},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfe99e99aa34b7b0cfd3287a90ac5b11}{%
+           family={Bosl},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d71b206c71327803f720be3257d502e}{%
+           family={Grinnell},
+           familyi={G\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
+           family={Loddenkemper},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f7e323669c4638e3f93534ef4b1ae8d7}
+      \strng{fullhash}{6abfad11cf445c45db668080c65ff713}
+      \strng{fullhashraw}{6abfad11cf445c45db668080c65ff713}
+      \strng{bibnamehash}{6abfad11cf445c45db668080c65ff713}
+      \strng{authorbibnamehash}{6abfad11cf445c45db668080c65ff713}
+      \strng{authornamehash}{f7e323669c4638e3f93534ef4b1ae8d7}
+      \strng{authorfullhash}{6abfad11cf445c45db668080c65ff713}
+      \strng{authorfullhashraw}{6abfad11cf445c45db668080c65ff713}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{OBJECTIVE: In patients with intractable epilepsy, accurate diaries of seizure occurrence and timing can substantially inform management. Wearable devices that provide confirmation of seizure occurrence complement such diaries, which are frequently incomplete and/or inaccurate. Here, we combined seizure diaries and longitudinally deployed wrist-worn device recordings to evaluate whether wearable recordings contain information that can discriminate between days containing seizure-related activity and those without. METHODS: Patients with focal seizures were prospectively enrolled in a clinical trial to test the effectiveness of eslicarbazepine acetate as an adjunct to levetiracetam or lamotrigine (phase IV clinical trial NCT03116828). One hundred two patients maintained a seizure diary and wore a biosensor for {$>$}30\,weeks. Based on diaries, we labeled days as either "seizure" versus "no-seizure" or "preseizure" versus "no-preseizure." We compared patterns obtained by harmonic 24-h modeling between conditions. Best-ranking wearable markers and seizure diary variables were fed into a fully connected neural network, with several hidden layers and depth as hyperparameters that classified between seizure day conditions. RESULTS: The final sample contained 70 patients (median age\,=\,42.5\,years, 43 female) with 5437 recorded patient-days, including 557 seizure days and 537 preseizure days. Twenty-four-hour patterns in electrodermal activity and accelerometry differentiated no-seizure versus seizure days, as well as no-preseizure versus preseizure days (p\,{$<$}\,.01). Classification between no-seizure and seizure days (weighted F1\,=\,.81, sensitivity\,=\,.82, specificity\,=\,.67) as well as between no-preseizure and preseizure days (weighted F1\,=\,.82, sensitivity\,=\,.80, specificity\,=\,.66) revealed good performance. SIGNIFICANCE: Wearable data capture seizure-related differences with daily resolution, differentiating between days with lower and higher seizure susceptibility. Combining diary-based clinical and wearable data bears the potential for developing a dynamic seizure detection and prediction system with daily resolution.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Epilepsia}
+      \field{shorttitle}{Seizure Monitoring by Combined Diary and Wearable Data}
+      \field{title}{Seizure Monitoring by Combined Diary and Wearable Data: {{A}} Multicenter, Longitudinal, Observational Study}
+      \field{volume}{66}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{4259\bibrangedash 4271}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/epi.18550
+      \endverb
+      \verb{eprint}
+      \verb 40650883
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/BYBMZVJF/Vieluf et al. - 2025 - Seizure monitoring by combined diary and wearable data A multicenter, longitudinal, observational s.pdf
+      \endverb
+      \keyw{24-h pattern,24‐h pattern,Adolescent,Adult,Anticonvulsants,biosensors,Diaries as Topic,Drug Resistant Epilepsy,eslicarbazepine acetate,Female,final,Humans,include,Lamotrigine,Levetiracetam,Longitudinal Studies,Male,Middle Aged,Prospective Studies,seizure biomarker,seizure forecasting,Seizures,Wearable Electronic Devices,Young Adult}
     \endentry
     \entry{wangEpilepticSeizureDetection2025}{article}{}{}
       \name{author}{8}{}{%
@@ -1828,155 +2835,9 @@
       \verb https://ieeexplore.ieee.org/document/10525199/
       \endverb
       \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,include,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
-    \endentry
-    \entry{yangMultimodalAISystem2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=a68488c88b246cfcc861fec5e452bfef}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Yikai},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2ba40d25bf9fa2e6ffd6046d0cc9eca}{%
-           family={Truong},
-           familyi={T\bibinitperiod},
-           given={Nhan\bibnamedelima Duy},
-           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2684b9a5b52efe69cf7945bbe1318537}{%
-           family={Eshraghian},
-           familyi={E\bibinitperiod},
-           given={Jason\bibnamedelima K.},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1b857bbb704c45dda1beb5dbccbc92e7}{%
-           family={Maher},
-           familyi={M\bibinitperiod},
-           given={Christina},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=08d8aaaf25d84e65dc17cb9eece4e969}{%
-           family={Nikpour},
-           familyi={N\bibinitperiod},
-           given={Armin},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=312e81c296a8183759cdde23ee6ebcd8}{%
-           family={Kavehei},
-           familyi={K\bibinitperiod},
-           given={Omid},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{682fc97264380378c9ac670374863c63}
-      \strng{fullhash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{fullhashraw}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{bibnamehash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{authorbibnamehash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{authornamehash}{682fc97264380378c9ac670374863c63}
-      \strng{authorfullhash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{authorfullhashraw}{6393c0f8424b63df145e93d4f5c59dc7}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Artificial intelligence (AI) and health sensory data-fusion hold the potential to automate many laborious and time-consuming processes in hospitals or ambulatory settings, e.g. home monitoring and telehealth. One such unmet challenge is rapid and accurate epileptic seizure annotation. An accurate and automatic approach can provide an alternative way to label seizures in epilepsy or deliver a substitute for inaccurate patient self-reports. Multimodal sensory fusion is believed to provide an avenue to improve the performance of AI systems in seizure identification. We propose a state-of-the-art performing AI system that combines electroencephalogram (EEG) and electrocardiogram (ECG) for seizure identification, tested on clinical data with early evidence demonstrating generalization across hospitals. The model was trained and validated on the publicly available Temple University Hospital (TUH) dataset. To evaluate performance in a clinical setting, we conducted non-patient-specific pseudo-prospective inference tests on three out-of-distribution datasets, including EPILEPSIAE (30 patients) and the Royal Prince Alfred Hospital (RPAH) in Sydney, Australia (31 neurologists-shortlisted patients and 30 randomly selected). Our multimodal approach improves the area under the receiver operating characteristic curve (AUC-ROC) by an average margin of 6.71\% and 14.42\% for deep learning techniques using EEG-only and ECG-only, respectively. Our model’s state-of-the-art performance and robustness to out-of-distribution datasets show the accuracy and efficiency necessary to improve epilepsy diagnoses. To the best of our knowledge, this is the first pseudo-prospective study of an AI system combining EEG and ECG modalities for automatic seizure annotation achieved with fusion of two deep learning networks.}
-      \field{issn}{2168-2208}
-      \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
-      \field{month}{7}
-      \field{number}{7}
-      \field{title}{A {{Multimodal AI System}} for {{Out-of-Distribution Generalization}} of {{Seizure Identification}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{26}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{3529\bibrangedash 3538}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/JBHI.2022.3157877
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/77MVQGBN/Yang et al. - 2022 - A Multimodal AI System for Out-of-Distribution Generalization of Seizure Identification.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9732211/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9732211/
-      \endverb
-      \keyw{Affective computing,Artificial intelligence,autonomous systems,Brain modeling,Deep learning,Electrocardiography,Electroencephalography,Epilepsy,expert systems,Hospitals}
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{abtahiIdentificationRelevantECG2025}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=f99795f672702ced5d733ae9af997a42}{%
-           family={Abtahi},
-           familyi={A\bibinitperiod},
-           given={Azra},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
-           family={Ryvlin},
-           familyi={R\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=34ef1f87c8f2a0bb9db5cddf74c04aca}{%
-           family={Aminifar},
-           familyi={A\bibinitperiod},
-           given={Amir},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{eba265897797f19c0dc3d89cdb6c7ae3}
-      \strng{fullhash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{fullhashraw}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{bibnamehash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{authorbibnamehash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{authornamehash}{eba265897797f19c0dc3d89cdb6c7ae3}
-      \strng{authorfullhash}{786ed286c94fba070de0c8358ebdd43b}
-      \strng{authorfullhashraw}{786ed286c94fba070de0c8358ebdd43b}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Epileptic seizure prediction holds the potential to enhance the quality of life for individuals with epilepsy by enabling the possibility of timely administration of medication and first aid, as well as preventing subsequent accidents. In this paper, we consider the well-established Heart Rate Variability (HRV) and Lorenz features, and augment them with the electrocardiogram (ECG) multifractality features for the first time for seizure prediction. Our experimental results demonstrate that incorporating multifractality features significantly enhances epileptic seizure prediction, with a 7.5\% improvement over using only HRV features and a 6.9\% improvement over using both HRV and Lorenz features. We also investigate the significance and impact of features in a seizure prediction Machine Learning (ML) model utilizing ECG signals, aiming to shed light on the intricate relationship between cardiac function and epileptic seizures. We employ SHAP (SHapley Additive exPlanations), an interpretability framework, to interpret the prediction patterns. Based on our analysis, multifractality features are among the most important features in seizure prediction, capturing patterns that are not captured by the HRV and Lorenz features.}
-      \field{issn}{2169-3536}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{Identification of {{Relevant ECG Features}} for {{Epileptic Seizure Prediction Using Interpretable Machine Learning}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{13}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{111293\bibrangedash 111303}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2025.3583461
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/V88E48Q4/Abtahi et al. - 2025 - Identification of Relevant ECG Features for Epileptic Seizure Prediction Using Interpretable Machine.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/11052221/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/11052221/
-      \endverb
-      \keyw{Brain modeling,Cardiac function,Complexity theory,Electrocardiogram (ECG),Electrocardiography,Electroencephalography,epilepsy,Epilepsy,explainable machine learning,Feature extraction,Fractals,Heart rate variability,interpretability,maybe,multifractality,Predictive models,seizure prediction,SHAP value}
-    \endentry
     \entry{abualrobUnlockingNewFrontiers2025}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=03a17c5fae7395805c3b4d84b8ad05e6}{%
@@ -2038,74 +2899,433 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1525505025000666
       \endverb
     \endentry
-    \entry{andradePerformanceSeizurePrediction2024}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=fca1c58470ba8116795357d58c4aabea}{%
-           family={Andrade},
-           familyi={A\bibinitperiod},
-           given={Inês},
-           giveni={I\bibinitperiod},
+    \entry{beniczkyAutomatedSeizureDetection2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=16fc7634174f7764a9e5a90e39131a81}{%
-           family={Teixeira},
+        {{un=0,uniquepart=base,hash=a406a58f553df56bbc9ff09ca72cdd47}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
+           family={Jeppesen},
+           familyi={J\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa97bdb3b303e63a2367f24c3c68317e}{%
+           family={Tatum},
            familyi={T\bibinitperiod},
-           given={César},
-           giveni={C\bibinitperiod},
+           given={William\bibnamedelima O.},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=883a6682b4fe31e486f8d393628f0cfd}{%
-           family={Pinto},
-           familyi={P\bibinitperiod},
-           given={Mauro},
+        {{un=0,uniquepart=base,hash=ad679c425d46d6e85c9934775d5e1e9f}{%
+           family={Brazdil},
+           familyi={B\bibinitperiod},
+           given={Milan},
            giveni={M\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=c78503aaa49a656724e2cb1160afaf62}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuping},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7719657075f19a1aa502dadd170aee}{%
+           family={Herman},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Frontiers}%
-      }
-      \strng{namehash}{836cc014a5a7b407ea6ef81a4749129a}
-      \strng{fullhash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{fullhashraw}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{bibnamehash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{authorbibnamehash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{authornamehash}{836cc014a5a7b407ea6ef81a4749129a}
-      \strng{authorfullhash}{ed53a64da9691f88588a76841f5f47f0}
-      \strng{authorfullhashraw}{ed53a64da9691f88588a76841f5f47f0}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \strng{namehash}{ea8006ec14192142570626136ac20a31}
+      \strng{fullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{fullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \strng{bibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorbibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authornamehash}{ea8006ec14192142570626136ac20a31}
+      \strng{authorfullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorfullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Epilepsy affects 1\% of the global population, with approximately one-third of patients resistant to anti-seizure medications (ASMs), posing risks of physical injuries and psychological issues. Seizure prediction algorithms aim to enhance the quality of life for these individuals by providing timely alerts. This study presents a patient-specific seizure prediction algorithm applied to diverse databases (EPILEPSIAE, CHB-MIT, AES, and Epilepsy Ecosystem). The proposed algorithm undergoes a standardized framework, including data preprocessing, feature extraction, training, testing, and postprocessing. Various databases necessitate adaptations in the algorithm, considering differences in data availability and characteristics. The algorithm exhibited variable performance across databases, taking into account sensitivity, FPR/h, specificity, and AUC score.This study distinguishes between sample-based approaches, which often yield better results by disregarding the temporal aspect of seizures, and alarm-based approaches, which aim to simulate real-life conditions but produce less favorable outcomes. Statistical assessment reveals challenges in surpassing chance levels, emphasizing the rarity of seizure events. Comparative analyses with existing studies highlight the complexity of standardized assessments, given diverse methodologies and dataset variations. Rigorous methodologies aiming to simulate real-life conditions produce less favorable outcomes, emphasizing the importance of realistic assumptions and comprehensive, long-term, systematically structured datasets for future research.}
-      \field{day}{15}
-      \field{issn}{1662-453X}
-      \field{journaltitle}{Frontiers in Neuroscience}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{shortjournal}{Front. Neurosci.}
-      \field{shorttitle}{On the Performance of Seizure Prediction Machine Learning Methods across Different Databases}
-      \field{title}{On the Performance of Seizure Prediction Machine Learning Methods across Different Databases: The Sample and Alarm-Based Perspectives}
-      \field{urlday}{20}
-      \field{urlmonth}{11}
+      \field{abstract}{The objective of this clinical practice guideline (CPG) is to provide recommendations for healthcare personnel working with patients with epilepsy, on the use of wearable devices for automated seizure detection in patients with epilepsy, in outpatient, ambulatory settings. The Working Group of the International League Against Epilepsy and the International Federation of Clinical Neurophysiology developed the CPG according to the methodology proposed by the ILAE Epilepsy Guidelines Working Group. We reviewed the published evidence using The Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement and evaluated the evidence and formulated the recommendations following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. We found high level of evidence for the accuracy of automated detection of generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) and recommend use of wearable automated seizure detection devices for selected patients when accurate detection of GTCS and FBTCS is recommended as a clinical adjunct. We also found moderate level of evidence for seizure types without GTCs or FBTCs. However, it was uncertain whether the detected alarms resulted in meaningful clinical outcomes for the patients. We recommend using clinically validated devices for automated detection of GTCS and FBTCS, especially in unsupervised patients, where alarms can result in rapid intervention (weak/conditional recommendation). At present, we do not recommend clinical use of the currently available devices for other seizure types (weak/conditional recommendation). Further research and development are needed to improve the performance of automated seizure detection and to document their accuracy and clinical utility.}
+      \field{day}{1}
+      \field{issn}{1388-2457}
+      \field{journaltitle}{Clinical Neurophysiology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{Clinical Neurophysiology}
+      \field{shorttitle}{Automated Seizure Detection Using Wearable Devices}
+      \field{title}{Automated Seizure Detection Using Wearable Devices: {{A}} Clinical Practice Guideline of the {{International League Against Epilepsy}} and the {{International Federation}} of {{Clinical Neurophysiology}}}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
       \field{urlyear}{2025}
-      \field{volume}{18}
-      \field{year}{2024}
+      \field{volume}{132}
+      \field{year}{2021}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{1173\bibrangedash 1184}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.3389/fnins.2024.1417748
+      \verb 10.1016/j.clinph.2020.12.009
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/29M3CYIY/Andrade et al. - 2024 - On the performance of seizure prediction machine learning methods across different databases the sa.pdf
+      \verb /home/paulin/Zotero/storage/DNWP7P4J/Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1417748/full
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
       \endverb
       \verb{url}
-      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1417748/full
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
       \endverb
-      \keyw{databases,EEG,Epilepsy,machine learning,Seizure prediction}
+      \keyw{Algorithms,Automated detection,Consensus Development Conferences as Topic,Epilepsy,Humans,Neurophysiological Monitoring,Practice Guidelines as Topic,Seizure detection,Seizures,Societies Medical,Wearable devices,Wearable Electronic Devices}
+    \endentry
+    \entry{borujenyDetectionEpilepticSeizure2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e3b4941e9c122ddf2e365772f6eecbe6}{%
+           family={Borujeny},
+           familyi={B\bibinitperiod},
+           given={Golshan\bibnamedelima Taheri},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80ad9735a93a133f22b2c6d0a9ee295b}{%
+           family={Yazdi},
+           familyi={Y\bibinitperiod},
+           given={Mehran},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2488f95421183cb0dd6623a6c42570f2}{%
+           family={Keshavarz-Haddad},
+           familyi={K\bibinithyphendelim H\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2271e0e2640f3697cef7e5303c127d14}{%
+           family={Borujeny},
+           familyi={B\bibinitperiod},
+           given={Arash\bibnamedelima Rafie},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6691d52b8fbf88865d856d2bedb4aa1c}
+      \strng{fullhash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{fullhashraw}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{bibnamehash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{authorbibnamehash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{authornamehash}{6691d52b8fbf88865d856d2bedb4aa1c}
+      \strng{authorfullhash}{539b70658f41e6d478a0eecdfff9f51f}
+      \strng{authorfullhashraw}{539b70658f41e6d478a0eecdfff9f51f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The monitoring of epileptic seizures is mainly done by means of electroencephalogram (EEG) monitoring. Although this method is accurate, it is not comfortable for the patient as the EEG-electrodes have to be attached to the scalp which hampers the patient's movement. This makes long-term home monitoring not feasible. In this paper, the aim is to propose a seizure detection system based on accelerometry for the detection of epileptic seizure. The used sensors are wireless, which can improve quality of life for the patients. In this system, three 2D accelerometer sensors are positioned on the right arm, left arm, and left thigh of an epileptic patient. Datasets from three patients suffering from severe epilepsy are used in this paper for the development of an automatic detection algorithm. This monitoring system is based on Wireless Sensor Networks and can determine the location of the patient when a seizure is detected and then send an alarm to hospital staff or the patient's relatives. Our wireless sensor nodes are MICAz Motes developed by Crossbow Technology. The proposed system can be used for patients living in a clinical environment or at their home, where they do only their daily routines. The analysis of the recorded data is done by an Artificial Neural Network and K Nearest-Neighbor to recognize seizure movements from normal movements. The results show that K Nearest Neighbor performs better than Artificial Neural Network for detecting these seizures. The results also show that if at least 50\% of the signal consists of seizure samples, we can detect the seizure accurately. In addition, there is no need for training the algorithm for each new patient.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2228-7477}
+      \field{journaltitle}{Journal of Medical Signals and Sensors}
+      \field{number}{2}
+      \field{shortjournal}{J Med Signals Sens}
+      \field{title}{Detection of {{Epileptic Seizure Using Wireless Sensor Networks}}}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 68}
+      \range{pages}{6}
+      \verb{eprint}
+      \verb 24098859
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/CYG9BGR6/Borujeny et al. - 2013 - Detection of Epileptic Seizure Using Wireless Sensor Networks.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3788195/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3788195/
+      \endverb
+      \keyw{final}
+    \endentry
+    \entry{chenSeizuresDetectionUsing2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4f3e4fbc5e82562ed396313728e67dfc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fangyi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8433a00554a724ff629d8490eb5c2e1}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ina},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43224d912f93ddcaf1fbe0472f07af8f}{%
+           family={Zafar},
+           familyi={Z\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb67e97e6bbeeba5a7833d65d97c2ade}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Saurabh\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44835d1cb200c0b0b6e91e300fd3615}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
+      \strng{fullhash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{fullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{bibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{authorbibnamehash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{authornamehash}{007e801f5a3c48a8e48e86ca9c1c9f4b}
+      \strng{authorfullhash}{0d76a650c75525e44e0bb763ff5e2407}
+      \strng{authorfullhashraw}{0d76a650c75525e44e0bb763ff5e2407}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Introduction. Epileptic seizures are common neurological disorders in the world, impacting 65 million people globally. Around 30\% of patients with seizures suffer from refractory epilepsy, where seizures are not controlled by medications. The unpredictability of seizures makes it essential to have a continuous seizure monitoring system outside clinical settings for the purpose of minimizing patients’ injuries and providing additional pathways for evaluation and treatment follow-up. Autonomic changes related to seizure events have been extensively studied and attempts made to apply them for seizure detection and prediction tasks. This scoping review aims to depict current research activities associated with the implementation of portable, wearable devices for seizure detection or prediction and inform future direction in continuous seizure tracking in ambulatory settings. Methods. Overall methodology framework includes 5 essential stages: research questions identification, relevant studies identification, selection of studies, data charting and summarizing the findings. A systematic searching strategy guided by systematic reviews and meta-analysis (PRISMA) was implemented to identify relevant records on two databases (PubMed, IEEE). Results. A total of 30 articles were included in our final analysis. Most of the studies were conducted off-line and employed consumer-graded wearable device. ACM is the dominant modality to be used in seizure detection, and widely deployed algorithms entail Support Vector Machine, Random Forest and threshold-based approach. The sensitivity ranged from 33.2\% to 100\% for single modality with a false alarm rate (FAR) ranging from 0.096 to 14.8 d−1.}
+      \field{day}{29}
+      \field{issn}{0967-3334, 1361-6579}
+      \field{journaltitle}{Physiological Measurement}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{Physiol. Meas.}
+      \field{shorttitle}{Seizures Detection Using Multimodal Signals}
+      \field{title}{Seizures Detection Using Multimodal Signals: A Scoping Review}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{07TR01}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1361-6579/ac7a8d
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/3ECTXIYT/Chen et al. - 2022 - Seizures detection using multimodal signals a scoping review.pdf;/home/paulin/Zotero/storage/HYA4ZABJ/Chen et al. - 2022 - Seizures detection using multimodal signals a scoping review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1361-6579/ac7a8d
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1361-6579/ac7a8d
+      \endverb
+    \endentry
+    \entry{dongTwoLayerEnsembleMethod2022}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=d8e4eda3393121f6f7647394b53ba6bb}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Chunjiao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a5de49b665c68787b76e578473e4950}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Tianchun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=178bca4f77101ad26b30ccbbf26e2132}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53c442e05d5bd05bf98a269ec602a8aa}{%
+           family={Aarts},
+           familyi={A\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=921cb2ba907e15e724a466919be5e8d2}{%
+           family={Dijk},
+           familyi={D\bibinitperiod},
+           given={Johannes\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=51d2ff5c8dd3b0ba9acc0f8fc302cb45}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Chunheng},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c690fb332044d68a797ef3a26d143327}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Xiwen},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dc942e10990f1e492380148176b302e}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Wanlin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=046842e5933d7131df18c28d8bce94ff}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90fbfe2dc6273534e37644446adc706e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yunfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8aa7fdd2a485fcf68be82951c3da168}
+      \strng{fullhash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{fullhashraw}{3daddfcd9876e57523e23b497bd75025}
+      \strng{bibnamehash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{authorbibnamehash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{authornamehash}{f8aa7fdd2a485fcf68be82951c3da168}
+      \strng{authorfullhash}{3daddfcd9876e57523e23b497bd75025}
+      \strng{authorfullhashraw}{3daddfcd9876e57523e23b497bd75025}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using monitoring devices could help avoid injuries and even death. Currently, wearable sensors such as motion sensors and other sensors are used to detect when the patient is having a seizure and alarm their caregivers. However, the development phase of these devices requires labor-intensive work on labeling the collected data, resulting in difficulties in developing wearable monitoring devices. Thus, a more automated auxiliary method of labeling seizure data and a wearable device to detect seizures for daily monitoring use are necessary. We collected data from epileptics outside the hospital with our proposed bracelet. The subjects were asked to press the mark button after they had seizures. We also presented an automatically extraction and annotation of moving segments (EAMS) algorithm to exclude nonmoving segments. Then, we used a two-layer ensemble model (TLEM) using machine learning methods to classify seizures and non-seizure moving segments, which was designed to deal with imbalanced dataset. Then, we build two individual TLEM models separately for the overall (all day and night) seizure detection case and the night seizure detection case, owing to different imbalance of these datasets. The EAMS algorithm exclude 93.9\% raw inactive data. The TLEM model achieved 76.84\% sensitivity (SEN) and 97.28\% accuracy (ACU) for the overall case and achieved 94.57\% SEN and 91.37\% ACU for the night case. These results indicate that this bracelet can capture seizures efficiently, and our proposed TLEM has higher SEN and ACU than single-layer machine learning models.}
+      \field{issn}{1557-9662}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{title}{A {{Two-Layer Ensemble Method}} for {{Detecting Epileptic Seizures Using}} a {{Self-Annotation Bracelet With Motor Sensors}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{71}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TIM.2022.3173270
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/24X8W43M/Dong et al. - 2022 - A Two-Layer Ensemble Method for Detecting Epileptic Seizures Using a Self-Annotation Bracelet With M.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9772753/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9772753/
+      \endverb
+      \keyw{Accelerometer (ACM),Brain modeling,Data models,epilepsy,final,gyroscope,Hospitals,include,machine learning,Monitoring,motor sensor,Random forests,seizure detection,Sensitivity,signal processing,Support vector machines,wearable device}
+    \endentry
+    \entry{elemamAutomatedValidatedTool2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0251ec6db53e1de6901dcf1b49b76509}{%
+           family={Elemam},
+           familyi={E\bibinitperiod},
+           given={Mahy\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c8e04bdf5fbef994dc503132146db8}{%
+           family={Elgamal},
+           familyi={E\bibinitperiod},
+           given={A.F.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e96a9894cf5fbd0ec0075d2a679b598}{%
+           family={Elmenshawi},
+           familyi={E\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2538fce16e28bd07897b9e291ac3b59}{%
+           family={Abdelkader},
+           familyi={A\bibinitperiod},
+           given={Hanan\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Scientific Publishing Group (ASPG)}%
+      }
+      \strng{namehash}{0b98e9d286a3710cb49e57418a120f59}
+      \strng{fullhash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{fullhashraw}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{bibnamehash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{authorbibnamehash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{authornamehash}{0b98e9d286a3710cb49e57418a120f59}
+      \strng{authorfullhash}{f775787a890fb6267a44ed56d9e6788b}
+      \strng{authorfullhashraw}{f775787a890fb6267a44ed56d9e6788b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper explores an innovative approach for the automatic detection of epileptic seizures from audio recordings and Heart Rate Variability (HRV) using Convolutional Neural Networks (CNNs). In medical settings, accurately labeling seizure events is critical for patient monitoring. However, manual annotation by experts is not only time-intensive but also highly repetitive. To address this challenge, we developed a structured questionnaire for patients and eyewitnesses, concentrating on observable characteristics during typical seizure events. This questionnaire was used to prospectively study 198 consecutive adult patients with either Psychogenic Non-Epileptic Seizures (PNES) or Epileptic Seizures (ES). For each question, specific signs, symptoms, and risk factors were extracted as variables. The results showed a sensitivity of 95.10\% and a specificity of 97.06\%, confirming the reliability of the questionnaire. Also, the method proposed in the study categorizes all seizure vocalizations into a singular target event class, modeling the detection task as a binary classification problem target (seizure event) vs. non-target (non-seizure event). The CNN is trained to detect seizure events in short time frames. Experimental results indicate that the method achieves over 92.5\% detection accuracy. Furthermore, the research leverages the correlation between pre-ictal epileptic states and HRV features. By addressing the noise interference commonly present during seizures, the proposed model can robustly train the CNN to identify pre-ictal states. The model's performance is promising, yielding an accuracy of over 91.5\% for both positive and negative predictions. The proposed system underwent a human evaluation by a group of physicians at Mansoura University Hospital. The results were highly satisfactory, with the doctors expressing strong approval of the system's performance. © 2025, American Scientific Publishing Group (ASPG). All rights reserved.}
+      \field{issn}{2769-786X}
+      \field{journaltitle}{Journal of Intelligent Systems and Internet of Things}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{J. Intell. Syst. Internet. Thing.}
+      \field{title}{Automated Validated Tool for Epileptic Seizure Detection Using Deep Learning}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{74\bibrangedash 90}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.54216/JISIoT.150107
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/EALEXS55/Elemam et al. - 2025 - Automated validated tool for epileptic seizure detection using deep learning.pdf
+      \endverb
+      \keyw{Convolutional neural network (CNN),Epilepsy,Epilepsy prediction,final,include,Seizure detection,Sound event detection}
     \endentry
     \entry{ghaderiAdvancesMachineLearning2025}{online}{}{}
       \name{author}{1}{}{%
@@ -2683,6 +3903,89 @@
       \endverb
       \keyw{epilepsy,heart rate variability,review,seizure detection,seizure prediction}
     \endentry
+    \entry{meiselMachineLearningWristband2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=df239c61839e6fef43a637493df5ba99}{%
+           family={Meisel},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=facff6e0964d6421fd426aa6683fd748}{%
+           family={El\bibnamedelima Atrache},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Rima},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a3ac4ef8e6f42292217f29aa69e174f}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=483bdb934fcdaa513cc956b8bc2f8f31}{%
+           family={Schubach},
+           familyi={S\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef95677ead94ef5cec0ce9d6268db87d}{%
+           family={Ufongene},
+           familyi={U\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
+           family={Loddenkemper},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{782e18b79ff0bc0cfb9a6e2f3a8e7fb0}
+      \strng{fullhash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{fullhashraw}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{bibnamehash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{authorbibnamehash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{authornamehash}{782e18b79ff0bc0cfb9a6e2f3a8e7fb0}
+      \strng{authorfullhash}{550e2561593cd497469ad0bdb967fdf4}
+      \strng{authorfullhashraw}{550e2561593cd497469ad0bdb967fdf4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective Seizure forecasting may provide patients with timely warnings to adapt their daily activities and help clinicians deliver more objective, personalized treatments. Although recent work has convincingly demonstrated that seizure risk assessment is in principle possible, these early approaches relied largely on complex, often invasive setups including intracranial electrocorticography, implanted devices, and multichannel electroencephalography, and required patient-specific adaptation or learning to perform optimally, all of which limit translation to broad clinical application. To facilitate broader adaptation of seizure forecasting in clinical practice, noninvasive, easily applicable techniques that reliably assess seizure risk without much prior tuning are crucial. Wristbands that continuously record physiological parameters, including electrodermal activity, body temperature, blood volume pulse, and actigraphy, may afford monitoring of autonomous nervous system function and movement relevant for such a task, hence minimizing potential complications associated with invasive monitoring and avoiding stigma associated with bulky external monitoring devices on the head. Methods Here, we applied deep learning on multimodal wristband sensor data from 69 patients with epilepsy (total duration {$>$} 2311 hours, 452 seizures) to assess its capability to forecast seizures in a statistically significant way. Results Using a leave-one-subject-out cross-validation approach, we identified better-than-chance predictability in 43\% of the patients. Time-matched seizure surrogate data analyses indicated forecasting not to be driven simply by time of day or vigilance state. Prediction performance peaked when all sensor modalities were used, and did not differ between generalized and focal seizure types, but generally increased with the size of the training dataset, indicating potential further improvement with larger datasets in the future. Significance Collectively, these results show that statistically significant seizure risk assessments are feasible from easy-to-use, noninvasive wearable devices without the need of patient-specific training or parameter optimization.}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{number}{12}
+      \field{title}{Machine Learning from Wristband Sensor Data for Wearable, Noninvasive Seizure Forecasting}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{61}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2653\bibrangedash 2666}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/epi.16719
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/BUPIUSLA/Meisel et al. - 2020 - Machine learning from wristband sensor data for wearable, noninvasive seizure forecasting.pdf;/home/paulin/Zotero/storage/D6FYQL7C/epi.html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.16719
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.16719
+      \endverb
+      \keyw{Actigraphy,Adolescent,Body Temperature,Child,Child Preschool,final,Forecasting,Humans,include,Machine Learning,Male,Monitoring Ambulatory,precision medicine,Pulse,seizure forecasting,Seizures,wearable devices,Wearable Electronic Devices,Wrist,Young Adult}
+    \endentry
     \entry{mironAutonomicBiosignalsSeizure2025}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b88a57dba1567ef2cb96fdda42e80b33}{%
@@ -2755,6 +4058,286 @@
       \verb /home/paulin/Zotero/storage/WMVGAM9E/Miron et al. - 2025 - Autonomic biosignals, seizure detection, and forecasting.pdf
       \endverb
       \keyw{autonomic nervous system,Autonomic Nervous System,epilepsy,Epilepsy,Forecasting,Humans,seizure detection,seizure forecasting,Seizures,Wearable Electronic Devices,wearables}
+    \endentry
+    \entry{nasseriAmbulatorySeizureForecasting2021}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=496087a4aa8484dd034a358e10b1a501}{%
+           family={Nasseri},
+           familyi={N\bibinitperiod},
+           given={Mona},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57d90713e99a3b9b80e4eccc22ac14cb}{%
+           family={Pal\bibnamedelima Attia},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04a95920ce88eb645353f77d5c0aa9df}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Boney},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d779c176fd6e6f8684da0bf81fcb8ff9}{%
+           family={Gregg},
+           familyi={G\bibinitperiod},
+           given={Nicholas\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e24dd7ae5452e0cbed32e1e383ec731}{%
+           family={Nurse},
+           familyi={N\bibinitperiod},
+           given={Ewan\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cea6e1df8928b5a60a5fac9dfa4f8a5}{%
+           family={Viana},
+           familyi={V\bibinitperiod},
+           given={Pedro\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=875d316614c70479330078035957b3db}{%
+           family={Worrell},
+           familyi={W\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795234a166ad83f910b6a8174a8bbcc2}{%
+           family={Dümpelmann},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60cfdb629dcdf0a025356afdfe931450}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae4882e0c85c784c311a9cc69c3b275b}{%
+           family={Freestone},
+           familyi={F\bibinitperiod},
+           given={Dean\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b96beda543d56b1cc3d5558bdb30aa2}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6dbba86e503b7ce90d430a33ae19bf8e}
+      \strng{fullhash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{fullhashraw}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{bibnamehash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{authorbibnamehash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{authornamehash}{6dbba86e503b7ce90d430a33ae19bf8e}
+      \strng{authorfullhash}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \strng{authorfullhashraw}{b8dd648efbd00190b5a4dbe29ba588c4}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ability to forecast seizures minutes to hours in advance of an event has been verified using invasive EEG devices, but has not been previously demonstrated using noninvasive wearable devices over long durations in an ambulatory setting. In this study we developed a seizure forecasting system with a long short-term memory (LSTM) recurrent neural network (RNN) algorithm, using a noninvasive wrist-worn research-grade physiological sensor device, and tested the system in patients with epilepsy in the field, with concurrent invasive EEG confirmation of seizures via an implanted recording device. The system achieved forecasting performance significantly better than a random predictor for 5 of 6 patients studied, with mean AUC-ROC of 0.80 (range 0.72–0.92). These results provide the first clear evidence that direct seizure forecasts are possible using wearable devices in the ambulatory setting for many patients with epilepsy.}
+      \field{day}{9}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Sci Rep}
+      \field{title}{Ambulatory Seizure Forecasting with a Wrist-Worn Device Using Long-Short Term Memory Deep Learning}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{21935}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-021-01449-2
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/I73HUT88/Nasseri et al. - 2021 - Ambulatory seizure forecasting with a wrist-worn device using long-short term memory deep learning.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-021-01449-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-021-01449-2
+      \endverb
+      \keyw{Epilepsy,final,Learning algorithms,Neurology}
+    \endentry
+    \entry{odeDevelopmentEpilepticSeizure2023}{article}{}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=93a99409dfa54459fc44d19ebdc6ee6b}{%
+           family={Ode},
+           familyi={O\bibinitperiod},
+           given={Rikumo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a05b8a9cac78a45edcd284b03db24d1c}{%
+           family={Fujiwara},
+           familyi={F\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55ce10a77f549433d99355529cfb4357}{%
+           family={Miyajima},
+           familyi={M\bibinitperiod},
+           given={Miho},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=147729db72d32ab2bca96d11ccfafbeb}{%
+           family={Yamakawa},
+           familyi={Y\bibinitperiod},
+           given={Toshikata},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93fb3c59bbb76aa2dcc280aa9cb4dec8}{%
+           family={Kano},
+           familyi={K\bibinitperiod},
+           given={Manabu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64371c0cca424cd89d92e07a842dd007}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Kazutaka},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03ced40598c3906263a597db8b093a1}{%
+           family={Nakasato},
+           familyi={N\bibinitperiod},
+           given={Nobukazu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78726ac73ae32a67b25021cc0ff85203}{%
+           family={Sawai},
+           familyi={S\bibinitperiod},
+           given={Yasuko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eea7a38d371062e6429399a64076f0cb}{%
+           family={Hoshida},
+           familyi={H\bibinitperiod},
+           given={Toru},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6027b47bbbfe441e9ae03dc7f01ae31d}{%
+           family={Iwasaki},
+           familyi={I\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=607ff86b1b4343d4429c695f434cd5c9}{%
+           family={Murata},
+           familyi={M\bibinitperiod},
+           given={Yoshiko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34a585f49032588bceac59f7445d63e8}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Satsuki},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82f98ed99af4ba1998488878c3e4f5fb}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Yutaka},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fbe8cb719b3d178b6c3b697594a0137}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Yoko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ee97329d0647cffa83ef098772117ea}{%
+           family={Inaji},
+           familyi={I\bibinitperiod},
+           given={Motoki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a060791c7aac3aa0659c0821aca1fa6}{%
+           family={Kunii},
+           familyi={K\bibinitperiod},
+           given={Naoto},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b541e78362287a4d23a1b93d036281bf}{%
+           family={Oshino},
+           familyi={O\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=471e7031f74d59ae77cef4747ca3542d}{%
+           family={Khoo},
+           familyi={K\bibinitperiod},
+           given={Hui\bibnamedelima Ming},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eef2a17b752c9ed5360838d1f4abe27}{%
+           family={Kishima},
+           familyi={K\bibinitperiod},
+           given={Haruhiko},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18d6267f79e444fea78e186023f0a7c1}{%
+           family={Maehara},
+           familyi={M\bibinitperiod},
+           given={Taketoshi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8e2795da9bc2755a7fa8a8272ea29f42}
+      \strng{fullhash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{fullhashraw}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{bibnamehash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{authorbibnamehash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{authornamehash}{8e2795da9bc2755a7fa8a8272ea29f42}
+      \strng{authorfullhash}{30441648c619385e9b5e38e3a2b4b0f0}
+      \strng{authorfullhashraw}{30441648c619385e9b5e38e3a2b4b0f0}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Epilepsy is a neurological disorder that may affect the autonomic nervous system (ANS) from 15 to 20 min before seizure onset, and disturbances of ANS affect R–R intervals (RRI) on an electrocardiogram (ECG). This study aims to develop a machine learning algorithm for predicting focal epileptic seizures by monitoring R–R interval (RRI) data in real time. The developed algorithm adopts a self-attentive autoencoder (SA-AE), which is a neural network for time-series data. The results of applying the developed seizure prediction algorithm to clinical data demonstrated that it functioned well in most patients; however, false positives (FPs) occurred in specific participants. In a future work, we will investigate the causes of FPs and optimize the developing seizure prediction algorithm to further improve performance using newly added clinical data. © 2022, The Author(s).}
+      \field{issn}{1433-5298}
+      \field{journaltitle}{Artificial Life and Robotics}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{Artif. Life Rob.}
+      \field{title}{Development of an~Epileptic Seizure Prediction Algorithm Using {{R}}–{{R}} Intervals with Self-Attentive Autoencoder}
+      \field{volume}{28}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{403\bibrangedash 409}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s10015-022-00832-0
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/YKMNXLVB/Ode et al. - 2023 - Development of an epileptic seizure prediction algorithm using R–R intervals with self-attentive aut.pdf
+      \endverb
+      \keyw{Electrocardiogram,Epilepsy,final,include,Machine learning,Self-attentive autoencoder}
     \endentry
     \entry{paveiEarlySeizureDetection2017}{article}{}{}
       \name{author}{8}{}{%
@@ -2854,89 +4437,93 @@
       \endverb
       \keyw{electrocardiogram,Epilepsy,Epileptic seizure prediction,Heart rate variability,Support Vector Machines}
     \endentry
-    \entry{pordoyEnhancedNonEEGMultimodal2025}{article}{}{}
+    \entry{reintjesECGBasedDetectionEpileptic2025}{article}{}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=65cd8d4331f345f48123ddd719c921b0}{%
-           family={Pordoy},
-           familyi={P\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
+        {{un=0,uniquepart=base,hash=63d1d6e866734b9a26b1714602ca4b30}{%
+           family={Reintjes},
+           familyi={R\bibinitperiod},
+           given={Conrad},
+           giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f88a014a24f604954783c16ad0524d80}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=2666fd3cdbdcd8802a9273396d43ac74}{%
+           family={Hagenbeck},
+           familyi={H\bibinitperiod},
+           given={Janosch\bibnamedelima Fabio},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=611deb689d98fdd0886db69c5752e3bd}{%
-           family={Matoorian},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=34cb8219426fce3f33104945ed84b4b0}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={M.},
+        {{un=0,uniquepart=base,hash=764ae5a35cbfc2d1ad9ee35de3945094}{%
+           family={Ballo},
+           familyi={B\bibinitperiod},
+           given={Mohamed},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9dbb02437a99f81a41ae6a6eed7ea282}{%
-           family={Dadashiserej},
-           familyi={D\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=3f363b73d361bcafb9999bfb8ae127bb}{%
+           family={Rahlmeier},
+           familyi={R\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ead2d9f24db375e2742fa5507be8a344}{%
-           family={Zolgharni},
-           familyi={Z\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+        {{un=0,uniquepart=base,hash=c110ca6331b82bae620b5d2224900083}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Simon\bibnamedelima Maximilian},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7e6faee085bf3bfb6221126834e63b}{%
+           family={Schoder},
+           familyi={S\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5b1f4389b54e20c82dfadf5e8cf85e99}
-      \strng{fullhash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{fullhashraw}{29354bef6209a08713d66c71e672ae6d}
-      \strng{bibnamehash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{authorbibnamehash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{authornamehash}{5b1f4389b54e20c82dfadf5e8cf85e99}
-      \strng{authorfullhash}{29354bef6209a08713d66c71e672ae6d}
-      \strng{authorfullhashraw}{29354bef6209a08713d66c71e672ae6d}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{08a3d896f86ec7fa85fb4d360a070b7f}
+      \strng{fullhash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{fullhashraw}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{bibnamehash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{authorbibnamehash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{authornamehash}{08a3d896f86ec7fa85fb4d360a070b7f}
+      \strng{authorfullhash}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \strng{authorfullhashraw}{07b8fe24d2df32aad6fe80d7a93e4165}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Non-electroencephalogram seizure detection holds promise for the early identification of generalised onset seizures. However, existing methods often suffer from high false alarm rates and difficulty distinguishing normal movements from seizure manifestations. To address this, we obtained exclusive access to the Open Seizure Database and selected a representative dataset of 94 events (42 generalised tonic-clonic seizures, 19 focal seizures, and 33 labelled as Other), totaling approximately 5 hours and 29 minutes. Each event contains acceleration and heart rate data, which were expertly annotated by a clinician in 5 second timesteps, with each timestep assigned a class label of Normal, Pre-Ictal, or Ictal. We introduce AMBER (Attention-guided Multi-Branching pipeline with Enhanced Residual Fusion), a multimodal seizure detection model designed for Ictal-Phase Detection. AMBER constructs multiple branches to form independent feature extraction pipelines for each sensing modality. The outputs of each branch are passed to a Residual Fusion layer, where the extracted features are combined into a fused representation and propagated through two densely connected blocks. The results of these experiments highlight the effectiveness of Ictal Phase Detection, with the model recording an accuracy and f1-score of 0.9027 and 0.9035, respectively, on unseen test data. Further experiments recorded True Positive Rate of 0.8342, 0.9485, and 0.9118 for the Normal, Pre-Ictal, and Ictal phases, respectively, with an average False Positive Rate of 0.0502. This study presents a novel Ictal Phase Detection technique that enhances seizure phase classification while showing reduced false alarms, laying the groundwork for further advancements in non-electroencephalogram-based seizure detection research.}
-      \field{issn}{2168-2208}
-      \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
-      \field{month}{5}
-      \field{number}{5}
-      \field{shorttitle}{Enhanced {{Non-EEG Multimodal Seizure Detection}}}
-      \field{title}{Enhanced {{Non-EEG Multimodal Seizure Detection}}: {{A Real-World Model}} for {{Identifying Generalised Seizures Across}} the {{Ictal State}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{29}
+      \field{abstract}{Epilepsy is a prevalent neurological disorder where reliable seizure tracking is essential for patient care. Existing documentation often relies on self-reports, which are unreliable, creating a need for objective, wearable-based solutions. Prior work has shown that Electrocardiography (ECG)-based seizure detection is feasible but limited by small datasets. This study addresses this issue by evaluating Matrix Profile, MADRID, and TimeVQVAE-AD on SeizeIT2, the largest open wearable-ECG dataset with 11,640 recording hours and 886 annotated seizures. Using standardized preprocessing and clinically motivated windows, we benchmarked sensitivity, false-alarm rate (FAR), and a Harmonic Mean Score integrating both metrics. Across methods, TimeVQVAE-AD achieved the highest sensitivity, while MADRID produced the lowest FAR, illustrating the trade-off between detecting seizures and minimizing spurious alerts. Our findings show ECG anomaly detection on SeizeIT2 can reach clinically meaningful sensitivity while highlighting the sensitivity–false alarm trade-off. By releasing reproducible benchmarks and code, this work establishes the first open baseline and enables future research on personalization and clinical applicability.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{24}
+      \field{shorttitle}{{{ECG-Based Detection}} of {{Epileptic Seizures}} in {{Real-World Wearable Settings}}}
+      \field{title}{{{ECG-Based Detection}} of {{Epileptic Seizures}} in {{Real-World Wearable Settings}}: {{Insights}} from the {{SeizeIT2 Dataset}}}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{25}
       \field{year}{2025}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{3329\bibrangedash 3342}
-      \range{pages}{14}
+      \field{pages}{7687}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1109/JBHI.2025.3532223
+      \verb 10.3390/s25247687
       \endverb
       \verb{file}
-      \verb /home/paulin/Zotero/storage/2RCEQIRS/Pordoy et al. - 2025 - Enhanced Non-EEG Multimodal Seizure Detection A Real-World Model for Identifying Generalised Seizur.pdf
+      \verb /home/paulin/Zotero/storage/AECRR8NY/Reintjes et al. - 2025 - ECG-Based Detection of Epileptic Seizures in Real-World Wearable Settings Insights from the SeizeIT.pdf
       \endverb
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10848263/
+      \verb https://www.mdpi.com/1424-8220/25/24/7687
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10848263/
+      \verb https://www.mdpi.com/1424-8220/25/24/7687
       \endverb
-      \keyw{1D CNN,acceleration,Accuracy,attention,Biomedical monitoring,Brain modeling,Electroencephalography,Epilepsy,Feature extraction,Heart rate,Monitoring,multi-branching,multimodal,Recording,residual fusion,Seizure detection,Sensors}
+      \keyw{anomaly detection,electrocardiography,epilepsy,final,machine learning,seizure detection,wearable sensors}
     \endentry
     \entry{sethFeasibilityCardiacbasedSeizure2023}{article}{}{}
       \name{author}{9}{}{%
@@ -3230,6 +4817,264 @@
       \endverb
       \keyw{Caregivers,Death Sudden,Epilepsy,Humans,review,Seizures,Wearable Electronic Devices}
     \endentry
+    \entry{spahrDeepLearningbasedDetection2025}{article}{}{}
+      \name{author}{17}{}{%
+        {{un=0,uniquepart=base,hash=cce655ca0c9c0c4a2a548a9dd2fbbcec}{%
+           family={Spahr},
+           familyi={S\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=442d3de7b23ab010f43c0e19471fd7db}{%
+           family={Bernini},
+           familyi={B\bibinitperiod},
+           given={Adriano},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2d6870b2386b22614afcfa0a22b7a3c}{%
+           family={Ducouret},
+           familyi={D\bibinitperiod},
+           given={Pauline},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=649bf8f087ca188dcc2f142fbe11324f}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b65e65335e22e13bbdd96fde1f4cd03}{%
+           family={Koren},
+           familyi={K\bibinitperiod},
+           given={Johannes\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37d2fea33a4e874326df83b0efb380a7}{%
+           family={Imbach},
+           familyi={I\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6cd65434e5f7739d0f113ad177d762b}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sàndor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=928c4899fec813da45f6b9299421d5e0}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Sidsel\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f163808415fd67f8207b721b372da7c5}{%
+           family={Rheims},
+           familyi={R\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbb6f3627c2cfce9a05159b48063ceba}{%
+           family={Fabricius},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb1d827cdccd5bfa5cdc6a5c2b202192}{%
+           family={Seeck},
+           familyi={S\bibinitperiod},
+           given={Margitta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53641931e7315d2750d71e24556422b1}{%
+           family={Steinhoff},
+           familyi={S\bibinitperiod},
+           given={Berhard\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc01f5237fcb9b49f44458b427625454}{%
+           family={Beuchat},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8cff1dd0b1ed9573f6dcd4d4a23b4a}{%
+           family={Dan},
+           familyi={D\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8954373f0fe4e2b9237606efcff64fa}{%
+           family={Atienza},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ec8a410d41da2c4907b95bc5d96c981}{%
+           family={Bardyn},
+           familyi={B\bibinitperiod},
+           given={Charles-Edouard},
+           giveni={C\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7efd34997c9bef90bd98001248fa2f2}
+      \strng{fullhash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{fullhashraw}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{bibnamehash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{authorbibnamehash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{authornamehash}{c7efd34997c9bef90bd98001248fa2f2}
+      \strng{authorfullhash}{33326b2919ca2d9df3636f9d58a39a3c}
+      \strng{authorfullhashraw}{33326b2919ca2d9df3636f9d58a39a3c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{OBJECTIVE: To develop and validate a wrist-worn accelerometer-based, deep-learning tunable algorithm for the automated detection of generalized or bilateral convulsive seizures (CSs) to be integrated with off-the-shelf smartwatches. METHODS: We conducted a prospective multi-center study across eight European epilepsy monitoring units, collecting data from 384 patients undergoing video electroencephalography (vEEG) monitoring with a wrist-worn three dimensional (3D)-accelerometer sensor. We developed an ensemble-based convolutional neural network architecture with tunable sensitivity through quantile-based aggregation. The model, referred to as Episave, used accelerometer amplitude as input. It was trained on data from 37 patients who had 54 CSs and evaluated on an independent dataset comprising 347 patients, including 33 who had 49 CSs. RESULTS: Cross-validation on the training set showed that optimal performance was obtained with an aggregation quantile of 60, with a 98\% sensitivity, and a false alarm rate (FAR) of 1/6\,days. Using this quantile on the independent test set, the model achieved a 96\% sensitivity (95\% confidence interval [CI]: 90\%-100\%), a FAR of {$<$}1/8\,days (95\% CI: 1/9-1/7\,days) with 1 FA/61 nights, and a median detection latency of 26\,s. One of the two missed CSs could be explained by the patient's arm, which was wearing the sensor, being trapped in the bed rail. Other quantiles provided up to 100\% sensitivity at the cost of a greater FAR (1/2\,days) or very low FAR (1/100\,days) at the cost of lower sensitivity (86\%). SIGNIFICANCE: This Phase 2 clinical validation study suggests that deep learning techniques applied to single-sensor accelerometer data can achieve high CS detection performance while enabling tunable sensitivity.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{issue}{Suppl 3}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Epilepsia}
+      \field{title}{Deep Learning-Based Detection of Generalized Convulsive Seizures Using a Wrist-Worn Accelerometer}
+      \field{volume}{66 Suppl 3}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{53\bibrangedash 63}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/epi.18406
+      \endverb
+      \verb{eprint}
+      \verb 40265999
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/MC4A59CM/Spahr et al. - 2025 - Deep learning-based detection of generalized convulsive seizures using a wrist-worn accelerometer.pdf
+      \endverb
+      \keyw{Accelerometry,Adolescent,Adult,Algorithms,Child,deep learning,Deep Learning,Electroencephalography,epilepsy,Epilepsy Generalized,Female,final,focal‐to‐bilateral tonic–clonic seizures,generalized tonic–clonic seizure,Humans,Male,Middle Aged,Neural Networks Computer,Prospective Studies,seizure detection,Seizures,Sensitivity and Specificity,wearable,Wearable Electronic Devices,Wrist,Young Adult}
+    \endentry
+    \entry{stirlingForecastingSeizureLikelihood2021}{article}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=e8072a7fa4a08aacd2516b29e77b8bb9}{%
+           family={Stirling},
+           familyi={S\bibinitperiod},
+           given={Rachel\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b07d6987a613d480fcf2b6e669cbdb2a}{%
+           family={Grayden},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6263843cd7b63998f0b48689309190}{%
+           family={D'Souza},
+           familyi={D\bibinitperiod},
+           given={Wendyl},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37ec94a67936821f4246c2a4138a460}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1237e34ff052c7f4bae77b2a8c4f2c68}{%
+           family={Nurse},
+           familyi={N\bibinitperiod},
+           given={Ewan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae4882e0c85c784c311a9cc69c3b275b}{%
+           family={Freestone},
+           familyi={F\bibinitperiod},
+           given={Dean\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05e2b3f81e8b824c60a2bb689ad6559f}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={Daniel\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b96beda543d56b1cc3d5558bdb30aa2}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57d90713e99a3b9b80e4eccc22ac14cb}{%
+           family={Pal\bibnamedelima Attia},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cea6e1df8928b5a60a5fac9dfa4f8a5}{%
+           family={Viana},
+           familyi={V\bibinitperiod},
+           given={Pedro\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60cfdb629dcdf0a025356afdfe931450}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad10a6452b58abbb6a395819b747f6e1}{%
+           family={Karoly},
+           familyi={K\bibinitperiod},
+           given={Philippa\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fff92bd1986f277096360002fca6805}
+      \strng{fullhash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{fullhashraw}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{bibnamehash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{authorbibnamehash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{authornamehash}{5fff92bd1986f277096360002fca6805}
+      \strng{authorfullhash}{f74fde8da83381e701c9df7d29bfe499}
+      \strng{authorfullhashraw}{f74fde8da83381e701c9df7d29bfe499}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The unpredictability of epileptic seizures exposes people with epilepsy to potential physical harm, restricts day-to-day activities, and impacts mental well-being. Accurate seizure forecasters would reduce the uncertainty associated with seizures but need to be feasible and accessible in the long-term. Wearable devices are perfect candidates to develop non-invasive, accessible forecasts but are yet to be investigated in long-term studies. We hypothesized that machine learning models could utilize heart rate as a biomarker for well-established cycles of seizures and epileptic activity, in addition to other wearable signals, to forecast high and low risk seizure periods. This feasibility study tracked participants' (n = 11) heart rates, sleep, and step counts using wearable smartwatches and seizure occurrence using smartphone seizure diaries for at least 6 months (mean = 14.6 months, SD = 3.8 months). Eligible participants had a diagnosis of refractory epilepsy and reported at least 20 seizures (mean = 135, SD = 123) during the recording period. An ensembled machine learning and neural network model estimated seizure risk either daily or hourly, with retraining occurring on a weekly basis as additional data was collected. Performance was evaluated retrospectively against a rate-matched random forecast using the area under the receiver operating curve. A pseudo-prospective evaluation was also conducted on a held-out dataset. Of the 11 participants, seizures were predicted above chance in all (100\%) participants using an hourly forecast and in ten (91\%) participants using a daily forecast. The average time spent in high risk (prediction time) before a seizure occurred was 37 min in the hourly forecast and 3 days in the daily forecast. Cyclic features added the most predictive value to the forecasts, particularly circadian and multiday heart rate cycles. Wearable devices can be used to produce patient-specific seizure forecasts, particularly when biomarkers of seizure and epileptic activity cycles are utilized.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1664-2295}
+      \field{journaltitle}{Frontiers in Neurology}
+      \field{langid}{english}
+      \field{shortjournal}{Front Neurol}
+      \field{title}{Forecasting {{Seizure Likelihood With Wearable Technology}}}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{704060}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fneur.2021.704060
+      \endverb
+      \verb{eprint}
+      \verb 34335457
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S4M3W23M/Stirling et al. - 2021 - Forecasting Seizure Likelihood With Wearable Technology.pdf
+      \endverb
+      \keyw{circadian rhythms,cycles (cyclical),final,include,multiday rhythms,seizure cycles,seizure forecasting,wearable sensors}
+    \endentry
     \entry{sveinssonClinicalRiskFactors2020}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=8c5232d5794487cff77d32889315e3b0}{%
@@ -3366,6 +5211,92 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S089543562100130X
       \endverb
+    \endentry
+    \entry{vielufSeizureMonitoringCombined2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=d92f8782c0ad034a9885c4312c013186}{%
+           family={Vieluf},
+           familyi={V\bibinitperiod},
+           given={Solveig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=826b3846f444ee52a7ea7cb99e55c216}{%
+           family={Tomioka},
+           familyi={T\bibinitperiod},
+           given={Sasagu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ac36eed64badd6f195e86aeecd037a7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a0fa0b2d804f0437e671025134c2a88}{%
+           family={Krishnan},
+           familyi={K\bibinitperiod},
+           given={Vaishnav},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfe99e99aa34b7b0cfd3287a90ac5b11}{%
+           family={Bosl},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d71b206c71327803f720be3257d502e}{%
+           family={Grinnell},
+           familyi={G\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=996d902752eb53895d72070e4b52e1d8}{%
+           family={Loddenkemper},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f7e323669c4638e3f93534ef4b1ae8d7}
+      \strng{fullhash}{6abfad11cf445c45db668080c65ff713}
+      \strng{fullhashraw}{6abfad11cf445c45db668080c65ff713}
+      \strng{bibnamehash}{6abfad11cf445c45db668080c65ff713}
+      \strng{authorbibnamehash}{6abfad11cf445c45db668080c65ff713}
+      \strng{authornamehash}{f7e323669c4638e3f93534ef4b1ae8d7}
+      \strng{authorfullhash}{6abfad11cf445c45db668080c65ff713}
+      \strng{authorfullhashraw}{6abfad11cf445c45db668080c65ff713}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{OBJECTIVE: In patients with intractable epilepsy, accurate diaries of seizure occurrence and timing can substantially inform management. Wearable devices that provide confirmation of seizure occurrence complement such diaries, which are frequently incomplete and/or inaccurate. Here, we combined seizure diaries and longitudinally deployed wrist-worn device recordings to evaluate whether wearable recordings contain information that can discriminate between days containing seizure-related activity and those without. METHODS: Patients with focal seizures were prospectively enrolled in a clinical trial to test the effectiveness of eslicarbazepine acetate as an adjunct to levetiracetam or lamotrigine (phase IV clinical trial NCT03116828). One hundred two patients maintained a seizure diary and wore a biosensor for {$>$}30\,weeks. Based on diaries, we labeled days as either "seizure" versus "no-seizure" or "preseizure" versus "no-preseizure." We compared patterns obtained by harmonic 24-h modeling between conditions. Best-ranking wearable markers and seizure diary variables were fed into a fully connected neural network, with several hidden layers and depth as hyperparameters that classified between seizure day conditions. RESULTS: The final sample contained 70 patients (median age\,=\,42.5\,years, 43 female) with 5437 recorded patient-days, including 557 seizure days and 537 preseizure days. Twenty-four-hour patterns in electrodermal activity and accelerometry differentiated no-seizure versus seizure days, as well as no-preseizure versus preseizure days (p\,{$<$}\,.01). Classification between no-seizure and seizure days (weighted F1\,=\,.81, sensitivity\,=\,.82, specificity\,=\,.67) as well as between no-preseizure and preseizure days (weighted F1\,=\,.82, sensitivity\,=\,.80, specificity\,=\,.66) revealed good performance. SIGNIFICANCE: Wearable data capture seizure-related differences with daily resolution, differentiating between days with lower and higher seizure susceptibility. Combining diary-based clinical and wearable data bears the potential for developing a dynamic seizure detection and prediction system with daily resolution.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Epilepsia}
+      \field{shorttitle}{Seizure Monitoring by Combined Diary and Wearable Data}
+      \field{title}{Seizure Monitoring by Combined Diary and Wearable Data: {{A}} Multicenter, Longitudinal, Observational Study}
+      \field{volume}{66}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{4259\bibrangedash 4271}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/epi.18550
+      \endverb
+      \verb{eprint}
+      \verb 40650883
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/BYBMZVJF/Vieluf et al. - 2025 - Seizure monitoring by combined diary and wearable data A multicenter, longitudinal, observational s.pdf
+      \endverb
+      \keyw{24-h pattern,24‐h pattern,Adolescent,Adult,Anticonvulsants,biosensors,Diaries as Topic,Drug Resistant Epilepsy,eslicarbazepine acetate,Female,final,Humans,include,Lamotrigine,Levetiracetam,Longitudinal Studies,Male,Middle Aged,Prospective Studies,seizure biomarker,seizure forecasting,Seizures,Wearable Electronic Devices,Young Adult}
     \endentry
     \entry{wangEpilepticSeizureDetection2025}{article}{}{}
       \name{author}{8}{}{%
@@ -3724,92 +5655,7 @@
       \endverb
       \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,include,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
     \endentry
-    \entry{yangMultimodalAISystem2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=a68488c88b246cfcc861fec5e452bfef}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Yikai},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2ba40d25bf9fa2e6ffd6046d0cc9eca}{%
-           family={Truong},
-           familyi={T\bibinitperiod},
-           given={Nhan\bibnamedelima Duy},
-           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2684b9a5b52efe69cf7945bbe1318537}{%
-           family={Eshraghian},
-           familyi={E\bibinitperiod},
-           given={Jason\bibnamedelima K.},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1b857bbb704c45dda1beb5dbccbc92e7}{%
-           family={Maher},
-           familyi={M\bibinitperiod},
-           given={Christina},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=08d8aaaf25d84e65dc17cb9eece4e969}{%
-           family={Nikpour},
-           familyi={N\bibinitperiod},
-           given={Armin},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=312e81c296a8183759cdde23ee6ebcd8}{%
-           family={Kavehei},
-           familyi={K\bibinitperiod},
-           given={Omid},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{682fc97264380378c9ac670374863c63}
-      \strng{fullhash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{fullhashraw}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{bibnamehash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{authorbibnamehash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{authornamehash}{682fc97264380378c9ac670374863c63}
-      \strng{authorfullhash}{6393c0f8424b63df145e93d4f5c59dc7}
-      \strng{authorfullhashraw}{6393c0f8424b63df145e93d4f5c59dc7}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Artificial intelligence (AI) and health sensory data-fusion hold the potential to automate many laborious and time-consuming processes in hospitals or ambulatory settings, e.g. home monitoring and telehealth. One such unmet challenge is rapid and accurate epileptic seizure annotation. An accurate and automatic approach can provide an alternative way to label seizures in epilepsy or deliver a substitute for inaccurate patient self-reports. Multimodal sensory fusion is believed to provide an avenue to improve the performance of AI systems in seizure identification. We propose a state-of-the-art performing AI system that combines electroencephalogram (EEG) and electrocardiogram (ECG) for seizure identification, tested on clinical data with early evidence demonstrating generalization across hospitals. The model was trained and validated on the publicly available Temple University Hospital (TUH) dataset. To evaluate performance in a clinical setting, we conducted non-patient-specific pseudo-prospective inference tests on three out-of-distribution datasets, including EPILEPSIAE (30 patients) and the Royal Prince Alfred Hospital (RPAH) in Sydney, Australia (31 neurologists-shortlisted patients and 30 randomly selected). Our multimodal approach improves the area under the receiver operating characteristic curve (AUC-ROC) by an average margin of 6.71\% and 14.42\% for deep learning techniques using EEG-only and ECG-only, respectively. Our model’s state-of-the-art performance and robustness to out-of-distribution datasets show the accuracy and efficiency necessary to improve epilepsy diagnoses. To the best of our knowledge, this is the first pseudo-prospective study of an AI system combining EEG and ECG modalities for automatic seizure annotation achieved with fusion of two deep learning networks.}
-      \field{issn}{2168-2208}
-      \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
-      \field{month}{7}
-      \field{number}{7}
-      \field{title}{A {{Multimodal AI System}} for {{Out-of-Distribution Generalization}} of {{Seizure Identification}}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{volume}{26}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{3529\bibrangedash 3538}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/JBHI.2022.3157877
-      \endverb
-      \verb{file}
-      \verb /home/paulin/Zotero/storage/77MVQGBN/Yang et al. - 2022 - A Multimodal AI System for Out-of-Distribution Generalization of Seizure Identification.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9732211/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9732211/
-      \endverb
-      \keyw{Affective computing,Artificial intelligence,autonomous systems,Brain modeling,Deep learning,Electrocardiography,Electroencephalography,Epilepsy,expert systems,Hospitals}
-    \endentry
   \enddatalist
-  \missing{beniczkyAutomatedSeizureDetection2021a}
-  \missing{chenSeizuresDetectionUsing2022a}
 \endrefsection
 \endinput
 
