@@ -3099,18 +3099,20 @@
     <bcf:citekey order="17" intorder="1">websterAnalyzingPrepareFuture2002</bcf:citekey>
     <bcf:citekey order="18" intorder="1">tugwellPRISMA20202021</bcf:citekey>
     <bcf:citekey order="19" intorder="1">websterAnalyzingPrepareFuture2002</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">borujenyDetectionEpilepticSeizure2013</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">meiselMachineLearningWristband2020</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">stirlingForecastingSeizureLikelihood2021</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">reintjesECGBasedDetectionEpileptic2025</bcf:citekey>
-    <bcf:citekey order="22" intorder="2">odeDevelopmentEpilepticSeizure2023</bcf:citekey>
-    <bcf:citekey order="22" intorder="3">spahrDeepLearningbasedDetection2025</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">spahrDeepLearningbasedDetection2025</bcf:citekey>
-    <bcf:citekey order="23" intorder="2">dongTwoLayerEnsembleMethod2022</bcf:citekey>
-    <bcf:citekey order="23" intorder="3">elemamAutomatedValidatedTool2025</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">vielufSeizureMonitoringCombined2025</bcf:citekey>
-    <bcf:citekey order="24" intorder="2">nasseriAmbulatorySeizureForecasting2021</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">beniczkyStandardsTestingClinical2018</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">borujenyDetectionEpilepticSeizure2013</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">meiselMachineLearningWristband2020</bcf:citekey>
+    <bcf:citekey order="22" intorder="2">stirlingForecastingSeizureLikelihood2021</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">reintjesECGBasedDetectionEpileptic2025</bcf:citekey>
+    <bcf:citekey order="23" intorder="2">odeDevelopmentEpilepticSeizure2023</bcf:citekey>
+    <bcf:citekey order="23" intorder="3">spahrDeepLearningbasedDetection2025</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">spahrDeepLearningbasedDetection2025</bcf:citekey>
+    <bcf:citekey order="24" intorder="2">dongTwoLayerEnsembleMethod2022</bcf:citekey>
+    <bcf:citekey order="24" intorder="3">elemamAutomatedValidatedTool2025</bcf:citekey>
     <bcf:citekey order="25" intorder="1">vielufSeizureMonitoringCombined2025</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">nasseriAmbulatorySeizureForecasting2021</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">beniczkyStandardsTestingClinical2018</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">vielufSeizureMonitoringCombined2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -80,6 +80,60 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1525505025000666
       \endverb
     \endentry
+    \entry{beniczkyStandardsTestingClinical2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b821efb470d58363e30c481791273}
+      \strng{fullhash}{770b821efb470d58363e30c481791273}
+      \strng{fullhashraw}{770b821efb470d58363e30c481791273}
+      \strng{bibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorbibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authornamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhashraw}{770b821efb470d58363e30c481791273}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To increase the quality of studies on seizure detection devices, we propose standards for testing and clinical validation of such devices. We identified 4 key features that are important for studies on seizure detection devices: subjects, recordings, data analysis and alarms, and reference standard. For each of these features, we list the specific aspects that need to be addressed in the studies, and depending on these, studies are classified into 5 phases (0-4). We propose a set of outcome measures that need to be reported, and we propose standards for reporting the results. These standards will help in designing and reporting studies on seizure detection devices, they will give readers clear information on the level of evidence provided by the studies, and they will help regulatory bodies in assessing the quality of the validation studies. These standards are flexible, allowing classification of the studies into one of the 5 phases. We propose actions that can facilitate development of novel methods and devices.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Epilepsia}
+      \field{title}{Standards for Testing and Clinical Validation of Seizure Detection Devices}
+      \field{volume}{59 Suppl 1}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/epi.14049
+      \endverb
+      \verb{eprint}
+      \verb 29873827
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S2SVUIG6/Beniczky and Ryvlin - 2018 - Standards for testing and clinical validation of seizure detection devices.pdf
+      \endverb
+      \keyw{clinical trials,Diagnostic Techniques Neurological,Epilepsy,Humans,mobile health,Outcome Assessment Health Care,Reference Values,Reproducibility of Results,seizure detection,standards,validation studies,wearable devices}
+    \endentry
     \entry{beniczkyAutomatedSeizureDetection2021}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
@@ -2898,6 +2952,60 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S1525505025000666
       \endverb
+    \endentry
+    \entry{beniczkyStandardsTestingClinical2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b821efb470d58363e30c481791273}
+      \strng{fullhash}{770b821efb470d58363e30c481791273}
+      \strng{fullhashraw}{770b821efb470d58363e30c481791273}
+      \strng{bibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorbibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authornamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhashraw}{770b821efb470d58363e30c481791273}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To increase the quality of studies on seizure detection devices, we propose standards for testing and clinical validation of such devices. We identified 4 key features that are important for studies on seizure detection devices: subjects, recordings, data analysis and alarms, and reference standard. For each of these features, we list the specific aspects that need to be addressed in the studies, and depending on these, studies are classified into 5 phases (0-4). We propose a set of outcome measures that need to be reported, and we propose standards for reporting the results. These standards will help in designing and reporting studies on seizure detection devices, they will give readers clear information on the level of evidence provided by the studies, and they will help regulatory bodies in assessing the quality of the validation studies. These standards are flexible, allowing classification of the studies into one of the 5 phases. We propose actions that can facilitate development of novel methods and devices.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Epilepsia}
+      \field{title}{Standards for Testing and Clinical Validation of Seizure Detection Devices}
+      \field{volume}{59 Suppl 1}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/epi.14049
+      \endverb
+      \verb{eprint}
+      \verb 29873827
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S2SVUIG6/Beniczky and Ryvlin - 2018 - Standards for testing and clinical validation of seizure detection devices.pdf
+      \endverb
+      \keyw{clinical trials,Diagnostic Techniques Neurological,Epilepsy,Humans,mobile health,Outcome Assessment Health Care,Reference Values,Reproducibility of Results,seizure detection,standards,validation studies,wearable devices}
     \endentry
     \entry{beniczkyAutomatedSeizureDetection2021}{article}{}{}
       \name{author}{8}{}{%

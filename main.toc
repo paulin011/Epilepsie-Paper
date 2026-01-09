@@ -1,20 +1,43 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Problem Statement and Motivation}{1}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Statement and Motivation}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Physiological Biosignals for Wearable Sensing}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{4}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Methodological Approach and Structure}{4}{section.3}%
 \contentsline {section}{\numberline {4}Search Strategy}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}PICO-Based Search Methodology}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Practical Filters and Reproducibility}{6}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Study Comparison Following Webster and Watson}{6}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Concept Matrix: Study Overview}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Dimensional Analysis}{9}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Sensor Modality Trends}{9}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Algorithmic Evolution}{9}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Validation Rigor}{9}{subsubsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.4}Performance Metrics Reporting}{9}{subsubsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.3}Synthesis and Gaps}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.1}Concept Matrix: Study Overview}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Detailed Clinical and Technical Metrics}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Dimensional Analysis}{11}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Sensor Modality Trends}{11}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Algorithmic Evolution}{11}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Validation Rigor}{11}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Performance Metrics Reporting}{11}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}Synthesis and Gaps}{12}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Key Findings and Clinical Takeaways}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Executive Summary}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Detection Studies: Performance Landscape}{13}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}High-Sensitivity Detectors}{13}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Clinical Translation Barriers}{13}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Forecasting Studies: The Prediction Challenge}{14}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Performance Spectrum}{14}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}The Responder Problem}{14}{subsubsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.4}Methodological Insights}{14}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Algorithm Evolution Trajectory}{14}{subsubsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.5}Exploratory Studies: Feasibility Evidence}{15}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}Cardiac Signal Viability}{15}{subsubsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.6}Clinical Recommendations}{15}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}For Current Clinical Practice}{15}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}For Researchers and Developers}{15}{subsubsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.7}Limitations of Current Evidence}{16}{subsection.6.7}%
+\contentsline {subsubsection}{\numberline {6.7.1}Study Design Limitations}{16}{subsubsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.2}Metric Heterogeneity}{16}{subsubsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.8}Future Directions}{16}{subsection.6.8}%
+\contentsline {subsubsection}{\numberline {6.8.1}Research Priorities}{16}{subsubsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.8.2}Emerging Technologies}{16}{subsubsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.9}Conclusion}{17}{subsection.6.9}%

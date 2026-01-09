@@ -16,7 +16,7 @@ Table~\ref{tab:study-matrix} provides a comprehensive comparison of all included
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{@{}llllllllllp{3cm}@{}}
 \toprule
-Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & FAR & Key Limitation \\
+Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & FPR & Key Limitation \\
 \midrule
 
 \textbf{Detection Studies} \\
@@ -71,6 +71,54 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 \end{table}
 \end{landscape}
 
+\subsection{Detailed Clinical and Technical Metrics}
+
+Table~\ref{tab:detailed-metrics} presents additional clinically relevant metrics that are essential for evaluating real-world applicability but often underreported in the literature. These metrics address key questions about patient-level performance, detection timeliness, and generalizability.
+
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\small
+\caption{Detailed Clinical and Technical Metrics Across Studies}
+\label{tab:detailed-metrics}
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.1}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llllllp{2.5cm}@{}}
+\toprule
+\textbf{Study} & \textbf{Validation} & \textbf{Detect. Latency} & \textbf{Patient Success} & \textbf{Precision/PPV} & \textbf{Other Metrics} & \textbf{Clinical Notes} \\
+\midrule
+
+\textbf{Detection Studies} \\
+\addlinespace
+
+\textbf{Spahr et al. 2025} & Indep. test (347 pt) & 26~s median & -- & -- & HMS 92.6 & Phase 2; 2 CSs missed \\
+\textbf{Reintjes et al. 2025} & Retro (SeizeIT2) & -- & Responders only & -- & HMS 92.6 & FAR $\gg$ clinical target \\
+\textbf{Fine 2025} & Indep. test (3 pt) & 14~s mean & -- & -- & 95\% CI: 69--100 & Phase 1 only \\
+\textbf{Dong et al. 2026} & 10-fold CV & $<$30~s & -- & -- & AUC 0.793 & First long-term home \\
+\textbf{Wang et al. 2025} & Hospital retro & -- & 7/22 pts & 83--87\% & Acc 97.8\% & Single hospital \\
+\textbf{Singh Rathore 2024} & Single pt & -- & -- & 94.8\% & F1 95.6\% & 3.2M data pts \\
+\textbf{Elemam et al. 2025} & Cross-sect & -- & -- & 90.3\% & -- & PPG 15~s only \\
+\textbf{Borujeny 2013} & 3-pt retro & -- & 3/3 pts & -- & -- & 20 szs total \\
+\addlinespace
+
+\textbf{Forecasting Studies} \\
+\addlinespace
+
+\textbf{Vieluf et al. 2025} & Retro longitudinal & -- & -- & -- & F1 0.81 & Daily predictions \\
+\textbf{Meisel et al. 2020} & \textbf{LOSO CV} & -- & 30/69 (43.5\%) & -- & IoC 14.1\% & Pediatric only \\
+\textbf{Stirling 2021} & Pseudo-prospective & -- & 100\% hourly & -- & AUC 0.74 & HR cycles key \\
+\textbf{Nasseri 2021} & Retro analysis & 33~s mean & 5/6 (83\%) & -- & AUC 0.75 (0.50--0.92) & RNS validation req \\
+\textbf{Ode et al. 2023} & Retro & -- & 29/66 (44\%) & 0.35 & AUC 0.97 & Individual tuning \\
+\bottomrule
+\end{tabular}%
+}
+\par\medskip
+\footnotesize
+\textbf{Note:} CV = cross-validation; HMS = Harmonic Mean Score (Sensitivity~$-$~0.4$\times$FAR); IoC = Improvement over Chance; LOSO = leave-one-subject-out; Indep. = independent; Responders = patients with $>$50~BPM HR change during seizures; HMS = Sensitivity~$-$~0.4$\times$FAR~\parencite{beniczkyStandardsTestingClinical2018}; Patient Success = proportion achieving better-than-chance or usable performance.
+\end{table}
+\end{landscape}
+
 \subsection{Dimensional Analysis}
 
 \subsubsection{Sensor Modality Trends}
@@ -83,7 +131,7 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 \subsubsection{Algorithmic Evolution}
 \begin{itemize}
   \item \textbf{2013:} Traditional ML (KNN, ANN) with handcrafted features \parencite{borujenyDetectionEpilepticSeizure2013}.
-  \item \textbf2020--2021: Emergence of LSTM and ensemble methods \parencite{meiselMachineLearningWristband2020,stirlingForecastingSeizureLikelihood2021}.
+  \item \textbf{2020--2021:} Emergence of LSTM and ensemble methods \parencite{meiselMachineLearningWristband2020,stirlingForecastingSeizureLikelihood2021}.
   \item \textbf{2023--2026:} Deep learning dominance with CNNs, attention mechanisms, and anomaly detection approaches \parencite{reintjesECGBasedDetectionEpileptic2025,odeDevelopmentEpilepticSeizure2023,spahrDeepLearningbasedDetection2025}.
 \end{itemize}
 
@@ -96,6 +144,14 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 
 \subsubsection{Performance Metrics Reporting}
 Table~\ref{tab:metrics-summary} summarizes the heterogeneity in performance metric reporting, complicating cross-study comparison. Sensitivity ranges from 51.2\% (forecasting mean) to 100\% (tonic detection), while FPR reporting varies from per-hour to per-night, with several studies omitting this critical metric entirely.
+
+Table~\ref{tab:detailed-metrics} reveals additional clinically relevant metrics that are critical for real-world deployment but inconsistently reported:
+\begin{itemize}
+  \item \textbf{Detection latency} is reported by only 4/13 studies, despite being critical for timely intervention.
+  \item \textbf{Patient-level success rate} (proportion achieving usable performance) is reported by only 6/13 studies, ranging from 43.5\% to 100\%.
+  \item \textbf{Precision/PPV} is rarely reported (3/13), limiting understanding of positive predictive value for clinical decision-making.
+  \item \textbf{Generalization metrics} (LOSO validation, patient-independent testing) show that only Meisel et al. used true LOSO CV, with most studies reporting aggregated performance that may overestimate real-world utility.
+\end{itemize}
 
 \begin{table}[htbp]
 \centering
@@ -113,8 +169,10 @@ Specificity & 1/9 & 0/4 & Elemam only \\
 FPR/FA rate & 7/9 & 2/4 & Spahr, Reintjes, Fine, Dong, Wang, \\
 & & & Ode, Meisel, Nasseri, Stirling \\
 AUC-ROC & 1/9 & 2/4 & Reintjes, Nasseri, Stirling \\
-Accuracy & 2/9 & 0/4 & Wang, Singh Rathore \\
-Precision & 0/9 & 1/4 & Ode (reported as precision) \\
+Detection Latency & 3/9 & 1/4 & Spahr, Fine, Dong, Nasseri \\
+Patient Success Rate & 2/9 & 4/4 & Meisel, Nasseri, Ode, Stirling, Vieluf, Wang \\
+Precision/PPV & 2/9 & 1/4 & Ode, Singh Rathore, Elemam, Wang \\
+IoC / Time in Warning & 0/9 & 2/4 & Meisel, Nasseri \\
 \bottomrule
 \end{tabular}
 }
@@ -122,11 +180,16 @@ Precision & 0/9 & 1/4 & Ode (reported as precision) \\
 
 \subsection{Synthesis and Gaps}
 
-The concept matrix reveals several patterns:
+The concept matrix and detailed metrics reveal several patterns:
 
 \begin{enumerate}
-  \item \textbf{Clinical translation gap:} Despite high sensitivities ($>$90\% in several detection studies), FPR remains clinically unacceptable for standalone deployment.
-  \item \textbf{Personalization vs. generalization:} LOSO approaches achieve lower but more realistic performance (51.2\%) compared to patient-specific tuning, raising questions about generalizability.
-  \item \textbf{Diary integration:} \parencite{vielufSeizureMonitoringCombined2025} demonstrates that hybrid approaches (wearable + clinical data) may outperform wearables alone, suggesting a direction for ambulatory systems.
-  \item \textbf{Metric heterogeneity:} Inconsistent reporting (sensitivity vs. accuracy vs. AUC) impedes meta-analysis and clinical benchmarking.
+  \item \textbf{Clinical translation gap:} Despite high sensitivities ($>$90\% in several detection studies), FPR remains clinically unacceptable for standalone deployment. Only Dong et al. (0.165/h) and Fine (0.023/h) achieve FARs approaching clinical targets ($<$0.1--0.5/h) \parencite{beniczkyStandardsTestingClinical2018}.
+
+  \item \textbf{Personalization vs. generalization:} LOSO approaches achieve lower but more realistic performance (51.2\% sensitivity, 43.5\% patient success) compared to patient-specific tuning. Meisel et al.'s LOSO CV results suggest that aggregated performance metrics may overestimate real-world utility.
+
+  \item \textbf{Patient-level heterogeneity:} Patient success rates vary dramatically (43.5--100\%), with Meisel and Ode showing that fewer than half of patients achieve usable performance. Nasseri (5/6) and Stirling (100\%) demonstrate that responder identification remains a critical challenge.
+
+  \item \textbf{Diary integration:} \parencite{vielufSeizureMonitoringCombined2025} demonstrates that hybrid approaches (wearable + clinical data) may outperform wearables alone, suggesting a direction for ambulatory systems where wearable-only performance is insufficient.
+
+  \item \textbf{Metric heterogeneity:} Inconsistent reporting (sensitivity vs. accuracy vs. AUC vs. IoC) impedes meta-analysis and clinical benchmarking. Key clinical metrics like detection latency and patient success rate are reported by fewer than half of studies.
 \end{enumerate}
