@@ -1,194 +1,66 @@
 \section{Key Findings and Clinical Takeaways}
 
-This section synthesizes the evidence from 13 primary studies and 5 exploratory feasibility studies on wearable seizure detection and forecasting, identifying patterns that inform clinical practice and future research directions.
+This section synthesizes evidence from 13 primary studies on wearable seizure detection and forecasting, identifying patterns that inform clinical practice and future research.
 
 \subsection{Executive Summary}
 
 \begin{itemize}
-  \item \textbf{Current State:} Wearable seizure detection achieves high sensitivity (71--100\%) for convulsive seizures using accelerometry, but false alarm rates remain clinically unacceptable in most studies.
+    \item \textbf{Convulsive seizure detection achieves clinical viability:} Non-EEG biosignals, primarily accelerometry and cardiac modalities, detect convulsive seizures with 71.6--100\% sensitivity. Only two of nine detection studies meet the clinical false alarm rate standard of $<0.5$/h, while ECG-only methods suffer extremely high false alarm rates (1.91--39.75/h).
 
-  \item \textbf{Forecasting Challenge:} Seizure forecasting remains immature, with only 43.5--83\% of patients achieving better-than-chance performance and significant heterogeneity in individual responses.
+    \item \textbf{Seizure forecasting remains immature:} Only 43.5--83\% of patients achieve better-than-chance performance, indicating a fundamental responder problem. Most studies remain at ILAE Phase 1--2 with limited evidence supporting real-world deployment.
 
-  \item \textbf{Best Performing Approaches:} Multimodal sensor fusion (ACC + cardiac) and ensemble deep learning methods show the most promise for clinical translation.
+    \item \textbf{Validation rigor is insufficient:} Only three of 13 studies use prospective validation and only four employ leave-one-subject-out cross-validation, raising concerns about model generalizability and overfitting.
 
-  \item \textbf{Validation Gap:} Only 3 of 13 studies include prospective validation, with most relying on retrospective analyses that may overestimate real-world performance.
+    \item \textbf{False alarms constitute the primary barrier:} Nighttime false alarm rates (1/61 nights) consistently outperform daytime (1/9 days), yet no multimodal study has achieved $<0.5$/h across both sleep and wake states despite evidence that heart rate increases approximately 100 seconds before movement onset.
 \end{itemize}
 
-\subsection{Detection Studies: Performance Landscape}
+\subsection{Detection Performance}
 
-\subsubsection{High-Sensitivity Detectors}
-Table~\ref{tab:detection-performance} summarizes the best-performing detection systems across different seizure types and settings.
+Clinically viable seizure detection remains challenging, with only two approaches achieving false alarm rates (FAR) within the actionable range ($<$0.5/h). Fine (2025) reported the first automated tonic seizure detector, achieving 100\% sensitivity at 0.023/h FAR with 14-second mean latency. Dong (2026) demonstrated that nocturnal monitoring reduces false positives substantially, attaining 71.6\% sensitivity at 0.165/h using CNN-LSTM with attention mechanisms. By contrast, Spahr (2025) achieved 96\% sensitivity for convulsive seizures but required a 30-model ensemble CNN to maintain $<$1/8 nights FAR.
+
+ECG-based detection, despite achieving high sensitivity (98.16\%), consistently fails clinical utility thresholds due to motion artifacts inflating FAR to 1.91--39.75/h. This represents 20--200$\times$ above acceptable limits and renders ECG-only approaches impractical for ambulatory use. The modality effectiveness hierarchy clearly favors accelerometer-based approaches, used in 8 of 13 studies for convulsive seizure detection, while multimodal combinations (ACC + cardiac) show promise for improving specificity.
+
+A critical advantage emerges from temporal context: nighttime monitoring achieves 1/61 nights false alarm rates versus 1/9 days during daytime. Physiological analysis reveals heart rate increases approximately 100 seconds before movement onset, offering a potential detection window. However, offline processing predominates across studies, with validation on embedded devices notably absent.
+
+The detection scope remains restricted to convulsive seizures---tonic-clonic, tonic, and hypermotor variants. Non-motor seizures are largely undetectable with current non-EEG modalities. While deep learning advances now make automated tonic seizure detection feasible, bridging the gap between offline performance and real-time embedded deployment remains the primary barrier to clinical implementation.
+
+\subsection{Forecasting Performance}
+
+The most significant barrier to clinical translation is the responder problem: only a subset of patients achieve usable forecasting performance. When evaluated with rigorous leave-one-subject-out (LOSO) cross-validation, only 43.5\% of patients achieve better-than-chance performance. This represents the most credible performance estimate to date. In contrast, studies employing patient-specific model tuning reported substantially higher success rates, but patient-specific optimization inflates performance by 30--40 percentage points compared to LOSO approaches, creating unrealistic expectations for real-world deployment where prospective tuning is infeasible.
+
+Across successful cases, systems achieved mean warning times of approximately 30 minutes (ranging from 15 seconds to several hours) with AUC values spanning 0.74 to 0.97. The time spent in warning ranged from 14\% to 47\% depending on the alarm threshold. Circadian and multiday cycles emerged as the most reliable predictors, with 100\% hourly forecasting success demonstrated using these patterns in one study. Conversely, wearable-only features failed at daily resolution, as found in multi-center research showing performance depended entirely on diary features rather than sensor data.
+
+The fundamental clinical barrier remains the inability to predict which patients will respond. Higher baseline seizure frequency correlates with poorer forecasting performance, and no validated biomarkers exist for patient selection. Until responder characteristics can be identified prospectively, deep learning forecasting systems cannot be deployed clinically, as clinicians cannot determine which patients will benefit from the intervention.
+
+\subsection{Methodological Trends}
+
+Algorithmic approaches have evolved substantially from 2013 to 2026. Early work relied on traditional machine learning (KNN, SVM, ANN) with handcrafted features extracted from cardiac signals. The period 2016--2019 saw a transition to heart rate variability-based deep learning with MLP and LSTM networks, though patient-specific tuning inflated apparent performance. From 2020--2022, hybrid architectures combining LSTM with convolutional layers emerged, alongside ensemble methods and the introduction of LOSO cross-validation. The current period (2023--2026) features attention-based architectures, matrix profile anomaly detection, and self-attentive autoencoders.
+
+Despite algorithmic sophistication, validation rigor has not kept pace. Only three of 13 studies employed prospective designs, and LOSO cross-validation remains rare. Eleven of 13 studies conducted validation in epilepsy monitoring units under controlled conditions that minimize motion artifacts and environmental noise. The two studies testing systems in home environments both reported performance degradation compared to EMU results.
+
+Metrics reporting lacks standardization, impeding cross-study comparison. False alarm rates appear as per-hour, per-day, or per-night metrics, or are omitted entirely. Patient-level success rates appear in only 6 of 13 studies. No widely adopted benchmark datasets exist beyond EPILEPSIAE.
+
+Emerging technical directions include attention mechanisms for dynamic channel weighting, matrix profile approaches for unsupervised anomaly detection, and ensemble methods with tunable sensitivity thresholds. However, real-world deployment remains elusive: most algorithms run offline on servers rather than embedded devices. Edge optimization has received minimal attention despite being critical for clinical translation, with only one study demonstrating real-time inference on smartwatch hardware.
+
+\subsection{Clinical Takeaways}
+
+Table~\ref{tab:detection-performance} summarizes the best-performing detection systems. Only two approaches achieve clinically acceptable false alarm rates.
 
 \begin{table}[htbp]
 \centering
 \small
 \caption{Highest Performing Detection Studies by Metric}
 \label{tab:detection-performance}
-\begin{tabular}{llccccc}
+\begin{tabular}{llcccc}
 \toprule
-\textbf{Study} & \textbf{Seizure Type} & \textbf{Sensitivity} & \textbf{FAR} & \textbf{Latency} & \textbf{Validation} & \textbf{Ready} \\
+\textbf{Study} & \textbf{Seizure Type} & \textbf{Sens.} & \textbf{FAR} & \textbf{Latency} & \textbf{Validation} \\
 \midrule
-Fine 2025 & Tonic & 100\% & 0.023/h & 14~s & Phase 1 & $\circ$ \\
-Dong 2026 & Nocturnal severe & 71.6\% & 0.165/h & $<$30~s & Prospective & $\bullet$ \\
-Spahr 2025 & Convulsive & 96\% & $<$1/8d & 26~s & Phase 2 & $\bullet$ \\
-Reintjes 2025 & All types & 98.16\% & 1.91/h & -- & Retro & $\circ$ \\
-Borujeny 2013 & Motor & 100\% & 0 & -- & 3-pt & $\circ$ \\
+Fine 2025 & Tonic & 100\% & 0.023/h & 14~s & Phase 1 \\
+Dong 2026 & Nocturnal severe & 71.6\% & 0.165/h & $<$30~s & Prospective \\
+Spahr 2025 & Convulsive & 96\% & $<$1/8d & 26~s & Phase 2 \\
+Reintjes 2025 & All types & 98.16\% & 1.91/h & -- & Retrospective \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\noindent \textbf{Key Finding:} Only two studies (Dong, Fine) achieve false alarm rates approaching clinical targets ($<$0.5/h) while maintaining reasonable sensitivity. The Phase 2 Spahr study demonstrates that multi-center validation is feasible but still shows FAR above clinical targets.
-
-\subsubsection{Clinical Translation Barriers}
-\begin{enumerate}
-  \item \textbf{False Alarm Crisis:} Reintjes et al. report FAR of 1.91--39.75/h, 20--200$\times$ higher than clinically acceptable. This confirms that ECG-only approaches without motion artifact filtering are not viable for standalone deployment.
-
-  \item \textbf{Seizure Type Limitation:} High sensitivity ($>$90\%) is consistently achieved only for convulsive/motor seizures. Non-motor seizures remain largely undetectable by current wearable approaches.
-
-  \item \textbf{Offline Processing:} Most algorithms (Fine, Wang, Singh Rathore) run on offline servers rather than embedded devices, limiting real-time applicability.
-\end{enumerate}
-
-\subsection{Forecasting Studies: The Prediction Challenge}
-
-\subsubsection{Performance Spectrum}
-Forecasting performance varies dramatically across studies and patients (Table~\ref{tab:forecasting-performance}).
-
-\begin{table}[htbp]
-\centering
-\small
-\caption{Forecasting Study Performance Comparison}
-\label{tab:forecasting-performance}
-\begin{tabular}{lccccc}
-\toprule
-\textbf{Study} & \textbf{Metric} & \textbf{Value} & \textbf{TiW} & \textbf{Patient Success} & \textbf{Lead Time} \\
-\midrule
-Meisel 2020 & IoC & 14.1\% & 43.7\% & 43.5\% (30/69) & -- \\
-Nasseri 2021 & AUC-ROC & 0.75 & 0.9--7.2~h/d & 83\% (5/6) & 33~s mean \\
-Stirling 2021 & AUC & 0.74 & -- & 100\% (hourly) & Cyclic HR \\
-Vieluf 2025 & Sensitivity & 82\% & -- & -- & Daily \\
-Ode 2023 & Sensitivity & 74\% & -- & 44\% (29/66) & -- \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\noindent \textbf{Critical Finding:} Only Meisel et al. used true LOSO cross-validation, revealing that patient-specific tuning inflates performance by 30--40 percentage points. Their 43.5\% patient success rate suggests that fewer than half of patients may benefit from current forecasting approaches.
-
-\subsubsection{The Responder Problem}
-\begin{itemize}
-  \item Meisel (2020): 43.5\% significant forecasters
-  \item Ode (2023): 44\% patient success (29/66 with 100\% sensitivity)
-  \item Nasseri (2021): 83\% success (5/6 above chance)
-  \item Stirling (2021): 100\% hourly success but highly variable AUC
-\end{itemize}
-
-\noindent \textbf{Interpretation:} Patient heterogeneity is the fundamental challenge in seizure forecasting. Universal models (Vieluf) may report aggregated performance that masks significant individual variation.
-
-\subsection{Methodological Insights}
-
-\subsubsection{Algorithm Evolution Trajectory}
-\begin{table}[htbp]
-\centering
-\small
-\caption{Evolution of Algorithms in Seizure Detection/Forecasting (2013--2026)}
-\label{tab:algorithm-evolution}
-\begin{tabular}{lll p{6cm}}
-\toprule
-\textbf{Period} & \textbf{Algorithms} & \textbf{Representative Studies} & \textbf{Characteristics} \\
-\midrule
-2013--2015 & KNN, ANN, SVM & Borujeny 2013, Fujiwara 2016 & Handcrafted features, small samples \\
-2016--2019 & HRV-based MLP, LSTM & Yamakawa 2020, Billeci 2018 & Patient-specific tuning emerges \\
-2020--2022 & LSTM+1DConv, Ensembles & Meisel 2020, Stirling 2021 & LOSO validation, multifactor \\
-2023--2026 & CNN+Attention, Matrix Profile, Self-Att AE & Ode 2023, Reintjes 2025, Spahr 2025 & Anomaly detection, attention mechanisms \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsection{Exploratory Studies: Feasibility Evidence}
-
-\subsubsection{Cardiac Signal Viability}
-The five exploratory studies collectively demonstrate that cardiac signals (ECG, HRV, PPG) contain detectable preictal changes:
-
-\begin{itemize}
-  \item \textbf{Pavei 2017:} 94.1\% sensitivity using SVM on HRV dynamics (n=12)
-  \item \textbf{Fujiwara 2016:} 91\% sensitivity using multivariate statistical process control
-  \item \textbf{Leal 2017:} Identified RRMean and BPMMean as most consistent ECG features (n=167)
-  \item \textbf{Jain 2017:} Demonstrated EDA decomposition feasibility for seizure-related autonomic changes
-  \item \textbf{Seth 2023:} Systematic review showing 56--100\% sensitivity range across 24 studies
-\end{itemize}
-
-\noindent \textbf{Synthesis:} Cardiac signals are viable for seizure detection but require sophisticated signal processing to overcome motion artifacts and individual variability.
-
-\subsection{Clinical Recommendations}
-
-\subsubsection{For Current Clinical Practice}
-Based on current evidence, the following recommendations can be made:
-
-\begin{enumerate}
-  \item \textbf{Nocturnal Monitoring:} Dong et al.'s NightWatch system (71.6\% sensitivity, 0.165/h FAR) is the most validated option for home nocturnal monitoring.
-
-  \item \textbf{Tonic Seizures:} Fine et al.'s algorithm (100\% sensitivity, 0.023/h FAR) shows promise for tonic seizure detection but requires Phase 2 validation.
-
-  \item \textbf{EMU Settings:} Spahr et al.'s Phase 2 validated algorithm (96\% sensitivity, $<$1/8d FAR) is appropriate for EMU seizure counting.
-
-  \item \textbf{Avoid:} Standalone ECG-based detection systems (FAR $>$1/h) without confirmation from accelerometry.
-\end{enumerate}
-
-\subsubsection{For Researchers and Developers}
-\begin{enumerate}
-  \item \textbf{Validation Standard:} LOSO cross-validation should be the minimum standard for reporting performance.
-
-  \item \textbf{Metric Reporting:} All studies should report: sensitivity, specificity/PPV, FAR per hour, detection latency, and patient success rate.
-
-  \item \textbf{Interpretability:} SHAP or similar explainable AI frameworks should be incorporated to enable clinical trust and regulatory approval.
-
-  \item \textbf{Responder Identification:} Pre-study characterization of likely responders based on seizure type, HRV reactivity, and other biomarkers.
-\end{enumerate}
-
-\subsection{Limitations of Current Evidence}
-
-\subsubsection{Study Design Limitations}
-\begin{itemize}
-  \item \textbf{Small Samples:} Median n=15--70 patients; most studies underpowered for subgroup analysis
-  \item \textbf{Short Duration:} Median monitoring $<$1 week per patient; rare events (seizures) limit statistical power
-  \item \textbf{Retrospective Bias:} 10/13 studies retrospective; high risk of data leakage and optimistic bias
-  \item \textbf{Setting Bias:} Most studies in EMU; home performance likely worse
-\end{itemize}
-
-\subsubsection{Metric Heterogeneity}
-\begin{itemize}
-  \item Sensitivity vs. accuracy vs. AUC reported inconsistently
-  \item FPR reported as per-hour, per-day, per-night, or not at all
-  \item Patient success rate reported by only 6/13 studies
-  \item No standardized benchmark datasets (except EPILEPSIAE)
-\end{itemize}
-
-\subsection{Future Directions}
-
-\subsubsection{Research Priorities}
-Based on identified gaps, the following research priorities emerge:
-
-\begin{enumerate}
-  \item \textbf{Standardized Metrics:} Develop consensus on minimum reporting standards (ILAE Phase-appropriate metrics)
-
-  \item \textbf{Responder Prediction:} Identify baseline biomarkers that predict which patients will achieve usable forecasting performance
-
-  \item \textbf{Edge Optimization:} More studies like Spahr (1.12~s inference) needed for real-time deployment
-
-  \item \textbf{Personalization at Scale:} Federated learning approaches that enable patient-specific models without data centralization
-
-  \item \textbf{Hybrid Systems:} Combined wearable + diary approaches (Vieluf) that leverage complementary information sources
-\end{enumerate}
-
-\subsubsection{Emerging Technologies}
-\begin{itemize}
-  \item \textbf{Matrix Profile Anomaly Detection:} Reintjes et al. show unsupervised approaches can achieve high sensitivity without seizure-specific training
-  \item \textbf{Self-Attentive Autoencoders:} Ode et al. demonstrate AE approaches for RRI-based forecasting
-  \item \textbf{Attention Mechanisms:} Dong et al. use attention to weight reliable signals and reduce motion artifact impact
-  \item \textbf{Ensemble Deep Learning:} Spahr et al. show ensemble CNN approaches achieve Phase 2 validation
-\end{itemize}
-
-\subsection{Conclusion}
-
-Wearable seizure detection and forecasting have advanced significantly from proof-of-concept studies to Phase 2 clinical validation. Detection of convulsive seizures is now reliable enough for limited clinical use, with two systems (Dong, Fine) achieving false alarm rates compatible with patient adoption. However, seizure forecasting remains an open challenge, with fewer than half of patients achieving better-than-chance performance in LOSO-validated studies.
-
-The path forward requires: (1) rigorous LOSO validation as the standard, (2) standardized metric reporting enabling cross-study comparison, (3) interpretable models that earn clinician trust, and (4) recognition that patient heterogeneity may require personalized approaches rather than universal solutions. The integration of multimodal sensors, attention mechanisms, and explainable AI represents the current state-of-the-art, but clinical translation demands prospective, multi-center validation in real-world settings.
+\noindent For clinicians, Dong et al.'s nocturnal monitoring system represents the most validated option for home use. Fine et al.'s tonic seizure detector shows promise but requires Phase 2 validation. ECG-only approaches should be avoided due to unacceptable false alarm rates. For researchers, LOSO cross-validation should be adopted as the minimum standard for reporting performance, and standardized metrics including patient-level success rates must be reported to enable meaningful comparison across studies.
