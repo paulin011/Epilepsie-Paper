@@ -1,0 +1,51 @@
+\section{Conclusion}
+
+This systematic review examined thirteen studies on wearable seizure detection and forecasting using non-EEG biosignals (2013--2026). The evidence reveals a field at an inflection point: convulsive seizure detection has achieved technical maturity, yet critical barriers prevent widespread clinical adoption.
+
+\subsection{The Translation Gap}
+
+The core finding is a disconnect between algorithmic performance and clinical deployability. While accelerometry-based systems achieve 90--100\% sensitivity for convulsive seizures, only two of nine detection studies approach the ILAE Phase 3 benchmark for validated devices (see Section~\ref{sec:ilae-standards}). More importantly, ECG-based approaches---once considered promising due to preictal heart rate changes---exhibit an inherent trade-off where high sensitivity (96--98\%) requires 13--40~FA/h, while low FAR (0.05--4.2/h) yields only 1.8--61\% sensitivity. No single ECG configuration achieves viable sensitivity with acceptable false alarms.
+
+This pattern suggests that \emph{algorithmic refinement alone may be insufficient}. The field has exhausted substantial gains from architectural innovation (from KNN in 2013 to attention mechanisms in 2026) without commensurate improvements in clinical utility. The problem has shifted from ``can we detect seizures?'' to ``can we deploy detectors that patients will tolerate?''
+
+A fundamental scope limitation remains: non-EEG wearables can detect convulsive seizures but cannot identify non-motor seizures (focal aware, absence, or focal impaired awareness events), which constitute the majority of seizures for many patients. Even a perfectly optimized wearable system would remain incomplete without complementary EEG.
+
+\subsection{The Responder Problem}
+
+The most underappreciated barrier is patient heterogeneity. Leave-one-subject-out validation reveals that only 43.5\% of patients achieve better-than-chance forecasting performance. For detection, patient success rates range from 44\% to 100\% across studies, with no reliable predictors of which patients will respond. Clinicians cannot prescribe wearable monitors with confidence that a given patient will benefit.
+
+The responder problem has two implications rarely acknowledged: (1) aggregated performance metrics are misleading---a system with 80\% mean sensitivity may work perfectly for half of patients and fail completely for the other half; and (2) personalized adaptation may be necessary rather than optional. Federated learning and patient-specific tuning, currently underexplored, warrant prioritization.
+
+\subsection{Validation Infrastructure Deficits}
+
+Methodological weaknesses systematically overestimate real-world performance. Eleven of thirteen studies validate in epilepsy monitoring units, which minimize motion artifacts, data loss, and device displacement. The two studies testing in home environments both reported performance degradation. Additionally, monitoring durations (days to weeks) bias toward common seizure types, while rare events---precisely those most needing detection---remain underrepresented.
+
+The field lacks standardized benchmark datasets. Without open datasets with annotated non-motor seizures, realistic artifact distributions, and multi-center diversity, algorithms cannot be compared meaningfully. The absence of ILAE Phase 3 evidence (large-scale prospective home validation) after more than a decade of research indicates that validation infrastructure, not algorithms, is the bottleneck.
+
+\subsection{The Explainability Gap}
+
+None of the thirteen studies in this review provide interpretable explanations for their detection or forecasting decisions. All employed deep learning ``black box'' models---CNNs, LSTMs, ensemble methods---without exposing which features, time windows, or physiological patterns drive individual predictions. This omission is not merely academic; clinicians cannot recommend systems that cannot explain why an alarm was triggered, and regulatory approval increasingly requires interpretability for safety-critical medical AI.
+
+Recent work demonstrates that explainability is achievable even for complex seizure models. \parencite{gaoInterpretableGeneralizableDeep2024} introduced the first interpretable and generalizable deep learning model for iEEG-based seizure prediction, using prototype learning to trace prediction origins to specific patient-level patterns. \parencite{khanExplainableFuzzyDeep2024} combined fuzzy logic with deep learning to provide interpretable rules for EEG-based seizure prediction. \parencite{vieiraUsingExplainableArtificial2023} demonstrated that XAI methods can simultaneously reduce the number of required EEG channels while maintaining performance---a dual benefit for wearable deployment.
+
+For wearable systems specifically, \parencite{halimehExplainableAIWearable2023} developed explainable AI for seizure logging, showing that data quality, patient age, and antiseizure medication significantly affect interpretability. \parencite{germinoMixtureCheckpointExperts2025} proposed a mixture-of-experts approach for explainable seizure detection using wearables, while \parencite{shaoApplicationDeconvolutionalNetworks2025} applied deconvolutional networks to visualize which features drive epilepsy detection decisions. Systematic reviews by \parencite{gurmessaComprehensiveEvaluationInterpretable2025} and \parencite{zhaoEpilepticSeizureDetection2023} confirm that interpretable methods can match black-box performance while providing clinical transparency.
+
+The absence of explainability in the reviewed wearable studies represents a missed opportunity. Interpretability serves three clinical functions: (1) building trust between clinicians, patients, and AI systems; (2) enabling error analysis when false alarms occur; and (3) supporting regulatory approval by providing safety assurances. Future wearable seizure monitors must prioritize interpretable architectures over opaque accuracy gains.
+
+\subsection{Research Priorities}
+
+Based on identified gaps, four priorities warrant immediate attention:
+
+\begin{enumerate}
+  \item \textbf{Standardized reporting benchmarks.} Minimum requirements should include patient-level confusion matrices, latency distributions, and false alarm rates in consistent units. A community-agreed benchmark dataset with realistic artifact profiles would enable algorithm comparison on equal footing.
+
+  \item \textbf{Responder identification.} Research must identify baseline biomarkers (electroclinical, autonomic, or demographic) that predict which patients will achieve usable performance with wearable monitoring. Without this, clinical adoption remains trial-and-error.
+
+  \item \textbf{Interpretable architectures.} Future systems must employ explainable approaches---prototype learning, fuzzy deep learning, attention mechanisms with visualization, or mixture-of-experts---that provide clinical transparency without sacrificing detection performance. Black-box models that cannot explain their decisions face barriers to clinical trust and regulatory approval.
+
+  \item \textbf{Edge optimization and personalization.} Current algorithms predominantly run offline on servers. Real-world deployment requires lightweight architectures, model compression, and on-device learning for patient-specific adaptation without data centralization.
+\end{enumerate}
+
+\subsection{The Path Forward}
+
+The field has demonstrated that wearable seizure detection is \emph{technically feasible}. The remaining challenge is \emph{clinical implementation}. Success requires shifting focus from incremental accuracy improvements to solving the responder problem, reducing false alarms to tolerable levels, and validating systems in the environments where they will actually be used. Without this shift, wearable seizure monitoring risks becoming a technology that works in principle but cannot be prescribed in practice.

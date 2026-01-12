@@ -26,7 +26,9 @@
 \contentsline {subsection}{\numberline {6.4}Methodological Trends}{15}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Clinical Takeaways}{16}{subsection.6.5}%
 \contentsline {section}{\numberline {7}Conclusion}{16}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Current State of the Field}{16}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Methodological Evolution}{17}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Barriers to Clinical Translation}{18}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Future Directions}{19}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.1}The Translation Gap}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}The Responder Problem}{17}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Validation Infrastructure Deficits}{17}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}The Explainability Gap}{17}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Research Priorities}{18}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}The Path Forward}{18}{subsection.7.6}%

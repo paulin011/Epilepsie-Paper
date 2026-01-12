@@ -25,7 +25,7 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 \textbf{Spahr et al. 2025} & Convulsive multi-center DET& Prospective & n=384, 49 CSs & Empatica E4 (ACC) & Wrist & Ensemble 1D CNN & 96\% & -- & $<$1/8d & EMU, offline \\
 \addlinespace
 
-\textbf{Reintjes et al. 2025} & ECG anomaly DET & Retro & n=120, 856 szs & Single-lead ECG & Chest & Matrix Profile & 98.16\% & -- & 1.91/h & High FAR \\
+\textbf{Reintjes et al. 2025} & ECG anomaly DET & Retro & n=120, 856 szs & Single-lead ECG & Chest & Matrix Profile & 98.16\%/38.0\% & -- & 1.91--39.8/h & Severe sens/FAR trade-off \\
 \addlinespace
 
 \textbf{Fine 2025} & Tonic DET & Phase 1 & n=15/3 & 6-axis band & Wrist & ANN (594 feat) & 100\% & -- & 0.23/n; 0.023/h & Small test, Possible overfitting \\
@@ -93,7 +93,7 @@ Table~\ref{tab:detailed-metrics} presents additional clinically relevant metrics
 \addlinespace
 
 \textbf{Spahr et al. 2025} & Indep. test (347 pt) & 26~s median & -- & -- & HMS 92.6 & Phase 2; 2 CSs missed \\
-\textbf{Reintjes et al. 2025} & Retro (SeizeIT2) & -- & Responders only & -- & HMS 92.6 & FAR $\gg$ clinical target \\
+\textbf{Reintjes et al. 2025} & Retro (SeizeIT2) & -- & 55.6\% responders & -- & HMS 86.8 (sens-opt) & HMS 57.4 (FAR-opt) \\
 \textbf{Fine 2025} & Indep. test (3 pt) & 14~s mean & -- & -- & 95\% CI: 69--100 & Phase 1 only \\
 \textbf{Dong et al. 2026} & 10-fold CV & $<$30~s & -- & -- & AUC 0.793 & First long-term home \\
 \textbf{Wang et al. 2025} & Hospital retro & -- & 7/22 pts & 83--87\% & Acc 97.8\% & Single hospital \\
@@ -183,7 +183,7 @@ IoC / Time in Warning & 0/9 & 2/4 & Meisel, Nasseri \\
 The concept matrix and detailed metrics reveal several patterns:
 
 \begin{enumerate}
-  \item \textbf{Clinical translation gap:} Despite high sensitivities ($>$90\% in several detection studies), FPR remains clinically unacceptable for standalone deployment. Only Dong et al. (0.165/h) and Fine (0.023/h) achieve FARs approaching clinical targets ($<$0.1--0.5/h) \parencite{beniczkyStandardsTestingClinical2018}.
+  \item \textbf{Clinical translation gap:} Despite high sensitivities ($>$90\% in several detection studies), FPR remains clinically unacceptable for standalone deployment. Only Dong et al. (0.165/h) and Fine (0.023/h) approach the ILAE Phase 3 benchmark for validated devices (see Section~\ref{sec:ilae-standards}).
 
   \item \textbf{Personalization vs. generalization:} LOSO approaches achieve lower but more realistic performance (51.2\% sensitivity, 43.5\% patient success) compared to patient-specific tuning. Meisel et al.'s LOSO CV results suggest that aggregated performance metrics may overestimate real-world utility.
 

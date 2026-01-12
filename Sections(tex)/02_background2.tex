@@ -63,21 +63,35 @@ Consequently, detection strategies combine these biosignals according to target 
 with multimodal fusion providing the most robust approach for ambulatory monitoring.
 
 \subsection{Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}
-The clinical validity of a seizure detection algorithm is determined by the rigor of 
-its evaluation, formalized in the ILAE's phased framework (Phases 0–4) 
-\parencite{beniczkyAutomatedSeizureDetection2021}. 
-Retrospective studies (Phases 0-2), while foundational, 
-risk significant data leakage and optimistic bias if they use non-chronological data splits, 
-allowing future information to inform training 
-\parencite{kalousiosECGbasedEpilepticSeizure2024, wongEEGDatasetsSeizure2023}. 
-Pseudo-prospective validation addresses this by enforcing chronological order, 
-training only on past seizures to test on subsequent ones, 
-providing a more realistic performance estimate 
-\parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}. 
-The clinical gold standard is a prospective trial (Phase 3), 
-which requires a locked algorithm, a video-EEG reference standard, 
-and testing on new, unseen data from multiple centers. 
-The final step is in-field evaluation (Phase 4) in patients' homes, 
-where metrics like the false alarm rate per hour (FAR/h) become decisive for practical usability, 
-as demonstrated by long-term studies like Nightwatch 
+\label{sec:ilae-standards}
+
+The clinical validity of a seizure detection algorithm is determined by the rigor of
+its evaluation, formalized in the ILAE's phased framework (Phases 0--4)
+\parencite{beniczkyStandardsTestingClinical2018, beniczkyAutomatedSeizureDetection2021}.
+This framework classifies studies into five phases: Phase 0 (proof of concept), Phase 1 (retrospective, small sample), Phase 2 (minimum 10 patients with seizures, 15 recorded seizures), Phase 3 (prospective, multicenter, $\ge$30 seizures from $\ge$20 patients, real-time detection), and Phase 4 (real-world home validation).
+
+Retrospective studies (Phases 0--2), while foundational,
+risk significant data leakage and optimistic bias if they use non-chronological data splits,
+allowing future information to inform training
+\parencite{kalousiosECGbasedEpilepticSeizure2024, wongEEGDatasetsSeizure2023}.
+Pseudo-prospective validation addresses this by enforcing chronological order,
+training only on past seizures to test on subsequent ones,
+providing a more realistic performance estimate
+\parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}.
+
+The clinical gold standard is a prospective trial (Phase 3),
+which requires a locked algorithm, a video-EEG reference standard,
+and testing on new, unseen data from multiple centers.
+The ILAE systematic review identified only three Phase 3 studies meeting these rigorous validation standards
+\parencite{beniczkyAutomatedSeizureDetection2021}.
+These demonstrated 90--96\% sensitivity for generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) with false alarm rates of 0.2--0.67 per 24 hours (approximately 0.008--0.028/h). This represents the clinically validated performance benchmark for convulsive seizure detection.
+
+What constitutes an acceptable false alarm rate depends on clinical context and user perspective. Systematic surveys reveal important differences in tolerance: patients and caregivers typically require 100\% sensitivity and accept approximately one false alarm per seizure (or one per week for seizure-free patients). In contrast, clinicians consider 90\% sensitivity adequate and tolerate between two false alarms per week and one per month, depending on seizure frequency. This gap between user and clinician expectations creates a fundamental tension for device development.
+
+The final step is in-field evaluation (Phase 4) in patients' homes,
+where metrics like the false alarm rate per hour (FAR/h) become decisive for practical usability,
+as demonstrated by long-term studies like Nightwatch
 \parencite{mironAutonomicBiosignalsSeizure2025, shumCommerciallyAvailableSeizure2021}.
+
+Currently, the ILAE recommends wearable devices only for GTCS/FBTCS detection in unsupervised patients where alarms can enable rapid intervention---a weak/conditional recommendation based on moderate evidence. For all other seizure types, the ILAE does not recommend clinical use of currently available wearable devices
+\parencite{beniczkyAutomatedSeizureDetection2021}.
