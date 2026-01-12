@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  9 JAN 2026 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  12 JAN 2026 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,7 +880,7 @@ File: prisma.pdf Graphic file (type pdf)
 <use prisma.pdf>
 Package pdftex.def Info: prisma.pdf  used on input line 57.
 (pdftex.def)             Requested size: 455.24411pt x 452.20964pt.
-) (./Sections(tex)/06_Study_Comparison.tex
+) (./Sections(tex)/04_Study_Comparison.tex
 
 [7]
 
@@ -934,7 +934,7 @@ Overfull \hbox (3.58849pt too wide) in paragraph at lines 190--191
 []\T1/lmr/bx/n/12 Patient-level het-ero-gene-ity: \T1/lmr/m/n/12 Pa-tient suc-cess rates vary dra-mat-i-cally (43.5--100%),
  []
 
-) (./Sections(tex)/07_Findings_and_Takeaways.tex
+) (./Sections(tex)/05_Findings_and_Takeaways.tex
 
 [13]
 
@@ -950,7 +950,7 @@ Overfull \hbox (7.93314pt too wide) in paragraph at lines 43--44
 
 
 
-[15]) (./Sections(tex)/09_Conclusion.tex
+[15]) (./Sections(tex)/06_Conclusion.tex
 Overfull \hbox (3.34845pt too wide) in paragraph at lines 9--10
 []\T1/lmr/m/n/12 Seizure fore-cast-ing ex-hibits markedly less ma-tu-rity than de-tec-tion. Across four prospec-
  []
