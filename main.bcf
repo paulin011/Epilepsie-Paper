@@ -3113,6 +3113,15 @@
     <bcf:citekey order="25" intorder="2">nasseriAmbulatorySeizureForecasting2021</bcf:citekey>
     <bcf:citekey order="26" intorder="1">beniczkyStandardsTestingClinical2018</bcf:citekey>
     <bcf:citekey order="27" intorder="1">vielufSeizureMonitoringCombined2025</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">fineDetectionKeyAutomated2025</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">dongDetectionNocturnalEpileptic2026</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">spahrDeepLearningbasedDetection2025</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">fineDetectionKeyAutomated2025</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">dongDetectionNocturnalEpileptic2026</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">spahrDeepLearningbasedDetection2025</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">reintjesECGBasedDetectionEpileptic2025</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">dongDetectionNocturnalEpileptic2026</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">fineDetectionKeyAutomated2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
