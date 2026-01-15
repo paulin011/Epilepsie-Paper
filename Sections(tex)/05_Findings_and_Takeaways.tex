@@ -1,13 +1,13 @@
 \section{Key Findings and Clinical Takeaways}
 
-This section synthesizes evidence from 13 primary studies on wearable seizure detection and forecasting, identifying patterns that inform clinical practice and future research.
+This section combines evidence from 13 primary studies on wearable seizure detection and forecasting, identifying patterns that inform clinical practice and future research.
 
 \subsection{Executive Summary}
 
 \begin{itemize}
     \item \textbf{Convulsive seizure detection achieves clinical viability:} Non-EEG biosignals, primarily accelerometry, detect convulsive seizures with 71.6-100\% sensitivity. Relative to the ILAE Phase 3 benchmark (see Section~\ref{sec:ilae-standards}), ECG-only methods exhibit a severe sensitivity-FAR trade-off where high sensitivity (96-98\%) requires 13-40~FA/h, while low FAR (0.05-4.2/h) yields only 1.8-61\% sensitivity. No ECG configuration achieves viable sensitivity with acceptable FAR.
 
-    \item \textbf{Seizure forecasting remains immature:} Only 43.5-83\% of patients achieve better-than-chance performance, indicating a fundamental responder problem. Most studies remain at ILAE Phase 1-2 with limited evidence supporting real-world deployment.
+    \item \textbf{Seizure forecasting remains immature:} Only 43.5-83\% of patients achieve better-than-chance performance, indicating a basic responder problem. Most studies remain at ILAE Phase 1-2 with limited evidence supporting real-world deployment.
 
     \item \textbf{Validation rigor is insufficient:} Only three of 13 studies use prospective validation and only four employ leave-one-subject-out cross-validation, raising concerns about model generalizability and overfitting.
 
@@ -20,17 +20,17 @@ Clinically viable seizure detection remains challenging, with only two approache
 
 ECG-based detection demonstrates a severe sensitivity-FAR trade-off that renders it clinically impractical for standalone deployment. \parencite{reintjesECGBasedDetectionEpileptic2025} comprehensively evaluated three anomaly detection methods on the SeizeIT2 dataset (n=120, 856 seizures), revealing that high sensitivity and low FAR are mutually exclusive configurations. In the sensitivity-optimized setting, Matrix Profile achieved 98.16\% sensitivity at 13.90~FA/h, while its FAR-optimized configuration dropped to 38.04\% sensitivity at 1.91~FA/h. TimeVQVAE-AD showed a similar pattern: 96.43\% sensitivity at 39.75~FA/h versus 61.09\% sensitivity at 4.22~FA/h. Even the most conservative approach (MADRID FAR-optimized) achieved only 1.80\% sensitivity while maintaining 0.05~FA/h. These false alarm rates remain orders of magnitude above the ILAE Phase 3 benchmark (see Section~\ref{sec:ilae-standards}), and no single configuration simultaneously achieves viable sensitivity with acceptable FAR.
 
-A critical advantage emerges from temporal context: nighttime monitoring achieves 1/61 nights false alarm rates versus 1/9 days during daytime. Physiological analysis reveals heart rate increases approximately 100 seconds before movement onset, offering a potential detection window. However, offline processing predominates across studies, with validation on embedded devices notably absent.
+A key advantage emerges from temporal context: nighttime monitoring achieves 1/61 nights false alarm rates versus 1/9 days during daytime. Physiological analysis reveals heart rate increases approximately 100 seconds before movement onset, offering a potential detection window. However, offline processing predominates across studies, with validation on embedded devices notably absent.
 
-The detection scope remains restricted to convulsive seizures---tonic-clonic, tonic, and hypermotor variants. Non-motor seizures are largely undetectable with current non-EEG modalities. While deep learning advances now make automated tonic seizure detection feasible, bridging the gap between offline performance and real-time embedded deployment remains the primary barrier to clinical implementation.
+The detection scope remains restricted to convulsive seizures-tonic-clonic, tonic, and hypermotor variants. Non-motor seizures are largely undetectable with current non-EEG modalities. While deep learning advances now make automated tonic seizure detection feasible, bridging the gap between offline performance and real-time embedded deployment remains the primary barrier to clinical implementation.
 
 \subsection{Forecasting Performance}
 
-The most significant barrier to clinical translation is the responder problem: only a subset of patients achieve usable forecasting performance. When evaluated with rigorous leave-one-subject-out (LOSO) cross-validation, only 43.5\% of patients achieve better-than-chance performance. This represents the most credible performance estimate to date. In contrast, studies employing patient-specific model tuning reported substantially higher success rates, but patient-specific optimization inflates performance by 30--40 percentage points compared to LOSO approaches, creating unrealistic expectations for real-world deployment where prospective tuning is infeasible.
+The most significant barrier to clinical translation is the responder problem: only a subset of patients achieve usable forecasting performance. When evaluated with rigorous leave-one-subject-out (LOSO) cross-validation, only 43.5\% of patients achieve better-than-chance performance. This represents the most credible performance estimate to date. In contrast, studies employing patient-specific model tuning reported substantially higher success rates, but patient-specific optimization inflates performance by 30-40 percentage points compared to LOSO approaches, creating unrealistic expectations for real-world deployment where prospective tuning is infeasible.
 
 Across successful cases, systems achieved mean warning times of approximately 30 minutes (ranging from 15 seconds to several hours) with AUC values spanning 0.74 to 0.97. The time spent in warning ranged from 14\% to 47\% depending on the alarm threshold. Circadian and multiday cycles emerged as the most reliable predictors, with 100\% hourly forecasting success demonstrated using these patterns in one study. Conversely, wearable-only features failed at daily resolution, as found in multi-center research showing performance depended entirely on diary features rather than sensor data.
 
-The fundamental clinical barrier remains the inability to predict which patients will respond. Higher baseline seizure frequency correlates with poorer forecasting performance, and no validated biomarkers exist for patient selection. Until responder characteristics can be identified prospectively, deep learning forecasting systems cannot be deployed clinically, as clinicians cannot determine which patients will benefit from the intervention.
+The main clinical barrier remains the inability to predict which patients will respond. Higher baseline seizure frequency correlates with poorer forecasting performance, and no validated biomarkers exist for patient selection. Until responder characteristics can be identified prospectively, deep learning forecasting systems cannot be deployed clinically, as clinicians cannot determine which patients will benefit from the intervention.
 
 \subsection{Methodological Trends}
 
@@ -40,7 +40,7 @@ Despite algorithmic sophistication, validation rigor has not kept pace. Only thr
 
 Metrics reporting lacks standardization, impeding cross-study comparison. False alarm rates appear as per-hour, per-day, or per-night metrics, or are omitted entirely. Patient-level success rates appear in only 6 of 13 studies. No widely adopted benchmark datasets exist beyond EPILEPSIAE.
 
-Emerging technical directions include attention mechanisms for dynamic channel weighting, matrix profile approaches for unsupervised anomaly detection, and ensemble methods with tunable sensitivity thresholds. However, real-world deployment remains elusive: most algorithms run offline on servers rather than embedded devices. Edge optimization has received minimal attention despite being critical for clinical translation, with only one study demonstrating real-time inference on smartwatch hardware.
+Emerging technical directions include attention mechanisms for dynamic channel weighting, matrix profile approaches for unsupervised anomaly detection, and ensemble methods with tunable sensitivity thresholds. However, real-world deployment remains elusive: most algorithms run offline on servers rather than embedded devices. Edge optimization has received minimal attention despite being vital for clinical translation, with only one study demonstrating real-time inference on smartwatch hardware.
 
 \subsection{Clinical Takeaways}
 
