@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Study design results"
             }
+          },
+          {
+            "id": "4d0d635fe263ef32",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -224,7 +236,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8c21b42c017b9d95",
+  "active": "4d0d635fe263ef32",
   "lastOpenFiles": [
     "Study design results.md",
     "beniczkyAutomatedSeizureDetection2021a.md",
