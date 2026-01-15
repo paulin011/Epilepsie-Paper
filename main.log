@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  12 JAN 2026 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  15 JAN 2026 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -679,30 +679,30 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 68.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count450
@@ -756,7 +756,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 66.
+Package hyperref Info: Link coloring ON on input line 68.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -791,35 +791,35 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 66.
-Package biblatex Info: Reference segment=0 on input line 66.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 69.
+Package biblatex Info: Reference section=0 on input line 68.
+Package biblatex Info: Reference segment=0 on input line 68.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 71.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 69.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 71.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 69.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 71.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 69.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 71.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 69.
+(Font)              <14.4> on input line 71.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 69.
+(Font)              <10> on input line 71.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 69.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+(Font)              <7> on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./main.toc
@@ -840,11 +840,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  (./Sections(tex)/01_introduction3.tex) (./Sections(tex)/00_Abstract.tex
 
 [2]
-Overfull \hbox (4.13214pt too wide) in paragraph at lines 12--13
-[]\T1/lmr/m/n/12 Seizure fore-cast-ing re-mains im-ma-ture. When eval-u-ated with rig-or-ous leave-one-subject-
- []
-
-
 Overfull \hbox (14.6119pt too wide) in paragraph at lines 12--13
 \T1/lmr/m/n/12 out cross-validation, only 43.5% of pa-tients achieve better-than-chance per-for-mance. Patient-
  []
@@ -941,8 +936,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-Overfull \hbox (3.58849pt too wide) in paragraph at lines 190--191
-[]\T1/lmr/bx/n/12 Patient-level het-ero-gene-ity: \T1/lmr/m/n/12 Pa-tient suc-cess rates vary dra-mat-i-cally (43.5--100%),
+Overfull \hbox (1.63017pt too wide) in paragraph at lines 190--191
+[]\T1/lmr/bx/n/12 Patient-level het-ero-gene-ity: \T1/lmr/m/n/12 Pa-tient suc-cess rates vary dra-mat-i-cally (43.5-100%),
  []
 
 ) (./Sections(tex)/05_Findings_and_Takeaways.tex
@@ -950,20 +945,15 @@ Overfull \hbox (3.58849pt too wide) in paragraph at lines 190--191
 [13]
 
 [14]
-Overfull \hbox (0.24796pt too wide) in paragraph at lines 41--42
-[]\T1/lmr/m/n/12 Metrics re-port-ing lacks stan-dard-iza-tion, im-ped-ing cross-study com-par-i-son. False alarm
- []
 
-
-
-[15]
-Overfull \hbox (7.93314pt too wide) in paragraph at lines 43--44
-[]\T1/lmr/m/n/12 Emerging tech-ni-cal di-rec-tions in-clude at-ten-tion mech-a-nisms for dy-namic chan-nel weight-
- []
-
-) (./Sections(tex)/06_Conclusion2.tex
+[15]) (./Sections(tex)/06_Conclusion2.tex
 
 [16]
+Overfull \hbox (4.77203pt too wide) in paragraph at lines 11--12
+[]\T1/lmr/m/n/12 A fun-da-men-tal scope lim-i-ta-tion re-mains: non-EEG wear-ables can de-tect con-vul-sive seizures
+ []
+
+
 
 [17]
 Overfull \hbox (13.90663pt too wide) in paragraph at lines 44--45
@@ -973,14 +963,14 @@ Overfull \hbox (13.90663pt too wide) in paragraph at lines 44--45
 )
 
 [18]
-
-[19]
-Overfull \hbox (20.61243pt too wide) in paragraph at lines 86--86
+Overfull \hbox (20.61243pt too wide) in paragraph at lines 88--88
 \T1/lmr/m/it/12 tion: A Re-view of ECG-Based Ap-proaches\T1/lmr/m/n/12 . 2025040942. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 20944 / preprints202504 .
  []
 
 
-Overfull \hbox (44.52435pt too wide) in paragraph at lines 86--86
+
+[19]
+Overfull \hbox (44.52435pt too wide) in paragraph at lines 88--88
 \T1/lmr/m/n/12 sys-tem-atic re-view. \T1/lmr/m/it/12 Dig-i-tal Health\T1/lmr/m/n/12 , \T1/lmr/m/it/12 11\T1/lmr/m/n/12 , 20552076251325411. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 1177 / 20552076251325411$[][]
  []
 
@@ -1004,16 +994,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  23046 strings out of 475118
  411409 string characters out of 5764903
- 1407242 words of memory out of 5000000
+ 1407249 words of memory out of 5000000
  45575 multiletter control sequences out of 15000+600000
  632962 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,102p,3069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (22 pages, 318177 bytes).
+Output written on main.pdf (22 pages, 317391 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 578 compressed objects within 6 object streams
+ 635 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
  138 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
