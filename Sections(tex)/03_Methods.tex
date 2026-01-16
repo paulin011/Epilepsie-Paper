@@ -7,18 +7,18 @@ transparent extraction and synthesis procedures as outlined below.
 \begin{enumerate}
   \item \textbf{Search strategy (Multi-stage, 2015-2025):}
     \begin{itemize}
-      \item \textit{Scoping:} Google Scholar for broad coverage and
+      \item \textbf{Scoping:} Google Scholar for broad coverage and
         identifying candidate papers.
-      \item \textit{Formal queries:} IEEE Xplore, PubMed, and Scopus
+      \item \textbf{Formal queries:} IEEE Xplore, PubMed, and Scopus
         using controlled keyword strings and deduplication.
-      \item \textit{Citation chasing:} Backward and forward citation
+      \item \textbf{Citation chasing:} Backward and forward citation
         tracking on key papers to ensure completeness.
     \end{itemize}
   \item \textbf{Inclusion / Exclusion criteria:}
     \begin{itemize}
-      \item \textit{Inclusion:} Studies using wearable/non-EEG autonomic
+      \item \textbf{Inclusion:} Studies using wearable/non-EEG autonomic
         signals for seizure detection or preictal prediction.
-      \item \textit{Exclusion:} EEG-only studies, invasive recordings,
+      \item \textbf{Exclusion:} EEG-only studies, invasive recordings,
         or papers limited to purely algorithmic simulations without
         human data.
     \end{itemize}
@@ -26,23 +26,46 @@ transparent extraction and synthesis procedures as outlined below.
 
 
 
-Extracted dimensions populate a concept matrix with the following
+Extracted dimensions populate two concept matrix tables with the following
 fields:
 \begin{enumerate}
-  \item Setting: clinical vs ambulatory.
-  \item Modality: ECG/HRV, PPG, EDA, ACC.
-  \item Task: detection vs prediction.
-  \item Model class and fusion strategy.
-  \item Study phase: retrospective, pseudo‑prospective, prospective.
-  \item Evaluation granularity: sample‑ vs alarm‑based.
-  \item Windowing specifics (window length, stride, overlap).
-  \item Metrics: sensitivity, FAR/h, AUC, f1-score, latency.
-  \item Personalization.
-  \item Interpretability and safety considerations.
-  \item Data characteristics and dataset identity.
-  \item Missing data handling (imputation, exclusion) and synthetic data use.
-  \item Inference requirements (latency, computational load, hardware).
+  \item \textbf{Study Matrix (Table~\ref{tab:study-matrix}):}
+  \begin{itemize}
+    \item Study identification (author, year)
+    \item Objective (detection vs forecasting, seizure type)
+    \item Design (prospective, retrospective, pseudo‑prospective, LOSO CV)
+    \item Sample (participant count, seizure count)
+    \item Device and sensor location
+    \item Algorithm architecture
+    \item Performance metrics (sensitivity, specificity, FPR)
+    \item Key limitations
+  \end{itemize}
+  \item \textbf{Detailed Metrics Matrix (Table~\ref{tab:detailed-metrics}):}
+  \begin{itemize}
+    \item Validation approach (independent test, cross‑validation, LOSO)
+    \item Detection latency
+    \item Patient‑level success rate
+    \item Precision/PPV
+    \item Additional clinical metrics (HMS, IoC, AUC, F1)
+    \item Clinical notes
+  \end{itemize}
 \end{enumerate}
+
+\noindent\textbf{Additional Extracted Dimensions:}
+The following dimensions were extracted and analyzed to inform the narrative synthesis and dimensional analysis presented in Section~\ref{sec:study-comparison}, complementing the tabular comparison:
+\begin{itemize}
+  \item Setting (clinical vs ambulatory)
+  \item Modality details (ECG/HRV, PPG, EDA, ACC)
+  \item Evaluation granularity (sample‑ vs alarm‑based)
+  \item Windowing specifics (window length, stride, overlap)
+  \item Personalization strategies
+  \item Interpretability and safety considerations
+  \item Data characteristics and dataset identity
+  \item Missing data handling (imputation, exclusion) and synthetic data use
+  \item Inference requirements (latency, computational load, hardware)
+\end{itemize}
+
+This two‑table approach follows Webster \& Watson's concept matrix methodology \parencite{websterAnalyzingPrepareFuture2002}, balancing comprehensive data extraction with readable summary tables while enabling detailed dimensional analysis in the narrative synthesis.
 
 \noindent\textbf{Prioritization Criteria:}
 Studies including splits preserving patient-specific data, FAR/h reporting
