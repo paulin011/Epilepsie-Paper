@@ -28,7 +28,7 @@ Study & Objective & Design & Sample & Device & Loc. & Algorithm & Sens & Spec & 
 \textbf{Reintjes et al. 2025} & ECG anomaly DET & Retro & n=120, 856 szs & Single-lead ECG & Chest & Matrix Profile & 98.16\%/38.0\% & -- & 1.91--39.8/h & Severe sens/FAR trade-off \\
 \addlinespace
 
-\textbf{Fine 2025} & Tonic DET & Phase 1 & n=15/3 & 6-axis band & Wrist & ANN (594 feat) & 100\% & -- & 0.23/n; 0.023/h & Small test, Possible overfitting \\
+\textbf{Fine 2025} & Tonic DET & Phase 1 & n=15/3 & 6-axis band & Wrist & ANN (594 feat) & 100\% & -- & 0.23/n, 0.023/h & Small test, Possible overfitting \\
 \addlinespace
 
 \textbf{Dong et al. 2026} & Nocturnal severe szs & Prospective & n=68, 1846 szs & NightWatch & Arm & CNN-LSTM & 71.6\% & -- & 0.165/h & Single-center \\
@@ -92,7 +92,7 @@ Table~\ref{tab:detailed-metrics} presents additional clinically relevant metrics
 \textbf{Detection Studies} \\
 \addlinespace
 
-\textbf{Spahr et al. 2025} & Indep. test (347 pt) & 26~s median & -- & -- & HMS 92.6 & Phase 2; 2 CSs missed \\
+\textbf{Spahr et al. 2025} & Indep. test (347 pt) & 26~s median & -- & -- & HMS 92.6 & Phase 2, 2 CSs missed \\
 \textbf{Reintjes et al. 2025} & Retro (SeizeIT2) & -- & 55.6\% responders & -- & HMS 86.8 (sens-opt) & HMS 57.4 (FAR-opt) \\
 \textbf{Fine 2025} & Indep. test (3 pt) & 14~s mean & -- & -- & 95\% CI: 69--100 & Phase 1 only \\
 \textbf{Dong et al. 2026} & 10-fold CV & $<$30~s & -- & -- & AUC 0.793 & First long-term home \\
@@ -115,7 +115,7 @@ Table~\ref{tab:detailed-metrics} presents additional clinically relevant metrics
 }
 \par\medskip
 \footnotesize
-\textbf{Note:} CV = cross-validation; HMS = Harmonic Mean Score (Sensitivity~$-$~0.4$\times$FAR); IoC = Improvement over Chance; LOSO = leave-one-subject-out; Indep. = independent; Responders = patients with $>$50~BPM HR change during seizures; HMS = Sensitivity~$-$~0.4$\times$FAR~\parencite{beniczkyStandardsTestingClinical2018}; Patient Success = proportion achieving better-than-chance or usable performance.
+\textbf{Note:} CV = cross-validation, HMS = Harmonic Mean Score (Sensitivity~$-$~0.4$\times$FAR), IoC = Improvement over Chance, LOSO = leave-one-subject-out, Indep. = independent, Responders = patients with $>$50~BPM HR change during seizures, HMS = Sensitivity~$-$~0.4$\times$FAR~\parencite{beniczkyStandardsTestingClinical2018}, Patient Success = proportion achieving better-than-chance or usable performance.
 \end{table}
 \end{landscape}
 
@@ -139,7 +139,7 @@ Table~\ref{tab:detailed-metrics} presents additional clinically relevant metrics
 \begin{itemize}
   \item \textbf{Patient-level preservation:} Only 4 studies use LOSO or patient-independent splits.
   \item \textbf{Prospective validation:} Only 3 studies \parencite{spahrDeepLearningbasedDetection2025,dongTwoLayerEnsembleMethod2022,elemamAutomatedValidatedTool2025} include prospective phases.
-  \item \textbf{Real-world testing:} Limited to 2 studies \parencite{vielufSeizureMonitoringCombined2025,nasseriAmbulatorySeizureForecasting2021}; most remain in EMU settings.
+  \item \textbf{Real-world testing:} Limited to 2 studies \parencite{vielufSeizureMonitoringCombined2025,nasseriAmbulatorySeizureForecasting2021}, with most remaining in EMU settings.
 \end{itemize}
 
 \subsubsection{Performance Metrics Reporting}

@@ -14,7 +14,7 @@ A fundamental scope limitation remains: non-EEG wearables can detect convulsive 
 
 The most underappreciated barrier is patient heterogeneity. Leave-one-subject-out validation reveals that only 43.5\% of patients achieve better-than-chance forecasting performance. For forecasting, patient success rates range from 43.5\% to 100\% across studies, with no reliable predictors of which patients will respond. Clinicians cannot prescribe wearable monitors with confidence that a given patient will benefit.
 
-The responder problem has two implications rarely acknowledged: (1) aggregated performance metrics are misleading - a system with 80\% mean sensitivity may work perfectly for half of patients and fail completely for the other half and (2) personalized adaptation may be necessary rather than optional. Federated learning and patient-specific tuning, currently underexplored, warrant prioritization.
+The responder problem has two implications rarely acknowledged. First, aggregated performance metrics are misleading. A system with 80\% mean sensitivity may work perfectly for half of patients and fail completely for the other half. Second, personalized adaptation may be necessary rather than optional. Federated learning and patient-specific tuning, currently underexplored, warrant prioritization.
 
 \subsection{Validation Infrastructure Deficits}
 
@@ -24,13 +24,13 @@ The field lacks standardized benchmark datasets. Without open datasets with anno
 
 \subsection{The Explainability Gap}
 
-None of the thirteen studies in this review provide interpretable explanations for their detection or forecasting decisions. Most employed deep learning "black box" models - CNNs, LSTMs, ensemble methods - without exposing which features, time windows, or physiological patterns drive individual predictions. This omission is not merely academic; clinicians cannot recommend systems that cannot explain why an alarm was triggered, and regulatory approval increasingly requires interpretability for safety-critical medical AI.
+None of the thirteen studies in this review provide interpretable explanations for their detection or forecasting decisions. Most employed deep learning "black box" models - CNNs, LSTMs, ensemble methods - without exposing which features, time windows, or physiological patterns drive individual predictions. This omission is not merely academic. Clinicians cannot recommend systems that cannot explain why an alarm was triggered, and regulatory approval increasingly requires interpretability for safety-critical medical AI.
 
 Recent work demonstrates that explainability is achievable even for complex seizure models. \parencite{gaoInterpretableGeneralizableDeep2024} introduced the first interpretable and generalizable deep learning model for iEEG-based seizure prediction, using prototype learning to trace prediction origins to specific patient-level patterns. \parencite{khanExplainableFuzzyDeep2024} combined fuzzy logic with deep learning to provide interpretable rules for EEG-based seizure prediction. \parencite{vieiraUsingExplainableArtificial2023} demonstrated that XAI methods can simultaneously reduce the number of required EEG channels while maintaining performance-a dual benefit for wearable deployment.
 
 For wearable systems specifically, \parencite{halimehExplainableAIWearable2023} developed explainable AI for seizure logging, showing that data quality, patient age, and antiseizure medication considerably affect interpretability. \parencite{germinoMixtureCheckpointExperts2025} proposed a mixture-of-experts approach for explainable seizure detection using wearables, while \parencite{shaoApplicationDeconvolutionalNetworks2025} applied deconvolutional networks to visualize which features drive epilepsy detection decisions. Systematic reviews by \parencite{gurmessaComprehensiveEvaluationInterpretable2025} and \parencite{zhaoEpilepticSeizureDetection2023} confirm that interpretable methods can match black-box performance while providing clinical transparency.
 
-The absence of explainability in the reviewed wearable studies represents a missed opportunity. Interpretability serves three clinical functions: (1) building trust between clinicians, patients, and AI systems; (2) enabling error analysis when false alarms occur; and (3) supporting regulatory approval by providing safety assurances. Future wearable seizure monitors must prioritize interpretable architectures over opaque accuracy gains.
+The absence of explainability in the reviewed wearable studies represents a missed opportunity. Interpretability serves three clinical functions: building trust between clinicians, patients, and AI systems, enabling error analysis when false alarms occur, and supporting regulatory approval by providing safety assurances. Future wearable seizure monitors must prioritize interpretable architectures over opaque accuracy gains.
 
 \subsection{Research Priorities}
 
