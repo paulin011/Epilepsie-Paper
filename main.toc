@@ -1,12 +1,12 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Problem Statement and Motivation}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Research Aim and Questions}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Statement and Motivation}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Key Research Question}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Physiological Biosignals for Wearable Sensing}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{4}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Methodological Approach and Structure}{5}{section.3}%
 \contentsline {section}{\numberline {4}Search Strategy}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}PICO-Based Search Methodology}{7}{subsection.4.1}%
