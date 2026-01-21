@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  21 JAN 2026 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  21 JAN 2026 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1307,97 +1307,47 @@ Underfull \hbox (badness 2626) in paragraph at lines 29--29
 
 [12]) (./Tables(tex)/table2b_forecasting_studies.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/bx/n/10 Modality De-
+[]|\T1/lmr/bx/n/8 Vieluf et al.
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Mixed, 5-fold +
+Underfull \hbox (badness 8151) in paragraph at lines 26--26
+[]|\T1/lmr/bx/n/8 Meisel et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 82% sens, 67%
- []
-
-
-Underfull \hbox (badness 7722) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 LSTM only (10
- []
-
-
-Overfull \hbox (22.886pt too wide) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 EDA/ACC/BVP/Temp
+Underfull \hbox (badness 3417) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/8 HR 5 s, steps/sleep 1 min,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 51.2% @ IoC
+[]|\T1/lmr/m/n/8 Home (Fit-bit),
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 LSTM+RF+LR
+[]|\T1/lmr/m/n/8 ACC/BVP/EDA/Temp/HR
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/8 AUC 0.75 @ TiW 0.9--
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\T1/lmr/m/n/10 en-sem-ble, LR
+[]|\T1/lmr/m/n/8 Offline, cloud,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 HR 5 s,
+[]|\T1/lmr/m/n/8 Patient-specific (99%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Patient-specific,
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 AUC 0.74, 100%
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Home (Fit-bit),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\T1/lmr/m/n/10 hid-den + FFT
- []
-
-
-Overfull \hbox (42.747pt too wide) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 ACC/BVP/EDA/Temp/HR
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Offline, cloud,
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Self-Attentive AE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Patient-specific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 74% @ 0.85/h
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 26--26
-[]|\T1/lmr/m/n/10 Real-time, cloud,
+Underfull \hbox (badness 10000) in alignment at lines 26--26
+[][][][][][][][] 
  []
 
 
@@ -1632,11 +1582,12 @@ ts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12
 ist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
 mf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (26 pages, 469677 bytes).
+lic/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
+share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (26 pages, 477397 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
+ 695 PDF objects out of 1000 (max. 8388607)
+ 620 compressed objects within 7 object streams
  138 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

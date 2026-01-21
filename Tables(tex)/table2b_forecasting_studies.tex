@@ -8,12 +8,12 @@
 \begin{landscape}
 \begin{table}[htbp]
 \centering
-\footnotesize
+\scriptsize
 \caption{Architecture and Modality Deep-Dive: Forecasting Studies}
 \label{tab:forecasting-architecture}
-\setlength{\tabcolsep}{3pt}
-\renewcommand{\arraystretch}{1.4}
-\begin{tabularx}{\linewidth}{@{} l X X X X X X X @{}}
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{} >{\hsize=.6\hsize}X >{\hsize=.6\hsize}X >{\hsize=.9\hsize}X >{\hsize=1.1\hsize}X >{\hsize=.5\hsize}X >{\hsize=.8\hsize}X >{\hsize=.9\hsize}X >{\hsize=.6\hsize}X @{}}
 \toprule
 \textbf{Study} & \textbf{Paradigm} & \textbf{Arch. Details} & \textbf{Modality Details} & \textbf{Fusion} & \textbf{Personalization} & \textbf{Trade-off Config} & \textbf{Deployment} \\
 \midrule
@@ -25,7 +25,7 @@
 \bottomrule
 \end{tabularx}
 \par\medskip
-\scriptsize
+\tiny
 \textbf{Note:} Paradigm: Feature-based = handcrafted features, End-to-end = learns from raw data, Hybrid = combines both, Anomaly = unsupervised detection. Arch. Details: architecture-specific components. Fusion: -- = single-modal, Early = feature-level, Decision = classifier output. Personalization: Global = population model, Patient-specific = individualized, Temporal = time-split within patient, LOSO = leave-one-subject-out, LOO = leave-one-out, Mixed = combination of approaches. Trade-off Config: operating points with sensitivity @ FAR. Deployment: real-time capability, processing location, setting. ACC = accelerometer, ECG = electrocardiogram, EDA = electrodermal activity, BVP = blood volume pulse, HR = heart rate, TEMP = temperature, FFT = fast Fourier transform, CL = confidence limit, AUC = area under curve, TiW = time in warning, IoC = Improvement over Chance.
 \end{table}
 \end{landscape}
