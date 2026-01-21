@@ -1,0 +1,26 @@
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\caption{Architecture and Modality Deep-Dive: Forecasting Studies}
+\label{tab:forecasting-architecture}
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.15}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{} l >{\raggedright}p{1.5cm} >{\raggedright}p{2.0cm} >{\raggedright}p{1.8cm} >{\centering}p{1.0cm} >{\raggedright}p{1.5cm} >{\raggedright}p{1.8cm} >{\raggedright\arraybackslash}p{1.6cm} @{}}
+\toprule
+\textbf{Study} & \textbf{Paradigm} & \textbf{Arch. Details} & \textbf{Modality Details} & \textbf{Fusion} & \textbf{Personalization} & \textbf{Trade-off Config} & \textbf{Deployment} \\
+\midrule
+\textbf{Vieluf et al. 2025} & Hybrid & DNN + harmonic modeling (24-h) & EDA 4~Hz, ACC 32~Hz, Temp 1~Hz, 10~min & Early & Mixed, 5-fold + LOO & 82\% sens, 67\% spec @ F1 0.81 & Offline MATLAB, home \\
+\textbf{Meisel et al. 2020} & End-to-end & LSTM only (10 units) & EDA/ACC/BVP/Temp $\to$4~Hz, 30~s & Early & Global, LOSO & 51.2\% @ IoC 14.1\% & Offline, hospital \\
+\textbf{Stirling 2021} & Feature-based & LSTM+RF+LR ensemble, LR combines & HR 5~s, steps/sleep 1~min, hourly/daily & Decision & Patient-specific, weekly & AUC 0.74, 100\% pts & Home (Fitbit), app \\
+\textbf{Nasseri 2021} & End-to-end & LSTM 4-layer, 128 hidden + FFT channels & ACC/BVP/EDA/Temp/HR $\to$128~Hz, 60~s & Early (17-ch) & Temporal split & AUC 0.75 @ TiW 0.9--7.2h/d & Offline, cloud, home \\
+\textbf{Ode et al. 2023} & Anomaly & Self-Attentive AE (attention) & ECG (RRI only), 45~s & -- & Patient-specific (99\% CL) & 74\% @ 0.85/h (99\% CL) & Real-time, cloud, hospital \\
+\bottomrule
+\end{tabular}%
+}
+\par\medskip
+\footnotesize
+\textbf{Note:} Paradigm: Feature-based = handcrafted features, End-to-end = learns from raw data, Hybrid = combines both, Anomaly = unsupervised detection. Arch. Details: architecture-specific components. Fusion: -- = single-modal, Early = feature-level, Decision = classifier output. Personalization: Global = population model, Patient-specific = individualized, Temporal = time-split within patient, LOSO = leave-one-subject-out, LOO = leave-one-out, Mixed = combination of approaches. Trade-off Config: operating points with sensitivity @ FAR. Deployment: real-time capability, processing location, setting. ACC = accelerometer, ECG = electrocardiogram, EDA = electrodermal activity, BVP = blood volume pulse, HR = heart rate, TEMP = temperature, FFT = fast Fourier transform, CL = confidence limit, AUC = area under curve, TiW = time in warning, IoC = Improvement over Chance.
+\end{table}
+\end{landscape}
