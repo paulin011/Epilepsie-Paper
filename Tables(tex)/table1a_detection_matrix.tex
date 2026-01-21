@@ -1,0 +1,41 @@
+% ============================================================
+% TABLE 1A: Detection Studies Matrix
+% ============================================================
+% To change text size: modify \small below
+% To change row height: modify \arraystretch{1.0} below
+% X columns auto-wrap text to fit page width
+
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\small
+\caption{Webster \& Watson Concept Matrix: Detection Studies}
+\label{tab:detection-matrix}
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabularx}{\linewidth}{@{} l X l l l X X X X X X X @{}}
+\toprule
+\textbf{Study} & \textbf{Design} & \textbf{Sample} & \textbf{Device} & \textbf{Loc.} & \textbf{Para.} & \textbf{Mod.} & \textbf{Pers.} & \textbf{Algorithm} & \textbf{Sens} & \textbf{Spec} & \textbf{FPR} \\
+\midrule
+\textbf{Spahr et al. 2025} & Prospective & n=384, 49 CSs (103 total) & Empatica E4 (ACC) & Wrist & Ens & 1 & Glb & Ensemble 1D CNN (30 models) & 96\% & -- & $<$0.0125/h \\
+\addlinespace
+\textbf{Reintjes et al. 2025} & Retro & n=120, 856 szs & Single-lead ECG & Chest & Anom & 1 & Subj & Anomaly: Matrix Profile, MADRID, TimeVQVAE & 38.0\%/98.16\% & -- & 1.91--39.75/h \\
+\addlinespace
+\textbf{Fine 2025} & Phase 1 & n=15/3 & 6-axis band (ACC+Gyro) & Wrist & Feat & M & Glb & ANN (594 handcrafted feat) & 100\%Test, 96\% complete & -- & 0.023/h \\
+\addlinespace
+\textbf{Dong et al. 2026} & Prospective & n=68, 1846 szs & NightWatch & Arm & 2-stg & M & Glb & CNN-LSTM + Attention & 71.6\% & -- & 0.165/h \\
+\addlinespace
+\textbf{Wang et al. 2025} & -- & n=28, 62 szs & Biovital-P1 & Wrist & Feat & M & Glb & LSTM (40 hidden) & 56.40\% to 95.3\% & -- & 0.354/h \\
+\addlinespace
+\textbf{Singh Rathore 2024} & Case study & 1 pt, 6 hrs, 3.2M pts & Wearable (EDA+ACC+HR) & -- & Feat & M & Glb & MLP (multi-modal features) & 96.8\% & 94.8\% & -- \\
+\addlinespace
+\textbf{Elemam et al. 2025} & Cross-sect & Q:198, HRV:30 & Camera PPG & Thumbs & Hyb & M & Glb & CNN + Rule-based fusion & 95.1\% Q, 93-90\% HRV, 92.5\% AUD & 97.06\% Q & -- \\
+\addlinespace
+\textbf{Borujeny 2013} & 3-pt & 3 pts, 20 szs & MICAz ACC & Arm/thigh & Feat & 1 & Glb & KNN k=5 (time-domain feat) & 100\% & -- & 0 \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\footnotesize
+\textbf{Note:} ACC = accelerometer, ANN = artificial neural network, CNN = convolutional neural network, CS = convulsive seizure, ECG = electrocardiogram, EDA = electrodermal activity, HR = heart rate, HRV = HR variability, LSTM = long short-term memory, PPG = photoplethysmography, Sens = sensitivity, Spec = specificity, sz(s) = seizure(s), FPR = false positive rate, -- = not reported. Para. = learning paradigm (Feat = feature-based, Ens = ensemble, Anom = anomaly detection, 2-stg = two-stage, Hyb = hybrid). Mod. = modality count (1 = single-modal, M = multi-modal). Pers. = personalization (Glb = global model, Subj = subject split).
+\end{table}
+\end{landscape}

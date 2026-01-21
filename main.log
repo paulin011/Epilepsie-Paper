@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  21 JAN 2026 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  21 JAN 2026 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,7 +788,11 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `tab:metrics-summary' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -809,8 +813,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count451
 \scratchdimen=\dimen257
@@ -1016,124 +1019,807 @@ File: prisma.pdf Graphic file (type pdf)
 <use prisma.pdf>
 Package pdftex.def Info: prisma.pdf  used on input line 80.
 (pdftex.def)             Requested size: 455.24411pt x 452.20964pt.
-) (./Tables(tex)/table2a_detection_studies.tex
+) (./Tables(tex)/table1a_detection_matrix.tex
 
 [8]
 
 [9 <./prisma.pdf>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
-
-Overfull \hbox (5.73935pt too wide) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/10 Paradigm|  
+Overfull \hbox (11.98729pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/bx/n/10.95 Design| 
  []
 
 
-Overfull \hbox (4.1223pt too wide) in paragraph at lines 11--11
- []|\T1/lmr/bx/n/10 Fusion| 
+Overfull \hbox (3.94307pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/bx/n/10.95 Para.| 
  []
 
 
-Overfull \hbox (34.06874pt too wide) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/10 Personalization|  
+Overfull \hbox (3.85318pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/bx/n/10.95 Mod.| 
  []
 
 
-Overfull \hbox (15.0445pt too wide) in paragraph at lines 11--12
-[]|\T1/lmr/bx/n/10 Deployment|  
+Overfull \hbox (2.4396pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/bx/n/10.95 Pers.| 
  []
 
 
-Overfull \hbox (4.0663pt too wide) in paragraph at lines 14--14
-\T1/lmr/m/n/10 TimeVQVAE- 
+Overfull \hbox (31.48817pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/bx/n/10.95 Algorithm| 
  []
 
 
-Overfull \hbox (0.72945pt too wide) in paragraph at lines 16--16
-\T1/lmr/m/n/10 100$\OMS/lmsy/m/n/10 !$\T1/lmr/m/n/10 20 Hz, 
+Overfull \hbox (0.98955pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/bx/n/10.95 FPR| 
  []
 
 
-LaTeX Warning: Float too large for page by 87.60472pt on input line 26.
-
-
-
-[10]) (./Tables(tex)/table2b_forecasting_studies.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 9.
-
-Overfull \hbox (10.33905pt too wide) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/10.95 Paradigm|  
+Overfull \hbox (30.057pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Prospective| 
  []
 
 
-Overfull \hbox (7.21687pt too wide) in paragraph at lines 11--11
- []|\T1/lmr/bx/n/10.95 Fusion| 
+Overfull \hbox (20.29239pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Ensemble
  []
 
 
-Overfull \hbox (41.35971pt too wide) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/10.95 Personalization|  
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 1D
  []
 
 
-Overfull \hbox (20.79852pt too wide) in paragraph at lines 11--12
-[]|\T1/lmr/bx/n/10.95 Deployment|  
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 CNN
  []
 
 
-Overfull \hbox (63.14998pt too wide) in paragraph at lines 14--14
-[]|\T1/lmr/m/n/10.95 EDA/ACC/BVP/Temp 
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 (30
  []
 
 
-Overfull \hbox (21.11363pt too wide) in paragraph at lines 15--15
-[]|\T1/lmr/m/n/10.95 LSTM+RF+LR 
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 mod-
  []
 
 
-Overfull \hbox (1.28438pt too wide) in paragraph at lines 15--15
-\T1/lmr/m/n/10.95 steps/sleep 
+Overfull \hbox (25.25066pt too wide) in paragraph at lines 36--36
+[]|$\OML/lmm/m/it/10.95 <$\T1/lmr/m/n/10.95 0.0125/h| 
  []
 
 
-Overfull \hbox (8.43216pt too wide) in paragraph at lines 15--15
-\T1/lmr/m/n/10.95 hourly/daily|  
+Overfull \hbox (1.70831pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Retro| 
  []
 
 
-Overfull \hbox (11.60616pt too wide) in paragraph at lines 15--15
- []|\T1/lmr/m/n/10.95 Decision| 
+Overfull \hbox (3.65448pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Anom| 
  []
 
 
-Overfull \hbox (84.89774pt too wide) in paragraph at lines 16--16
-[]|\T1/lmr/m/n/10.95 ACC/BVP/EDA/Temp/HR 
+Overfull \hbox (20.99216pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Anomaly:
  []
 
 
-Overfull \hbox (2.97559pt too wide) in paragraph at lines 16--16
-[]|\T1/lmr/m/n/10.95 Temporal 
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 Ma-
  []
 
 
-Overfull \hbox (0.51227pt too wide) in paragraph at lines 17--17
-[]|\T1/lmr/m/n/10.95 Anomaly|  
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 trix
  []
 
 
-LaTeX Warning: Float too large for page by 7.8442pt on input line 23.
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 file,
+ []
+
+
+Overfull \hbox (24.79482pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 MADRID,
+ []
+
+
+Overfull \hbox (18.86288pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 TimeVQ-
+ []
+
+
+Overfull \hbox (42.89157pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 38.0%/98.16%| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 1.91--
+ []
+
+
+Overfull \hbox (11.25897pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 39.75/h| 
+ []
+
+
+Overfull \hbox (2.95532pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Phase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 ANN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 (594
+ []
+
+
+Overfull \hbox (2.13387pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 hand-
+ []
+
+
+Overfull \hbox (7.94379pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 crafted
+ []
+
+
+Overfull \hbox (23.79033pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 100%Test,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 96%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 com-
+ []
+
+
+Overfull \hbox (11.25897pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 0.023/h| 
+ []
+
+
+Overfull \hbox (30.057pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Prospective| 
+ []
+
+
+Overfull \hbox (2.74219pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 CNN-
+ []
+
+
+Overfull \hbox (5.63205pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 LSTM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 ten-
+ []
+
+
+Overfull \hbox (3.35036pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 71.6%| 
+ []
+
+
+Overfull \hbox (11.25897pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 0.165/h| 
+ []
+
+
+Overfull \hbox (5.63205pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 LSTM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 (40
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 hid-
+ []
+
+
+Overfull \hbox (8.82535pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 56.40%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 to
+ []
+
+
+Overfull \hbox (3.35036pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 95.3%| 
+ []
+
+
+Overfull \hbox (11.25897pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 0.354/h| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Case
+ []
+
+
+Overfull \hbox (1.2827pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 study| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 MLP
+ []
+
+
+Overfull \hbox (7.913pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 (multi-
+ []
+
+
+Overfull \hbox (4.26279pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 modal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 fea-
+ []
+
+
+Overfull \hbox (2.83397pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 tures)| 
+ []
+
+
+Overfull \hbox (3.35036pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 96.8%| 
+ []
+
+
+Overfull \hbox (3.35036pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 94.8%| 
+ []
+
+
+Overfull \hbox (4.71936pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 Cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 CNN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 +
+ []
+
+
+Overfull \hbox (1.58656pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 fu-
+ []
+
+
+Overfull \hbox (3.35036pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 95.1%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 Q,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 93-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 90%
+ []
+
+
+Overfull \hbox (1.06935pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 HRV,
+ []
+
+
+Overfull \hbox (3.35036pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 92.5%
+ []
+
+
+Overfull \hbox (8.82535pt too wide) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 97.06%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10.95 KNN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 k=5
+ []
+
+
+Overfull \hbox (3.95901pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 (time-
+ []
+
+
+Overfull \hbox (10.04187pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 domain
+ []
+
+
+LaTeX Warning: Float too large for page by 324.4754pt on input line 40.
 
 
 
-[11]) (./Sections(tex)/04_Study_Comparison.tex
+[10{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}])
+(./Tables(tex)/table1b_forecasting_matrix.tex
+Overfull \hbox (14.29448pt too wide) in paragraph at lines 30--30
+[]|\T1/lmr/bx/n/10.95 Algorithm| 
+ []
 
-[12
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 DNN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 + har-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 monic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 fea-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 LOSO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 TiW
+ []
+
+
+Overfull \hbox (25.9422pt too wide) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 Retro+pseudo| 
+ []
+
+
+Overfull \hbox (35.58456pt too wide) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 LSTM+RF+LR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 (HRV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 AUC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 LSTM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 4-layer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 (128
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 AUC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 TiW
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 0.9--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10.95 Self-
+ []
+
+
+Overfull \hbox (2.27849pt too wide) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 Attentive
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 30--30
+\T1/lmr/m/n/10.95 AE (at-
+ []
 
 
 
+[11]) (./Tables(tex)/table2a_detection_studies.tex
+Overfull \hbox (6.04205pt too wide) in paragraph at lines 29--29
+[]|\T1/lmr/bx/n/10.95 Personalization| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/bx/n/10.95 Trade-off
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 30 1D CNN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 clidean norm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 86--100% @
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Real-time
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 (112 ms), on-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Matrix Pro-
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 file, MADRID,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 TimeVQVAE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 38.0--98.2% @
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 ACC+Gyro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 6-axis, 10 s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Offline PC,
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 CNN-LSTM +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 ACM 11-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 100$\OMS/lmsy/m/n/10.95 !$\T1/lmr/m/n/10.95 20 Hz,
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Global, 10-fold
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 71.6% @
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Real-time,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 Night-Watch,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 ACC/GYR
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 50 Hz, SEMG
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 200 Hz, EDA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 56.4--95.3% @
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Real-time, hos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 MLP, multi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 EDA, ACC,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/lmr/m/n/10.95 HR/HRV, 25k
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Real-time,
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 PPG 250 Hz,
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Real-time, hos-
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 90--100% @ 0--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/10.95 Real-time,
+ []
+
+
+LaTeX Warning: Float too large for page by 36.40475pt on input line 33.
+
+
+
+[12]) (./Tables(tex)/table2b_forecasting_studies.tex
+Underfull \hbox (badness 1902) in paragraph at lines 26--26
+[]|\T1/lmr/bx/n/10.95 Modality De-
+ []
+
+
+Overfull \hbox (4.70161pt too wide) in paragraph at lines 26--26
+[]|\T1/lmr/bx/n/10.95 Personalization| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 DNN + har-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/lmr/m/n/10.95 32 Hz, Temp
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 82% sens, 67%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Offline MAT-
+ []
+
+
+Overfull \hbox (35.0278pt too wide) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 EDA/ACC/BVP/Temp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 51.2% @ IoC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 LSTM+RF+LR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/lmr/m/n/10.95 en-sem-ble, LR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 HR 5 s,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/lmr/m/n/10.95 steps/sleep
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/lmr/m/n/10.95 1 min,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Patient-specific,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Home (Fit-bit),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 LSTM 4-layer,
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 26--26
+\T1/lmr/m/n/10.95 128 hid-den +
+ []
+
+
+Overfull \hbox (56.77556pt too wide) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 ACC/BVP/EDA/Temp/HR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 AUC 0.75 @
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Offline, cloud,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Self-Attentive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 ECG (RRI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Patient-specific
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 74% @ 0.85/h
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/10.95 Real-time,
+ []
+
+
+
+[13
+
+
+
+
+
+
+
+]) (./Tables(tex)/table3_metrics_summary.tex)
+(./Sections(tex)/04_Study_Comparison.tex
+
+[14
 
 ]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 67.
+
 Overfull \hbox (3.30531pt too wide) in paragraph at lines 67--67
  [] 
  []
@@ -1248,18 +1934,18 @@ LaTeX Warning: Float too large for page by 183.34154pt on input line 71.
 
 
 
-[13{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+[15]
 
-LaTeX Warning: Reference `tab:detailed-metrics' on page 14 undefined on input l
+LaTeX Warning: Reference `tab:detailed-metrics' on page 16 undefined on input l
 ine 76.
 
 
-LaTeX Warning: Reference `tab:detailed-metrics' on page 14 undefined on input l
+LaTeX Warning: Reference `tab:detailed-metrics' on page 16 undefined on input l
 ine 104.
 
 
 
-[14
+[16
 
 
 ]
@@ -1270,13 +1956,13 @@ ess rates vary dra-mat-i-cally (43.5-100%),
 
 ) (./Sections(tex)/05_Findings_and_Takeaways.tex
 
-[15]
-
-[16]
-
-[17]) (./Sections(tex)/06_Conclusion2.tex
+[17]
 
 [18]
+
+[19]) (./Sections(tex)/06_Conclusion2.tex
+
+[20]
 Overfull \hbox (4.77203pt too wide) in paragraph at lines 11--12
 []\T1/lmr/m/n/12 A fun-da-men-tal scope lim-i-ta-tion re-mains: non-EEG wear-ab
 les can de-tect con-vul-sive seizures
@@ -1284,7 +1970,7 @@ les can de-tect con-vul-sive seizures
 
 
 
-[19]
+[21]
 Overfull \hbox (6.0733pt too wide) in paragraph at lines 44--45
 []\T1/lmr/bx/n/12 Interpretable ar-chi-tec-tures. \T1/lmr/m/n/12 Fu-ture sys-te
 ms must em-ploy ex-plain-able approaches-
@@ -1292,16 +1978,16 @@ ms must em-ploy ex-plain-able approaches-
 
 )
 
-[20]
+[22]
 
-[21]
-Overfull \hbox (20.61243pt too wide) in paragraph at lines 91--91
+[23]
+Overfull \hbox (20.61243pt too wide) in paragraph at lines 94--94
 \T1/lmr/m/it/12 tion: A Re-view of ECG-Based Ap-proaches\T1/lmr/m/n/12 . 202504
 0942. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 20944 / preprints202504 .
  []
 
 
-Overfull \hbox (44.52435pt too wide) in paragraph at lines 91--91
+Overfull \hbox (44.52435pt too wide) in paragraph at lines 94--94
 \T1/lmr/m/n/12 sys-tem-atic re-view. \T1/lmr/m/it/12 Dig-i-tal Health\T1/lmr/m/
 n/12 , \T1/lmr/m/it/12 11\T1/lmr/m/n/12 , 20552076251325411. \T1/lmr/m/sc/12 do
 i\T1/lmr/m/n/12 : [][]$10 . 1177 / 20552076251325411$[][]
@@ -1309,11 +1995,11 @@ i\T1/lmr/m/n/12 : [][]$10 . 1177 / 20552076251325411$[][]
 
 
 
-[22]
+[24]
 
-[23]
+[25]
 
-[24] (./main.aux)
+[26] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1323,23 +2009,19 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D3150724736306FC91B3363927E37489;7183.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23229 strings out of 475118
- 413948 string characters out of 5764903
- 1427166 words of memory out of 5000000
- 45751 multiletter control sequences out of 15000+600000
+ 23258 strings out of 475118
+ 414874 string characters out of 5764903
+ 1427386 words of memory out of 5000000
+ 45766 multiletter control sequences out of 15000+600000
  638946 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,19n,102p,3040b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1353,10 +2035,10 @@ ts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.p
 fb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-di
 st/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/l
 m/lmtt12.pfb>
-Output written on main.pdf (24 pages, 360043 bytes).
+Output written on main.pdf (26 pages, 365320 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
- 133 named destinations out of 1000 (max. 500000)
+ 670 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
+ 138 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

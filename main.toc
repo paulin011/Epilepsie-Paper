@@ -12,25 +12,25 @@
 \contentsline {subsection}{\numberline {4.1}PICO-Based Search Methodology}{7}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Exploration}{8}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Practical Filters and Reproducibility}{8}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Study Comparison Following Webster and Watson}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Concept Matrix: Study Overview}{12}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Architecture and Modality Deep-Dive}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Dimensional Analysis}{14}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Sensor Modality Trends}{14}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Algorithmic Evolution}{14}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Validation Rigor}{14}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Performance Metrics Reporting}{14}{subsubsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.4}Synthesis and Gaps}{15}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Key Findings and Clinical Takeaways}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Executive Summary}{16}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Detection Performance}{16}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Forecasting Performance}{17}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Methodological Trends}{17}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Clinical Takeaways}{18}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Conclusion}{18}{section.7}%
-\contentsline {subsection}{\numberline {7.1}The Translation Gap}{18}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}The Responder Problem}{19}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Validation Infrastructure Deficits}{19}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}The Explainability Gap}{19}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Research Priorities}{20}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}The Path Forward}{21}{subsection.7.6}%
+\contentsline {section}{\numberline {5}Study Comparison Following Webster and Watson}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Concept Matrix: Study Overview}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Architecture and Modality Deep-Dive}{16}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Dimensional Analysis}{16}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Sensor Modality Trends}{16}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Algorithmic Evolution}{16}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Validation Rigor}{16}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Performance Metrics Reporting}{16}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}Synthesis and Gaps}{17}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Key Findings and Clinical Takeaways}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Executive Summary}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Detection Performance}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Forecasting Performance}{19}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Methodological Trends}{19}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Clinical Takeaways}{20}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Conclusion}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}The Translation Gap}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}The Responder Problem}{21}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Validation Infrastructure Deficits}{21}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}The Explainability Gap}{21}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Research Priorities}{22}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}The Path Forward}{23}{subsection.7.6}%

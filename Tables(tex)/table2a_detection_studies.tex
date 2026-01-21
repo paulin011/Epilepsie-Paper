@@ -1,13 +1,19 @@
+% ============================================================
+% TABLE 2A: Detection Studies
+% ============================================================
+% To change text size: modify \small below
+% To change row height: modify \arraystretch{1.0} below
+% X columns auto-wrap text to fit page width
+
 \begin{landscape}
 \begin{table}[htbp]
 \centering
+\small
 \caption{Architecture and Modality Deep-Dive: Detection Studies}
 \label{tab:detection-architecture}
 \setlength{\tabcolsep}{3.5pt}
-\renewcommand{\arraystretch}{1.15}
-\small
-\resizebox{\linewidth}{!}{%
-\begin{tabular}{@{} l >{\raggedright}p{1.5cm} >{\raggedright}p{2.0cm} >{\raggedright}p{1.8cm} >{\centering}p{1.0cm} >{\raggedright}p{1.5cm} >{\raggedright}p{1.8cm} >{\raggedright\arraybackslash}p{1.6cm} @{}}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabularx}{\linewidth}{@{} l X X X X X X X @{}}
 \toprule
 \textbf{Study} & \textbf{Paradigm} & \textbf{Arch. Details} & \textbf{Modality Details} & \textbf{Fusion} & \textbf{Personalization} & \textbf{Trade-off Config} & \textbf{Deployment} \\
 \midrule
@@ -20,8 +26,7 @@
 \textbf{Elemam 2025} & CNN-based & CNN for HRV, CNN for Audio (separate) & PPG 250~Hz, Audio 10~s & No fusion & Global, unclear & 95.1\% @ 97.1\% spec & Real-time, hospital \\
 \textbf{Borujeny 2013} & Feature-based & KNN k=5, time-domain features & ACC 2D 3~Hz, 9~s & -- & Global, 3 pts & 90--100\% @ 0--15\% & Real-time, server (316~mW) \\
 \bottomrule
-\end{tabular}%
-}
+\end{tabularx}
 \par\medskip
 \footnotesize
 \textbf{Note:} Paradigm: Feature-based = handcrafted features, Ensemble = multiple models, Two-stage = sequential processing, Anomaly = unsupervised detection, CNN-based = convolutional approach. Arch. Details: architecture-specific components. Fusion: -- = single-modal, Early = feature-level, No fusion = parallel separate models. Personalization: Global = population model, Subject split = train/test separated by subject. Trade-off Config: operating points with sensitivity @ FAR. Deployment: real-time capability, processing location, setting. ACC = accelerometer, ECG = electrocardiogram, PPG = photoplethysmography, EDA = electrodermal activity, HR = heart rate, HRV = HR variability, SEMG = surface electromyography, EMU = epilepsy monitoring unit.
