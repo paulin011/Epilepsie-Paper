@@ -8,11 +8,11 @@
 \begin{landscape}
 \begin{table}[htbp]
 \centering
-\small
+\footnotesize
 \caption{Architecture and Modality Deep-Dive: Detection Studies}
 \label{tab:detection-architecture}
-\setlength{\tabcolsep}{3.5pt}
-\renewcommand{\arraystretch}{1.0}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.4}
 \begin{tabularx}{\linewidth}{@{} l X X X X X X X @{}}
 \toprule
 \textbf{Study} & \textbf{Paradigm} & \textbf{Arch. Details} & \textbf{Modality Details} & \textbf{Fusion} & \textbf{Personalization} & \textbf{Trade-off Config} & \textbf{Deployment} \\
@@ -28,7 +28,7 @@
 \bottomrule
 \end{tabularx}
 \par\medskip
-\footnotesize
+\scriptsize
 \textbf{Note:} Paradigm: Feature-based = handcrafted features, Ensemble = multiple models, Two-stage = sequential processing, Anomaly = unsupervised detection, CNN-based = convolutional approach. Arch. Details: architecture-specific components. Fusion: -- = single-modal, Early = feature-level, No fusion = parallel separate models. Personalization: Global = population model, Subject split = train/test separated by subject. Trade-off Config: operating points with sensitivity @ FAR. Deployment: real-time capability, processing location, setting. ACC = accelerometer, ECG = electrocardiogram, PPG = photoplethysmography, EDA = electrodermal activity, HR = heart rate, HRV = HR variability, SEMG = surface electromyography, EMU = epilepsy monitoring unit.
 \end{table}
 \end{landscape}
