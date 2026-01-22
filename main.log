@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  22 JAN 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  22 JAN 2026 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,23 +1246,33 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [17])) (./Sections(tex)/Discussion/discussion.tex (./Sections(tex)/Discussion/d1_clinical_implications.tex
 
 [18]) (./Sections(tex)/Discussion/d2_technical_insights.tex
+Overfull \hbox (0.71237pt too wide) in paragraph at lines 13--14
+\T1/lmr/m/n/12 sults). De-tec-tion re-search shows method-olog-i-cal di-ver-sity in-clud-ing CNNs, LSTMs, ANNs,
+ []
+
+
 
 [19]
+Overfull \hbox (33.9925pt too wide) in paragraph at lines 27--28
+\T1/lmr/m/n/12 The false pos-i-tive chal-lenge dif-fers sub-stan-tially be-tween modal-i-ties (see Re-sults). Accelerometer-
+ []
 
-[20]) (./Sections(tex)/Discussion/d3_limitations.tex
+) (./Sections(tex)/Discussion/d3_limitations.tex
 
-[21]) (./Sections(tex)/Discussion/d4_future_directions.tex
+[20]) (./Sections(tex)/Discussion/d4_future_directions.tex
 
-[22])) (./Sections(tex)/conclusion.tex
+[21]
 
-[23])
+[22])) (./Sections(tex)/conclusion.tex)
 
-[24]
+[23]
 Overfull \hbox (20.61243pt too wide) in paragraph at lines 94--94
 \T1/lmr/m/it/12 tion: A Re-view of ECG-Based Ap-proaches\T1/lmr/m/n/12 . 2025040942. \T1/lmr/m/sc/12 doi\T1/lmr/m/n/12 : [][]$10 . 20944 / preprints202504 .
  []
 
 
+
+[24]
 
 [25]
 
@@ -1280,18 +1290,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23310 strings out of 475118
- 414503 string characters out of 5764903
- 1356294 words of memory out of 5000000
- 45801 multiletter control sequences out of 15000+600000
+ 23267 strings out of 475118
+ 413987 string characters out of 5764903
+ 1355915 words of memory out of 5000000
+ 45758 multiletter control sequences out of 15000+600000
  647909 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,13n,102p,3069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (27 pages, 474268 bytes).
+Output written on main.pdf (27 pages, 471547 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 662 compressed objects within 7 object streams
+ 674 PDF objects out of 1000 (max. 8388607)
+ 604 compressed objects within 7 object streams
  126 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
