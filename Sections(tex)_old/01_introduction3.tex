@@ -1,0 +1,35 @@
+\section{Introduction}
+
+\subsection{Problem Statement and Motivation}
+
+Epilepsy, a chronic neurological disorder affecting 60 million people wordlwide,
+with approximately one-third of patients remaining drug-resistant \parencite{husseinFocalNonFocalEpilepsy2018}.
+\cite{sveinssonClinicalRiskFactors2020} found that 69\% of Deaths due to a Generalized
+tonic-clonic seizure could have been prevented if not left unattended, highlighting the demand
+for reliable and timely prediction.
+
+While reliable prediction is already possible through electroencephalography (EEG),
+its operational complexity render it unsuitable for ambulatory use.
+To address the need for ambulatory detection many are experimenting with
+utilizing autonomic and motion signals to detect and predict seizures.
+
+Translating and analysing these often noisy and complex time-series physiological
+signals has pushed traditional machine learning (ML) approaches to their limits.
+These approaches require manual engineering such as cleaning and extracting of the data,
+often failing to capture the intricate and non-linear complex temporal dynamic of these
+signals. It is this limitation that deep learning (DL) models are designed to overcome, with their ability of hierarchical and learned feature
+extraction uniquely addressing these limitations.
+
+This review therefore examines and assesses recent advances in time-series
+deep learning - particularly convolutional neural networks (CNNs)
+and long short term memory (LSTMs) -
+applied to seizure detection and prediction using non-EEG wearable biosignals.
+Central to this analysis is the question of how architectural choices, training paradigms
+(e.g., transfer learning, personalization), and thorough prospective evaluation
+can converge to meet the stringent clinical requirements of high sensitivity
+and minimal false alarm rates (FAR) in real-world deployment.
+
+\subsection{Key Research Question}
+How do different deep learning architectures and biosignal modalities excluding EEG
+compare in their ability to achieve a optimal trade-off between 
+sensitivity and false alarm rate for ambulatory seizure monitoring?

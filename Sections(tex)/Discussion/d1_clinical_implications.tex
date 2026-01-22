@@ -1,0 +1,33 @@
+\subsection{Clinical Implications}
+
+\subsubsection{Detection Readiness}
+
+Two detection studies meet the ILAE Phase 3 benchmark for clinically acceptable false positive rates. \textcite{spahrDeepLearningbasedDetection2025} reported 0.0054/h FPR, approximately 10 times below the 0.05 to 0.1/h threshold. \textcite{fineDetectionKeyAutomated2025} reported 0.023/h FPR, approximately twice below the threshold. Both studies used ACC-based approaches, suggesting this modality has strong translation potential.
+
+Accelerometer-based detection shows particular promise for clinical deployment. Six of nine detection studies use ACC data. The motor manifestations of convulsive seizures produce clear signals in ACC recordings. This biological specificity enables high sensitivity with low FPR when combined with deep learning approaches.
+
+A significant gap remains between EMU validation and home deployment. Only three detection studies include home validation. The two studies meeting FPR benchmarks were conducted in EMU settings. \textcite{spahrDeepLearningbasedDetection2025} enrolled 384 patients across eight centers but tested in hospital environments. \textcite{fineDetectionKeyAutomated2025} tested only 10 seizures from 3 patients. Home environments present challenges not encountered in hospital settings, including exercise, household chores, and other activities that may cause false alarms.
+
+\textcite{dongTwoLayerEnsembleMethod2022} achieved the most extensive home validation with 788 overnight recordings over three months. However, the 0.165/h FPR exceeds clinical benchmarks. This study demonstrates both the feasibility of home monitoring and the challenge of maintaining low FPR in real-world conditions.
+
+Commercial devices exist for detection but face limitations. The Embrace watch has FDA 510(k) clearance for seizure detection. NightWatch has CE approval in Europe. However, these approvals were based on earlier validation studies. The deep learning approaches reviewed here may offer improved performance but require separate validation pathways.
+
+\subsubsection{Forecasting Status}
+
+Forecasting shows a consistent performance ceiling across studies. Three forecasting studies report AUC between 0.74 and 0.75. \textcite{meiselMachineLearningWristband2020} reported AUC 0.74. \textcite{nasseriAmbulatorySeizureForecasting2021} reported mean AUC 0.80 for individual models but 0.75 for the ensemble. \textcite{stirlingForecastingSeizureLikelihood2021} reported AUC 0.74. This consistency across different methods, modalities, and patient populations suggests a fundamental limit of non-invasive forecasting approaches.
+
+No established clinical benchmarks exist for forecasting performance. The ILAE has defined guidelines for detection device validation but not for forecasting. IoC of 14.1\% (reported by \textcite{meiselMachineLearningWristband2020}) suggests modest improvement over chance. However, the clinical acceptability of this performance level remains unclear. TiW reported by forecasting studies indicates patients spend substantial time in warning states, which may affect quality of life.
+
+Patient success rates vary substantially by personalization strategy. Global LOSO validation achieved 62\% patient success (\textcite{meiselMachineLearningWristband2020}). Patient-specific weekly retraining achieved 100\% patient success (\textcite{stirlingForecastingSeizureLikelihood2021}). This trade-off between generalizability and individual performance remains unresolved for clinical deployment.
+
+No device has regulatory approval specifically for seizure forecasting. Forecasting devices would need to establish clinical utility and safety through dedicated trials. The lack of clear benchmarks complicates pathway to regulatory approval.
+
+\subsubsection{Seizure Type Coverage Gap}
+
+Most approaches detect only convulsive or motor seizures. Detection studies emphasize movement sensors that capture motor manifestations. Six of nine detection studies use ACC data. Three use gyroscope data. These modalities cannot detect seizures without motor components.
+
+Non-convulsive seizures represent a substantial unmet need. Focal aware seizures without motor signs remain undetectable with current wearable approaches. \textcite{reintjesECGBasedDetectionEpileptic2025} showed that ECG-based detection can identify some non-motor seizures through autonomic changes. However, sensitivity for non-motor focal aware seizures reached only 51.1\% compared to 96.7\% for focal-to-bilateral tonic-clonic seizures.
+
+Forecasting studies emphasize autonomic modalities rather than movement sensors. Four of five forecasting studies use EDA. Three use ECG or HRV data. These modalities may capture pre-ictal autonomic changes that precede both convulsive and non-convulsive seizures. However, the consistent AUC ceiling around 0.75 suggests fundamental limitations in predicting seizures without EEG biomarkers.
+
+Approximately 30\% of people with epilepsy have seizures that would not be detected by current wearable approaches. Non-convulsive focal seizures, absence seizures, and seizures with minimal autonomic changes require alternative monitoring strategies. Invasive EEG remains the gold standard for comprehensive seizure monitoring but is not suitable for long-term ambulatory use.

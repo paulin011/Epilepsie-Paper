@@ -1,0 +1,37 @@
+\subsection{Technical Insights and Trade-offs}
+
+\subsubsection{Modality Paradox}
+
+Multi-modal approaches dominate wearable seizure monitoring research. Nine of 13 studies (69\%) use multiple sensor types. However, multi-modal does not automatically mean superior performance. The study with the lowest false positive rate in the detection literature uses single-modality accelerometry. \textcite{spahrDeepLearningbasedDetection2025} achieved 0.0054/h FPR with ACC only, well below the clinical benchmark of 0.05--0.1/h. This finding suggests that sensor fusion is not always necessary for reliable detection.
+
+The contrast between detection and forecasting applications reveals different modality requirements. Detection studies can succeed with movement sensors alone. Forecasting studies consistently require autonomic modalities. All four forecasting studies incorporate EDA, ECG, or temperature data. \textcite{vielufSeizureMonitoringCombined2025} demonstrated that 24-hour harmonic patterns in EDA and accelerometry contain predictive information for seizures. This pattern reflects the different physiological targets. Detection captures ictal motor manifestations. Forecasting must detect pre-ictal autonomic changes that precede clinical symptoms.
+
+ECG-based detection shows particular challenges. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three anomaly detection methods on single-lead ECG. FPR ranged from 1.91/h to 39.75/h, far exceeding clinical acceptability. Even the best ECG-based approach by \textcite{odeDevelopmentEpilepticSeizure2023} produced 0.85/h FPR. These results suggest that cardiac alone may be insufficient for reliable detection.
+
+\subsubsection{Architecture Selection}
+
+Detection and forecasting applications employ different architectural patterns. Detection studies show methodological diversity including CNNs, LSTMs, ANNs, ensemble methods, and anomaly detection. Forecasting studies concentrate on LSTM variants. Three of four forecasting studies use LSTM architectures. This pattern reflects the different temporal demands of the two tasks. Detection requires identifying patterns within short windows. Forecasting requires modeling longer-term temporal dependencies.
+
+Handcrafted features remain competitive despite the trend toward end-to-end learning. \textcite{fineDetectionKeyAutomated2025} achieved 100\% sensitivity with 594 handcrafted features from 6-axis ACC and gyroscope data. \textcite{wangEpilepticSeizureDetection2025} found that engineered attitude angle features outperformed raw sensor data. These results suggest that domain knowledge still adds value in seizure monitoring applications.
+
+Ensemble methods show promise for detection. \textcite{spahrDeepLearningbasedDetection2025} trained 30 separate 1D CNN models with quantile aggregation. This approach achieved the best FPR in the detection literature at 0.0054/h. However, ensemble methods require greater computational resources. The single-modality ACC ensemble achieved 112 ms inference time, still suitable for real-time processing.
+
+\subsubsection{Personalization Dilemma}
+
+Personalization strategy involves a fundamental trade-off between deployability and individual performance. Global models enable immediate deployment without individual patient training. Patient-specific models achieve higher individual success rates but require substantial individual data.
+
+The contrast in patient success rates is striking. \textcite{meiselMachineLearningWristband2020} used LOSO validation to assess global model generalizability. Only 62\% of patients (43 of 69) achieved performance above chance. By contrast, \textcite{stirlingForecastingSeizureLikelihood2021} achieved 100\% patient success with patient-specific models. This pattern suggests that population models may not work well for a substantial minority of patients.
+
+The cold start problem limits patient-specific approaches. \textcite{stirlingForecastingSeizureLikelihood2021} required a mean of 14.6 months of data per patient before models became useful. \textcite{nasseriAmbulatorySeizureForecasting2021} required 60+ days per patient. These data requirements mean new patients must wait weeks or months before the system provides protection.
+
+Mixed approaches may offer a middle path. \textcite{vielufSeizureMonitoringCombined2025} combined population-level 24-hour harmonic patterns with individual diary data. This approach achieved 82\% sensitivity and 67\% specificity. Further research on hybrid personalization strategies could balance immediate utility with individual adaptation.
+
+\subsubsection{The False Positive Challenge}
+
+False alarm rate remains the primary barrier to clinical translation. Six of eight detection studies exceed the clinical FPR benchmark of 0.05--0.1/h. Only two studies achieve acceptable FPR for home use. \textcite{spahrDeepLearningbasedDetection2025} reported 0.0054/h FPR with single-modality ACC. \textcite{fineDetectionKeyAutomated2025} reported 0.023/h FPR with a 6-axis band.
+
+The problem is particularly acute for ECG-based approaches. \textcite{reintjesECGBasedDetectionEpileptic2025} found that anomaly detection methods produced FPR ranging from 1.91/h to 39.75/h depending on the algorithm. Even the best performing method exceeded the clinical benchmark by a factor of 19. These results suggest that cardiac signals alone cannot reliably distinguish seizures from normal activity.
+
+Multi-modal approaches do not guarantee acceptable FPR. \textcite{dongTwoLayerEnsembleMethod2022} combined ACC and PPG in a two-stage architecture but achieved 0.165/h FPR, still above clinical targets. \textcite{wangEpilepticSeizureDetection2025} combined four modalities but reported 0.364/h FPR. Sensor fusion alone does not solve the false positive problem.
+
+The forecasting challenge differs. Forecasting studies report AUC rather than FPR. The best forecasting studies plateau around AUC 0.75. \textcite{nasseriAmbulatorySeizureForecasting2021} achieved AUC 0.80 (SD 0.15) with patient-specific models. \textcite{stirlingForecastingSeizureLikelihood2021} achieved AUC 0.74 with heart rate cycles. This performance ceiling suggests fundamental limits on pre-ictal predictability using wearable sensors.

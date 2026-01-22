@@ -73,9 +73,9 @@ Detection Studies:
 - reintjesECGBasedDetectionEpileptic2025
 - elemamAutomatedValidatedTool2025
 - dongTwoLayerEnsembleMethod2022
-- wangDevelopmentWearableSeizure2025
-- singhRathoreWearableBasedEpileptic2024
-- fineWearableDeviceSeizure2025
+- wangEpilepticSeizureDetection2025
+- singhrathoreDevelopmentMultimodalMachine2024
+- fineDetectionKeyAutomated2025
 - borujenyDetectionEpilepticSeizure2013
 - odeDevelopmentEpilepticSeizure2023
 
@@ -222,6 +222,6 @@ When providing corrected data or table entries, use LaTeX format compatible with
 
 ---
 
-**Last Updated:** 2026-01-21
-**Document:** 04_Study_Comparison.tex
+**Last Updated:** 2026-01-22
+**Document:** Results section added, all citation keys corrected
 **Status:** Active verification and correction phase

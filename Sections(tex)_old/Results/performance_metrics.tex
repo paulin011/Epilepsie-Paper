@@ -1,0 +1,52 @@
+% Performance Metrics Subsection
+\subsection{Performance Metrics}
+
+Detection and forecasting studies use different evaluation metrics reflecting their distinct clinical objectives. Detection studies emphasize sensitivity and FPR. Forecasting studies report AUC, IoC, and TiW.
+
+\subsubsection{Detection Sensitivity}
+
+Detection sensitivity ranges from 38.0\% to 100\% (Table~\ref{tab:metrics-summary}). \textcite{fineDetectionKeyAutomated2025} reported 100\% sensitivity in an independent test set containing 10 tonic seizures from 3 patients. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity for generalized convulsive seizures in a 384-patient multi-center study. \textcite{singhrathoreDevelopmentMultimodalMachine2024} reported 96.8\% sensitivity in a single-patient case study.
+
+\textcite{elemamAutomatedValidatedTool2025} achieved 95.1\% sensitivity using HRV-based detection. \textcite{borujenyDetectionEpilepticSeizure2013} reported 85\% sensitivity using 2D ACC. \textcite{dongTwoLayerEnsembleMethod2022} reported 71.6\% sensitivity for nocturnal major seizures. \textcite{wangEpilepticSeizureDetection2025} reported a wide sensitivity range from 56.4\% to 95.3\% depending on feature configuration.
+
+\textcite{reintjesECGBasedDetectionEpileptic2025} reported the lowest sensitivity range from 38.0\% to 98.2\% depending on the anomaly detection method. The TimeVQVAE-AD method achieved the highest sensitivity at 98.2\%, while the Matrix Profile method achieved 38.0\% sensitivity.
+
+\subsubsection{False Positive Rate}
+
+Only five of eight detection studies report FPR. The ILAE Phase 3 benchmark for clinically acceptable FPR in home settings is below 0.05 to 0.1 per hour.
+
+Two studies meet this benchmark. \textcite{spahrDeepLearningbasedDetection2025} reported 0.005/h FPR, which is 10 times below the clinical benchmark. \textcite{fineDetectionKeyAutomated2025} reported 0.023/h FPR, approximately twice below the benchmark.
+
+Three studies exceed the clinical benchmark. \textcite{dongTwoLayerEnsembleMethod2022} reported 0.165/h FPR, which is 1.65 times above the benchmark. \textcite{wangEpilepticSeizureDetection2025} reported 0.354/h FPR, which is 3.5 times above the benchmark. \textcite{odeDevelopmentEpilepticSeizure2023} reported 0.85/h FPR, which is 8.5 times above the benchmark.
+
+\textcite{reintjesECGBasedDetectionEpileptic2025} reported FPR ranging from 1.91/h to 39.75/h depending on the anomaly detection method. These rates are clinically unacceptable for home use. \textcite{borujenyDetectionEpilepticSeizure2013} reported 3 false alarms total rather than a rate.
+
+\textbf{Key limitation.} Three detection studies do not report FPR. \textcite{singhrathoreDevelopmentMultimodalMachine2024}, \textcite{elemamAutomatedValidatedTool2025}, and \textcite{borujenyDetectionEpilepticSeizure2013} lack standardized FPR reporting. This omission complicates clinical assessment and comparison across studies.
+
+\subsubsection{Forecasting Performance}
+
+Forecasting studies use different metrics than detection studies. AUC-ROC serves as the primary metric in two forecasting studies. \textcite{nasseriAmbulatorySeizureForecasting2021} reported AUC 0.75 (SD 0.15) across 6 patients with temporal split validation. \textcite{stirlingForecastingSeizureLikelihood2021} reported AUC 0.74 with 100\% patient success.
+
+Sensitivity in forecasting ranges from 51.2\% to 82\%. \textcite{vielufSeizureMonitoringCombined2025} reported 82\% sensitivity with 67\% specificity. \textcite{meiselMachineLearningWristband2020} reported 51.2\% sensitivity with LOSO validation. \textcite{odeDevelopmentEpilepticSeizure2023} reported 74\% sensitivity for patient-specific ECG anomaly detection.
+
+Forecasting studies also report forecasting-specific metrics. \textcite{meiselMachineLearningWristband2020} reported IoC of 14.1\% and TiW of 43.7\%. \textcite{nasseriAmbulatorySeizureForecasting2021} reported TiW ranging from 0.9 to 7.2 hours per day. \textcite{stirlingForecastingSeizureLikelihood2021} reported mean prediction time of 37 minutes for hourly forecasts and 3 days for daily forecasts.
+
+\textbf{Key finding.} Forecasting AUC consistently falls between 0.74 and 0.75 across studies. This consistency suggests a performance ceiling for non-invasive forecasting approaches.
+
+\subsubsection{Patient Success Rates}
+
+Patient success rates provide insight into individual-level performance. This metric indicates the percentage of patients for whom the model performs better than chance.
+
+Forecasting studies consistently report patient success rates. \textcite{stirlingForecastingSeizureLikelihood2021} achieved 100\% patient success for hourly forecasting and 91\% for daily forecasting. \textcite{nasseriAmbulatorySeizureForecasting2021} achieved 83\% patient success (5 of 6 patients above chance). \textcite{meiselMachineLearningWristband2020} achieved 62\% patient success (43 of 69 patients above chance) with LOSO validation.
+
+Detection studies rarely report patient-level success. Most detection studies report aggregate population-level metrics without individual patient breakdowns. This reporting gap limits understanding of which patients benefit from detection systems.
+
+\subsubsection{Validation Method Impact}
+
+Validation method substantially affects reported performance. LOSO validation provides the most rigorous assessment of generalizability. \textcite{meiselMachineLearningWristband2020} used LOSO and achieved 62\% patient success. This is substantially lower than the 83\% to 100\% patient success reported by studies using other validation methods.
+
+K-fold cross-validation may overestimate real-world performance. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity with 0.005/h FPR using k-fold validation. However, the model is tunable, which may improve individual patient performance in practice.
+
+Hold-out validation provides intermediate rigor. \textcite{fineDetectionKeyAutomated2025} reported 100\% sensitivity with 0.023/h FPR on an independent test set. However, the test set contained only 10 seizures from 3 patients.
+
+\textbf{Key finding.} Validation method choice substantially impacts reported performance. LOSO validation reveals lower but more realistic performance estimates compared to k-fold or hold-out methods.

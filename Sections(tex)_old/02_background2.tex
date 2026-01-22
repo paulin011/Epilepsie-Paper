@@ -1,0 +1,97 @@
+\section{Theoretical Foundations for Ambulatory Seizure Monitoring}
+
+\subsection{The Ambulatory Monitoring Paradigm: Requirements and Challenges}
+
+\cite{beniczkyAutomatedSeizureDetection2021}, \cite{chenSeizuresDetectionUsing2022}
+found that translation of seizure detection from the controlled clinical environment to
+an ambulatory setting redefines approaches and performance requirements.
+In clinical environments maximum sensitivity is prioritized over FAR,
+when engineering for ambulatory use a balance of both metrics is needed.
+Failing to detect a seizure (low sensitivity) poses a safety risk, While
+excessive false alarms (high FAR) leads to desensitizing and "alarm fatigue"
+and the device being ignored or not used at all.
+Users reported that devices should achieve high sensitivity ($\geq$90\%) 
+with low false alarm rates — acceptable FARs were 1-2/week for patients with $\geq$1
+seizure/week and 1-2/month for patients with <1 seizure/week
+\parencite{sivathambooPreferencesUserExperiences2022}.
+While more complex models can find more intricate patterns, 
+they also introduce the "black-box" problem wherein the model lacks transparency 
+\cite{abualrobUnlockingNewFrontiers2025, ghaderiAdvancesMachineLearning2025}. 
+The design should incorporate explanations for decisions to ensure
+user trust and regulatory compliance 
+\cite{abualrobUnlockingNewFrontiers2025, mironAutonomicBiosignalsSeizure2025}.
+
+\subsection{Physiological Biosignals for Wearable Sensing}
+
+Wearable devices circumvent the impracticality of EEG 
+by capturing peripheral biosignals that serve as proxies 
+for central nervous system activity during seizures.
+These proxies will inherently relay incomplete and 
+noisy signals so a combination of multiple sensors
+is required. The acceleration/attitude sensor excels at detecting 
+muscle convulsions but is noisy in daily use, as it captures all movement. 
+The electrodermal activity (EDA) sensor detects autonomic arousal by 
+measuring the skin conductance associated with sweat gland activity.
+
+\subsection{Seizure Manifestations and Corresponding Biosignals}
+
+Wearable biosignals act as peripheral proxies for cerebral activity during seizures. 
+Different seizure types produce distinct physiological signatures across these signals, 
+informing detection approaches. This relationship centers on two primary manifestations: 
+motor activity and autonomic activation.
+
+Convulsive seizures, such as generalized tonic-clonic events, 
+produce clear motor signatures captured by accelerometry (ACC), 
+which measures movement and posture changes characteristic of ictal events 
+\parencite{wangEpilepticSeizureDetection2025, wuNovelSeizureDetection2024}.
+
+At the same time, seizures drive autonomic responses recorded through complementary biosignals. 
+Electrodermal activity (EDA) measures sympathetic nervous system arousal via skin conductance changes 
+\parencite{jainCompressedSensingBased2017, mironAutonomicBiosignalsSeizure2025}. 
+Cardiac activity provides particularly strong autonomic proxies: electrocardiography (ECG) 
+captures heart rate and rhythm alterations 
+\parencite{lealViabilityECGFeatures2017, ghaderiAdvancesMachineLearning2025}, 
+while heart rate variability (HRV) quantifies autonomic balance dynamics 
+\parencite{masonHeartRateVariability2024, paveiEarlySeizureDetection2017}.
+
+In wearable applications, photoplethysmography (PPG) serves 
+as a practical alternative for cardiac monitoring,
+deriving pulse rate and variability though with greater motion sensitivity than ECG 
+\parencite{chenSeizuresDetectionUsing2022, sethFeasibilityCardiacbasedSeizure2023}.
+
+As a result, detection strategies combine these biosignals according to target seizure types, 
+with multimodal fusion providing the most reliable approach for ambulatory monitoring.
+
+\subsection{Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}
+\label{sec:ilae-standards}
+
+The clinical validity of a seizure detection algorithm is determined by the rigor of
+its evaluation, formalized in the ILAE's phased framework (Phases 0-4)
+\parencite{beniczkyStandardsTestingClinical2018, beniczkyAutomatedSeizureDetection2021}.
+This framework classifies studies into five phases: Phase 0 (proof of concept), Phase 1 (retrospective, small sample), Phase 2 (minimum 10 patients with seizures, 15 recorded seizures), Phase 3 (prospective, multicenter, $\ge$30 seizures from $\ge$20 patients, real-time detection), and Phase 4 (real-world home validation).
+
+Retrospective studies (Phases 0-2), while foundational,
+risk substantial data leakage and optimistic bias if they use non-chronological data splits,
+allowing future information to inform training
+\parencite{kalousiosECGbasedEpilepticSeizure2024, wongEEGDatasetsSeizure2023}.
+Pseudo-prospective validation addresses this by enforcing chronological order,
+training only on past seizures to test on subsequent ones,
+providing a more realistic performance estimate
+\parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}.
+
+The clinical gold standard is a prospective trial (Phase 3),
+which requires a locked algorithm, a video-EEG reference standard,
+and testing on new, unseen data from multiple centers.
+The ILAE systematic review identified only three Phase 3 studies meeting these strict validation standards
+\parencite{beniczkyAutomatedSeizureDetection2021}.
+These demonstrated 90-96\% sensitivity for generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) with false alarm rates of 0.2-0.67 per 24 hours (approximately 0.008-0.028/h). This represents the clinically validated performance benchmark for convulsive seizure detection.
+
+What constitutes an acceptable false alarm rate depends on clinical context and user perspective. Systematic surveys reveal important differences in tolerance: patients and caregivers typically require 100\% sensitivity and accept approximately one false alarm per seizure (or one per week for seizure-free patients). In contrast, clinicians consider 90\% sensitivity adequate and tolerate between two false alarms per week and one per month, depending on seizure frequency. This gap between user and clinician expectations creates a fundamental tension for device development.
+
+The final step is in-field evaluation (Phase 4) in patients' homes,
+where metrics like the false alarm rate per hour (FAR/h) become decisive for practical usability,
+as demonstrated by long-term studies like Nightwatch
+\parencite{mironAutonomicBiosignalsSeizure2025, shumCommerciallyAvailableSeizure2021}.
+
+Currently, the ILAE recommends wearable devices only for GTCS/FBTCS detection in unsupervised patients where alarms can enable rapid intervention - a weak/conditional recommendation based on moderate evidence. For all other seizure types, the ILAE does not recommend clinical use of currently available wearable devices
+\parencite{beniczkyAutomatedSeizureDetection2021}.

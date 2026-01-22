@@ -562,6 +562,54 @@
       \endverb
       \keyw{Convolutional neural network (CNN),Epilepsy,Epilepsy prediction,final,include,Seizure detection,Sound event detection}
     \endentry
+    \entry{fineDetectionKeyAutomated2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8327f8c0d920b0d361d120cec781622c}{%
+           family={Fine},
+           familyi={F\bibinitperiod},
+           given={Anthony\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{fullhash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{fullhashraw}{8327f8c0d920b0d361d120cec781622c}
+      \strng{bibnamehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authorbibnamehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authornamehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authorfullhash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authorfullhashraw}{8327f8c0d920b0d361d120cec781622c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1535-7597}
+      \field{journaltitle}{Epilepsy Currents}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{Epilepsy Curr}
+      \field{shorttitle}{Detection Is {{Key}}}
+      \field{title}{Detection Is {{Key}}: {{Automated Tonic Seizure Detection With}} a {{Wearable Device}}}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{36\bibrangedash 38}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1177/15357597241293298
+      \endverb
+      \verb{eprint}
+      \verb 39545014
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/RKHA88G9/Fine - 2025 - Detection is Key Automated Tonic Seizure Detection With a Wearable Device.pdf
+      \endverb
+      \keyw{final,include}
+    \endentry
     \entry{ghaderiAdvancesMachineLearning2025}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b325894968d6e17ee5ab937d553836}{%
@@ -1928,6 +1976,87 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022510X21003051
       \endverb
       \keyw{Epilepsy,Seizure detection device}
+    \endentry
+    \entry{singhrathoreDevelopmentMultimodalMachine2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b8ed4621bdc86f5643ba2b08ff35f23a}{%
+           family={Singh\bibnamedelima Rathore},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Saurabh\bibnamedelima Pratap},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97494d33687a4b3ba1a089384b94be88}{%
+           family={Magotra},
+           familyi={M\bibinitperiod},
+           given={Sumedha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96e4f11035d10749cae65df54d103895}{%
+           family={K\bibnamedelima V},
+           familyi={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Sruthy},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40170c92f878a1faae93f09f95c75059}{%
+           family={Sonu\bibnamedelima Kumar},
+           familyi={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Sharma},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac80efcea76594192393fc855b6c2425}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Gaganpreet},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62689b47bec133f9e9870e140ffd3849}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sailendra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac6dac3c890b83adcbd1a20ae7ed74f9}
+      \strng{fullhash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{fullhashraw}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{bibnamehash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{authorbibnamehash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{authornamehash}{ac6dac3c890b83adcbd1a20ae7ed74f9}
+      \strng{authorfullhash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{authorfullhashraw}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This research explores the transformative potential of wearable devices designed to automatically detect \& predict epileptic seizures, offering continuous monitoring \& early detection capabilities. The study focuses on developing a machine learning model tailored for seizure detection in such devices, leveraging multimodal sensors such as Electrodermal Activity (EDA) \& Accelerometer (ACC). By measuring skin resistance and identifying irregular heartbeats, which are signs of upcoming seizures, these sensors allow for precise seizure detection. The study intends to demonstrate the effectiveness of this machine learning model in wearable technology with the goal of improving patient outcomes and seizure management.}
+      \field{eventtitle}{2024 1st {{International Conference}} on {{Advances}} in {{Computing}}, {{Communication}} and {{Networking}} ({{ICAC2N}})}
+      \field{journaltitle}{2024 1st {{International Conference}} on {{Advances}} in {{Computing}}, {{Communication}} and {{Networking}} ({{ICAC2N}})}
+      \field{month}{12}
+      \field{title}{Development of a {{Multimodal Machine Learning Model}} for {{Seizure Detection Using Wearable Devices}}}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1422\bibrangedash 1426}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICAC2N63387.2024.10895217
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/N94N7QP9/Singh Rathore et al. - 2024 - Development of a Multimodal Machine Learning Model for Seizure Detection Using Wearable Devices.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10895217
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10895217
+      \endverb
+      \keyw{Accelerometer (ACC),Accuracy,Classification algorithms,Classifiers,Electrodermal Activity (EDA),Electroencephalogram (EEG),final,include,Logistic regression,Machine learning,Machine learning algorithms,Performance evaluation,Seizure,Skin,Support vector machines,Usability,Wearable devices}
     \endentry
     \entry{sivathambooPreferencesUserExperiences2022}{article}{}{}
       \name{author}{13}{}{%
@@ -3435,6 +3564,54 @@
       \endverb
       \keyw{Convolutional neural network (CNN),Epilepsy,Epilepsy prediction,final,include,Seizure detection,Sound event detection}
     \endentry
+    \entry{fineDetectionKeyAutomated2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8327f8c0d920b0d361d120cec781622c}{%
+           family={Fine},
+           familyi={F\bibinitperiod},
+           given={Anthony\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{fullhash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{fullhashraw}{8327f8c0d920b0d361d120cec781622c}
+      \strng{bibnamehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authorbibnamehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authornamehash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authorfullhash}{8327f8c0d920b0d361d120cec781622c}
+      \strng{authorfullhashraw}{8327f8c0d920b0d361d120cec781622c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1535-7597}
+      \field{journaltitle}{Epilepsy Currents}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{Epilepsy Curr}
+      \field{shorttitle}{Detection Is {{Key}}}
+      \field{title}{Detection Is {{Key}}: {{Automated Tonic Seizure Detection With}} a {{Wearable Device}}}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{36\bibrangedash 38}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1177/15357597241293298
+      \endverb
+      \verb{eprint}
+      \verb 39545014
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/RKHA88G9/Fine - 2025 - Detection is Key Automated Tonic Seizure Detection With a Wearable Device.pdf
+      \endverb
+      \keyw{final,include}
+    \endentry
     \entry{ghaderiAdvancesMachineLearning2025}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b325894968d6e17ee5ab937d553836}{%
@@ -4802,6 +4979,87 @@
       \endverb
       \keyw{Epilepsy,Seizure detection device}
     \endentry
+    \entry{singhrathoreDevelopmentMultimodalMachine2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b8ed4621bdc86f5643ba2b08ff35f23a}{%
+           family={Singh\bibnamedelima Rathore},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Saurabh\bibnamedelima Pratap},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97494d33687a4b3ba1a089384b94be88}{%
+           family={Magotra},
+           familyi={M\bibinitperiod},
+           given={Sumedha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96e4f11035d10749cae65df54d103895}{%
+           family={K\bibnamedelima V},
+           familyi={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Sruthy},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40170c92f878a1faae93f09f95c75059}{%
+           family={Sonu\bibnamedelima Kumar},
+           familyi={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Sharma},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac80efcea76594192393fc855b6c2425}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Gaganpreet},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62689b47bec133f9e9870e140ffd3849}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sailendra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac6dac3c890b83adcbd1a20ae7ed74f9}
+      \strng{fullhash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{fullhashraw}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{bibnamehash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{authorbibnamehash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{authornamehash}{ac6dac3c890b83adcbd1a20ae7ed74f9}
+      \strng{authorfullhash}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \strng{authorfullhashraw}{7c7a782d3a47d0b2c34e361ca6adf38a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This research explores the transformative potential of wearable devices designed to automatically detect \& predict epileptic seizures, offering continuous monitoring \& early detection capabilities. The study focuses on developing a machine learning model tailored for seizure detection in such devices, leveraging multimodal sensors such as Electrodermal Activity (EDA) \& Accelerometer (ACC). By measuring skin resistance and identifying irregular heartbeats, which are signs of upcoming seizures, these sensors allow for precise seizure detection. The study intends to demonstrate the effectiveness of this machine learning model in wearable technology with the goal of improving patient outcomes and seizure management.}
+      \field{eventtitle}{2024 1st {{International Conference}} on {{Advances}} in {{Computing}}, {{Communication}} and {{Networking}} ({{ICAC2N}})}
+      \field{journaltitle}{2024 1st {{International Conference}} on {{Advances}} in {{Computing}}, {{Communication}} and {{Networking}} ({{ICAC2N}})}
+      \field{month}{12}
+      \field{title}{Development of a {{Multimodal Machine Learning Model}} for {{Seizure Detection Using Wearable Devices}}}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1422\bibrangedash 1426}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICAC2N63387.2024.10895217
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/N94N7QP9/Singh Rathore et al. - 2024 - Development of a Multimodal Machine Learning Model for Seizure Detection Using Wearable Devices.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10895217
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10895217
+      \endverb
+      \keyw{Accelerometer (ACC),Accuracy,Classification algorithms,Classifiers,Electrodermal Activity (EDA),Electroencephalogram (EEG),final,include,Logistic regression,Machine learning,Machine learning algorithms,Performance evaluation,Seizure,Skin,Support vector machines,Usability,Wearable devices}
+    \endentry
     \entry{sivathambooPreferencesUserExperiences2022}{article}{}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=8ffa98d6d806cf8885ab92ba2fdf0dc1}{%
@@ -5764,9 +6022,6 @@
       \keyw{Archimedes optimization algorithm (AOA),Classification algorithms,Codes,Electromyography,Epilepsy,Feature extraction,feature fusion,Hospitals,include,local differential ternary pattern,Noise measurement,Pediatrics,portable device,seizure detection}
     \endentry
   \enddatalist
-  \missing{fineWearableDeviceSeizure2025}
-  \missing{singhRathoreWearableBasedEpileptic2024}
-  \missing{wangDevelopmentWearableSeizure2025}
 \endrefsection
 \endinput
 

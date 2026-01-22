@@ -1,0 +1,36 @@
+% Detection, Forecasting, and Clinical Readiness
+\subsection{Detection, Forecasting, and Clinical Readiness}
+
+Detection and forecasting serve different clinical purposes. Detection aims to identify seizures as they occur for timely intervention, while forecasting aims to predict seizures before onset to allow preventive action. These different objectives lead to distinct technical approaches, validation requirements, and clinical readiness levels.
+
+\subsubsection{Maturity Comparison}
+
+Detection shows greater clinical maturity than forecasting. Two detection studies meet Phase 3 FPR benchmarks defined by the ILAE, though both are Phase 2 studies themselves. \textcite{spahrDeepLearningbasedDetection2025} achieved 0.0054/h FPR (approximately 1 false alarm per 8 days) with 96\% sensitivity in a prospective multi-center study of 384 patients. In a commentary on Larsen et al. 2024, \textcite{fineDetectionKeyAutomated2025} described 0.023/h FPR with 100\% sensitivity on an independent test set of 3 patients with 10 tonic seizures. Commercial devices exist for detection including the Embrace watch with FDA 510(k) clearance and NightWatch with CE approval in Europe.
+
+Forecasting shows consistent AUC around 0.74 to 0.75 across studies, suggesting a performance ceiling for non-invasive approaches. \textcite{meiselMachineLearningWristband2020} reported AUC 0.74 with IoC of 14.1\% over chance. \textcite{nasseriAmbulatorySeizureForecasting2021} reported AUC 0.80 (mean) but studied only 6 patients. \textcite{vielufSeizureMonitoringCombined2025} achieved AUC 0.75 in a larger sample of 70 patients. However, no forecasting study meets a clear clinical benchmark and no device has regulatory approval for seizure forecasting.
+
+Detection benefits from clearer clinical requirements. The ILAE has defined guidelines for detection device validation including FPR targets below 0.05 to 0.1 per hour. Forecasting lacks equivalent standardized guidelines. This gap complicates assessment of forecasting readiness and clinical utility.
+
+Sample size disparities further reflect the maturity difference. Detection studies have a median sample size of 66 participants compared to 40 for forecasting studies. Larger detection studies enable more robust performance estimates. The largest detection study enrolled 384 patients across eight centers, while the largest forecasting study enrolled 70 patients.
+
+\subsubsection{Barriers to Clinical Adoption}
+
+Several barriers impede clinical translation of wearable seizure monitoring. First, high FPR limits clinical utility. Six of eight detection studies report FPR above acceptable thresholds. \textcite{dongTwoLayerEnsembleMethod2022} reported 0.165/h FPR in home validation, \textcite{wangEpilepticSeizureDetection2025} reported 0.354/h, and \textcite{reintjesECGBasedDetectionEpileptic2025} reported FPR from 1.91/h to 39.75/h. High FPR causes alarm fatigue and may lead patients to abandon devices.
+
+Second, limited seizure type coverage restricts applicability. Detection approaches focus on convulsive seizures with motor manifestations captured by accelerometer and gyroscope sensors. Focal aware seizures without motor signs remain undetectable with current wearable approaches. Non-convulsive seizures represent a substantial unmet need that may require invasive EEG monitoring.
+
+Third, small sample sizes limit generalizability. Four studies have sample sizes below 20 patients. \textcite{singhrathoreDevelopmentMultimodalMachine2024} is a single-patient case study. \textcite{borujenyDetectionEpilepticSeizure2013} studied only 3 patients. Small samples increase uncertainty about performance estimates and may not capture the full diversity of seizure presentations.
+
+Fourth, validation setting affects real-world applicability. Seven studies were conducted entirely in hospital or EMU settings. Hospital environments may not capture the diversity of real-world activities that cause false alarms. Exercise, cooking, household chores, and other daily activities present challenges not encountered in controlled environments.
+
+Fifth, device burden and battery life limit adherence. Multi-modal systems sampling multiple signals at high frequencies consume substantial power. Long-term monitoring requires daily charging, which may reduce adherence over time. \textcite{stirlingForecastingSeizureLikelihood2021} achieved the longest monitoring duration with a mean of 14.6 months per patient, but such extended use requires careful attention to device comfort and reliability.
+
+\subsubsection{Most Advanced Approaches}
+
+\textcite{spahrDeepLearningbasedDetection2025} represents the most clinically advanced detection approach. The study combines large sample size, prospective multi-center design, excellent sensitivity, and the lowest reported FPR among detection studies. The ensemble 1D CNN algorithm operates in real-time with 112 ms inference time suitable for on-device processing. The main limitation is EMU setting rather than home validation.
+
+\textcite{dongTwoLayerEnsembleMethod2022} represents the most advanced home-validated detection approach. The study achieved prospective home monitoring with 788 overnight recordings over three months using the NightWatch commercial device. FPR of 0.165/h exceeds clinical benchmarks but may be acceptable for some patients prioritizing sensitivity over specificity.
+
+\textcite{stirlingForecastingSeizureLikelihood2021} represents the most clinically advanced forecasting approach. The study achieved 100\% patient success with long home validation using consumer Fitbit devices. The LSTM+RF+LR ensemble with weekly retraining adapts to individual patient patterns. However, forecasting lacks clear clinical benchmarks and regulatory pathways.
+
+\textbf{Key limitation.} No study has achieved all requirements for clinical deployment. All studies have limitations in sample size, validation setting, FPR, or generalizability. No study has achieved Phase 3 prospective validation in home settings with sufficient sample size and duration. Substantial additional research is needed before wearable seizure monitoring can achieve widespread clinical adoption.

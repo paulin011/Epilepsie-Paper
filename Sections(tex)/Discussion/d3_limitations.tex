@@ -1,0 +1,29 @@
+\subsection{Limitations of the Evidence Base}
+
+\subsubsection{Sample Size Constraints}
+
+The evidence base for wearable seizure monitoring is constrained by small sample sizes in multiple studies. Detection studies enrolled a median of 44 participants, while forecasting studies enrolled a median of 11 participants. Four studies have sample sizes below 20 participants. \textcite{singhrathoreDevelopmentMultimodalMachine2024} is a single-patient case study with limited generalizability. \textcite{borujenyDetectionEpilepticSeizure2013} evaluated only 3 patients. \textcite{fineDetectionKeyAutomated2025} tested 10 seizures from 3 patients. Small sample sizes limit the reliability of performance estimates and reduce confidence that results will generalize to broader epilepsy populations.
+
+Forecasting studies face particular sample size challenges. \textcite{nasseriAmbulatorySeizureForecasting2021} studied only 6 patients due to the requirement for invasive EEG confirmation via the RNS system. \textcite{stirlingForecastingSeizureLikelihood2021} studied 11 patients. Small samples increase uncertainty about performance estimates and may not capture the heterogeneity of seizure patterns across patients.
+
+\subsubsection{Validation Setting Bias}
+
+Eight of 13 studies were conducted in hospital or EMU settings. Only six studies included home or ambulatory validation. This setting bias limits the applicability of findings to real-world use. Hospital environments lack the diversity of activities that generate false alarms in daily life. Exercise, cooking, household chores, and other routine activities present motion patterns and physiological changes not encountered in controlled hospital environments.
+
+\textcite{spahrDeepLearningbasedDetection2025} achieved excellent performance with 0.0054/h FPR in an EMU setting. However, this performance may not translate to home use where patients engage in varied activities. \textcite{dongTwoLayerEnsembleMethod2022} conducted home monitoring and reported 0.165/h FPR, substantially higher than the EMU-based studies. This discrepancy suggests that hospital-based validation may underestimate real-world FPR.
+
+Forecasting studies show stronger home validation. \textcite{stirlingForecastingSeizureLikelihood2021} achieved a mean of 14.6 months monitoring per patient using consumer smartwatches. \textcite{nasseriAmbulatorySeizureForecasting2021} achieved concurrent EEG confirmation via the RNS system in ambulatory settings. However, these studies remain limited by small sample sizes.
+
+\subsubsection{Reporting Inconsistency}
+
+Inconsistent metrics reporting hinders comparison across studies. Forecasting studies routinely report patient-level success rates. \textcite{stirlingForecastingSeizureLikelihood2021} achieved 100\% patient success. \textcite{nasseriAmbulatorySeizureForecasting2021} achieved 83\% patient success. \textcite{meiselMachineLearningWristband2020} achieved 62\% patient success with LOSO validation.
+
+Detection studies rarely report patient-level results. Only two of nine detection studies provide individual patient outcomes. This reporting gap prevents assessment of which patients benefit from global detection models. High aggregate sensitivity may mask substantial variability across patients. Without patient-level reporting, it is unclear whether detection algorithms work reliably for all patients or only a subset.
+
+\subsubsection{Monitoring Duration and Cold-Start Problems}
+
+Most studies report limited monitoring durations. This constraint is particularly problematic for patient-specific approaches that require sufficient individual data for model training. \textcite{stirlingForecastingSeizureLikelihood2021} required a mean of 14.6 months of data per patient to achieve reliable forecasting. \textcite{nasseriAmbulatorySeizureForecasting2021} required 60+ days per patient.
+
+This data requirement creates a cold start problem where new patients must wait weeks or months before the system becomes useful. Global models address this limitation by enabling immediate deployment. However, global models may not capture individual seizure patterns and achieve lower patient success rates. The trade-off between immediate deployment and individualized performance remains unresolved.
+
+\textcite{dongTwoLayerEnsembleMethod2022} achieved the most extensive home validation with 788 overnight recordings over three months. This duration approaches clinically meaningful monitoring periods but remains insufficient for long-term assessment of device adherence and performance stability.
