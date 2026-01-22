@@ -1,0 +1,68 @@
+% Clinical Readiness Subsection
+\subsection{Clinical Readiness and Deployment}
+
+Clinical readiness for wearable seizure monitoring devices depends on validation phase, performance against benchmarks, and real-world deployment capability. This section assesses the translation potential of current approaches.
+
+\subsubsection{Validation Phase Distribution}
+
+No study in this review has achieved Phase 3 prospective validation in home settings. Phase 3 validation requires prospective testing in the intended use environment with sufficient sample size and duration.
+
+Two detection studies approach Phase 3 requirements. \textcite{spahrDeepLearningbasedDetection2025} conducted prospective multi-center validation with 384 patients. The study met clinical FPR benchmarks but was conducted in EMU settings rather than home. \textcite{dongTwoLayerEnsembleMethod2022} conducted prospective home monitoring with 68 patients but reported FPR above clinical benchmarks.
+
+\textcite{fineWearableDeviceSeizure2025} represents Phase 1 validation with a small independent test set. The study achieved 100\% sensitivity with 0.023/h FPR but tested only 10 seizures from 3 patients. Phase 2 or 3 validation with larger samples is needed.
+
+Forecasting studies remain in earlier validation phases. \textcite{vielufSeizureMonitoringCombined2025} used Phase IV clinical trial data but employed retrospective analysis. \textcite{meiselMachineLearningWristband2020} and \textcite{nasseriAmbulatorySeizureForecasting2021} represent Phase 2-equivalent validation with moderate samples.
+
+\subsubsection{Benchmark Achievement}
+
+The ILAE Phase 3 benchmark requires FPR below 0.05 to 0.1 per hour for home use. Only two of eight detection studies meet this benchmark.
+
+\textcite{spahrDeepLearningbasedDetection2025} reported 0.005/h FPR, which is 10 times below the benchmark. \textcite{fineWearableDeviceSeizure2025} reported 0.023/h FPR, approximately twice below the benchmark. These studies demonstrate that acceptable FPR is achievable with wearable ACC-based approaches.
+
+Six detection studies exceed the clinical FPR benchmark. \textcite{dongTwoLayerEnsembleMethod2022} reported 0.165/h FPR. \textcite{wangDevelopmentWearableSeizure2025} reported 0.354/h FPR. \textcite{odeDevelopmentEpilepticSeizure2023} reported 0.85/h FPR. \textcite{reintjesECGBasedDetectionEpileptic2025} reported FPR from 1.91/h to 39.75/h.
+
+Forecasting lacks an established clinical benchmark. AUC around 0.74 to 0.75 appears consistently across studies, but the clinical acceptability of this performance level remains unclear. IoC of 14.1\% (reported by \textcite{meiselMachineLearningWristband2020}) suggests modest improvement over chance.
+
+\subsubsection{Commercial Device Status}
+
+Six of 13 studies use commercially available devices. The Empatica E4 research wristband appears in three studies. The Embrace watch appears in one study. The NightWatch armband appears in one study. Fitbit smartwatches appear in one study.
+
+The Embrace watch has FDA 510(k) clearance for seizure detection. NightWatch has CE approval in Europe. However, no device has regulatory approval specifically for seizure forecasting. Forecasting devices would need to establish clinical utility and safety through dedicated trials.
+
+Seven studies use research prototypes without clear commercialization pathways. These prototypes demonstrate technical feasibility but may require substantial engineering for commercial deployment.
+
+\subsubsection{Real-World Deployment}
+
+Six studies include home or ambulatory validation. \textcite{dongTwoLayerEnsembleMethod2022} achieved the most extensive home validation with 788 overnight recordings over three months. \textcite{stirlingForecastingSeizureLikelihood2021} achieved the longest monitoring duration with a mean of 14.6 months per patient.
+
+\textcite{nasseriAmbulatorySeizureForecasting2021} achieved the most rigorous ambulatory validation with concurrent invasive EEG confirmation via the RNS system. However, only six patients were studied.
+
+Seven studies were conducted entirely in hospital or EMU settings. Hospital settings may not capture the diversity of real-world activities that cause false alarms. Exercise, cooking, household chores, and other activities present challenges not encountered in controlled hospital environments.
+
+\subsubsection{Deployment Architecture}
+
+Three studies report on-device or real-time deployment capability. \textcite{spahrDeepLearningbasedDetection2025} reported 112 ms inference time suitable for real-time processing. \textcite{borujenyDetectionEpilepticSeizure2013} reported 316 mW power consumption for server-based processing. \textcite{dongTwoLayerEnsembleMethod2022} deployed on the NightWatch armband with real-time processing.
+
+Cloud-based processing appears in three studies. \textcite{nasseriAmbulatorySeizureForecasting2021} and \textcite{odeDevelopmentEpilepticSeizure2023} used cloud-based approaches. Cloud processing may introduce latency and connectivity issues. Offline processing appears in two studies without clear deployment pathways.
+
+\subsubsection{Barriers to Clinical Adoption}
+
+Several barriers impede clinical translation of wearable seizure monitoring. First, high FPR limits clinical utility. Six of eight detection studies report FPR above acceptable thresholds. High FPR causes alarm fatigue and may lead patients to abandon devices.
+
+Second, limited seizure type coverage restricts applicability. Most approaches detect only convulsive seizures with motor manifestations. Focal aware seizures without motor signs remain undetectable with current approaches. Non-convulsive seizures represent a substantial unmet need.
+
+Third, small sample sizes limit generalizability. Four studies have sample sizes below 20 patients. \textcite{singhRathoreWearableBasedEpileptic2024} is a single-patient case study. \textcite{nasseriAmbulatorySeizureForecasting2021} studied only 6 patients. Small samples increase uncertainty about performance estimates.
+
+Fourth, battery life and device burden limit adherence. Multi-modal systems sampling multiple signals at high frequencies consume substantial power. Long-term monitoring requires daily charging which may reduce adherence.
+
+Fifth, data quality varies in real-world settings. Motion artifacts, skin contact problems, and environmental interference affect signal quality. Hospital validation may not capture these challenges.
+
+\subsubsection{Most Advanced Approaches}
+
+\textcite{spahrDeepLearningbasedDetection2025} represents the most clinically advanced detection approach. The study combines large sample size (384 patients), prospective multi-center design, excellent sensitivity (96\%), and best-in-class FPR (0.005/h). The algorithm operates in real-time with on-device capability. The main limitation is EMU setting rather than home validation.
+
+\textcite{dongTwoLayerEnsembleMethod2022} represents the most advanced home-validated detection approach. The study achieved prospective home monitoring with the NightWatch commercial device. FPR of 0.165/h exceeds clinical benchmarks but may be acceptable for some patients.
+
+\textcite{stirlingForecastingSeizureLikelihood2021} represents the most clinically advanced forecasting approach. The study achieved 100\% patient success with 14.6-month home validation using consumer devices. However, forecasting lacks clear clinical benchmarks and regulatory pathways.
+
+\textbf{Key limitation.} No study has achieved all requirements for clinical deployment. All studies have limitations in sample size, validation setting, FPR, or generalizability. Substantial additional research is needed before wearable seizure monitoring can achieve widespread clinical adoption.

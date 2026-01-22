@@ -1,19 +1,23 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[58] biber:342> INFO - === Mi Jan 21, 2026, 17:23:09
-[72] Biber.pm:421> INFO - Reading 'main.bcf'
-[145] Biber.pm:1002> INFO - Found 42 citekeys in bib section 0
-[164] Biber.pm:4487> INFO - Processing section 0
-[172] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
-[191] bibtex.pm:1713> INFO - LaTeX decoding ...
-[633] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
-[1204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1204] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1204] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1323] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1323] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1323] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1323] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1382] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1452] bbl.pm:779> INFO - Output to main.bbl
+[56] biber:342> INFO - === Do Jan 22, 2026, 14:16:16
+[69] Biber.pm:421> INFO - Reading 'main.bcf'
+[155] Biber.pm:1002> INFO - Found 35 citekeys in bib section 0
+[173] Biber.pm:4487> INFO - Processing section 0
+[192] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
+[215] bibtex.pm:1713> INFO - LaTeX decoding ...
+[657] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
+[1123] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1123] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1123] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1123] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1216] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1216] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1216] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1216] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1275] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1326] bbl.pm:779> INFO - Output to main.bbl
+[1328] Biber.pm:132> WARN - I didn't find a database entry for 'wangDevelopmentWearableSeizure2025' (section 0)
+[1328] Biber.pm:132> WARN - I didn't find a database entry for 'fineWearableDeviceSeizure2025' (section 0)
+[1328] Biber.pm:132> WARN - I didn't find a database entry for 'singhRathoreWearableBasedEpileptic2024' (section 0)
+[1328] Biber.pm:134> INFO - WARNINGS: 3

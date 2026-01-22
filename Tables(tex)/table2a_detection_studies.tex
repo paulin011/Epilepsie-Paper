@@ -17,14 +17,14 @@
 \toprule
 \textbf{Study} & \textbf{Paradigm} & \textbf{Arch. Details} & \textbf{Modality Details} & \textbf{Fusion} & \textbf{Personalization} & \textbf{Trade-off Config} & \textbf{Deployment} \\
 \midrule
-\textbf{Spahr et al. 2025} & Ensemble & 30 1D CNN models, 14 conv layers, quantile & ACC 32~Hz, Euclidean norm, 30~s & -- & Global, tunable & 86--100\% @ 0.01--0.5/day & Real-time (112~ms), on-device \\
-\textbf{Reintjes et al. 2025} & Anomaly & Matrix-Profile, MADRID, TimeVQVAE-AD & ECG 256$\to$8~Hz, bandpass & -- & Subject split & 38.0--98.2\% @ 1.91--40.5/h & Offline, hospital \\
+\textbf{Spahr et al. 2025} & Ensemble & 30 1D CNN models, 14 conv layers, quantile & ACC 32~Hz, Euclidean norm, 30~s & -- & Global, tunable & 86--100\% @ 0.005/h & Real-time (112~ms), on-device \\
+\textbf{Reintjes et al. 2025} & Anomaly & Matrix-Profile, MADRID, TimeVQVAE-AD & ECG 256$\to$8~Hz, bandpass & -- & Subject split & 38.0--98.2\% @ 1.91--39.75/h & Offline, hospital \\
 \textbf{Fine 2025} & Feature-based & ANN, 594 handcrafted features & ACC+Gyro 6-axis, 10~s intervals & Early & Global, hold-out & 100\% @ 0.023/h & Offline PC, EMU \\
 \textbf{Dong et al. 2026} & Two-stage & Pre-screening + CNN-LSTM + Attention & ACM 11-12$\to$20~Hz, PPG 100$\to$20~Hz, 5~min & Early & Global, 10-fold CV & 71.6\% @ 0.165/h & Real-time, NightWatch, home \\
 \textbf{Wang et al. 2025} & Feature-based & LSTM (40 hidden) + ReLU + FC & ACC/GYR 50~Hz, SEMG 200~Hz, EDA 4~Hz, 4~s & Early & Global, hold-out & 56.4--95.3\% @ 0.354/h & Real-time, hospital \\
-\textbf{Singh 2024} & Feature-based & MLP, multi-modal features & EDA, ACC, HR/HRV, 25k points & Early & Global, single pt & 96.8\% @ 94.8\% prec & Real-time, cloud? \\
-\textbf{Elemam 2025} & CNN-based & CNN for HRV, CNN for Audio (separate) & PPG 250~Hz, Audio 10~s & No fusion & Global, unclear & 95.1\% @ 97.1\% spec & Real-time, hospital \\
-\textbf{Borujeny 2013} & Feature-based & KNN k=5, time-domain features & ACC 2D 3~Hz, 9~s & -- & Global, 3 pts & 90--100\% @ 0--15\% & Real-time, server (316~mW) \\
+\textbf{Singh 2024} & Feature-based & MLP, multi-modal features & EDA, ACC, HR/HRV, 25k points & Early & Single pt (CS) & 96.8\% @ 94.8\% prec & Real-time, cloud? \\
+\textbf{Elemam 2025} & CNN-based & CNN for HRV, CNN for Audio (separate) & PPG 250~Hz, Audio 10~s & No fusion & Global, unclear & 95.1\% @ 97.06\% spec & Real-time, hospital \\
+\textbf{Borujeny 2013} & Feature-based & ANN, time-domain features & ACC 2D 3~Hz, 9~s & -- & Global, 3 pts & 85\% @ 3 FA & Real-time, server (316~mW) \\
 \bottomrule
 \end{tabularx}
 \par\medskip

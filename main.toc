@@ -1,36 +1,62 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Problem Statement and Motivation}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Key Research Question}{3}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {1.2}Key Research Question}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Theoretical Foundations for Ambulatory Seizure Monitoring}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Ambulatory Monitoring Paradigm: Requirements and Challenges}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Physiological Biosignals for Wearable Sensing}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{4}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Methodological Approach and Structure}{5}{section.3}%
+\contentsline {subsection}{\numberline {2.3}Seizure Manifestations and Corresponding Biosignals}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Evaluation Frameworks: From Retrospective Analysis to Prospective Validity}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Methodological Approach and Structure}{6}{section.3}%
 \contentsline {section}{\numberline {4}Search Strategy}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}PICO-Based Search Methodology}{7}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Exploration}{8}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Practical Filters and Reproducibility}{8}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Study Comparison Following Webster and Watson}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Concept Matrix: Study Overview}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Architecture and Modality Deep-Dive}{16}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Dimensional Analysis}{16}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Sensor Modality Trends}{16}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Algorithmic Evolution}{16}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Validation Rigor}{16}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Performance Metrics Reporting}{16}{subsubsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.4}Synthesis and Gaps}{17}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Key Findings and Clinical Takeaways}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Executive Summary}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Detection Performance}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Forecasting Performance}{19}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Methodological Trends}{19}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Clinical Takeaways}{20}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Conclusion}{20}{section.7}%
-\contentsline {subsection}{\numberline {7.1}The Translation Gap}{20}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}The Responder Problem}{21}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Validation Infrastructure Deficits}{21}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}The Explainability Gap}{21}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Research Priorities}{22}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}The Path Forward}{23}{subsection.7.6}%
+\contentsline {section}{\numberline {5}Results}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Study Characteristics}{14}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Study Design}{14}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Forecasting Study Designs}{15}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Temporal Trends}{15}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Setting Distribution}{15}{subsubsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.2}Modality Performance}{15}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Modality Usage}{15}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Sensor Location}{16}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Detection Performance by Modality}{16}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Forecasting Performance by Modality}{16}{subsubsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.3}Architecture and Algorithm Patterns}{17}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Learning Paradigms}{17}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Detection Architectures}{17}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Forecasting Architectures}{17}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Temporal Evolution}{18}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}Input Representations}{18}{subsubsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.4}Performance Metrics}{18}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Detection Sensitivity}{18}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}False Positive Rate}{19}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Forecasting Performance}{19}{subsubsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.4}Patient Success Rates}{19}{subsubsection.5.4.4}%
+\contentsline {subsubsection}{\numberline {5.4.5}Validation Method Impact}{20}{subsubsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.5}Personalization Strategies}{20}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Global Models}{20}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Patient-Specific Models}{20}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Mixed Approaches}{21}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Subject-Split Validation}{21}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.5}Comparison by Strategy}{21}{subsubsection.5.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.6}Computational Considerations}{21}{subsubsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.6}Detection Versus Forecasting}{22}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Clinical Objectives}{22}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Algorithmic Differences}{22}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Modality Preferences}{22}{subsubsection.5.6.3}%
+\contentsline {subsubsection}{\numberline {5.6.4}Performance Comparison}{22}{subsubsection.5.6.4}%
+\contentsline {subsubsection}{\numberline {5.6.5}Clinical Maturity}{23}{subsubsection.5.6.5}%
+\contentsline {subsubsection}{\numberline {5.6.6}Sample Size Disparity}{23}{subsubsection.5.6.6}%
+\contentsline {subsubsection}{\numberline {5.6.7}Validation Setting}{23}{subsubsection.5.6.7}%
+\contentsline {subsubsection}{\numberline {5.6.8}Reporting Practices}{23}{subsubsection.5.6.8}%
+\contentsline {subsubsection}{\numberline {5.6.9}Performance Ceiling}{23}{subsubsection.5.6.9}%
+\contentsline {subsection}{\numberline {5.7}Clinical Readiness and Deployment}{24}{subsection.5.7}%
+\contentsline {subsubsection}{\numberline {5.7.1}Validation Phase Distribution}{24}{subsubsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.2}Benchmark Achievement}{24}{subsubsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.3}Commercial Device Status}{25}{subsubsection.5.7.3}%
+\contentsline {subsubsection}{\numberline {5.7.4}Real-World Deployment}{25}{subsubsection.5.7.4}%
+\contentsline {subsubsection}{\numberline {5.7.5}Deployment Architecture}{25}{subsubsection.5.7.5}%
+\contentsline {subsubsection}{\numberline {5.7.6}Barriers to Clinical Adoption}{25}{subsubsection.5.7.6}%
+\contentsline {subsubsection}{\numberline {5.7.7}Most Advanced Approaches}{26}{subsubsection.5.7.7}%
