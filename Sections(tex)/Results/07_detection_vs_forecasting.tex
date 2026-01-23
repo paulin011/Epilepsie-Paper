@@ -23,7 +23,7 @@ Forecasting studies emphasize autonomic nervous system indicators. Four of five 
 
 \subsubsection{Performance Comparison}
 
-Detection and forecasting cannot be directly compared because they use different metrics. Detection sensitivity ranges from 38\% to 100\%. Forecasting performance measured by AUC ranges from 0.74 to 0.75. These metrics assess different constructs.
+Detection and forecasting cannot be directly compared because they use different metrics. Detection sensitivity ranges from 38\% to 100\%. Two forecasting studies report AUC-ROC of 0.74 to 0.75, while other forecasting studies use different metrics (IoC, AUC-PR). These metrics assess different constructs.
 
 Detection faces the FPR challenge. Only two of eight detection studies meet the clinical FPR benchmark of below 0.05 to 0.1 per hour. High FPR leads to alarm fatigue and limits real-world utility. Forecasting does not have an established clinical benchmark for acceptable performance.
 
@@ -57,8 +57,8 @@ Forecasting studies report forecasting-specific metrics including IoC and TiW. D
 
 \subsubsection{Performance Ceiling}
 
-Forecasting shows a consistent performance ceiling across studies. Three forecasting studies report AUC between 0.74 and 0.75. This consistency across different methods and modalities suggests a fundamental limit of non-invasive forecasting approaches.
+Forecasting shows a consistent performance ceiling across studies. Two forecasting studies using AUC-ROC report values of 0.74 to 0.75 (\textcite{nasseriAmbulatorySeizureForecasting2021}, \textcite{stirlingForecastingSeizureLikelihood2021}). This consistency across different methods and modalities suggests a fundamental limit of non-invasive forecasting approaches. \textcite{vielufSeizureMonitoringCombined2025} reports AUC-PR 0.84 rather than AUC-ROC, preventing direct comparison.
 
-Detection has reached a sensitivity ceiling of 100\% but struggles with FPR. The best performing detection study, \textcite{spahrDeepLearningbasedDetection2025}, achieves 96\% sensitivity with 0.005/h FPR. However, most detection studies report FPR above clinical acceptability thresholds.
+Detection has reached a sensitivity ceiling of 100\% but struggles with FPR. The best performing detection study, \textcite{spahrDeepLearningbasedDetection2025}, achieves 96\% sensitivity with 0.0054/h FPR. However, most detection studies report FPR above clinical acceptability thresholds.
 
 \textbf{Limitation identified.} Direct comparison between detection and forecasting is challenging due to different metrics, validation approaches, and clinical objectives. The field lacks standardized frameworks for assessing relative clinical value.

@@ -17,11 +17,11 @@ The preference for wrist placement reflects patient acceptance and the availabil
 
 \subsubsection{Detection Performance by Modality}
 
-Single-modality accelerometer approaches achieve strong performance. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity with 0.005/h FPR using only ACC data from the Empatica E4. This represents the lowest FPR among all detection studies. \textcite{borujenyDetectionEpilepticSeizure2013} reported 85\% sensitivity using 2D ACC, though with only three patients.
+Single-modality accelerometer approaches achieve strong performance. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity with 0.0054/h FPR using only ACC data from the Empatica E4. This represents the lowest FPR among all detection studies. \textcite{borujenyDetectionEpilepticSeizure2013} reported 85\% sensitivity using 2D ACC, though with only three patients.
 
-Multi-modal movement detection shows excellent sensitivity in controlled settings. \textcite{fineDetectionKeyAutomated2025} used a 6-axis band combining ACC and gyroscope to achieve 100\% sensitivity with 0.023/h FPR in an independent test set. However, the test set contained only 10 seizures from 3 patients.
+Multi-modal movement detection results in excellent sensitivity in controlled settings. \textcite{fineDetectionKeyAutomated2025} used a 6-axis band combining ACC and gyroscope to achieve 100\% sensitivity with 0.023/h FPR in an independent test set. However, the test set contained only 10 seizures from 3 patients.
 
-ECG-based detection shows high FPR variability. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three anomaly detection methods on single-lead ECG. Sensitivity ranged from 38.0\% to 98.2\%, while FPR ranged from 1.91/h to 39.75/h depending on the method. \textcite{odeDevelopmentEpilepticSeizure2023} achieved 74\% sensitivity with 0.85/h FPR using ECG RRI data.
+ECG-based detection shows high FPR variability. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three anomaly detection methods on single-lead ECG. Sensitivity ranged from 13.4\% to 82.8\%, while FPR ranged from 0.11/h to 65.62/h depending on method and configuration. The lowest FPR of 0.11/h detected only 2.44\% of seizures. \textcite{odeDevelopmentEpilepticSeizure2023} achieved 74\% sensitivity with 0.85/h FPR using ECG RRI data.
 
 Multi-modal approaches combining movement and autonomic signals show mixed results. \textcite{dongTwoLayerEnsembleMethod2022} combined ACC and PPG in a two-stage CNN-LSTM architecture, achieving 71.6\% sensitivity with 0.165/h FPR. \textcite{wangEpilepticSeizureDetection2025} combined ACC, gyroscope, SEMG, and EDA to achieve 56.4\% to 95.3\% sensitivity depending on the feature set.
 
@@ -35,4 +35,4 @@ Forecasting studies consistently use autonomic signals. \textcite{nasseriAmbulat
 
 \textcite{stirlingForecastingSeizureLikelihood2021} focused on heart rate cycles combined with sleep and step data from Fitbit devices. The approach achieved AUC 0.74 with 100\% patient success in hourly forecasting mode.
 
-\textbf{Key finding.} Multi-modal approaches are common but not universally superior. Single-modality ACC (\textcite{spahrDeepLearningbasedDetection2025}) achieves the best FPR in the detection literature. Forecasting consistently requires multi-modal autonomic data, but AUC plateaus around 0.75 regardless of modality combination.
+\textbf{Key finding.} Multi-modal approaches are common but not universally superior. Single-modality ACC (\textcite{spahrDeepLearningbasedDetection2025}) achieves the best FPR in the included detection literature. Forecasting consistently requires multi-modal autonomic data, but AUC-ROC plateaus around 0.75 regardless of modality combination.

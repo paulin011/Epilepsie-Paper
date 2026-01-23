@@ -13,7 +13,7 @@
 \midrule
 \textbf{Detection Studies} \\
 \textbf{Spahr et al. 2025} & Ensemble & 30 1D CNN models, 14 conv layers, quantile & ACC 32~Hz, Euclidean norm, 30~s & -- & Global, tunable & 86--100\% @ 0.01--0.5/day & Real-time (112~ms), on-device \\
-\textbf{Reintjes et al. 2025} & Anomaly & Matrix Prof., MADRID, TimeVQVAE-AD & ECG 256$\to$8~Hz, bandpass & -- & Subject split & 38.0--98.2\% @ 1.91--40.5/h & Offline, hospital \\
+\textbf{Reintjes et al. 2025} & Anomaly & Matrix Prof., MADRID, TimeVQVAE-AD & ECG 256$\to$8~Hz, bandpass & -- & Subject split & 2.44--82.79\% @ 0.11--65.62/h & Offline, hospital \\
 \textbf{Fine 2025} & Feature-based & ANN, 594 handcrafted features & ACC+Gyro 6-axis, 10~s intervals & Early & Global, hold-out & 100\% @ 0.023/h & Offline PC, EMU \\
 \textbf{Dong et al. 2026} & Two-stage & Pre-screening + CNN-LSTM + Attention & ACM 11-12$\to$20~Hz, PPG 100$\to$20~Hz, 5~min & Early & Global, 10-fold CV & 71.6\% @ 0.165/h & Real-time, NightWatch, home \\
 \textbf{Wang et al. 2025} & Feature-based & LSTM (40 hidden) + ReLU + FC & ACC/GYR 50~Hz, SEMG 200~Hz, EDA 4~Hz, 4~s & Early & Global, hold-out & 56.4--95.3\% @ 0.354/h & Real-time, hospital \\
