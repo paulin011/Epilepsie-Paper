@@ -1,31 +1,45 @@
-\subsection{Modalities, Architectures, and Personalization}
-
-\subsubsection{Modality Selection and Sensor Placement}
-
-Biosignal modality selection differs between detection and forecasting approaches. Detection studies prioritize movement sensors, while forecasting studies emphasize autonomic nervous system indicators. Accelerometer data appears in nine of 13 studies (69\%), with six detection studies and three forecasting studies using accelerometry. Electrodermal activity appears in five studies (38\%). ECG or HRV data appears in five studies. PPG appears in four studies. Gyroscope data appears in three studies, all in detection applications.
-
-Multi-modal approaches dominate the evidence base. Nine of 13 studies (69\%) use multiple sensor types. Four studies use single-modality approaches: \textcite{spahrDeepLearningbasedDetection2025} (ACC only), \textcite{reintjesECGBasedDetectionEpileptic2025} (ECG only), \textcite{borujenyDetectionEpilepticSeizure2013} (ACC only), and \textcite{odeDevelopmentEpilepticSeizure2023} (ECG RRI only). Wrist-worn devices appear in eight studies (62\%), reflecting patient acceptance and the availability of consumer wearable devices.
-
-Single-modality accelerometer approaches achieve strong performance. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity with 0.0054/h FPR using only ACC data, representing the lowest FPR among all detection studies. Multi-modal movement detection shows excellent sensitivity in controlled settings, with \textcite{fineDetectionKeyAutomated2025} achieving 100\% sensitivity using a 6-axis band combining ACC and gyroscope. ECG-based detection shows high FPR variability, with \textcite{reintjesECGBasedDetectionEpileptic2025} reporting FPR ranging from 1.91/h to 65.62/h depending on the anomaly detection method.
-
-Forecasting studies consistently use autonomic signals. \textcite{nasseriAmbulatorySeizureForecasting2021} combined ACC, PPG, EDA, temperature, and HR to achieve AUC 0.75 (SD 0.15) across the full cohort, with significant predictors achieving mean AUC 0.80 (range 0.72-0.92). \textcite{meiselMachineLearningWristband2020} used EDA, PPG, temperature, and ACC to achieve 51.2\% sensitivity with IoC 14.1\% in LOSO validation. AUC-ROC plateaus around 0.74-0.75 regardless of modality combination in forecasting applications.
+\subsection{Architectures and Personalization}
+\label{sec:modalities-architectures}
 
 \subsubsection{Architecture Patterns}
 
-Deep learning architectures differ substantially between detection and forecasting applications. While forecasting studies concentrate on LSTM-based approaches, detection research is diverser but CNN-based approaches dominate. 
+Deep learning architectures differ substantially between detection and forecasting applications. While forecasting studies concentrate on LSTM-based approaches, detection research is more diverse but CNN-based approaches dominate.
 
-\textcite{spahrDeepLearningbasedDetection2025} implemented an ensemble of 30 CNN models, achieving 96\% sensitivity with 0.0054/h FPR. \textcite{elemamAutomatedValidatedTool2025} used separate CNNs for HRV and audio processing. LSTM appears in one detection study, with \textcite{wangEpilepticSeizureDetection2025} using an LSTM with 40 hidden units processing attitude angle features. Traditional neural networks appear in earlier studies, with \textcite{fineDetectionKeyAutomated2025} using an ANN with 594 handcrafted features.
+CNN-based methods are prominent in detection. \textcite{spahrDeepLearningbasedDetection2025} implemented an ensemble of 30 CNN models, achieving 96\% sensitivity with 0.0054/h FPR. \textcite{elemamAutomatedValidatedTool2025} used separate CNNs for HRV and audio processing. LSTM appears in one detection study, with \textcite{wangEpilepticSeizureDetection2025} using an LSTM with 40 hidden units processing attitude angle features. Traditional neural networks appear in earlier studies, with \textcite{fineDetectionKeyAutomated2025} using an ANN with 594 handcrafted features.
 
 Three of five forecasting studies use LSTM variants. \textcite{meiselMachineLearningWristband2020} implemented a minimal LSTM with 10 hidden units operating directly on raw multi-modal wrist data. \textcite{nasseriAmbulatorySeizureForecasting2021} used a deeper 4-layer LSTM with 128 hidden units per layer. \textcite{stirlingForecastingSeizureLikelihood2021} combined LSTM with random forest and logistic regression in an ensemble. No forecasting study uses CNN-based approaches, possibly because forecasting requires modeling temporal dependencies rather than spatial patterns.
 
-Handcrafted features remain competitive. Three of eight detection studies use feature-based approaches with strong performance. \textcite{fineDetectionKeyAutomated2025} achieved 100\% sensitivity using 594 handcrafted features. This suggests that domain knowledge and human involvement still remains valuable despite the end-to-end learning trend. Window sizes vary substantially between applications. Detection studies use shorter windows ranging from 4 seconds to 5 minutes. Forecasting studies use longer windows ranging from 30 seconds to 60 minutes.
+Handcrafted features remain competitive. Three of eight detection studies use feature-based approaches with strong performance. \textcite{fineDetectionKeyAutomated2025} achieved 100\% sensitivity using 594 handcrafted features. This suggests that domain knowledge remains valuable despite the end-to-end learning trend. Window sizes vary substantially between applications. Detection studies use shorter windows ranging from 4 seconds to 5 minutes. Forecasting studies use longer windows ranging from 30 seconds to 60 minutes.
 
-\subsubsection{Personalization Trade-offs}
+\subsubsection{Personalization Strategies}
 
 Personalization strategy represents a fundamental design choice. Global models train on population data and apply to all patients while patient-specific models train on individual patient data. Five studies use global model approaches and four studies use patient-specific approaches. \textcite{vielufSeizureMonitoringCombined2025} used a mixed approach combining population-level harmonic patterns with individual diary data.
 
+\paragraph{Global Models.}
+Five studies use global model approaches. \textcite{spahrDeepLearningbasedDetection2025} trained a global model on 384 patients with tunable parameters. \textcite{fineDetectionKeyAutomated2025} trained on 15 patients and tested on 3 patients. \textcite{dongTwoLayerEnsembleMethod2022} trained on 68 patients with 10-fold cross-validation. \textcite{elemamAutomatedValidatedTool2025} trained on 198 questionnaire responses and 30 HRV recordings. \textcite{meiselMachineLearningWristband2020} trained a global model tested with LOSO validation.
+
 Global models enable on-device processing without requiring individual patient training. \textcite{spahrDeepLearningbasedDetection2025} achieved 112 ms inference time suitable for real-time processing. However, global models may not capture individual seizure patterns. \textcite{meiselMachineLearningWristband2020} used LOSO validation to assess global model generalizability, achieving 62\% patient success (43 of 69 patients above chance).
 
-Patient-specific models achieve higher individual success rates but require substantial individual data for initial training. \textcite{stirlingForecastingSeizureLikelihood2021} achieved 100\% patient success for hourly forecasting with weekly retraining. \textcite{nasseriAmbulatorySeizureForecasting2021} achieved 83\% patient success (5 of 6 patients). These rates are substantially higher than the 62\% achieved by global models. However, patient-specific approaches require a mean of 14.6 months of data per patient or 60+ days per patient. This data requirement creates a cold start problem where new patients must wait weeks or months before the system becomes useful.
+\paragraph{Patient-Specific Models.}
+Four studies use patient-specific approaches. \textcite{stirlingForecastingSeizureLikelihood2021} trained individual models with weekly retraining for 11 patients. \textcite{nasseriAmbulatorySeizureForecasting2021} trained separate models for each of 6 patients. \textcite{odeDevelopmentEpilepticSeizure2023} trained anomaly detection models at the 99\% confidence level for each of 66 patients. \textcite{singhrathoreDevelopmentMultimodalMachine2024} presented a single-patient case study.
 
-The trade-off is clear. Patient-specific models achieve higher individual success (83-100\%) compared to global models with LOSO validation (62\%), but they require weeks to months of individual data collection. Global models enable immediate deployment and on-device processing but may not work well for all patients. Mixed approaches may offer a middle path, though evidence remains limited to a single study.
+Patient-specific models achieve higher individual success rates. \textcite{stirlingForecastingSeizureLikelihood2021} achieved 100\% patient success for hourly forecasting. \textcite{nasseriAmbulatorySeizureForecasting2021} achieved 83\% patient success (5 of 6 patients). These rates are substantially higher than the 62\% achieved by global models with LOSO validation. However, patient-specific approaches require a mean of 14.6 months of data per patient or 60+ days per patient. This data requirement creates a cold start problem where new patients must wait weeks or months before the system becomes useful.
+
+\paragraph{Mixed Approaches.}
+\textcite{vielufSeizureMonitoringCombined2025} used a mixed approach. The study combined population-level 24-hour harmonic patterns with individual diary data. This hybrid achieved 82\% sensitivity and 67\% specificity. The approach may balance the advantages of global and patient-specific methods.
+
+\subsubsection{Validation Approaches}
+
+\textcite{reintjesECGBasedDetectionEpileptic2025} used subject-split validation. The study trained on one set of patients and tested on different patients. This approach assesses generalization to new patients. The results showed poor generalization with FPR ranging from 0.11/h to 65.62/h depending on method and configuration.
+
+\textcite{nasseriAmbulatorySeizureForecasting2021} used temporal split validation. Early data from each patient served as training. Later data served as testing. This approach assesses temporal stability rather than generalization to new patients.
+
+\subsubsection{Computational Considerations}
+
+Global models enable on-device deployment. \textcite{spahrDeepLearningbasedDetection2025} achieved 112 ms inference time suitable for real-time processing. On-device processing enables continuous monitoring without cloud connectivity.
+
+Patient-specific models often require cloud processing. \textcite{stirlingForecastingSeizureLikelihood2021} used smartphone-based processing with weekly retraining. \textcite{nasseriAmbulatorySeizureForecasting2021} used cloud-based processing. Cloud-based approaches may experience connectivity issues and latency.
+
+\textbf{Key limitation.} Detection studies rarely report patient-level success. Only two of eight detection studies provide individual patient results. This reporting gap prevents assessment of which patients benefit from global detection models.
+
+\textbf{Trade-off identified.} Patient-specific models achieve higher individual success (83-100\%) compared to global models with LOSO validation (62\%), but they require weeks to months of individual data. Global models enable immediate deployment and on-device processing but may not work well for all patients. Mixed approaches may offer a middle path, though evidence remains limited to a single study.
