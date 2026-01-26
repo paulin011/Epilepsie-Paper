@@ -1,15 +1,15 @@
 \section*{Abstract}
 
 \subsection*{Background}
-Epilepsy affects 60 million people worldwide. One third of patients remain drug-resistant, and 69\% of deaths from generalized tonic-clonic seizures could be prevented with timely detection. EEG-based prediction is effective but unsuitable for ambulatory use due to operational complexity. Wearable devices using autonomic and motion signals offer an alternative, but translating deep learning approaches from controlled settings to real-world deployment remains challenging.
+Epilepsy affects approximately 60 million people worldwide. One third of patients remain drug-resistant, and 69\% of deaths from generalized tonic-clonic seizures could be prevented with timely detection \parencite{sveinssonClinicalRiskFactors2020}. EEG-based prediction is effective but unsuitable for ambulatory use due to operational complexity. Wearable devices using autonomic and motion signals offer an alternative, but translating deep learning approaches from controlled settings to real-world deployment remains challenging.
 
 \subsection*{Methods}
 Following PRISMA guidelines and the Webster \& Watson concept matrix framework, this systematic review synthesizes 13 primary studies published between 2013 and 2026. Nine studies address detection and four address forecasting. Studies were evaluated based on algorithmic architecture, biosignal modality, validation methodology, sensitivity, and false alarm rate.
 
 \subsection*{Results}
-Convulsive seizure detection achieves high sensitivity (71.6-100\%) primarily through accelerometry. Only two systems meet the ILAE Phase 3 benchmark of false alarm rate below 0.1/h: Spahr et al. (96\% sensitivity, 0.0054/h) and Fine et al. (100\% sensitivity, 0.023/h). ECG-based detection fails clinically due to excessive false alarm rates ranging from 0.11 to 65.62/h. Nocturnal monitoring substantially outperforms daytime.
+Convulsive seizure detection achieves high sensitivity (71.6-100\%) primarily through accelerometry. Only two systems achieve the ILAE Phase 3 FPR target of below 0.1/h: \textcite{spahrDeepLearningbasedDetection2025} (96\% sensitivity, 0.0054/h) and \textcite{fineDetectionKeyAutomated2025} (100\% sensitivity, 0.023/h). ECG-based detection fails clinically due to excessive false alarm rates ranging from 0.11 to 65.62/h \parencite{reintjesECGBasedDetectionEpileptic2025}.
 
-Seizure forecasting faces a fundamental performance ceiling. Across methods and modalities, AUC consistently plateaus around 0.74-0.75. Under rigorous leave-one-subject-out validation, only 43\% of patients achieve better-than-chance performance. Patient-specific models achieve 100\% success but require weeks to months of individual data, creating a cold-start problem for newly diagnosed patients.
+Seizure forecasting faces a fundamental performance ceiling. Across methods and modalities, AUC consistently plateaus around 0.74-0.75 \parencite{meiselMachineLearningWristband2020,vieilufSeizureMonitoringCombined2025}. Under rigorous leave-one-subject-out validation, only 43\% of patients achieve better-than-chance performance. Patient-specific models achieve 100\% success but require weeks to months of individual data, creating a cold-start problem for newly diagnosed patients.
 
 Multi-modal approaches dominate research (69\% of studies) yet the best detection result uses single-modality accelerometry, suggesting biological specificity matters more than sensor count. Wrist-worn devices predominate (62\% of studies). Validation rigor is insufficient: only 3 of 13 studies employ prospective designs, and 11 of 13 validate in hospital settings that likely underestimate real-world false alarm rates.
 
