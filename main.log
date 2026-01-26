@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  26 JAN 2026 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  26 JAN 2026 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -795,7 +795,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                vieilufSeizureMonitoringCombined2025
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 72.
 Package biblatex Info: Reference segment=0 on input line 72.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 75.
@@ -843,21 +851,27 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout5 = `main.toc'.
 
  (./Sections(tex)/00_Abstract.tex
-Overfull \hbox (14.6119pt too wide) in paragraph at lines 12--13
-\T1/lmr/m/n/12 out cross-validation, only 43.5% of pa-tients achieve better-than-chance per-for-mance. Patient-
+
+LaTeX Warning: Citation 'vieilufSeizureMonitoringCombined2025' on page 2 undefined on input line 12.
+
+
+Overfull \hbox (31.3737pt too wide) in paragraph at lines 12--13
+\T1/lmr/m/n/12 ties, AUC con-sis-tently plateaus around 0.74-0.75 ([];
  []
 
 ) (./Sections(tex)/01_introduction3.tex
 
-[2]) (./Sections(tex)/03_Methods.tex
+[2]
+
+[3]) (./Sections(tex)/03_Methods.tex
+
+[4]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-[4]
+[5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 Overfull \hbox (0.7735pt too wide) in paragraph at lines 70--74
 \T1/lmr/bx/n/12 Prioritization Cri-te-ria: \T1/lmr/m/n/12 Stud-ies in-clud-ing splits pre-serv-ing patient-specific data, FAR/h
  []
@@ -868,17 +882,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 29
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[5])
-<prisma.pdf, id=204, 600.2425pt x 596.2275pt>
+[6])
+<prisma.pdf, id=238, 600.2425pt x 596.2275pt>
 File: prisma.pdf Graphic file (type pdf)
 <use prisma.pdf>
 Package pdftex.def Info: prisma.pdf  used on input line 80.
 (pdftex.def)             Requested size: 455.24411pt x 452.20964pt.
 ) (./Tables(tex)/table1a_detection_matrix.tex
 
-[6]
+[7]
 
-[7 <./prisma.pdf>]
+[8 <./prisma.pdf>]
 Overfull \hbox (1.34013pt too wide) in paragraph at lines 37--37
 []|\T1/lmr/m/n/8 Prospective| 
  []
@@ -980,7 +994,7 @@ Underfull \hbox (badness 10000) in alignment at lines 37--37
 
 
 
-[8
+[9
 
 ]) (./Tables(tex)/table1b_forecasting_matrix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
@@ -1039,7 +1053,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
 
 
-[9
+[10
 
 
 ]) (./Tables(tex)/table2a_detection_studies.tex
@@ -1179,7 +1193,7 @@ Underfull \hbox (badness 2626) in paragraph at lines 30--30
 
 
 
-[10{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./Tables(tex)/table2b_forecasting_studies.tex
+[11{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./Tables(tex)/table2b_forecasting_studies.tex
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
 []|\T1/lmr/bx/n/8 Vieluf et al.
  []
@@ -1221,7 +1235,7 @@ Underfull \hbox (badness 10000) in alignment at lines 27--27
 
 
 
-[11
+[12
 
 
 
@@ -1231,11 +1245,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 29.
 ) (./Sections(tex)/Results/results_main.tex (./Sections(tex)/Results/01_study_characteristics.tex) (./Sections(tex)/Results/02_modality_performance.tex
 
-[12
+[13
 
 ]
 
-[13]) (./Sections(tex)/Results/03_architecture_patterns.tex
+[14]) (./Sections(tex)/Results/03_architecture_patterns.tex
 Overfull \hbox (8.97789pt too wide) in paragraph at lines 7--8
 \T1/lmr/m/n/12 Deep learn-ing ap-proaches in wear-able seizure mon-i-tor-ing em-ploy di-verse learn-ing paradigms.
  []
@@ -1247,73 +1261,67 @@ Overfull \hbox (2.11261pt too wide) in paragraph at lines 25--26
 
 
 
-[14]) (./Sections(tex)/Results/04_modalities_architectures.tex
+[15]) (./Sections(tex)/Results/04_modalities_architectures.tex
 
-[15]
+[16]
 Overfull \hbox (13.89676pt too wide) in paragraph at lines 41--42
 []\T1/lmr/m/n/12 Patient-specific mod-els of-ten re-quire cloud pro-cess-ing. [][][]Stir-ling et al. ([][]2021[][]) used smartphone-
  []
 
 ) (./Sections(tex)/Results/06_performance_metrics.tex
 
-[16]) (./Sections(tex)/Results/07_detection_vs_forecasting.tex
+[17]) (./Sections(tex)/Results/07_detection_vs_forecasting.tex
 
-[17]) (./Sections(tex)/Results/08_clinical_readiness.tex
+[18]) (./Sections(tex)/Results/08_clinical_readiness.tex
 
-[18]
+[19]
 
-[19]) (./Sections(tex)/Results/09_detection_forecasting_readiness.tex
+[20]) (./Sections(tex)/Results/09_detection_forecasting_readiness.tex
 
-[20])) (./Sections(tex)/Discussion/discussion.tex (./Sections(tex)/Discussion/d1_clinical_implications.tex
+[21])) (./Sections(tex)/Discussion/discussion.tex (./Sections(tex)/Discussion/d1_clinical_implications.tex
 
-[21]
+[22]
 
-LaTeX Warning: Reference `(' on page 22 undefined on input line 13.
+[23]) (./Sections(tex)/Discussion/d2_technical_insights.tex
 
+[24]) (./Sections(tex)/Discussion/d3_limitations.tex
 
+[25]) (./Sections(tex)/Discussion/d4_future_directions.tex
 
-[22]) (./Sections(tex)/Discussion/d2_technical_insights.tex
+[26])) (./Sections(tex)/conclusion.tex
 
-[23]) (./Sections(tex)/Discussion/d3_limitations.tex
-
-[24]) (./Sections(tex)/Discussion/d4_future_directions.tex
-
-[25])) (./Sections(tex)/conclusion.tex
-
-[26])
-
-[27]
+[27])
 
 [28]
 
-[29] (./main.aux)
+[29]
+
+[30]
+
+[31] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0EECE29EC46AA08F3619DB03BEA3C359;5595.
+(rerunfilecheck)             Checksum: 6F803DD92476E831347357F256A861D5;5797.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23157 strings out of 475118
- 407937 string characters out of 5764903
- 1354670 words of memory out of 5000000
- 45635 multiletter control sequences out of 15000+600000
+ 23246 strings out of 475118
+ 411245 string characters out of 5764903
+ 1355557 words of memory out of 5000000
+ 45713 multiletter control sequences out of 15000+600000
  647909 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,13n,102p,2599b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,102p,3069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (29 pages, 471724 bytes).
+Output written on main.pdf (31 pages, 479541 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 640 compressed objects within 7 object streams
- 131 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 777 PDF objects out of 1000 (max. 8388607)
+ 702 compressed objects within 8 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,7 +8,7 @@ Clinical readiness for wearable seizure monitoring devices depends on validation
 
 No study in this review has achieved Phase 3 prospective validation in home settings. Phase 3 validation requires prospective testing in the intended use environment with sufficient sample size and duration.
 
-Two detection studies approach Phase 3 requirements. \textcite{spahrDeepLearningbasedDetection2025} conducted prospective multi-center validation with 384 patients. The study met clinical FPR benchmarks but was conducted in EMU settings rather than home. \textcite{dongTwoLayerEnsembleMethod2022} conducted prospective home monitoring with 68 patients but reported FPR above clinical benchmarks.
+Two detection studies approach Phase 3 requirements. \textcite{spahrDeepLearningbasedDetection2025} conducted prospective multi-center validation with 384 patients. The study achieved FPR performance comparable to Phase 3 studies in the ILAE systematic review but was conducted in EMU settings rather than home. \textcite{dongTwoLayerEnsembleMethod2022} conducted prospective home monitoring with 68 patients but reported FPR above that performance range.
 
 \textcite{fineDetectionKeyAutomated2025} represents Phase 1 validation with a small independent test set. The study achieved 100\% sensitivity with 0.023/h FPR but tested only 10 seizures from 3 patients. Phase 2 or 3 validation with larger samples is needed.
 
@@ -56,7 +56,7 @@ Fifth, device burden and battery life limit adherence. Multi-modal systems sampl
 
 \textcite{spahrDeepLearningbasedDetection2025} represents the most clinically advanced detection approach. The study combines large sample size (384 patients), prospective multi-center design, excellent sensitivity (96\%), and the lowest reported FPR among detection studies (0.0054/h). The ensemble 1D CNN algorithm operates in real-time with 112 ms inference time suitable for on-device processing. The main limitation is EMU setting rather than home validation.
 
-\textcite{dongTwoLayerEnsembleMethod2022} represents the most advanced home-validated detection approach. The study achieved prospective home monitoring with 788 overnight recordings over three months using the NightWatch commercial device. FPR of 0.165/h exceeds clinical benchmarks but may be acceptable for some patients prioritizing sensitivity over specificity.
+\textcite{dongTwoLayerEnsembleMethod2022} represents the most advanced home-validated detection approach. The study achieved prospective home monitoring with 788 overnight recordings over three months using the NightWatch commercial device. FPR of 0.165/h exceeds the performance range reported in Phase 3 studies but may be acceptable for some patients prioritizing sensitivity over specificity.
 
 \textcite{stirlingForecastingSeizureLikelihood2021} represents the most clinically advanced forecasting approach. The study achieved 100\% patient success with long home validation using consumer Fitbit devices. The LSTM+RF+LR ensemble with weekly retraining adapts to individual patient patterns. However, forecasting lacks clear clinical benchmarks and regulatory pathways.
 

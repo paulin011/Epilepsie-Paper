@@ -31,5 +31,61 @@ and minimal false alarm rates (FAR) in real-world deployment.
 
 \subsection{Key Research Question}
 How do different deep learning architectures and biosignal modalities excluding EEG
-compare in their ability to achieve an optimal trade-off between 
+compare in their ability to achieve an optimal trade-off between
 sensitivity and false alarm rate for ambulatory seizure monitoring?
+
+\subsection{Clinical Evaluation Frameworks}
+
+\subsubsection{ILAE Phased Validation Framework}
+
+The clinical validity of seizure detection algorithms is assessed through
+the International League Against Epilepsy (ILAE) phased framework,
+which classifies studies into five validation phases \parencite{beniczkyStandardsTestingClinical2018, beniczkyAutomatedSeizureDetection2021}.
+
+Phase 0 represents proof of concept. Phase 1 involves retrospective analysis with small samples.
+Phase 2 requires minimum 10 patients with seizures and 15 recorded seizures.
+Phase 3 denotes prospective, multicenter validation with at least 30 seizures from at least 20 patients using real-time detection.
+Phase 4 represents real-world home validation.
+
+Prospective trials (Phase 3) constitute the clinical gold standard,
+requiring locked algorithms, video-EEG reference standards, and testing on
+unseen data from multiple centers.
+
+\subsubsection{Study Design Classifications}
+
+This review distinguishes three study design types.
+Retrospective analysis examines historical data and risks substantial data leakage
+when non-chronological splits allow future information to inform training
+\parencite{kalousiosECGbasedEpilepticSeizure2024, wongEEGDatasetsSeizure2023}.
+
+Pseudo-prospective validation enforces chronological order,
+training only on past seizures to test on subsequent ones,
+providing more realistic performance estimates
+\parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}.
+
+Prospective studies employ real-time testing on new patients with locked algorithms,
+representing the highest validation rigor.
+
+\subsubsection{Clinical Performance Benchmarks}
+
+The ILAE systematic review established performance benchmarks for
+generalized tonic-clonic seizures (GTCS, bilateral motor seizures affecting both sides of the brain with loss of consciousness)
+and focal-to-bilateral tonic-clonic seizures (FBTCS, seizures starting in one hemisphere and spreading to both).
+Validated devices achieve 90-96\% sensitivity with false alarm
+rates of 0.2-0.67 per 24 hours (approximately 0.008-0.028/h)
+\parencite{beniczkyAutomatedSeizureDetection2021}.
+
+For ambulatory use, acceptable false alarm rates depend on user perspective.
+Patients and caregivers typically require 100\% sensitivity
+and accept approximately one false alarm per week.
+Clinicians consider 90\% sensitivity adequate and tolerate
+two false alarms per week to one per month \parencite{sivathambooPreferencesUserExperiences2022}.
+
+The ILAE Phase 3 benchmark of 0.008-0.028/h represents the clinically validated performance standard for GTCS/FBTCS detection.
+
+Currently, the ILAE recommends wearable devices only for GTCS/FBTCS
+detection in unsupervised patients where alarms can enable rapid intervention.
+This represents a weak recommendation based on moderate evidence.
+For all other seizure types, the ILAE does not recommend clinical use
+of currently available wearable devices
+\parencite{beniczkyAutomatedSeizureDetection2021}.

@@ -19,6 +19,158 @@
 
 \refsection{0}
   \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{beniczkyStandardsTestingClinical2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b821efb470d58363e30c481791273}
+      \strng{fullhash}{770b821efb470d58363e30c481791273}
+      \strng{fullhashraw}{770b821efb470d58363e30c481791273}
+      \strng{bibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorbibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authornamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhashraw}{770b821efb470d58363e30c481791273}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To increase the quality of studies on seizure detection devices, we propose standards for testing and clinical validation of such devices. We identified 4 key features that are important for studies on seizure detection devices: subjects, recordings, data analysis and alarms, and reference standard. For each of these features, we list the specific aspects that need to be addressed in the studies, and depending on these, studies are classified into 5 phases (0-4). We propose a set of outcome measures that need to be reported, and we propose standards for reporting the results. These standards will help in designing and reporting studies on seizure detection devices, they will give readers clear information on the level of evidence provided by the studies, and they will help regulatory bodies in assessing the quality of the validation studies. These standards are flexible, allowing classification of the studies into one of the 5 phases. We propose actions that can facilitate development of novel methods and devices.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Epilepsia}
+      \field{title}{Standards for Testing and Clinical Validation of Seizure Detection Devices}
+      \field{volume}{59 Suppl 1}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/epi.14049
+      \endverb
+      \verb{eprint}
+      \verb 29873827
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S2SVUIG6/Beniczky and Ryvlin - 2018 - Standards for testing and clinical validation of seizure detection devices.pdf
+      \endverb
+      \keyw{clinical trials,Diagnostic Techniques Neurological,Epilepsy,Humans,mobile health,Outcome Assessment Health Care,Reference Values,Reproducibility of Results,seizure detection,standards,validation studies,wearable devices}
+    \endentry
+    \entry{beniczkyAutomatedSeizureDetection2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a406a58f553df56bbc9ff09ca72cdd47}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
+           family={Jeppesen},
+           familyi={J\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa97bdb3b303e63a2367f24c3c68317e}{%
+           family={Tatum},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima O.},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad679c425d46d6e85c9934775d5e1e9f}{%
+           family={Brazdil},
+           familyi={B\bibinitperiod},
+           given={Milan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c78503aaa49a656724e2cb1160afaf62}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuping},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7719657075f19a1aa502dadd170aee}{%
+           family={Herman},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea8006ec14192142570626136ac20a31}
+      \strng{fullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{fullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \strng{bibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorbibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authornamehash}{ea8006ec14192142570626136ac20a31}
+      \strng{authorfullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorfullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The objective of this clinical practice guideline (CPG) is to provide recommendations for healthcare personnel working with patients with epilepsy, on the use of wearable devices for automated seizure detection in patients with epilepsy, in outpatient, ambulatory settings. The Working Group of the International League Against Epilepsy and the International Federation of Clinical Neurophysiology developed the CPG according to the methodology proposed by the ILAE Epilepsy Guidelines Working Group. We reviewed the published evidence using The Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement and evaluated the evidence and formulated the recommendations following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. We found high level of evidence for the accuracy of automated detection of generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) and recommend use of wearable automated seizure detection devices for selected patients when accurate detection of GTCS and FBTCS is recommended as a clinical adjunct. We also found moderate level of evidence for seizure types without GTCs or FBTCs. However, it was uncertain whether the detected alarms resulted in meaningful clinical outcomes for the patients. We recommend using clinically validated devices for automated detection of GTCS and FBTCS, especially in unsupervised patients, where alarms can result in rapid intervention (weak/conditional recommendation). At present, we do not recommend clinical use of the currently available devices for other seizure types (weak/conditional recommendation). Further research and development are needed to improve the performance of automated seizure detection and to document their accuracy and clinical utility.}
+      \field{day}{1}
+      \field{issn}{1388-2457}
+      \field{journaltitle}{Clinical Neurophysiology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{Clinical Neurophysiology}
+      \field{shorttitle}{Automated Seizure Detection Using Wearable Devices}
+      \field{title}{Automated Seizure Detection Using Wearable Devices: {{A}} Clinical Practice Guideline of the {{International League Against Epilepsy}} and the {{International Federation}} of {{Clinical Neurophysiology}}}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{132}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1173\bibrangedash 1184}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.clinph.2020.12.009
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/DNWP7P4J/Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
+      \endverb
+      \keyw{Algorithms,Automated detection,Consensus Development Conferences as Topic,Epilepsy,Humans,Neurophysiological Monitoring,Practice Guidelines as Topic,Seizure detection,Seizures,Societies Medical,Wearable devices,Wearable Electronic Devices}
+    \endentry
     \entry{borujenyDetectionEpilepticSeizure2013}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e3b4941e9c122ddf2e365772f6eecbe6}{%
@@ -493,6 +645,190 @@
       \verb https://ieeexplore.ieee.org/document/8445554/
       \endverb
       \keyw{EEG signal analysis,Electroencephalography,Epilepsy,Feature extraction,Focal epilepsy,Heuristic algorithms,machine learning algorithms,Machine learning algorithms,Medical diagnostic imaging,non-focal epilepsy,nonlinear features,time and frequency domain features}
+    \endentry
+    \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=1c624f185db136434c5a4f0da3c3a18a}{%
+           family={Kalousios},
+           familyi={K\bibinitperiod},
+           given={Sotirios},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0104f63d9b4d7ddfd93f22cbaa0a3ca5}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cabfe2e3e9cd2db27e54964f87174563}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hongliu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d8deb7397021b489b4b58da22216440}{%
+           family={Eberlein},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f226c73347feed2d5663436b2473469d}{%
+           family={Uckermann},
+           familyi={U\bibinitperiod},
+           given={Ortrud},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d0d80f9b3b5ee1b87d9b4ebc3e11d64}{%
+           family={Schackert},
+           familyi={S\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60c0c1fa06f4da333a5eac2c7ca1990d}{%
+           family={Polanski},
+           familyi={P\bibinitperiod},
+           given={Witold\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=154940a3d36099950404eab0c687d633}{%
+           family={Leonhardt},
+           familyi={L\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b11ca8387379bbfe6357e161947304b}
+      \strng{fullhash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{fullhashraw}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{bibnamehash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{authorbibnamehash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{authornamehash}{8b11ca8387379bbfe6357e161947304b}
+      \strng{authorfullhash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{authorfullhashraw}{3b4503c1ebdb880d9524474d95488c28}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Objective Up to a third of patients with epilepsy fail to achieve satisfactory seizure control. A reliable method of predicting seizures would alleviate psychological and physical impact. Dysregulation in heart rate variability (HRV) has been found to precede epileptic seizures and may serve as an extracerebral predictive biomarker. This study aims to identify the preictal HRV dynamics and unveil the factors impeding the clinical application of ECG‐based seizure prediction. Methods Thirty‐nine adult patients (eight women; median age: 38, [IQR\,=\,31, 56.5]) with 252 seizures were included. Each patient had more than three recorded epileptic seizures, each at least 2 hours apart. For each seizure, one hour of ECG prior to seizure onset was analyzed and 97 HRV features were extracted from overlapping three‐minute windows with 10s stride. Two separate patient‐specific experiments were performed using a support vector machine (SVM). Firstly, the\,separability of training data was examined in a non‐causal trial. Secondly, the\,prediction was attempted in pseudo‐prospective conditions. Finally, visualized HRV data, clinical metadata, and results were correlated. Results The mean receiver operating characteristic (ROC) area under the curve (AUC) for the non‐causal experiment was 0.823 (±0.12), with 208 (82.5\%) seizures achieving an improvement over chance (IoC) classification score (p\,{$<$}\,0.05, Hanley \& McNeil test). In pseudo‐prospective classification, the ROC‐AUC was 0.569 (±0.17), and 86 (49.4\%) seizures were classified with IoC. Off‐sample optimized SVMs failed to improve performance. Major limiting factors identified include non‐stationarity, variable preictal duration and dynamics. The latter is expressed as both inter‐seizure onset zone (SOZ) and intra‐SOZ variability. Significance The pseudo‐prospective preictal classification achieving IoC in approximately half of tested seizures suggests the presence of genuine preictal HRV dynamics, but the overall performance does not warrant clinical application at present. The limiting factors identified are often overlooked in non‐causal study designs. While current deterministic prediction methods prove inadequate, probabilistic approaches may offer a promising alternative. Plain Language Summary Many patients with epilepsy suffer from uncontrollable seizures and would greatly benefit from a reliable seizure prediction method. Currently, no such system is available to meet this need. Previous studies suggest that changes in the electrocardiogram (ECG) precede seizures by several minutes. In our work, we evaluated whether variations in heart rate could be used to predict epileptic seizures. Our findings indicate that we are still far from achieving results suitable for clinical application and highlight several limiting factors of present seizure prediction approaches.}
+      \field{day}{12}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2470-9239}
+      \field{journaltitle}{Epilepsia Open}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Epilepsia Open}
+      \field{shorttitle}{{{ECG}}‐based Epileptic Seizure Prediction}
+      \field{title}{{{ECG}}‐based Epileptic Seizure Prediction: {{Challenges}} of Current Data‐driven Models}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{143\bibrangedash 154}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/epi4.13073
+      \endverb
+      \verb{eprint}
+      \verb 39529572
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/ED2N84SM/Kalousios et al. - 2024 - ECG‐based epileptic seizure prediction Challenges of current data‐driven models.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
+      \endverb
+    \endentry
+    \entry{luLeveragingChannelCoherence2025}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=3436c3fb6ee8f71f2e4e865b622a7b84}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d07f51a51d9c2c1363bab089c022727}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3baca1ac5d568d84c319da94e1f4c999}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiuyong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cae383d1b7af8913d5a7091280df963}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37ec94a67936821f4246c2a4138a460}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b07d6987a613d480fcf2b6e669cbdb2a}{%
+           family={Grayden},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f58d422c1f10692e82d9ec3507af9e0}
+      \strng{fullhash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{fullhashraw}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{bibnamehash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{authorbibnamehash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{authornamehash}{8f58d422c1f10692e82d9ec3507af9e0}
+      \strng{authorfullhash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{authorfullhashraw}{8c792cf24f6f7915fed9a3466e431443}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Epilepsy affects millions worldwide, posing significant challenges due to the erratic and unexpected nature of seizures. Despite advancements, existing seizure prediction techniques remain limited in their ability to forecast seizures with high accuracy, impacting the quality of life for those with epilepsy. This research introduces the Coherence-based Seizure Prediction (CoSP) method, which integrates coherence analysis with deep learning to enhance seizure prediction efficacy. In CoSP, electroencephalography (EEG) recordings are divided into 10-second segments to extract channel pairwise coherence. This coherence data is then used to train a four-layer convolutional neural network to predict the probability of being in a preictal state. The predicted probabilities are then processed to issue seizure warnings. CoSP was evaluated in a pseudo-prospective setting using long-term iEEG data from ten patients in the NeuroVista seizure advisory system. CoSP demonstrated promising predictive performance across a range of preictal intervals (4 to 180 minutes). CoSP achieved a median Seizure Sensitivity (SS) of 0.79, a median false alarm rate of 0.15 per hour, and a median Time in Warning (TiW) of 27\%, highlighting its potential for accurate and reliable seizure prediction. Statistical analysis confirmed that CoSP significantly outperformed chance (p = 0.001) and other baseline methods (p {$<$}0.05) under similar evaluation configurations.}
+      \field{issn}{2168-2208}
+      \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Leveraging {{Channel Coherence}} in {{Long-Term iEEG Data}} for {{Seizure Prediction}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{29}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5541\bibrangedash 5548}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/JBHI.2025.3556775
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/3PJQTQB9/Lu et al. - 2025 - Leveraging Channel Coherence in Long-Term iEEG Data for Seizure Prediction.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10946758/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10946758/
+      \endverb
+      \keyw{Brain modeling,coherence,Coherence,Electrodes,Electroencephalography,epilepsy,Epilepsy,Estimation,Feature extraction,iEEG,Lead,Recording,seizure forecasting,Seizure prediction,Training}
     \endentry
     \entry{meiselMachineLearningWristband2020}{article}{}{}
       \name{author}{6}{}{%
@@ -1025,6 +1361,129 @@
       \verb https://ieeexplore.ieee.org/document/10895217
       \endverb
       \keyw{Accelerometer (ACC),Accuracy,Classification algorithms,Classifiers,Electrodermal Activity (EDA),Electroencephalogram (EEG),final,include,Logistic regression,Machine learning,Machine learning algorithms,Performance evaluation,Seizure,Skin,Support vector machines,Usability,Wearable devices}
+    \endentry
+    \entry{sivathambooPreferencesUserExperiences2022}{article}{}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=8ffa98d6d806cf8885ab92ba2fdf0dc1}{%
+           family={Sivathamboo},
+           familyi={S\bibinitperiod},
+           given={Shobi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10a73c1ce916a938f3b0be83a645f15b}{%
+           family={Nhu},
+           familyi={N\bibinitperiod},
+           given={Duong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08cd13fc81ace2487a6ec87b5f728290}{%
+           family={Piccenna},
+           familyi={P\bibinitperiod},
+           given={Loretta},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=464aaa5ff7d75baf40330b4ada3aeead}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a5b0841dfac621eba7cb3ed348bba98}{%
+           family={Antonic-Baker},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d8eb3e0deac7a7394de074aed9deb59}{%
+           family={Vishwanath},
+           familyi={V\bibinitperiod},
+           given={Swarna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de04734a53bbbb70ff48ecfa5dec0508}{%
+           family={Todaro},
+           familyi={T\bibinitperiod},
+           given={Marian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e083524cff9a7413ce9d236299fab095}{%
+           family={Yap},
+           familyi={Y\bibinitperiod},
+           given={Lim\bibnamedelima Wei},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f74a601310e1f4e674d42bd93f5f39}{%
+           family={Kuhlmann},
+           familyi={K\bibinitperiod},
+           given={Levin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71bf5f94ee7154cade3b1e8c7342e5b4}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Wenlong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bdae38aa922edb2195f246fa8d27b1b}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Terence\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5195c85ed59208130aecf391e283bce}{%
+           family={Lannin},
+           familyi={L\bibinitperiod},
+           given={Natasha\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{feb9729183c546d8f67d8695ae9db18c}
+      \strng{fullhash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{fullhashraw}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{bibnamehash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{authorbibnamehash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{authornamehash}{feb9729183c546d8f67d8695ae9db18c}
+      \strng{authorfullhash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{authorfullhashraw}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{BACKGROUND AND OBJECTIVES: To examine the preferences and user experiences of people with epilepsy and caregivers regarding automated wearable seizure detection devices. METHODS: We performed a mixed-methods systematic review. We searched electronic databases for original peer-reviewed publications between January 1, 2000, and May 26, 2021. Key search terms included "epilepsy," "seizure," "wearable," and "non-invasive." We performed a descriptive and qualitative thematic analysis of the studies included according to the technology acceptance model. Full texts of the discussion sections were further analyzed to identify word frequency and word mapping. RESULTS: Twenty-two observational studies were identified. Collectively, they comprised responses from 3,299 participants including patients with epilepsy, caregivers, and healthcare workers. Sixteen studies examined user preferences, 5 examined user experiences, and 1 examined both experiences and preferences. Important preferences for wearables included improving care, cost, accuracy, and design. Patients desired real-time detection with a latency of ≤15 minutes from seizure occurrence, along with high sensitivity (≥90\%) and low false alarm rates. Device-related costs were a major factor for device acceptance, where device costs of \&lt;\$300 USD and a monthly subscription fee of \&lt;\$20 USD were preferred. Despite being a major driver of wearable-based technologies, sudden unexpected death in epilepsy was rarely discussed. Among studies evaluating user experiences, there was a greater acceptance toward wristwatches. Thematic coding analysis showed that attitudes toward device use and perceived usefulness were reported consistently. Word mapping identified "specificity," "cost," and "battery" as key single terms and "battery life," "insurance coverage," "prediction/detection quality," and the effect of devices on "daily life" as key bigrams. DISCUSSION: User acceptance of wearable technology for seizure detection was strongly influenced by accuracy, design, comfort, and cost. Our findings emphasize the need for standardized and validated tools to comprehensively examine preferences and user experiences of wearable devices in this population using the themes identified in this study. Greater efforts to incorporate perspectives and user experiences in developing wearables for seizure detection, particularly in community-based settings, are needed. TRIAL REGISTRATION INFORMATION: PROSPERO Registration CRD42020193565.}
+      \field{day}{27}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1526-632X}
+      \field{journaltitle}{Neurology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{13}
+      \field{shortjournal}{Neurology}
+      \field{shorttitle}{Preferences and {{User Experiences}} of {{Wearable Devices}} in {{Epilepsy}}}
+      \field{title}{Preferences and {{User Experiences}} of {{Wearable Devices}} in {{Epilepsy}}: {{A Systematic Review}} and {{Mixed-Methods Synthesis}}}
+      \field{volume}{99}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{e1380\bibrangedash e1392}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1212/WNL.0000000000200794
+      \endverb
+      \verb{eprint}
+      \verb 35705497
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S8JTDHA5/Sivathamboo et al. - 2022 - Preferences and User Experiences of Wearable Devices in Epilepsy A Systematic Review and Mixed-Meth.pdf
+      \endverb
+      \keyw{Caregivers,Death Sudden,Epilepsy,Humans,review,Seizures,Wearable Electronic Devices}
     \endentry
     \entry{spahrDeepLearningbasedDetection2025}{article}{}{}
       \name{author}{17}{}{%
@@ -1649,10 +2108,286 @@
       \endverb
       \verb{url}
       \verb https://www.jstor.org/stable/4132319
+      \endverb
+    \endentry
+    \entry{wongEEGDatasetsSeizure2023}{article}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=d12deb31ca88b4bb18bec1bbd4d93369}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=517f9c03bdd10fd856bc2e0e6e17a85c}{%
+           family={Simmons},
+           familyi={S\bibinitperiod},
+           given={Anj},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=605a1b073d34a65b5cda167ae74e335e}{%
+           family={Rivera‐Villicana},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9ea0d4703d088b0b904f4af4b764bcc}{%
+           family={Barnett},
+           familyi={B\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ffa98d6d806cf8885ab92ba2fdf0dc1}{%
+           family={Sivathamboo},
+           familyi={S\bibinitperiod},
+           given={Shobi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d89399f2cedc758a1d703f4882586a6}{%
+           family={Perucca},
+           familyi={P\bibinitperiod},
+           given={Piero},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbfc282073c3c0a824d475bb3e3dfca4}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Zongyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f74a601310e1f4e674d42bd93f5f39}{%
+           family={Kuhlmann},
+           familyi={K\bibinitperiod},
+           given={Levin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27203c0974b2a4c557d92bc79ac9807b}{%
+           family={Vasa},
+           familyi={V\bibinitperiod},
+           given={Rajesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64f119db7fb1740d45dac35481c81cdf}{%
+           family={Mouzakis},
+           familyi={M\bibinitperiod},
+           given={Kon},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bdae38aa922edb2195f246fa8d27b1b}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Terence\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8385e01dae213d25685d2508de2e2281}
+      \strng{fullhash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{fullhashraw}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{bibnamehash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{authorbibnamehash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{authornamehash}{8385e01dae213d25685d2508de2e2281}
+      \strng{authorfullhash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{authorfullhashraw}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electroencephalogram (EEG) datasets from epilepsy patients have been used to develop seizure detection and prediction algorithms using machine learning (ML) techniques with the aim of implementing the learned model in a device. However, the format and structure of publicly available datasets are different from each other, and there is a lack of guidelines on the use of these datasets. This impacts the generatability, generalizability, and reproducibility of the results and findings produced by the studies. In this narrative review, we compiled and compared the different characteristics of the publicly available EEG datasets that are commonly used to develop seizure detection and prediction algorithms. We investigated the advantages and limitations of the characteristics of the EEG datasets. Based on our study, we identified 17 characteristics that make the EEG datasets unique from each other. We also briefly looked into how certain characteristics of the publicly available datasets affect the performance and outcome of a study, as well as the influences it has on the choice of ML techniques and preprocessing steps required to develop seizure detection and prediction algorithms. In conclusion, this study provides a guideline on the choice of publicly available EEG datasets to both clinicians and scientists working to develop a reproducible, generalizable, and effective seizure detection and prediction algorithm.}
+      \field{day}{16}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2470-9239}
+      \field{journaltitle}{Epilepsia Open}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Epilepsia Open}
+      \field{title}{{{EEG}} Datasets for Seizure Detection and Prediction— {{A}}~Review}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{252\bibrangedash 267}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1002/epi4.12704
+      \endverb
+      \verb{eprint}
+      \verb 36740244
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/TK8VWQIW/Wong et al. - 2023 - EEG datasets for seizure detection and prediction— A review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10235576/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10235576/
       \endverb
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{beniczkyStandardsTestingClinical2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b821efb470d58363e30c481791273}
+      \strng{fullhash}{770b821efb470d58363e30c481791273}
+      \strng{fullhashraw}{770b821efb470d58363e30c481791273}
+      \strng{bibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorbibnamehash}{770b821efb470d58363e30c481791273}
+      \strng{authornamehash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhash}{770b821efb470d58363e30c481791273}
+      \strng{authorfullhashraw}{770b821efb470d58363e30c481791273}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To increase the quality of studies on seizure detection devices, we propose standards for testing and clinical validation of such devices. We identified 4 key features that are important for studies on seizure detection devices: subjects, recordings, data analysis and alarms, and reference standard. For each of these features, we list the specific aspects that need to be addressed in the studies, and depending on these, studies are classified into 5 phases (0-4). We propose a set of outcome measures that need to be reported, and we propose standards for reporting the results. These standards will help in designing and reporting studies on seizure detection devices, they will give readers clear information on the level of evidence provided by the studies, and they will help regulatory bodies in assessing the quality of the validation studies. These standards are flexible, allowing classification of the studies into one of the 5 phases. We propose actions that can facilitate development of novel methods and devices.}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1528-1167}
+      \field{journaltitle}{Epilepsia}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Epilepsia}
+      \field{title}{Standards for Testing and Clinical Validation of Seizure Detection Devices}
+      \field{volume}{59 Suppl 1}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/epi.14049
+      \endverb
+      \verb{eprint}
+      \verb 29873827
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S2SVUIG6/Beniczky and Ryvlin - 2018 - Standards for testing and clinical validation of seizure detection devices.pdf
+      \endverb
+      \keyw{clinical trials,Diagnostic Techniques Neurological,Epilepsy,Humans,mobile health,Outcome Assessment Health Care,Reference Values,Reproducibility of Results,seizure detection,standards,validation studies,wearable devices}
+    \endentry
+    \entry{beniczkyAutomatedSeizureDetection2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=08e6a8d960e310b6560b871a8383609c}{%
+           family={Beniczky},
+           familyi={B\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a406a58f553df56bbc9ff09ca72cdd47}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77f76bc84dd1687c0ad4f0d435d0b6da}{%
+           family={Jeppesen},
+           familyi={J\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa97bdb3b303e63a2367f24c3c68317e}{%
+           family={Tatum},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima O.},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad679c425d46d6e85c9934775d5e1e9f}{%
+           family={Brazdil},
+           familyi={B\bibinitperiod},
+           given={Milan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c78503aaa49a656724e2cb1160afaf62}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuping},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7719657075f19a1aa502dadd170aee}{%
+           family={Herman},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005017009b43e015ddb1de035a8390c4}{%
+           family={Ryvlin},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea8006ec14192142570626136ac20a31}
+      \strng{fullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{fullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \strng{bibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorbibnamehash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authornamehash}{ea8006ec14192142570626136ac20a31}
+      \strng{authorfullhash}{c49208d47df8911a8d149e1f143dadac}
+      \strng{authorfullhashraw}{c49208d47df8911a8d149e1f143dadac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The objective of this clinical practice guideline (CPG) is to provide recommendations for healthcare personnel working with patients with epilepsy, on the use of wearable devices for automated seizure detection in patients with epilepsy, in outpatient, ambulatory settings. The Working Group of the International League Against Epilepsy and the International Federation of Clinical Neurophysiology developed the CPG according to the methodology proposed by the ILAE Epilepsy Guidelines Working Group. We reviewed the published evidence using The Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement and evaluated the evidence and formulated the recommendations following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system. We found high level of evidence for the accuracy of automated detection of generalized tonic-clonic seizures (GTCS) and focal-to-bilateral tonic-clonic seizures (FBTCS) and recommend use of wearable automated seizure detection devices for selected patients when accurate detection of GTCS and FBTCS is recommended as a clinical adjunct. We also found moderate level of evidence for seizure types without GTCs or FBTCs. However, it was uncertain whether the detected alarms resulted in meaningful clinical outcomes for the patients. We recommend using clinically validated devices for automated detection of GTCS and FBTCS, especially in unsupervised patients, where alarms can result in rapid intervention (weak/conditional recommendation). At present, we do not recommend clinical use of the currently available devices for other seizure types (weak/conditional recommendation). Further research and development are needed to improve the performance of automated seizure detection and to document their accuracy and clinical utility.}
+      \field{day}{1}
+      \field{issn}{1388-2457}
+      \field{journaltitle}{Clinical Neurophysiology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{Clinical Neurophysiology}
+      \field{shorttitle}{Automated Seizure Detection Using Wearable Devices}
+      \field{title}{Automated Seizure Detection Using Wearable Devices: {{A}} Clinical Practice Guideline of the {{International League Against Epilepsy}} and the {{International Federation}} of {{Clinical Neurophysiology}}}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{132}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1173\bibrangedash 1184}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.clinph.2020.12.009
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/DNWP7P4J/Beniczky et al. - 2021 - Automated seizure detection using wearable devices A clinical practice guideline of the Internation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1388245720306143
+      \endverb
+      \keyw{Algorithms,Automated detection,Consensus Development Conferences as Topic,Epilepsy,Humans,Neurophysiological Monitoring,Practice Guidelines as Topic,Seizure detection,Seizures,Societies Medical,Wearable devices,Wearable Electronic Devices}
+    \endentry
     \entry{borujenyDetectionEpilepticSeizure2013}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e3b4941e9c122ddf2e365772f6eecbe6}{%
@@ -2127,6 +2862,190 @@
       \verb https://ieeexplore.ieee.org/document/8445554/
       \endverb
       \keyw{EEG signal analysis,Electroencephalography,Epilepsy,Feature extraction,Focal epilepsy,Heuristic algorithms,machine learning algorithms,Machine learning algorithms,Medical diagnostic imaging,non-focal epilepsy,nonlinear features,time and frequency domain features}
+    \endentry
+    \entry{kalousiosECGbasedEpilepticSeizure2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=1c624f185db136434c5a4f0da3c3a18a}{%
+           family={Kalousios},
+           familyi={K\bibinitperiod},
+           given={Sotirios},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0104f63d9b4d7ddfd93f22cbaa0a3ca5}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cabfe2e3e9cd2db27e54964f87174563}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hongliu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d8deb7397021b489b4b58da22216440}{%
+           family={Eberlein},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f226c73347feed2d5663436b2473469d}{%
+           family={Uckermann},
+           familyi={U\bibinitperiod},
+           given={Ortrud},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d0d80f9b3b5ee1b87d9b4ebc3e11d64}{%
+           family={Schackert},
+           familyi={S\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60c0c1fa06f4da333a5eac2c7ca1990d}{%
+           family={Polanski},
+           familyi={P\bibinitperiod},
+           given={Witold\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=154940a3d36099950404eab0c687d633}{%
+           family={Leonhardt},
+           familyi={L\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b11ca8387379bbfe6357e161947304b}
+      \strng{fullhash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{fullhashraw}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{bibnamehash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{authorbibnamehash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{authornamehash}{8b11ca8387379bbfe6357e161947304b}
+      \strng{authorfullhash}{3b4503c1ebdb880d9524474d95488c28}
+      \strng{authorfullhashraw}{3b4503c1ebdb880d9524474d95488c28}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Objective Up to a third of patients with epilepsy fail to achieve satisfactory seizure control. A reliable method of predicting seizures would alleviate psychological and physical impact. Dysregulation in heart rate variability (HRV) has been found to precede epileptic seizures and may serve as an extracerebral predictive biomarker. This study aims to identify the preictal HRV dynamics and unveil the factors impeding the clinical application of ECG‐based seizure prediction. Methods Thirty‐nine adult patients (eight women; median age: 38, [IQR\,=\,31, 56.5]) with 252 seizures were included. Each patient had more than three recorded epileptic seizures, each at least 2 hours apart. For each seizure, one hour of ECG prior to seizure onset was analyzed and 97 HRV features were extracted from overlapping three‐minute windows with 10s stride. Two separate patient‐specific experiments were performed using a support vector machine (SVM). Firstly, the\,separability of training data was examined in a non‐causal trial. Secondly, the\,prediction was attempted in pseudo‐prospective conditions. Finally, visualized HRV data, clinical metadata, and results were correlated. Results The mean receiver operating characteristic (ROC) area under the curve (AUC) for the non‐causal experiment was 0.823 (±0.12), with 208 (82.5\%) seizures achieving an improvement over chance (IoC) classification score (p\,{$<$}\,0.05, Hanley \& McNeil test). In pseudo‐prospective classification, the ROC‐AUC was 0.569 (±0.17), and 86 (49.4\%) seizures were classified with IoC. Off‐sample optimized SVMs failed to improve performance. Major limiting factors identified include non‐stationarity, variable preictal duration and dynamics. The latter is expressed as both inter‐seizure onset zone (SOZ) and intra‐SOZ variability. Significance The pseudo‐prospective preictal classification achieving IoC in approximately half of tested seizures suggests the presence of genuine preictal HRV dynamics, but the overall performance does not warrant clinical application at present. The limiting factors identified are often overlooked in non‐causal study designs. While current deterministic prediction methods prove inadequate, probabilistic approaches may offer a promising alternative. Plain Language Summary Many patients with epilepsy suffer from uncontrollable seizures and would greatly benefit from a reliable seizure prediction method. Currently, no such system is available to meet this need. Previous studies suggest that changes in the electrocardiogram (ECG) precede seizures by several minutes. In our work, we evaluated whether variations in heart rate could be used to predict epileptic seizures. Our findings indicate that we are still far from achieving results suitable for clinical application and highlight several limiting factors of present seizure prediction approaches.}
+      \field{day}{12}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2470-9239}
+      \field{journaltitle}{Epilepsia Open}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Epilepsia Open}
+      \field{shorttitle}{{{ECG}}‐based Epileptic Seizure Prediction}
+      \field{title}{{{ECG}}‐based Epileptic Seizure Prediction: {{Challenges}} of Current Data‐driven Models}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{143\bibrangedash 154}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/epi4.13073
+      \endverb
+      \verb{eprint}
+      \verb 39529572
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/ED2N84SM/Kalousios et al. - 2024 - ECG‐based epileptic seizure prediction Challenges of current data‐driven models.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11803288/
+      \endverb
+    \endentry
+    \entry{luLeveragingChannelCoherence2025}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=3436c3fb6ee8f71f2e4e865b622a7b84}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d07f51a51d9c2c1363bab089c022727}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3baca1ac5d568d84c319da94e1f4c999}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiuyong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cae383d1b7af8913d5a7091280df963}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37ec94a67936821f4246c2a4138a460}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b07d6987a613d480fcf2b6e669cbdb2a}{%
+           family={Grayden},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f58d422c1f10692e82d9ec3507af9e0}
+      \strng{fullhash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{fullhashraw}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{bibnamehash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{authorbibnamehash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{authornamehash}{8f58d422c1f10692e82d9ec3507af9e0}
+      \strng{authorfullhash}{8c792cf24f6f7915fed9a3466e431443}
+      \strng{authorfullhashraw}{8c792cf24f6f7915fed9a3466e431443}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Epilepsy affects millions worldwide, posing significant challenges due to the erratic and unexpected nature of seizures. Despite advancements, existing seizure prediction techniques remain limited in their ability to forecast seizures with high accuracy, impacting the quality of life for those with epilepsy. This research introduces the Coherence-based Seizure Prediction (CoSP) method, which integrates coherence analysis with deep learning to enhance seizure prediction efficacy. In CoSP, electroencephalography (EEG) recordings are divided into 10-second segments to extract channel pairwise coherence. This coherence data is then used to train a four-layer convolutional neural network to predict the probability of being in a preictal state. The predicted probabilities are then processed to issue seizure warnings. CoSP was evaluated in a pseudo-prospective setting using long-term iEEG data from ten patients in the NeuroVista seizure advisory system. CoSP demonstrated promising predictive performance across a range of preictal intervals (4 to 180 minutes). CoSP achieved a median Seizure Sensitivity (SS) of 0.79, a median false alarm rate of 0.15 per hour, and a median Time in Warning (TiW) of 27\%, highlighting its potential for accurate and reliable seizure prediction. Statistical analysis confirmed that CoSP significantly outperformed chance (p = 0.001) and other baseline methods (p {$<$}0.05) under similar evaluation configurations.}
+      \field{issn}{2168-2208}
+      \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Leveraging {{Channel Coherence}} in {{Long-Term iEEG Data}} for {{Seizure Prediction}}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{29}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5541\bibrangedash 5548}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/JBHI.2025.3556775
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/3PJQTQB9/Lu et al. - 2025 - Leveraging Channel Coherence in Long-Term iEEG Data for Seizure Prediction.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10946758/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10946758/
+      \endverb
+      \keyw{Brain modeling,coherence,Coherence,Electrodes,Electroencephalography,epilepsy,Epilepsy,Estimation,Feature extraction,iEEG,Lead,Recording,seizure forecasting,Seizure prediction,Training}
     \endentry
     \entry{meiselMachineLearningWristband2020}{article}{}{}
       \name{author}{6}{}{%
@@ -2659,6 +3578,129 @@
       \verb https://ieeexplore.ieee.org/document/10895217
       \endverb
       \keyw{Accelerometer (ACC),Accuracy,Classification algorithms,Classifiers,Electrodermal Activity (EDA),Electroencephalogram (EEG),final,include,Logistic regression,Machine learning,Machine learning algorithms,Performance evaluation,Seizure,Skin,Support vector machines,Usability,Wearable devices}
+    \endentry
+    \entry{sivathambooPreferencesUserExperiences2022}{article}{}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=8ffa98d6d806cf8885ab92ba2fdf0dc1}{%
+           family={Sivathamboo},
+           familyi={S\bibinitperiod},
+           given={Shobi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10a73c1ce916a938f3b0be83a645f15b}{%
+           family={Nhu},
+           familyi={N\bibinitperiod},
+           given={Duong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08cd13fc81ace2487a6ec87b5f728290}{%
+           family={Piccenna},
+           familyi={P\bibinitperiod},
+           given={Loretta},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=464aaa5ff7d75baf40330b4ada3aeead}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a5b0841dfac621eba7cb3ed348bba98}{%
+           family={Antonic-Baker},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d8eb3e0deac7a7394de074aed9deb59}{%
+           family={Vishwanath},
+           familyi={V\bibinitperiod},
+           given={Swarna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de04734a53bbbb70ff48ecfa5dec0508}{%
+           family={Todaro},
+           familyi={T\bibinitperiod},
+           given={Marian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e083524cff9a7413ce9d236299fab095}{%
+           family={Yap},
+           familyi={Y\bibinitperiod},
+           given={Lim\bibnamedelima Wei},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f74a601310e1f4e674d42bd93f5f39}{%
+           family={Kuhlmann},
+           familyi={K\bibinitperiod},
+           given={Levin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71bf5f94ee7154cade3b1e8c7342e5b4}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Wenlong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bdae38aa922edb2195f246fa8d27b1b}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Terence\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5195c85ed59208130aecf391e283bce}{%
+           family={Lannin},
+           familyi={L\bibinitperiod},
+           given={Natasha\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{feb9729183c546d8f67d8695ae9db18c}
+      \strng{fullhash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{fullhashraw}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{bibnamehash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{authorbibnamehash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{authornamehash}{feb9729183c546d8f67d8695ae9db18c}
+      \strng{authorfullhash}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \strng{authorfullhashraw}{0ce76b660a6c64a0d2ee9dc556988a9b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{BACKGROUND AND OBJECTIVES: To examine the preferences and user experiences of people with epilepsy and caregivers regarding automated wearable seizure detection devices. METHODS: We performed a mixed-methods systematic review. We searched electronic databases for original peer-reviewed publications between January 1, 2000, and May 26, 2021. Key search terms included "epilepsy," "seizure," "wearable," and "non-invasive." We performed a descriptive and qualitative thematic analysis of the studies included according to the technology acceptance model. Full texts of the discussion sections were further analyzed to identify word frequency and word mapping. RESULTS: Twenty-two observational studies were identified. Collectively, they comprised responses from 3,299 participants including patients with epilepsy, caregivers, and healthcare workers. Sixteen studies examined user preferences, 5 examined user experiences, and 1 examined both experiences and preferences. Important preferences for wearables included improving care, cost, accuracy, and design. Patients desired real-time detection with a latency of ≤15 minutes from seizure occurrence, along with high sensitivity (≥90\%) and low false alarm rates. Device-related costs were a major factor for device acceptance, where device costs of \&lt;\$300 USD and a monthly subscription fee of \&lt;\$20 USD were preferred. Despite being a major driver of wearable-based technologies, sudden unexpected death in epilepsy was rarely discussed. Among studies evaluating user experiences, there was a greater acceptance toward wristwatches. Thematic coding analysis showed that attitudes toward device use and perceived usefulness were reported consistently. Word mapping identified "specificity," "cost," and "battery" as key single terms and "battery life," "insurance coverage," "prediction/detection quality," and the effect of devices on "daily life" as key bigrams. DISCUSSION: User acceptance of wearable technology for seizure detection was strongly influenced by accuracy, design, comfort, and cost. Our findings emphasize the need for standardized and validated tools to comprehensively examine preferences and user experiences of wearable devices in this population using the themes identified in this study. Greater efforts to incorporate perspectives and user experiences in developing wearables for seizure detection, particularly in community-based settings, are needed. TRIAL REGISTRATION INFORMATION: PROSPERO Registration CRD42020193565.}
+      \field{day}{27}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1526-632X}
+      \field{journaltitle}{Neurology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{13}
+      \field{shortjournal}{Neurology}
+      \field{shorttitle}{Preferences and {{User Experiences}} of {{Wearable Devices}} in {{Epilepsy}}}
+      \field{title}{Preferences and {{User Experiences}} of {{Wearable Devices}} in {{Epilepsy}}: {{A Systematic Review}} and {{Mixed-Methods Synthesis}}}
+      \field{volume}{99}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{e1380\bibrangedash e1392}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1212/WNL.0000000000200794
+      \endverb
+      \verb{eprint}
+      \verb 35705497
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/S8JTDHA5/Sivathamboo et al. - 2022 - Preferences and User Experiences of Wearable Devices in Epilepsy A Systematic Review and Mixed-Meth.pdf
+      \endverb
+      \keyw{Caregivers,Death Sudden,Epilepsy,Humans,review,Seizures,Wearable Electronic Devices}
     \endentry
     \entry{spahrDeepLearningbasedDetection2025}{article}{}{}
       \name{author}{17}{}{%
@@ -3285,7 +4327,132 @@
       \verb https://www.jstor.org/stable/4132319
       \endverb
     \endentry
+    \entry{wongEEGDatasetsSeizure2023}{article}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=d12deb31ca88b4bb18bec1bbd4d93369}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=517f9c03bdd10fd856bc2e0e6e17a85c}{%
+           family={Simmons},
+           familyi={S\bibinitperiod},
+           given={Anj},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=605a1b073d34a65b5cda167ae74e335e}{%
+           family={Rivera‐Villicana},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9ea0d4703d088b0b904f4af4b764bcc}{%
+           family={Barnett},
+           familyi={B\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ffa98d6d806cf8885ab92ba2fdf0dc1}{%
+           family={Sivathamboo},
+           familyi={S\bibinitperiod},
+           given={Shobi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d89399f2cedc758a1d703f4882586a6}{%
+           family={Perucca},
+           familyi={P\bibinitperiod},
+           given={Piero},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbfc282073c3c0a824d475bb3e3dfca4}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Zongyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a82f56a9cf4db1e06eae9e6e71a2bc}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f74a601310e1f4e674d42bd93f5f39}{%
+           family={Kuhlmann},
+           familyi={K\bibinitperiod},
+           given={Levin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27203c0974b2a4c557d92bc79ac9807b}{%
+           family={Vasa},
+           familyi={V\bibinitperiod},
+           given={Rajesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64f119db7fb1740d45dac35481c81cdf}{%
+           family={Mouzakis},
+           familyi={M\bibinitperiod},
+           given={Kon},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bdae38aa922edb2195f246fa8d27b1b}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Terence\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8385e01dae213d25685d2508de2e2281}
+      \strng{fullhash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{fullhashraw}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{bibnamehash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{authorbibnamehash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{authornamehash}{8385e01dae213d25685d2508de2e2281}
+      \strng{authorfullhash}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \strng{authorfullhashraw}{e08a7c5f1b37e58e2aa3a5cbaa549353}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electroencephalogram (EEG) datasets from epilepsy patients have been used to develop seizure detection and prediction algorithms using machine learning (ML) techniques with the aim of implementing the learned model in a device. However, the format and structure of publicly available datasets are different from each other, and there is a lack of guidelines on the use of these datasets. This impacts the generatability, generalizability, and reproducibility of the results and findings produced by the studies. In this narrative review, we compiled and compared the different characteristics of the publicly available EEG datasets that are commonly used to develop seizure detection and prediction algorithms. We investigated the advantages and limitations of the characteristics of the EEG datasets. Based on our study, we identified 17 characteristics that make the EEG datasets unique from each other. We also briefly looked into how certain characteristics of the publicly available datasets affect the performance and outcome of a study, as well as the influences it has on the choice of ML techniques and preprocessing steps required to develop seizure detection and prediction algorithms. In conclusion, this study provides a guideline on the choice of publicly available EEG datasets to both clinicians and scientists working to develop a reproducible, generalizable, and effective seizure detection and prediction algorithm.}
+      \field{day}{16}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2470-9239}
+      \field{journaltitle}{Epilepsia Open}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Epilepsia Open}
+      \field{title}{{{EEG}} Datasets for Seizure Detection and Prediction— {{A}}~Review}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{252\bibrangedash 267}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1002/epi4.12704
+      \endverb
+      \verb{eprint}
+      \verb 36740244
+      \endverb
+      \verb{file}
+      \verb /home/paulin/Zotero/storage/TK8VWQIW/Wong et al. - 2023 - EEG datasets for seizure detection and prediction— A review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10235576/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC10235576/
+      \endverb
+    \endentry
   \enddatalist
+  \missing{vieilufSeizureMonitoringCombined2025}
 \endrefsection
 \endinput
 
