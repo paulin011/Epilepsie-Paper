@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  26 JAN 2026 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  27 JAN 2026 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1278,9 +1278,9 @@ Overfull \hbox (13.89676pt too wide) in paragraph at lines 41--42
 
 [20]) (./Sections(tex)/Results/09_detection_forecasting_readiness.tex
 
-[21])) (./Sections(tex)/Discussion/discussion.tex (./Sections(tex)/Discussion/d1_clinical_implications.tex
+[21])) (./Sections(tex)/Discussion/discussion.tex
 
-[22]
+[22] (./Sections(tex)/Discussion/d1_clinical_implications.tex
 
 [23]) (./Sections(tex)/Discussion/d2_technical_insights.tex
 
@@ -1288,9 +1288,9 @@ Overfull \hbox (13.89676pt too wide) in paragraph at lines 41--42
 
 [25]) (./Sections(tex)/Discussion/d4_future_directions.tex
 
-[26])) (./Sections(tex)/conclusion.tex
+[26]
 
-[27])
+[27])) (./Sections(tex)/conclusion.tex)
 
 [28]
 
@@ -1304,24 +1304,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6F803DD92476E831347357F256A861D5;5797.
+(rerunfilecheck)             Checksum: 14CB105990F2F7C0F2DF905470449DDB;5691.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23246 strings out of 475118
- 411245 string characters out of 5764903
- 1355557 words of memory out of 5000000
- 45713 multiletter control sequences out of 15000+600000
+ 23260 strings out of 475118
+ 411765 string characters out of 5764903
+ 1355680 words of memory out of 5000000
+ 45726 multiletter control sequences out of 15000+600000
  647909 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,13n,102p,3069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (31 pages, 479541 bytes).
+Output written on main.pdf (31 pages, 480712 bytes).
 PDF statistics:
- 777 PDF objects out of 1000 (max. 8388607)
- 702 compressed objects within 8 object streams
- 142 named destinations out of 1000 (max. 500000)
+ 792 PDF objects out of 1000 (max. 8388607)
+ 717 compressed objects within 8 object streams
+ 143 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

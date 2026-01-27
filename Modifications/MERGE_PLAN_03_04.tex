@@ -1,0 +1,198 @@
+% ===================================================================
+% MERGE PLAN: Files 03 (Architecture Patterns) and 04 (Modalities/Architectures)
+% Date: 2026-01-27
+% Purpose: Merge overlapping Results sections while preserving all content
+% ===================================================================
+
+% IDENTIFIED OVERLAPS:
+%
+% 1. ARCHITECTURE PATTERMS
+%    - File 03: Mentions CNN, LSTM, ANN approaches with citations
+%    - File 04: Repeats CNN, LSTM, ANN mentions with similar citations
+%    - OVERLAP: Spahr (CNN ensemble), Elemam (CNNs), Wang (LSTM), Fine (ANN)
+%
+% 2. FORECASTING ARCHITECTURES
+%    - File 03: Lists Meisel (10-unit LSTM), Nasseri (4-layer LSTM, 128 hidden)
+%    - File 04: Repeats the same with slightly different wording
+%    - OVERLAP: All LSTM forecasting studies
+%
+% 3. ENSEMBLE METHODS
+%    - File 03: Spahr (30 CNNs), Dong (two-stage)
+%    - File 04: Spahr mentioned again
+%    - OVERLAP: Spahr ensemble details
+%
+% 4. HANDCRAFTED FEATURES
+%    - File 03: Fine (594 features), Wang (attitude angles), Singh Rathore
+%    - File 04: Fine (594 features, 100% sens), mentions 3/8 detection studies
+%    - OVERLAP: Feature-based approach studies
+%
+% 5. ANOMALY DETECTION
+%    - File 03: Reintjes, Ode
+%    - File 04: Reintjes mentioned in validation section
+%    - PARTIAL OVERLAP
+%
+% ===================================================================
+% UNIQUE CONTENT IN EACH FILE:
+% ===================================================================
+%
+% FILE 03 UNIQUE:
+%    - Subsection "Learning Paradigms" with clear categorization
+%    - End-to-end learning definition and examples
+%    - Hybrid approaches (Vieluf, Elemam)
+%    - Temporal Evolution (Borujeny 2013 as earliest, evolution trends)
+%    - Window size ranges mentioned in key finding
+%
+% FILE 04 UNIQUE:
+%    - Personalization Strategies (Global vs Patient-specific vs Mixed)
+%    - Specific patient counts for each strategy (5 global, 4 patient-specific, 1 mixed)
+%    - Detailed Global Models paragraph with Spahr, Fine, Dong, Elemam, Meisel
+%    - Detailed Patient-Specific Models paragraph with Stirling, Nasseri, Ode, Singh Rathore
+%    - Success rate comparisons (83-100% vs 62%)
+%    - Cold start problem discussion
+%    - Mixed Approaches (Vieluf)
+%    - Validation Approaches (subject-split, temporal split)
+%    - Computational Considerations (on-device vs cloud)
+%    - Specific inference time (112 ms)
+%
+% ===================================================================
+% PROPOSED MERGED STRUCTURE:
+% ===================================================================
+%
+% \subsection{Architectures and Personalization}
+% \label{sec:architecture-patterns}
+%
+%   \subsubsection{Learning Paradigms}
+%     - From File 03 (well-structured categorization)
+%     - Feature-based (4 studies): Fine, Wang, Singh Rathore
+%     - End-to-end (2 studies, both forecasting): Meisel, Nasseri
+%     - Hybrid (2 studies): Vieluf, Elemam
+%     - Ensemble (2 studies): Spahr, Dong
+%     - Anomaly detection (2 studies): Reintjes, Ode
+%
+%   \subsubsection{Architecture Patterns by Application}
+%     - Merge content from both files
+%     - CNN dominance in detection: Spahr, Elemam
+%     - LSTM dominance in forecasting: Meisel, Nasseri, Stirling
+%     - No forecasting uses CNN (temporal vs spatial patterns)
+%     - Handcrafted features remain competitive (Fine 100% sens)
+%     - Window size ranges
+%
+%   \subsubsection{Personalization Strategies}
+%     - From File 04 (unique, important content)
+%     - Global (5 studies): Spahr, Fine, Dong, Elemam, Meisel
+%     - Patient-specific (4 studies): Stirling, Nasseri, Ode, Singh Rathore
+%     - Mixed (1 study): Vieluf
+%
+%     \paragraph{Global Models.}
+%       - On-device processing benefit
+%       - Spahr 112ms inference
+%       - Meisel LOSO: 62% patient success
+%
+%     \paragraph{Patient-Specific Models.}
+%       - Higher success rates: 83-100%
+%       - Data requirement: 14.6 months or 60+ days
+%       - Cold start problem
+%
+%     \paragraph{Mixed Approaches.}
+%       - Vieluf harmonic patterns + diary
+%
+%   \subsubsection{Validation Approaches}
+%     - From File 04
+%     - Subject-split: Reintjes (poor generalization)
+%     - Temporal split: Nasseri
+%     - LOSO: Meisel
+%
+%   \subsubsection{Temporal Evolution}
+%     - From File 03 (unique content)
+%     - Borujeny 2013 earliest
+%     - 2020-2022: LSTM forecasting
+%     - 2023-2026: Ensembles, hybrid, attention
+%
+%   \subsubsection{Computational Considerations}
+%     - From File 04
+%     - On-device: Spahr 112ms
+%     - Cloud: Stirling, Nasseri
+%     - Connectivity issues
+%
+%   \textbf{Key findings.}
+%     - Detection: Architectural diversity (CNN, LSTM, ANN, anomaly)
+%     - Forecasting: LSTM concentration, no CNNs
+%     - Trade-off: Patient-specific (83-100% success, cold start) vs Global (62% LOSO, immediate deployment)
+%
+%   \textbf{Limitations.}
+%     - Architecture description variability
+%     - Detection studies rarely report patient-level success (2/8)
+%
+% ===================================================================
+% CONTENT MAPPING:
+% ===================================================================
+%
+% LEARNING PARADIGMS (keep from File 03, slight expansion):
+%   - Fine: 594 features, 6-axis ACC+Gyro, ANN
+%   - Wang: attitude angle features, LSTM 40 hidden
+%   - Singh Rathore: multi-modal features, MLP
+%   - Meisel: raw data, LSTM 10 units (E2E)
+%   - Nasseri: FFT channels, LSTM 4-layer 128 hidden (E2E)
+%   - Vieluf: DNN + harmonic features (hybrid)
+%   - Elemam: CNN + rule-based fusion (hybrid - clarify classification)
+%   - Spahr: 30 CNN ensemble, quantile aggregation
+%   - Dong: two-stage, threshold pre-screening + CNN-LSTM
+%   - Reintjes: anomaly detection, 3 methods, ECG
+%   - Ode: self-attentive autoencoder, ECG RRI
+%
+% ARCHITECTURE PATTERNS (merged):
+%   - CNN in detection: Spahr (96% sens, 0.0054/h), Elemam
+%   - LSTM in forecasting: Meisel (10 units), Nasseri (128x4), Stirling (ensemble)
+%   - No CNN in forecasting: temporal vs spatial
+%   - Handcrafted features: Fine 100% sens, competitive
+%   - Window sizes: 4s-5min (detection), 30s-60min (forecasting)
+%
+% PERSONALIZATION (keep from File 04):
+%   - Global: Spahr (n=384), Fine (15 train, 3 test), Dong (n=68, 10-fold), Elemam (198 questionnaire, 30 HRV), Meisel (LOSO)
+%   - Patient-specific: Stirling (n=11, weekly retraining), Nasseri (n=6), Ode (n=66, 99% confidence), Singh Rathore (n=1)
+%   - Mixed: Vieluf (harmonic + diary)
+%   - Success rates: 62% (global LOSO) vs 83-100% (patient-specific)
+%   - Cold start: 14.6 months or 60+ days required
+%
+% VALIDATION (keep from File 04):
+%   - Subject-split: Reintjes (FPR 0.11-65.62/h)
+%   - Temporal split: Nasseri
+%   - LOSO: Meisel
+%
+% COMPUTATIONAL (keep from File 04):
+%   - On-device: Spahr 112ms, real-time
+%   - Cloud: Stirling, Nasseri
+%   - Smartphone: Stirling with weekly retraining
+%
+% TEMPORAL EVOLUTION (keep from File 03):
+%   - 2013: Borujeny (ANN)
+%   - 2020-2022: LSTM forecasting focus
+%   - 2023-2026: Ensembles, hybrid, attention
+%
+% KEY FINDINGS (merged):
+%   - Architecture diversity in detection vs LSTM concentration in forecasting
+%   - Personalization trade-off: success vs cold start
+%   - No CNN in forecasting
+%
+% LIMITATIONS (merged):
+%   - Description variability (from 03)
+%   - Patient-level reporting gap (from 04)
+%
+% ===================================================================
+% ACTION ITEMS:
+% ===================================================================
+%
+% 1. Remove duplicate mentions of studies between sections
+% 2. Consolidate architecture descriptions (mention each study once in detail)
+% 3. Keep Learning Paradigms structure from File 03
+% 4. Keep Personalization section intact from File 04
+% 5. Merge Architecture Patterns into single coherent subsection
+% 6. Add Window Size discussion from File 04 to Architecture Patterns
+% 7. Keep Temporal Evolution from File 03
+% 8. Keep Validation and Computational from File 04
+% 9. Consolidate Key Findings and Limitations
+% 10. Update cross-references (remove "detailed in Section X" references)
+% 11. Ensure all citation keys remain correct
+% 12. Check line length and LaTeX formatting
+%
+% ===================================================================

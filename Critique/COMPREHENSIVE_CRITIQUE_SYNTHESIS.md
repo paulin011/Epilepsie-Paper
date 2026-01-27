@@ -163,15 +163,6 @@ The paper demonstrates excellent adherence to the project's writing style rules:
 
 ## Citation and Reference Issues
 
-### Missing BibTeX Entries
-
-Three of the 13 primary studies exist in `Epilepsie.bib` but are missing from `included_papers/included_items.bib`:
-- `spahrDeepLearningbasedDetection2025`
-- `reintjesECGBasedDetectionEpileptic2025`
-- `nasseriAmbulatorySeizureForecasting2021`
-
-**Impact:** If only `included_items.bib` is used, these citations will fail.
-
 ### Inconsistent Citation Commands
 
 The paper uses a mix of `\cite{}`, `\textcite{}`, and `\parencite{}`:
