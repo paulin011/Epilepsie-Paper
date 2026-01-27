@@ -11,7 +11,7 @@ End-to-end learning appears in two studies, both in forecasting. \textcite{meise
 
 Hybrid approaches appear in two studies. \textcite{vielufSeizureMonitoringCombined2025} combined a DNN with handcrafted harmonic features extracted from 24-hour patterns. \textcite{elemamAutomatedValidatedTool2025} used separate CNNs for HRV and audio data without fusion between modalities.
 
-Ensemble methods appear in detection applications. \textcite{spahrDeepLearningbasedDetection2025} trained 30 separate 1D CNN models with quantile aggregation, achieving 96\% sensitivity with 0.0054/h FPR. \textcite{dongTwoLayerEnsembleMethod2022} used a two-stage architecture with threshold-based pre-screening followed by a CNN-LSTM model.
+Ensemble methods appear in detection applications. \textcite{spahrDeepLearningbasedDetection2025} trained 30 separate 1D CNN models with quantile aggregation, achieving 96\% sensitivity with 0.0054/h FPR. The ensemble aggregation quantile serves as a tunable parameter that allows adapting the sensitivity-FPR trade-off according to patient needs. The model (Episave) operates on 3D-ACC data at 32~Hz using 30-second windows. \textcite{dongTwoLayerEnsembleMethod2022} used a two-stage architecture with threshold-based pre-screening followed by a CNN-LSTM model.
 
 Anomaly detection appears in two studies. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three unsupervised anomaly detection methods (Matrix Profile, MADRID, TimeVQVAE) on single-lead ECG data. \textcite{odeDevelopmentEpilepticSeizure2023} used a self-attentive autoencoder for patient-specific anomaly detection on ECG RRI intervals.
 
