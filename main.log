@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  27 JAN 2026 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  27 JAN 2026 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,9 +857,9 @@ Overfull \hbox (0.7735pt too wide) in paragraph at lines 70--74
 \T1/lmr/bx/n/12 Prioritization Cri-te-ria: \T1/lmr/m/n/12 Stud-ies in-clud-ing splits pre-serv-ing patient-specific data, FAR/h
  []
 
-(./Sections(tex)/3.1_Search Strategy.tex
 
-[5]
+
+[5] (./Sections(tex)/3.1_Search Strategy.tex
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 29.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1145,4 +1145,159 @@ Underfull \hbox (badness 6876) in paragraph at lines 30--30
  []
 
 
-Underfull
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10 CNN for HRV,
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 30--30
+\T1/lmr/m/n/10 CNN for Au-dio
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10 95.1% @ 97.06%
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10 Real-time, hos-pi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10 ANN, time-
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10 Real-time, server
+ []
+
+
+
+[11{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./Tables(tex)/table2b_forecasting_studies.tex
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/bx/n/8 Vieluf et al.
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 27--27
+[]|\T1/lmr/bx/n/8 Meisel et al.
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 HR 5 s, steps/sleep 1 min,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 Home (Fit-bit),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 ACC/BVP/EDA/Temp/HR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 Offline, cloud,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 Patient-specific (99%
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 27--27
+[][][][][][][][] 
+ []
+
+
+
+[12
+
+
+
+
+]) (./Tables(tex)/table3_metrics_summary.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 29.
+) (./Sections(tex)/Results/results_main.tex (./Sections(tex)/Results/01_study_characteristics.tex) (./Sections(tex)/Results/02_modality_performance.tex
+
+[13
+
+])
+
+[14] (./Sections(tex)/Results/03_merged_architectures_personalization.tex
+Overfull \hbox (8.97789pt too wide) in paragraph at lines 8--9
+\T1/lmr/m/n/12 Deep learn-ing ap-proaches in wear-able seizure mon-i-tor-ing em-ploy di-verse learn-ing paradigms.
+ []
+
+
+
+[15]
+
+[16]
+Overfull \hbox (7.43759pt too wide) in paragraph at lines 65--66
+[]\T1/lmr/bx/n/12 Key find-ings. \T1/lmr/m/n/12 De-tec-tion re-search em-ploys ar-chi-tec-tural di-ver-sity in-clud-ing CNNs, LSTMs,
+ []
+
+) (./Sections(tex)/Results/06_performance_metrics.tex
+
+[17]) (./Sections(tex)/Results/07_08_detection_forecasting_clinical_readiness_merged.tex
+
+[18]
+
+[19]
+
+[20])) (./Sections(tex)/Discussion/discussion.tex (./Sections(tex)/Discussion/d1_clinical_implications.tex
+
+[21]
+
+[22]) (./Sections(tex)/Discussion/d2_technical_insights.tex
+
+[23]) (./Sections(tex)/Discussion/d3_limitations.tex
+
+[24]) (./Sections(tex)/Discussion/d4_future_directions.tex
+
+[25]
+
+[26])) (./Sections(tex)/conclusion.tex)
+
+[27]
+
+[28]
+
+[29]
+
+[30] (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 09D7C33442C07C8D0E815119EDCDDF33;5098.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23220 strings out of 475118
+ 410702 string characters out of 5764903
+ 1355347 words of memory out of 5000000
+ 45702 multiletter control sequences out of 15000+600000
+ 647909 words of font info for 99 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 75i,13n,102p,3069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (30 pages, 477322 bytes).
+PDF statistics:
+ 746 PDF objects out of 1000 (max. 8388607)
+ 673 compressed objects within 7 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+
