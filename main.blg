@@ -1,21 +1,19 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[56] biber:342> INFO - === Di Jan 27, 2026, 10:47:57
-[71] Biber.pm:421> INFO - Reading 'main.bcf'
-[175] Biber.pm:1002> INFO - Found 26 citekeys in bib section 0
-[194] Biber.pm:4487> INFO - Processing section 0
-[213] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
-[236] bibtex.pm:1713> INFO - LaTeX decoding ...
-[682] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
-[1118] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1119] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1119] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1119] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1201] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1202] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1202] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1202] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1244] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1293] bbl.pm:779> INFO - Output to main.bbl
-[1295] Biber.pm:132> WARN - I didn't find a database entry for 'vieilufSeizureMonitoringCombined2025' (section 0)
-[1295] Biber.pm:134> INFO - WARNINGS: 1
+[55] biber:342> INFO - === Di Jan 27, 2026, 11:34:42
+[68] Biber.pm:421> INFO - Reading 'main.bcf'
+[165] Biber.pm:1002> INFO - Found 25 citekeys in bib section 0
+[184] Biber.pm:4487> INFO - Processing section 0
+[190] Biber.pm:4678> INFO - Looking for bibtex file 'Epilepsie.bib' for section 0
+[209] bibtex.pm:1713> INFO - LaTeX decoding ...
+[639] bibtex.pm:1519> INFO - Found BibTeX data source 'Epilepsie.bib'
+[1007] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1007] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1007] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1007] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1081] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1081] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1081] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1081] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1119] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1161] bbl.pm:779> INFO - Output to main.bbl
