@@ -5,7 +5,7 @@
 
 \subsubsection{Learning Paradigms}
 
-Deep learning approaches in wearable seizure monitoring employ diverse learning paradigms. Feature-based approaches appear in four studies. These methods extract handcrafted features as input to classifiers. \textcite{fineDetectionKeyAutomated2025} extracted 594 features from 6-axis ACC and gyroscope data for an ANN classifier. \textcite{wangEpilepticSeizureDetection2025} engineered attitude angle features for an LSTM network with 40 hidden units. \textcite{singhrathoreDevelopmentMultimodalMachine2024} used multi-modal features for an MLP classifier in a single-patient case study.
+Deep learning approaches in wearable seizure monitoring employ diverse learning paradigms. Feature-based approaches appear in four studies. These methods extract handcrafted features as input to classifiers. \textcite{fineDetectionKeyAutomated2025} extracted 594 features from 6-axis ACC and gyroscope data for an ANN classifier. The large feature set raises overfitting concerns given the small sample size (n=15), and no study directly compares feature-based to end-to-end approaches. \textcite{wangEpilepticSeizureDetection2025} engineered attitude angle features for an LSTM network with 40 hidden units. \textcite{singhrathoreDevelopmentMultimodalMachine2024} used multi-modal features for an MLP classifier in a single-patient case study.
 
 End-to-end learning appears in two studies, both in forecasting. \textcite{meiselMachineLearningWristband2020} used an LSTM with 10 units operating directly on raw multi-modal wrist data. \textcite{nasseriAmbulatorySeizureForecasting2021} used a 4-layer LSTM with 128 hidden units per layer receiving FFT channels of raw sensor data.
 

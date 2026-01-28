@@ -64,26 +64,35 @@
 
 \addbibresource{Epilepsie.bib}
 
-\title{Literature Review: Deep Learning for Seizure Detection and Prediction
- from Non‑EEG Wearable Signals (2013–2026)}
+\title{Literature Review: Deep Learning for Seizure Detection and Prediction from Non‑EEG Wearable Signals (2013–2026)
+
+\vspace*{8cm}    % Space from top
+\includegraphics[width=0.3\linewidth]{uni_koeln_logo.pdf}
+\vfill           % Remaining space
 \author{Paulin Saher\\Universität zu Köln}
+}
 \date{\today}
 
 \begin{document}
 
 \maketitle
+\thispagestyle{empty}
 
+\newpage
 \tableofcontents
+\thispagestyle{empty}
 
 % Exposé der Seminararbeit
 % Use correct path and extension (remove duplicate .tex and avoid parentheses in folder name)
+\newpage
+\setcounter{page}{1}
 \input{Sections(tex)/00_Abstract.tex}
 \input{Sections(tex)/01_Introduction3.tex}
 %\input{Sections(tex)/02_Background2.tex}
 \input{Sections(tex)/03_Methods.tex}
 
 % Tables section
-\addcontentsline{toc}{section}{Tables}
+\section{Tables}
 
 \input{Tables(tex)/table1a_detection_matrix.tex}
 \input{Tables(tex)/table1b_forecasting_matrix.tex}
