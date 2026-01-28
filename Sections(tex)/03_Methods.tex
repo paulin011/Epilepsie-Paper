@@ -25,48 +25,6 @@ transparent extraction and synthesis procedures as outlined below.
 \end{enumerate}
 
 
-
-Extracted dimensions populate two concept matrix tables with the following
-fields:
-\begin{enumerate}
-  \item \textbf{Study Matrix (Table~\ref{tab:detection-matrix} for detection, Table~\ref{tab:forecasting-matrix} for forecasting):}
-  \begin{itemize}
-    \item Study identification (author, year)
-    \item Objective (detection vs forecasting, seizure type)
-    \item Design (prospective, retrospective, pseudo‑prospective, LOSO CV)
-    \item Sample (participant count, seizure count)
-    \item Device and sensor location
-    \item Algorithm architecture
-    \item Performance metrics (sensitivity, specificity, FPR)
-    \item Key limitations
-  \end{itemize}
-  \item \textbf{Detailed Metrics Matrix (Table~\ref{tab:detection-architecture} for detection, Table~\ref{tab:forecasting-architecture} for forecasting):}
-  \begin{itemize}
-    \item Validation approach (independent test, cross‑validation, LOSO)
-    \item Detection latency
-    \item Patient‑level success rate
-    \item Precision/PPV
-    \item Additional clinical metrics (HMS, IoC, AUC, F1)
-    \item Clinical notes
-  \end{itemize}
-\end{enumerate}
-
-\noindent\textbf{Additional Extracted Dimensions:}
-The following dimensions were extracted and analyzed to inform the narrative synthesis and dimensional analysis presented in Section~\ref{sec:results}, complementing the tabular comparison:
-\begin{itemize}
-  \item Setting (clinical vs ambulatory)
-  \item Modality details (ECG/HRV, PPG, EDA, ACC)
-  \item Evaluation granularity (sample‑ vs alarm‑based)
-  \item Windowing specifics (window length, stride, overlap)
-  \item Personalization strategies
-  \item Interpretability and safety considerations
-  \item Data characteristics and dataset identity
-  \item Missing data handling (imputation, exclusion) and synthetic data use
-  \item Inference requirements (latency, computational load, hardware)
-\end{itemize}
-
-This two-table approach follows Webster \& Watson's concept matrix methodology \parencite{websterAnalyzingPrepareFuture2002}, balancing complete data extraction with readable summary tables while enabling detailed dimensional analysis in the narrative synthesis.
-
 \noindent\textbf{Prioritization Criteria:}
 Studies including splits preserving patient-specific data, FAR/h reporting
 and external or cross validation will be prioritized in the synthesis. A PRISMA-style flow diagram

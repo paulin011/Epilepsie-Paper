@@ -18,15 +18,15 @@ signals has pushed traditional machine learning (ML) approaches to their limits.
 These approaches require manual engineering such as cleaning and extracting of the data,
 often failing to capture the complex, non-linear temporal dynamics of these
 signals. It is this limitation that deep learning (DL) models are designed to overcome, with their ability of hierarchical and learned feature
-extraction uniquely addressing these limitations.
+extraction addressing these exact limitations.
 
-This review therefore examines and assesses recent advances in time-series
+This review examines and assesses recent advances in time-series
 deep learning - particularly convolutional neural networks (CNNs)
 and long short term memory (LSTMs) -
 applied to seizure detection and prediction using non-EEG wearable biosignals.
 Central to this analysis is the question of how architectural choices, training paradigms
 (e.g., transfer learning, personalization), and thorough prospective evaluation
-can converge to meet the stringent clinical requirements of high sensitivity
+can converge to meet the strict clinical requirements of high sensitivity
 and minimal false alarm rates (FAR) in real-world deployment.
 
 \subsection{Key Research Question}
@@ -44,12 +44,12 @@ which classifies studies into five validation phases \parencite{beniczkyStandard
 
 Phase 0 represents proof of concept. Phase 1 involves retrospective analysis with small samples.
 Phase 2 requires minimum 10 patients with seizures and 15 recorded seizures.
-Phase 3 denotes prospective, multicenter validation with at least 30 seizures from at least 20 patients using real-time detection.
+Phase 3 denotes prospective, multicenter validation with at least 30 seizures from at least 20 patients using real-time detection recorded during daily activities so phase 3 excludes EMU (Epilepsy Monitoring Unit) data.
 Phase 4 represents real-world home validation.
 
 Prospective trials (Phase 3) constitute the clinical gold standard,
 requiring locked algorithms, video-EEG reference standards, and testing on
-unseen data from multiple centers.
+unseen data from multiple centers in real-world scenarios.
 
 \subsubsection{Study Design Classifications}
 
