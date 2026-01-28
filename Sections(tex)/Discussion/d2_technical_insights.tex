@@ -16,6 +16,8 @@ The persistence of competitive handcrafted feature approaches is noteworthy. Dom
 
 Ensemble methods achieve excellent results but require greater computational resources. The trade-off between ensemble complexity and deployability becomes important for commercial translation, as multi-model ensembles may be impractical for low-power wearable devices. No ensemble study provides direct comparison of their full architecture against single-model baselines. While Dong 2026 demonstrates multimodal fusion benefits, none report ablation on ensemble size, making it impossible to quantify whether multi-model approaches substantially outperform simpler architectures.
 
+No evidence supports that architectural complexity improves performance. A feature-based ANN achieved 100\% sensitivity on independent test data, while a CNN-LSTM-attention architecture achieved only 76\% sensitivity despite using a more sophisticated model. The most effective approaches used domain knowledge through handcrafted features rather than model complexity.
+
 \subsubsection{Personalization Dilemma}
 
 The personalization strategy presents a fundamental dilemma for clinical deployment. Global models enable immediate deployment without individual patient data, but only 43\% of patients achieve performance above chance in LOSO validation. This means most patients receive no meaningful protection from population-based systems rendering them useless for clinical deployment.

@@ -59,9 +59,10 @@
 \contentsline {subsubsection}{\numberline {6.2.3}Personalization Dilemma}{22}{subsubsection.6.2.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}The False Positive Challenge}{22}{subsubsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.3}Limitations of the Evidence Base}{22}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Sample Size Constraints}{22}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.1}Sample Size Constraints}{23}{subsubsection.6.3.1}%
 \contentsline {subsubsection}{\numberline {6.3.2}Validation Setting Bias}{23}{subsubsection.6.3.2}%
 \contentsline {subsubsection}{\numberline {6.3.3}Reporting Inconsistency}{23}{subsubsection.6.3.3}%
 \contentsline {subsubsection}{\numberline {6.3.4}Monitoring Duration and Cold-Start Problems}{23}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}Unvalidated Architectural Components}{23}{subsubsection.6.3.5}%
 \contentsline {subsection}{\numberline {6.4}Future Directions}{23}{subsection.6.4}%
 \contentsline {section}{\numberline {7}Conclusion}{25}{section.7}%
