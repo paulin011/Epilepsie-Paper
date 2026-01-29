@@ -91,9 +91,19 @@
 %\input{Sections(tex)/02_Background2.tex}
 \input{Sections(tex)/03_Methods.tex}
 
+\newpage
+\subsection{Prisma-style flow diagram}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{prisma.pdf}
+  \caption{PRISMA flow diagram of the study selection process.}
+  \label{fig:prisma}
+\end{figure}
+
+\newpage
 % Tables section
-\refstepcounter{section}
-\addcontentsline{toc}{section}{\protect\numberline{\thesection}Tables}
+\stepcounter{section}
+\addcontentsline{toc}{section}{\numberline{\thesection}Tables}
 \sectionmark{Tables}
 
 \input{Tables(tex)/table1a_detection_matrix.tex}
