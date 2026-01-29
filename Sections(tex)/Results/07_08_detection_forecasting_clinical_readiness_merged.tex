@@ -2,31 +2,19 @@
 \subsection{Detection, Forecasting, and Clinical Readiness}
 \label{sec:detection-forecasting-readiness}
 
-Detection and forecasting serve different clinical purposes. Detection aims to identify seizures as they occur for timely intervention. Forecasting aims to predict seizures before onset to allow preventive action. These different objectives lead to distinct technical approaches and validation requirements.
+Traditionally detection and forecasting detection serve largely different clinical purposes.
 
-\subsubsection{Clinical Objectives}
+Detection systems alert caregivers when a seizure occurs enabling intervention during or immediately after the seizure. It is most valuable for generalized tonic-clonic or focal to bilateral tonic-clonic seizures where caregiver response can prevent injury or SUDEP.
 
-Detection systems alert caregivers when a seizure occurs. This enables intervention during or immediately after the seizure. Detection is most valuable for generalized tonic-clonic or focal to bilateral tonic-clonic seizures where caregiver response can prevent injury or complications.
-
-Forecasting systems provide advance warning of increased seizure likelihood. This allows patients to modify activities, take rescue medication, or avoid risky situations. Forecasting could improve quality of life by reducing the uncertainty of when seizures might occur.
+In contrast, forecasting systems provide advance warning of increased seizure likelihood. This allows patients to modify activities, take rescue medication, or avoid risky situations. Forecasting could improve quality of life by reducing the uncertainty of when seizures might occur.
 
 \subsubsection{Maturity Comparison}
 
-Detection shows greater clinical maturity than forecasting. Two detection studies achieve FPR performance comparable to Phase 3 studies in the ILAE systematic review. Commercial devices exist for detection including the Embrace watch with FDA 510(k) clearance and NightWatch with CE approval in Europe. No forecasting study meets a clear clinical benchmark. No device has regulatory approval for seizure forecasting.
+Two detection studies achieve FPR performance comparable to Phase 3 studies in the ILAE systematic review. Several Commercial devices exist for detection including the Embrace watch with FDA 510(k) clearance and NightWatch with CE approval in Europe. Still no forecasting study meets a clear clinical benchmark. No device has regulatory approval for seizure forecasting.
 
-Detection benefits from clearer clinical requirements. The ILAE systematic review of Phase 3 studies reported FPR of 0.2-0.67 per 24 hours (approximately 0.008-0.028/h) for validated GTCS/FBTCS detection devices \parencite{beniczkyAutomatedSeizureDetection2021}. Forecasting lacks equivalent standardized guidelines. Forecasting AUC consistently falls between 0.74 and 0.80 across studies, suggesting a performance ceiling for non-invasive approaches, but the clinical acceptability of this performance level remains unclear.
+While detection has a framework for classifying (ILAE 5 Phases by \textcite{beniczkyStandardsTestingClinical2018}), Forecasting lacks equivalent standardized guidelines. Forecasting AUC consistently falls between 0.74 and 0.80 across studies, suggesting a performance ceiling for non-invasive approaches, but the clinical acceptability of this performance level remains unclear.
 
-Sample size disparities further reflect the maturity difference. Detection studies have a median sample size of 66 participants compared to 40 for forecasting studies. The largest detection study enrolled 384 patients across eight centers, while the largest forecasting study enrolled 70 patients.
-
-\subsubsection{Validation Phase Distribution}
-
-No study in this review has achieved true Phase 3 prospective validation in home settings. Phase 3 validation requires prospective testing in the intended use environment with sufficient sample size and duration and an FPR of at least 90\%.
-
-Two detection studies approach Phase 3 requirements. \textcite{spahrDeepLearningbasedDetection2025} conducted prospective multi-center validation with 384 patients. The study achieved FPR performance comparable to Phase 3 studies in the ILAE systematic review but was conducted in EMU settings rather than home. \textcite{dongTwoLayerEnsembleMethod2022} conducted prospective home monitoring with 68 patients but reported sensitivity below 90\%.
-
-\textcite{fineDetectionKeyAutomated2025} represents Phase 1 validation with a small independent test set. The study achieved 100\% sensitivity with 0.023/h FPR but tested only 10 seizures from 3 patients.
-
-Forecasting studies remain in earlier validation phases. \textcite{vielufSeizureMonitoringCombined2025} used Phase IV clinical trial data but employed retrospective analysis. \textcite{meiselMachineLearningWristband2020} and \textcite{nasseriAmbulatorySeizureForecasting2021} represent Phase 2-equivalent validation with moderate samples.
+Sample size disparities also clearly reflect the maturity difference. Detection studies have a median sample size of 66 participants compared to 40 for forecasting studies. The largest detection study enrolled 384 patients across eight centers, while the largest forecasting study enrolled 70 patients.
 
 \subsubsection{Commercial Device Status}
 
@@ -42,13 +30,17 @@ Six studies include home or ambulatory validation. \textcite{dongTwoLayerEnsembl
 
 \textcite{nasseriAmbulatorySeizureForecasting2021} achieved the most rigorous ambulatory validation with concurrent invasive EEG confirmation via the RNS system. However, only six patients were studied.
 
-Seven studies were conducted entirely in hospital or EMU settings. Hospital settings may not capture the diversity of real-world activities that cause false alarms. Exercise, cooking, household chores, and other activities present challenges not encountered in controlled hospital environments.
+Hospital settings often fail to capture the diversity of real-world activities that cause false alarms. Exercise, cooking, household chores, and other activities present challenges not encountered in controlled hospital environments.
 
 \subsubsection{Deployment Architecture}
 
-Three studies report on-device or real-time deployment capability. \textcite{spahrDeepLearningbasedDetection2025} reported 112 ms inference time suitable for real-time processing. \textcite{borujenyDetectionEpilepticSeizure2013} reported 316 mW power consumption for server-based processing. \textcite{dongTwoLayerEnsembleMethod2022} deployed on the NightWatch armband with real-time processing.
+Three studies report on-device or real-time deployment capability, Cloud-based processing also appears in three studies.
 
-Cloud-based processing appears in three studies. \textcite{nasseriAmbulatorySeizureForecasting2021} and \textcite{odeDevelopmentEpilepticSeizure2023} used cloud-based approaches. Cloud processing may introduce latency and connectivity issues. Offline processing appears in two studies without clear deployment pathways.
+\textcite{spahrDeepLearningbasedDetection2025} reported 112 ms inference time suitable for real-time processing without any mention of the specific device achieving it. \textcite{borujenyDetectionEpilepticSeizure2013} reported 316 mW power consumption for server-based processing. \textcite{dongTwoLayerEnsembleMethod2022} deployed on the NightWatch armband with real-time processing.
+
+\textcite{nasseriAmbulatorySeizureForecasting2021} and \textcite{odeDevelopmentEpilepticSeizure2023} both used cloud-based approaches. 
+
+Cloud processing may introduce latency and connectivity issues. Offline processing appears in two studies without clear deployment pathways.
 
 \subsubsection{Barriers to Clinical Adoption}
 
@@ -61,23 +53,3 @@ Third, small sample sizes limit generalizability. Four studies have sample sizes
 Fourth, validation setting affects real-world applicability. Seven studies were conducted entirely in hospital or EMU settings. Hospital environments may not capture the diversity of real-world activities that cause false alarms.
 
 Fifth, device burden and battery life limit adherence. Multi-modal systems sampling multiple signals at high frequencies consume substantial power. Long-term monitoring requires daily charging which may reduce adherence over time.
-
-\subsubsection{Most Advanced Approaches}
-
-\textcite{spahrDeepLearningbasedDetection2025} represents the most clinically advanced detection approach. The study combines large sample size (384 patients), prospective multi-center design, excellent sensitivity (96\%), and the lowest reported FPR among detection studies (0.0054/h). The ensemble 1D CNN algorithm operates in real-time with 112 ms inference time suitable for on-device processing. The main limitation is EMU setting rather than home validation.
-
-\textcite{dongTwoLayerEnsembleMethod2022} represents the most advanced home-validated detection approach. The study achieved prospective home monitoring with 788 overnight recordings over three months using the NightWatch commercial device. FPR of 0.165/h exceeds the performance range reported in Phase 3 studies but may be acceptable for some patients prioritizing sensitivity over specificity.
-
-\textcite{stirlingForecastingSeizureLikelihood2021} represents the most clinically advanced forecasting approach. The study achieved 100\% patient success with long home validation using consumer Fitbit devices. The LSTM+RF+LR ensemble with weekly retraining adapts to individual patient patterns. However, forecasting lacks clear clinical benchmarks and regulatory pathways.
-
-\subsubsection{Reporting Practices}
-
-Detection and forecasting differ in metric reporting. Forecasting studies consistently report patient-level success rates. Detection studies rarely report individual patient outcomes. This reporting gap complicates assessment of which patients benefit from each approach.
-
-Forecasting studies report forecasting-specific metrics including IoC and TiW. Detection studies emphasize sensitivity and FPR. These different metrics reflect different clinical priorities but complicate cross-domain comparison.
-
-\textbf{Key finding.} Detection is closer to clinical translation than forecasting. Two detection approaches meet clinical FPR benchmarks. Forecasting shows consistent AUC around 0.75 but lacks clear clinical benchmarks and regulatory pathways.
-
-\textbf{Key limitation.} No study has achieved all requirements for clinical deployment. All studies have limitations in sample size, validation setting, FPR, or generalizability. No study has achieved Phase 3 prospective validation in home settings with sufficient sample size and duration.
-
-\textbf{Limitation identified.} Direct comparison between detection and forecasting is challenging due to different metrics, validation approaches, and clinical objectives. The field lacks standardized frameworks for assessing relative clinical value.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  29 JAN 2026 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  29 JAN 2026 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1255,56 +1255,65 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [15]) (./Sections(tex)/Results/06_performance_metrics.tex
 
-[16]) (./Sections(tex)/Results/07_08_detection_forecasting_clinical_readiness_merged.tex
+[16])
+Overfull \hbox (1.38692pt too wide) in paragraph at lines 29--19
+[]\T1/lmr/m/n/12 Forecasting AUC con-sis-tently falls be-tween 0.74 and 0.75 re-gard-less of Ar-chite-cure specifics
+ []
 
-[17]
+(./Sections(tex)/Results/07_08_detection_forecasting_clinical_readiness_merged.tex
 
-[18]
+[17])) (./Sections(tex)/Discussion/discussion.tex
 
-[19])) (./Sections(tex)/Discussion/discussion.tex (./Sections(tex)/Discussion/d1_clinical_implications.tex
+[18] (./Sections(tex)/Discussion/d1_clinical_implications.tex
 
-[20]) (./Sections(tex)/Discussion/d2_technical_insights.tex
+[19]) (./Sections(tex)/Discussion/d2_technical_insights.tex
 
-[21]
+[20]
 
-[22]) (./Sections(tex)/Discussion/d3_limitations.tex
+[21]) (./Sections(tex)/Discussion/d3_limitations.tex
 
-[23]) (./Sections(tex)/Discussion/d4_future_directions.tex
+[22]) (./Sections(tex)/Discussion/d4_future_directions.tex
 
-[24])) (./Sections(tex)/conclusion.tex
+[23])) (./Sections(tex)/conclusion.tex
 
-[25])
+[24])
+
+[25]
 
 [26]
 
-[27]
-
-[28]
-
-[29] (./main.aux)
+[27] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BCCEB0BF9D43278013329F041CA61FAC;5387.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23228 strings out of 475118
- 410937 string characters out of 5764903
- 1355388 words of memory out of 5000000
- 45710 multiletter control sequences out of 15000+600000
+ 23215 strings out of 475118
+ 410756 string characters out of 5764903
+ 1355335 words of memory out of 5000000
+ 45704 multiletter control sequences out of 15000+600000
  647909 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,13n,102p,3069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (31 pages, 537564 bytes).
+Output written on main.pdf (29 pages, 533265 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 677 compressed objects within 7 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 729 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 129 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,10 +5,16 @@ Detection and forecasting studies use different evaluation metrics reflecting th
 
 \subsubsection{Detection Performance}
 
+No study in this review has achieved true Phase 3 prospective validation in home settings
+
 The most Notable high-performing studies include \textcite{fineDetectionKeyAutomated2025} at 100\% sensitivity, \textcite{spahrDeepLearningbasedDetection2025} at 96\% sensitivity, \textcite{singhrathoreDevelopmentMultimodalMachine2024} at 96.8\% sensitivity in a single-patient case study, and \textcite{elemamAutomatedValidatedTool2025} at 95.1\% sensitivity using HRV-based detection. 
 Detection sensitivity across studies ranges from 38.0\% to 100\% (Table~\ref{tab:detection-matrix}). 
 
-Only six of nine detection studies actually report FPR. The ILAE systematic review of Phase 3 studies reported FPR of 0.2-0.67 per 24 hours (approximately 0.008-0.028/h) for validated devices using home validation \parencite{beniczkyAutomatedSeizureDetection2021}. Two studies meet this performance range however both were conducted in an EMU setting. \textcite{spahrDeepLearningbasedDetection2025} achieved 0.0054/h FPR. The model uses an adjustable ensemble aggregation quantile parameter that allows trading sensitivity for false alarms. At one extreme, sensitivity can be raised to 100\%. At the other extreme, the FPR can be reduced to 1/100 days at the cost of lower sensitivity (86\%). \textcite{fineDetectionKeyAutomated2025} achieved 0.023/h FPR and 100\% sensitivity also placing it in the performance range for Phase 3.
+Only six of nine detection studies actually report FPR which is the most important metric beside sensitivity. The ILAE systematic review of Phase 3 studies reported FPR of 0.2-0.67 per 24 hours (approximately 0.008-0.028/h) for validated devices using home validation \parencite{beniczkyAutomatedSeizureDetection2021}. 
+
+Two studies meet this performance range however both were conducted in an EMU setting. \textcite{spahrDeepLearningbasedDetection2025} conducted prospective multi-center validation on 384 patients and achieved 0.0054/h FPR and a sensitivity of 96\%. The model uses an adjustable ensemble aggregation quantile parameter that allows trading sensitivity for false alarms. At one extreme, sensitivity can be raised to 100\%. At the other extreme, the FPR can be reduced to 1/100 days at the cost of a lower sensitivity of 86\%. 
+
+\textcite{fineDetectionKeyAutomated2025} achieved 0.023/h FPR and 100\% sensitivity only falls into Phase 1 because of the small independent test set. Only testing 10 seizures from 3 patients were used .
 
 Three detection studies do not report FPR. \textcite{singhrathoreDevelopmentMultimodalMachine2024}, \textcite{elemamAutomatedValidatedTool2025}, and \textcite{borujenyDetectionEpilepticSeizure2013} lack standardized FPR reporting. This renders clinical assessment and comparison across studies impossible.
 
@@ -16,6 +22,8 @@ Three detection studies do not report FPR. \textcite{singhrathoreDevelopmentMult
 
 Sensitivity in forecasting ranges from 51.2\% to 82\%. Individual study results are reported in Sections~\ref{sec:modality-performance} and~\ref{sec:architecture-patterns}. \textcite{vielufSeizureMonitoringCombined2025} achieved 82\% sensitivity with 67\% specificity, while \textcite{meiselMachineLearningWristband2020} reported 51.2\% sensitivity with LOSO validation.
 
-Forecasting studies also report forecasting-specific metrics. \textcite{meiselMachineLearningWristband2020} reported IoC of 14.1\% and TiW of 43.7\%. \textcite{nasseriAmbulatorySeizureForecasting2021} reported TiW ranging from 0.9 to 7.2~h/day. \textcite{stirlingForecastingSeizureLikelihood2021} reported mean prediction time of 37~min for hourly forecasts and 3~days for daily forecasts.
+Forecasting specific metrics are also included by \textcite{meiselMachineLearningWristband2020} reporting a IoC of 14.1\% and a TiW of 43.7\%. \textcite{nasseriAmbulatorySeizureForecasting2021} reported TiW ranging from 0.9 to 7.2~h/day and \textcite{stirlingForecastingSeizureLikelihood2021} reported mean prediction time of 37~min for hourly forecasts and 3~days for daily forecasts.
 
-Forecasting AUC consistently falls between 0.74 and 0.75 across studies. This consistency suggests a performance ceiling for non-invasive forecasting approaches using wearable biosignals.
+Forecasting studies remain in earlier validation phases. \textcite{vielufSeizureMonitoringCombined2025} used Phase IV clinical trial data but employed retrospective analysis. \textcite{meiselMachineLearningWristband2020} and \textcite{nasseriAmbulatorySeizureForecasting2021} represent Phase 2-equivalent validation with moderate samples.
+
+Forecasting AUC consistently falls between 0.74 and 0.75 regardless of Architecure specifics across studies. This consistency suggests a performance ceiling for non-invasive forecasting approaches using wearable biosignals.
