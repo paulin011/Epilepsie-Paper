@@ -2,32 +2,35 @@
 \subsection{Modality Performance}
 \label{sec:modality-performance}
 
-Biosignal modality selection differs substantially between detection and forecasting approaches. Detection studies prioritize movement sensors, while forecasting studies emphasize autonomic nervous system indicators.
+Detection and forecasting approaches use different biosignal modalities. Detection studies prioritize movement sensors, while forecasting studies emphasize autonomic nervous system indicators.
 
 \subsubsection{Modality Usage}
 
-Accelerometer data appears in nine of 13 studies (69\%). Six detection studies and three forecasting studies use accelerometry. Electrodermal activity appears in five studies (38\%). ECG or HRV data appears in five studies. PPG appears in four studies. Gyroscope data appears in three studies, all in detection applications.
+Accelerometer data is the most prevelant modality appearing in nine of 13 studies (69\%). Six detection studies and three forecasting studies use accelerometry(ACC). Electrodermal activity was captured in five studies (38\%). electrocardiogram (ECG) or heart rate variance (HRV) data appears in five studies. Photoplethysmography (PPG) appears in four studies. Gyroscope data appears in three studies, all in detection applications.
 
-Multi-modal approaches dominate the evidence base. Nine of 13 studies (69\%) use multiple sensor types. Four studies use single-modality approaches: \textcite{spahrDeepLearningbasedDetection2025} (ACC only), \textcite{reintjesECGBasedDetectionEpileptic2025} (ECG only), \textcite{borujenyDetectionEpilepticSeizure2013} (ACC only), and \textcite{odeDevelopmentEpilepticSeizure2023} (ECG RRI only).
+Multi-modal approaches dominate the evidence base. Nine of thirteen studies (69\%) use multiple sensor types. Four studies use single-modality approaches: \textcite{spahrDeepLearningbasedDetection2025} (ACC only), \textcite{reintjesECGBasedDetectionEpileptic2025} (ECG only), \textcite{borujenyDetectionEpilepticSeizure2013} (ACC only), and \textcite{odeDevelopmentEpilepticSeizure2023} (ECG, HRV only).
 
 \subsubsection{Sensor Location}
 
-Wrist-worn devices appear in eight studies (62\%). Arm or armband placement appears in three studies. Chest placement appears in one study. Thigh placement appears in one study. \textcite{borujenyDetectionEpilepticSeizure2013} used multiple sensor locations (right arm, left arm, left thigh).
+Wrist-worn devices appear in eight studies (62\%). Arm placement appears in three studies. Chest placement appears in one study. Thigh placement appears in one study. \textcite{borujenyDetectionEpilepticSeizure2013} used multiple sensor locations (right arm, left arm, left thigh).
 
-The preference for wrist placement reflects patient acceptance and the availability of consumer wearable devices. The Empatica E4 wristband appears in three studies. The Embrace watch appears in one study. Fitbit smartwatches appear in one study.
+Wrist placement was prefered because of patient acceptance and the best availability of consumer devices. The Empatica E4 was used in three studies. The Embrace watch and a Fitbit smartwatch both appear in one study respectivly.
+
 
 \subsubsection{Detection Performance by Modality}
 
-Single-modality accelerometer approaches achieve strong performance. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity with 0.0054/h FPR using only ACC data from the Empatica E4. This represents the lowest FPR among all detection studies. \textcite{borujenyDetectionEpilepticSeizure2013} reported 85\% sensitivity using 2D ACC, though with only three patients.
+The Single-modality accelerometer approaches achieve strong performance. \textcite{spahrDeepLearningbasedDetection2025} reported 96\% sensitivity with 0.0054/h FPR using only ACC data from the Empatica E4. This was the lowest FPR among all detection studies. \textcite{borujenyDetectionEpilepticSeizure2013} reported 85\% sensitivity using 2D ACC, though with only three patients.
 
-ECG-based detection is currently clinically non-viable due to unacceptable false alarm rates. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three anomaly detection methods on single-lead ECG. Sensitivity ranged from 13.4\% to 82.8\%, while FPR ranged from 0.11/h to 65.62/h depending on method and configuration. The lowest FPR of 0.11/h detected only 2.44\% of seizures. \textcite{odeDevelopmentEpilepticSeizure2023} achieved 74\% sensitivity with 0.85/h FPR using ECG RRI data.
+ECG-based detection for focal seizures is currently clinically non-viable due to unacceptable false alarm rates. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three anomaly detection methods on single-lead ECG. The Sensitivity ranged from 13.4\% to 82.8\%, while FPR ranged from 0.11/h to 65.62/h depending on method and configuration. The lowest FPR of 0.11/h detected only 2.44\% of seizures. 
 
-\textcite{wangEpilepticSeizureDetection2025} directly compared modality performance. Attitude angle features (PITCH and ROLL) outperformed raw accelerometer and gyroscope data for seizure detection. The architecture achieved 56.4\% to 95.3\% sensitivity depending on the feature configuration. This finding suggests that feature engineering can enhance the value of standard movement sensors.
+In addition GTCS/FBTCS detection using ECG and HRV achieved 74\% sensitivity with 0.85/h FPR  \parencite{odeDevelopmentEpilepticSeizure2023}.
+
+\textcite{wangEpilepticSeizureDetection2025} directly compared their modality performance. Attitude angle features (PITCH and ROLL) outperformed raw accelerometer and gyroscope data for seizure detection. The architecture achieved 56.4\% to 95.3\% sensitivity depending on the feature configuration. This finding suggests that feature engineering can enhance the value of standard movement sensors considerably.
 
 \subsubsection{Forecasting Performance by Modality}
 
 Forecasting studies consistently use autonomic signals. \textcite{nasseriAmbulatorySeizureForecasting2021} combined ACC, PPG, EDA, temperature, and HR to achieve AUC 0.75 (SD 0.15). \textcite{meiselMachineLearningWristband2020} used EDA, PPG, temperature, and ACC from the Empatica E4 to achieve 51.2\% sensitivity with IoC 14.1\% in LOSO validation.
 
-\textcite{vielufSeizureMonitoringCombined2025} combined EDA, ACC, and temperature with diary data. This study demonstrated that 24-hour harmonic patterns in EDA and accelerometry contain predictive information.
+\textcite{vielufSeizureMonitoringCombined2025} combined EDA, ACC, and temperature with diary data. This study demonstrated that 24-hour harmonic patterns in EDA and accelerometry contain predictive information above chance.
 
-\textbf{Key finding.} Multi-modal approaches are common but not universally superior. Single-modality ACC (\textcite{spahrDeepLearningbasedDetection2025}) achieves the best FPR in the included detection literature. Forecasting consistently requires multi-modal autonomic data, but AUC-ROC plateaus around 0.75 regardless of modality combination.
+Multi-modal approaches are common but not universally superior. Single-modality ACC (\textcite{spahrDeepLearningbasedDetection2025}) achieves the best FPR in the included detection literature. Forecasting consistently requires multi-modal autonomic data, but AUC-ROC plateaus around 0.75 regardless of modality combination.

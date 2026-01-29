@@ -2,7 +2,7 @@
 
 \subsection{Problem Statement and Motivation}
 
-Epilepsy, a chronic neurological disorder affecting 60 million people worldwide,
+Epilepsy, is a chronic neurological disorder affecting 60 million people worldwide,
 with approximately one-third of patients remaining drug-resistant \parencite{husseinFocalNonFocalEpilepsy2018}.
 \textcite{sveinssonClinicalRiskFactors2020} found that 69\% of deaths due to a generalized
 tonic-clonic seizure could have been prevented if not left unattended, highlighting the demand
@@ -10,8 +10,8 @@ for reliable and timely prediction.
 
 While reliable prediction is already possible through electroencephalography (EEG),
 its operational complexity renders it unsuitable for ambulatory use.
-To address the need for ambulatory detection many are experimenting with
-utilizing autonomic and motion signals to detect and predict seizures.
+To address the need for ambulatory detection researchers are experimenting with
+utilizing autonomic system and motion signals to detect and predict seizures.
 
 Translating and analysing these often noisy and complex time-series physiological
 signals has pushed traditional machine learning (ML) approaches to their limits.
@@ -24,15 +24,15 @@ This review examines and assesses recent advances in time-series
 deep learning - particularly convolutional neural networks (CNNs)
 and long short term memory (LSTMs) -
 applied to seizure detection and prediction using non-EEG wearable biosignals.
-Central to this analysis is the question of how architectural choices, training paradigms
-(e.g., transfer learning, personalization), and thorough prospective evaluation
-can converge to meet the strict clinical requirements of high sensitivity
-and minimal false alarm rates (FAR) in real-world deployment.
+Central to this analysis is the question of which architectural choices, training paradigms
+(e.g., transfer learning, personalization), and evaluation frameworks
+meet the strict clinical requirements of high sensitivity
+and minimal false alarm rates (FAR) or false positive rates (FPR) in real-world deployment.
 
 \subsection{Key Research Question}
-How do different deep learning architectures and biosignal modalities excluding EEG
+How do different deep learning architectures and biosignal modalities ,excluding EEG,
 compare in their ability to achieve an optimal trade-off between
-sensitivity and false alarm rate for ambulatory seizure monitoring?
+sensitivity and false alarm rate for home seizure monitoring?
 
 \subsection{Clinical Evaluation Frameworks}
 
@@ -44,27 +44,24 @@ which classifies studies into five validation phases \parencite{beniczkyStandard
 
 Phase 0 represents proof of concept. Phase 1 involves retrospective analysis with small samples.
 Phase 2 requires minimum 10 patients with seizures and 15 recorded seizures.
-Phase 3 denotes prospective, multicenter validation with at least 30 seizures from at least 20 patients achiving 90\% FPR using real-time detection recorded during daily activities so phase 3 excludes EMU (Epilepsy Monitoring Unit) data.
+Phase 3 denotes prospective, multi-center validation with at least 30 seizures from at least 20 patients achieving 90\% FPR using real-time detection recorded during daily activities so phase 3 excludes epilepsy monitoring unit (EMU) data.
 Phase 4 represents real-world home validation.
 
 Prospective trials (Phase 3) constitute the clinical gold standard,
 requiring locked algorithms, video-EEG reference standards, and testing on
-unseen data from multiple centers in real-world scenari
+unseen data from multiple centers in real-world scenarios.
 
 \subsubsection{Study Design Classifications}
 
 This review distinguishes three study design types.
-Retrospective analysis examines historical data and risks substantial data leakage
-when non-chronological splits allow future information to inform training
+
+Retrospective designs often risk data leakage when random splits violate temporal order, allowing future data to inform training
 \parencite{kalousiosECGbasedEpilepticSeizure2024, wongEEGDatasetsSeizure2023}.
 
-Pseudo-prospective validation enforces chronological order,
-training only on past seizures to test on subsequent ones,
-providing more realistic performance estimates
+Pseudo-prospective validation is a subset of the Retrospective study design that enforces chronological order, training only on past seizures to test on subsequent ones, providing more realistic performance estimates.
 \parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}.
 
-Prospective studies employ real-time testing on new patients with locked algorithms,
-representing the highest validation rigor.
+Prospective studies validate models by deploying locked algorithms in real-time on patients. This is why its the most unbiased testing framework.
 
 \subsubsection{Clinical Performance Benchmarks}
 
@@ -75,17 +72,18 @@ Validated devices achieve 90-96\% sensitivity with false alarm
 rates of 0.2-0.67 per 24 hours (approximately 0.008-0.028/h)
 \parencite{beniczkyAutomatedSeizureDetection2021}.
 
-For ambulatory use, acceptable false alarm rates depend on user perspective.
+For ambulatory use at home, acceptable false alarm rates depend on user perspective.
 Patients and caregivers typically require 100\% sensitivity
 and accept approximately one false alarm per week.
 Clinicians consider 90\% sensitivity adequate and tolerate
 two false alarms per week to one per month \parencite{sivathambooPreferencesUserExperiences2022}.
 
+
 The ILAE Phase 3 benchmark of 0.008-0.028/h represents the clinically validated performance standard for GTCS/FBTCS detection.
 
 Currently, the ILAE recommends wearable devices only for GTCS/FBTCS
-detection in unsupervised patients where alarms can enable rapid intervention.
+detection in unsupervised patients where alarms can alert caretakers for intervention.
 This represents a weak recommendation based on moderate evidence.
 For all other seizure types, the ILAE does not recommend clinical use
-of currently available wearable devices
+of currently available wearable devices because of their lacking performance
 \parencite{beniczkyAutomatedSeizureDetection2021}.
