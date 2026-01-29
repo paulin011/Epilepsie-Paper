@@ -48,7 +48,7 @@
 \contentsline {subsubsection}{\numberline {5.5.6}Deployment Architecture}{18}{subsubsection.5.5.6}%
 \contentsline {subsubsection}{\numberline {5.5.7}Barriers to Clinical Adoption}{19}{subsubsection.5.5.7}%
 \contentsline {subsubsection}{\numberline {5.5.8}Most Advanced Approaches}{19}{subsubsection.5.5.8}%
-\contentsline {subsubsection}{\numberline {5.5.9}Reporting Practices}{20}{subsubsection.5.5.9}%
+\contentsline {subsubsection}{\numberline {5.5.9}Reporting Practices}{19}{subsubsection.5.5.9}%
 \contentsline {section}{\numberline {6}Discussion}{20}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Clinical Implications}{20}{subsection.6.1}%
 \contentsline {subsubsection}{\numberline {6.1.1}Seizure Type Coverage Gap}{20}{subsubsection.6.1.1}%
