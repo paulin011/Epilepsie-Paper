@@ -92,7 +92,9 @@
 \input{Sections(tex)/03_Methods.tex}
 
 % Tables section
-\section{Tables}
+\refstepcounter{section}
+\addcontentsline{toc}{section}{\protect\numberline{\thesection}Tables}
+\sectionmark{Tables}
 
 \input{Tables(tex)/table1a_detection_matrix.tex}
 \input{Tables(tex)/table1b_forecasting_matrix.tex}
@@ -104,7 +106,7 @@
 \input{Sections(tex)/Discussion/discussion.tex}
 \input{Sections(tex)/conclusion.tex}
 
-\printbibliography
+\printbibliography[heading=bibnumbered, title={References}]
 
 
 \end{document}
