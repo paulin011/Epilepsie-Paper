@@ -13,14 +13,13 @@ Two studies employ hybrid approaches. \textcite{vielufSeizureMonitoringCombined2
 
 \textcite{spahrDeepLearningbasedDetection2025} trained 30 separate 1D CNN models with quantile aggregation, achieving 96\% sensitivity with 0.0054/h FPR. The model called Episave operates on 3D-ACC data at 32~Hz using 30-second windows. \textcite{dongTwoLayerEnsembleMethod2022} used a two-stage architecture with threshold-based pre-screening followed by a CNN-LSTM model.
 
- \textcite{reintjesECGBasedDetectionEpileptic2025} and \textcite{odeDevelopmentEpilepticSeizure2023} both used anomaly detection.\textcite{reintjesECGBasedDetectionEpileptic2025} compared three unsupervised anomaly detection methods (Matrix Profile, MADRID, TimeVQVAE) on single-lead ECG data. \textcite{odeDevelopmentEpilepticSeizure2023} used a self-attentive autoencoder for patient-specific anomaly detection on ECG and HRV data.
-Deep learning architectures differ substantially between detection and forecasting applications. Forecasting studies concentrate on LSTM-based approaches while detection research is more diverse but CNN-based approaches dominate.
+\textcite{reintjesECGBasedDetectionEpileptic2025} and \textcite{odeDevelopmentEpilepticSeizure2023} both used anomaly detection. \textcite{reintjesECGBasedDetectionEpileptic2025} compared three unsupervised anomaly detection methods (Matrix Profile, MADRID, TimeVQVAE) on single-lead ECG data. \textcite{odeDevelopmentEpilepticSeizure2023} used a self-attentive autoencoder for patient-specific anomaly detection on ECG and HRV data.
 
 \subsubsection{Architecture Patterns by Application}
 
-The Forecasting studies concentrate on LSTM-based approaches while in detection research is more diverse but generally CNN-based approaches dominate.
+Deep learning architectures differ substantially between detection and forecasting applications. Forecasting studies concentrate on LSTM-based approaches while detection research is more diverse but CNN-based approaches dominate.
 
-CNN-based methods are prominent in detection. \textcite{spahrDeepLearningbasedDetection2025} implemented an ensemble of 30 CNN models with 14 convolutional layers each. \textcite{elemamAutomatedValidatedTool2025} used separate CNNs for HRV and audio processing. Traditional neural networks appear in earlier studies, with \textcite{fineDetectionKeyAutomated2025} using an ANN with 594 handcrafted features achieving 100\% sensitivity.
+\textcite{spahrDeepLearningbasedDetection2025} implemented an ensemble of 30 CNN models with 14 convolutional layers each. \textcite{elemamAutomatedValidatedTool2025} used separate CNNs for HRV and audio processing. Traditional neural networks appear in earlier studies, with \textcite{fineDetectionKeyAutomated2025} using an ANN with 594 handcrafted features achieving 100\% sensitivity.
 
 In three out of the five forecasting studies LSTM architectures were used. \textcite{meiselMachineLearningWristband2020} implemented a minimal LSTM with 10 hidden units operating directly on raw multi-modal wrist data while \textcite{nasseriAmbulatorySeizureForecasting2021} used a deeper 4-layer LSTM with 128 hidden units per layer. \textcite{stirlingForecastingSeizureLikelihood2021} combined LSTM with random forest and logistic regression in an ensemble. None of the forecasting studies use CNN-based approaches, probably because forecasting requires more focus on modeling temporal dependencies rather than spatial patterns.
 
