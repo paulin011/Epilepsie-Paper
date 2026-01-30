@@ -28,19 +28,21 @@ Handcrafted features still remain competitive. Three of eight detection studies 
 Window sizes vary substantially between applications. Detection studies use shorter windows ranging from 4 seconds to 5 minutes. Forecasting studies use longer windows ranging from 30 seconds to 60 minutes.
 
 \subsubsection{Personalization Strategies}
-Enabling Personalization is a fundamental design choice. Global models train on population data and apply to all patients while patient-specific models train on individual patient data. Five studies use global model approaches, four studies use patient-specific approaches, and one study uses a mixed approach.
+Enabling personalization is a fundamental design choice. Global models train on population data and apply to all patients while patient-specific models train on individual patient data. Five studies use global model approaches, four studies use patient-specific approaches, and one study uses a mixed approach.
 
 \paragraph{Global Models.}
-\textcite{spahrDeepLearningbasedDetection2025} trained a global model on 384 patients with tunable parameters for FPR/sensitivity prioritization. \textcite{fineDetectionKeyAutomated2025} trained on 15 patients and tested on 3 patients and \textcite{dongTwoLayerEnsembleMethod2022} trained on 68 patients with 10-fold cross-validation. 198 questionnaire responses and 30 HRV recordings was used to train by \textcite{elemamAutomatedValidatedTool2025}. \textcite{meiselMachineLearningWristband2020} trained a global model and tested with LOSO validation, achieving 62\% patient success (43 of 69 patients above chance).
+\textcite{spahrDeepLearningbasedDetection2025} trained a global model on 384 patients with tunable parameters for FPR/sensitivity prioritization. 
+\textcite{fineDetectionKeyAutomated2025} trained on 15 patients and tested on 3 patients and \textcite{dongTwoLayerEnsembleMethod2022} trained on 68 patients with 10-fold cross-validation. 
+198 questionnaire responses and 30 HRV recordings were used to train by \textcite{elemamAutomatedValidatedTool2025}. \textcite{meiselMachineLearningWristband2020} trained a global model and tested with LOSO validation, achieving 62\% patient success (43 of 69 patients above chance).
 
 %However, global models may not capture individual seizure patterns. 
 
 \paragraph{Patient-Specific Models.}
 \textcite{nasseriAmbulatorySeizureForecasting2021} trained separate models for each of 6 patients achieving 83\% patient success (5 of 6 patients), meanwhile achieving 100\% patient success for hourly forecasting \textcite{stirlingForecastingSeizureLikelihood2021} doing weekly retraining of individual models on 11 patients. These rates are substantially higher than the 62\% achieved by \textcite{meiselMachineLearningWristband2020} using a global model with LOSO validation.
 
-Anomaly detection models were trained by \textcite{odeDevelopmentEpilepticSeizure2023}  at the 99\% confidence level for each of 66 patients. \textcite{singhrathoreDevelopmentMultimodalMachine2024} presented a single-patient case study also representing a individual model.
+Anomaly detection models were trained by \textcite{odeDevelopmentEpilepticSeizure2023}  at the 99\% confidence level for each of 66 patients. \textcite{singhrathoreDevelopmentMultimodalMachine2024} presented a single-patient case study also representing an individual model.
 
-The biggest limitation in using patient-specific approaches is, they require a mean of 14.6 months of data per patient or 60+ days per patient. This data requirement creates a cold start problem where new patients must wait weeks or months before the system becomes useful.
+The biggest limitation in using patient-specific approaches is they require a mean of 14.6 months of data per patient or 60+ days per patient. This data requirement creates a cold start problem where new patients must wait weeks or months before the system becomes useful.
 
 \paragraph{Mixed Approaches.}
 The only study using a mixed approach is \textcite{vielufSeizureMonitoringCombined2025}. The study combined population-level 24-hour harmonic patterns with individual diary data. This hybrid achieved 82\% sensitivity and 67\% specificity.
@@ -49,7 +51,7 @@ The only study using a mixed approach is \textcite{vielufSeizureMonitoringCombin
 
 Validation approaches vary across studies. \textcite{reintjesECGBasedDetectionEpileptic2025} used subject-split validation, training on one set of patients and testing on different patients to assess generalization.
 
-\textcite{nasseriAmbulatorySeizureForecasting2021} used pseudo-prosepective validation. Early data from each patient served as training while later data served as testing. This approach assesses temporal stability rather than generalization to new patients.
+\textcite{nasseriAmbulatorySeizureForecasting2021} used pseudo-prospective validation. Early data from each patient served as training while later data served as testing. This approach assesses temporal stability rather than generalization to new patients.
 
 \textcite{meiselMachineLearningWristband2020} used LOSO validation to assess global model performance on unseen patients, achieving 62\% patient success.
 
@@ -57,4 +59,4 @@ Validation approaches vary across studies. \textcite{reintjesECGBasedDetectionEp
 
 The earliest study, \textcite{borujenyDetectionEpilepticSeizure2013}, used traditional ANN approaches on MICAz accelerometer data in a 3-patient study. Studies published between 2020 and 2022 focused on LSTM-based forecasting architectures. Studies published between 2023 and 2026 employed more complex architectures including ensembles, hybrid methods, and attention mechanisms.
 
-Disclaimer: There is a lot of variation regarding the mentioned architectural details. Some studies report complete architectural details while others provide minimal information. This variability complicates direct comparison and replication. Only two of eight detection studies provide individual patient results.
+Note: There is a lot of variation regarding the mentioned architectural details. Some studies report complete architectural details while others provide minimal information. This variability complicates direct comparison and replication. Only two of eight detection studies provide individual patient results.

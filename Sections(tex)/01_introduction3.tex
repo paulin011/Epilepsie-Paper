@@ -2,7 +2,7 @@
 
 \subsection{Problem Statement and Motivation}
 
-Epilepsy, is a chronic neurological disorder affecting 60 million people worldwide,
+Epilepsy is a chronic neurological disorder affecting 60 million people worldwide,
 with approximately one-third of patients remaining drug-resistant \parencite{husseinFocalNonFocalEpilepsy2018}.
 \textcite{sveinssonClinicalRiskFactors2020} found that 69\% of deaths due to a generalized
 tonic-clonic seizure could have been prevented if not left unattended, highlighting the demand
@@ -10,7 +10,7 @@ for reliable and timely prediction.
 
 While reliable prediction is already possible through electroencephalography (EEG),
 its operational complexity renders it unsuitable for ambulatory use.
-To address the need for ambulatory detection researchers are experimenting with
+To address the need for ambulatory detection, researchers are experimenting with
 utilizing autonomic system and motion signals to detect and predict seizures.
 
 Translating and analysing these often noisy and complex time-series physiological
@@ -30,7 +30,7 @@ meet the strict clinical requirements of high sensitivity
 and minimal false alarm rates (FAR) or false positive rates (FPR) in real-world deployment.
 
 \subsection{Key Research Question}
-How do different deep learning architectures and biosignal modalities ,excluding EEG,
+How do different deep learning architectures and biosignal modalities, excluding EEG,
 compare in their ability to achieve an optimal trade-off between
 sensitivity and false alarm rate for home seizure monitoring?
 
@@ -64,7 +64,7 @@ Retrospective designs often risk data leakage when random splits violate tempora
 Pseudo-prospective validation is a subset of the Retrospective study design that enforces chronological order, training only on past seizures to test on subsequent ones, providing more realistic performance estimates.
 \parencite{kalousiosECGbasedEpilepticSeizure2024, luLeveragingChannelCoherence2025}.
 
-Prospective studies validate models by deploying locked algorithms in real-time on patients. This is why its the most unbiased testing framework.
+Prospective studies validate models by deploying locked algorithms in real-time on patients. This makes it the most unbiased testing framework.
 
 \subsubsection{Clinical Performance Benchmarks}
 
