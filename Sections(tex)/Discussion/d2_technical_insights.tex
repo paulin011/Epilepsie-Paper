@@ -4,9 +4,10 @@ These clinical observations reflect underlying technical trade-offs in modality 
 
 \subsubsection{Modality Paradox}
 
-The evidence reveals a paradox regarding modality selection. Multi-modal approaches dominate the research field, with 69\% of studies using multiple sensor types. However, the study achieving the lowest FPR uses single-modality accelerometry. This finding suggests that sensor fusion is not always necessary for reliable detection, and that biological specificity of motor manifestations may be more important than modality count.
+The evidence reveals a paradox regarding modality selection. Multi-modal approaches dominate the research field, with 69\% of studies using multiple sensor types. However, the study achieving the lowest FPR uses single-modality ACC signals. This finding suggests that sensor fusion is not always necessary for reliable detection, and that biological specificity of motor manifestations may be more important than modality count.
 
-The physiological requirements differ between detection and forecasting. Detection can succeed with movement sensors alone because ictal motor manifestations produce clear signals in ACC recordings. Forecasting requires autonomic modalities because pre-ictal changes must be detected before clinical symptoms appear. All forecasting studies incorporate EDA, ECG, or temperature data to capture these autonomic precursors. The contrast suggests that modality selection should be guided by the temporal phase of seizure activity being targeted.
+The physiological requirements differ between detection and forecasting. Detection can succeed with movement sensors alone because motor manifestations during seizures produce clear signals in ACC recordings. 
+Forecasting requires autonomic modalities because pre-seizure changes must be detected before clinical symptoms appear. All forecasting studies incorporate EDA, ECG, or temperature data to capture these autonomic precursors. The contrast suggests that modality selection should be guided by the temporal phase of seizure activity being targeted.
 
 \subsubsection{Architecture Selection}
 
@@ -14,20 +15,18 @@ Detection and forecasting applications employ different architectural patterns. 
 
 The persistence of competitive handcrafted feature approaches is noteworthy. Domain knowledge remains valuable despite the end-to-end learning trend, with engineered features achieving excellent performance in some studies. This suggests that purely data-driven approaches may not fully grasp the known physiological signatures of seizures or that current end-to-end approaches can be optimized further.
 
-Ensemble methods achieve excellent results but require greater computational resources. The trade-off between ensemble complexity and deployability becomes important for commercial translation, as multi-model ensembles may be impractical for low-power wearable devices. No ensemble study provides direct comparison of their full architecture against single-model baselines. While Dong 2026 demonstrates multimodal fusion benefits, none report ablation on ensemble size, making it impossible to quantify whether multi-model approaches substantially outperform simpler architectures.
+Ensemble methods achieve excellent results but require greater computational resources. The trade-off between ensemble complexity and deployability becomes important for commercial translation, as multi-model ensembles may be impractical for low-power wearable devices. No ensemble study provides direct comparison of their full architecture against single-model baselines. While \textcite{dongDetectionNocturnalEpileptic2026} demonstrates multimodal fusion benefits, none report ablation on ensemble size, making it impossible to quantify whether multi-model approaches substantially outperform simpler architectures.
 
 No evidence supports that architectural complexity improves performance. A feature-based ANN achieved 100\% sensitivity on independent test data, while a CNN-LSTM-attention architecture achieved only 76\% sensitivity despite using a more sophisticated model. The most effective approaches used domain knowledge through handcrafted features rather than model complexity.
 
 \subsubsection{Personalization Dilemma}
 
-The personalization strategy presents a fundamental dilemma for clinical deployment. Global models enable immediate deployment without individual patient data, but only 43\% of patients achieve performance above chance in LOSO validation. This means most patients receive no meaningful protection from population-based systems rendering them useless for clinical deployment.
+The personalization strategy presents a fundamental dilemma for clinical deployment. Global models enable immediate deployment without individual patient data, but only 43\% of patients achieve performance above chance in LOSO validation in \textcite{meiselMachineLearningWristband2020}. This means most patients receive no meaningful protection from population-based systems rendering them useless for clinical deployment.
 
 Patient-specific approaches achieve 100\% success rates but require substantial individual data collection. The cold-start problem means newly diagnosed patients must wait weeks or months before the system becomes useful. Mixed approaches combining population-level patterns with individual data may offer a middle path, but evidence remains limited to single studies.
 
 \subsubsection{The False Positive Challenge}
 
-The false positive challenge differs substantially between modalities. Accelerometer-based approaches can achieve clinically acceptable FPR below 0.05/h, but ECG-based approaches produce FPR an order of magnitude higher. Even the best ECG-based method exceeded the clinical benchmark by a substantial margin. This suggests that cardiac signals alone cannot reliably distinguish seizures from normal daily activities.
+Multi-modal sensor fusion does not automatically solve the false positive problem. Studies combining multiple modalities still report FPR above clinical targets. The challenge may stem from the fundamental similarity between seizure-related physiological changes and noise introduced by other activities or stressors independent of seizures.
 
-Multi-modal sensor fusion does not automatically solve the false positive problem. Studies combining multiple modalities still report FPR above clinical targets. The challenge may stem from the fundamental similarity between seizure-related physiological changes and those occurring during normal activities such as exercise, stress, or sleep transitions.
-
-Forecasting faces a different performance ceiling. The consistency of AUC around 0.75 across different methods and modalities suggests fundamental limits on pre-ictal predictability using non-invasive sensors. This ceiling may reflect genuine biological variability in pre-ictal states that cannot be resolved with current wearable modalities and requires furhter research on the exact biological mechanisms during an epileptic seizure.
+Forecasting faces a different performance ceiling. The consistency of AUC around 0.75 across different methods and modalities suggests fundamental limits on pre-seizure predictability using non-invasive sensors. This ceiling may reflect genuine biological variability in pre-seizure states that cannot be resolved with current wearable modalities and requires further research on the exact biological mechanisms during an epileptic seizure.
