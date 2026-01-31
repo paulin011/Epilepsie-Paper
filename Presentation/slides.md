@@ -2,11 +2,13 @@
 marp: true
 theme: default
 paginate: true
+footer: 'Cologne Institute for Information Systems (CIIS) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 31.01.2026'
 style: |
   @import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
   section {
     font-family: Arial, sans-serif;
     font-size: 18pt;
+    padding-bottom: 3.5rem;
   }
   h1, h2, h3 {
     font-size: 20pt;
@@ -21,6 +23,39 @@ style: |
   .alert {
     color: #cc0000;
   }
+  /* Footer with logo */
+  section::before {
+    content: "";
+    position: absolute;
+    bottom: 0rem;
+    left: 3.5rem;
+    width: 8rem;
+    height: 3rem;
+    background-image: url("images/uni-koeln-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+  }
+  /* Footer text styling */
+  footer {
+    position: absolute;
+    left: 13rem;
+    bottom: 1rem;
+    font-size: 14pt;
+    color: #0066cc;
+  }
+  /* Adjust pagination position to right side */
+  .marp-pagination {
+    position: absolute;
+    bottom: 10rem;
+    right: 10rem;
+    left: auto;
+    width: 3rem;
+    text-align: right;
+    color: #0066cc;
+  }
+
 ---
 
 <!-- _paginate: "" -->
